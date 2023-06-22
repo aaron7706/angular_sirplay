@@ -17,6 +17,15 @@ import { Web3casinoComponent } from './web3casino/web3casino.component';
 import { DecentralizedComponent } from './decentralized/decentralized.component';
 import { BitcoinComponent } from './bitcoin/bitcoin.component';
 import { CertificateComponent } from './certificate/certificate.component';
+import { ContactComponent } from './contact/contact.component';
+import { WageringComponent } from './wagering/wagering.component';
+import { CashoutComponent } from './cashout/cashout.component';
+import { IFrameComponent } from './i-frame/i-frame.component';
+import { TerminalComponent } from './terminal/terminal.component';
+import { SportbetComponent } from './sportbet/sportbet.component';
+import { RetailComponent } from './retail/retail.component';
+import { EsportComponent } from './esport/esport.component';
+import { MobileComponent } from './mobile/mobile.component';
 
 const routes: Routes = [
   {path:'',component:MainSecComponent},
@@ -35,7 +44,17 @@ const routes: Routes = [
   {path:'web3-casino',component:Web3casinoComponent},
   {path:'decentralized-sports-betting', component:DecentralizedComponent},
   {path:'bitcoin-sportsbook',component:BitcoinComponent},
-  {path:'certified-sports-betting-software',component:CertificateComponent}
+  {path:'certified-sports-betting-software',component:CertificateComponent},
+  {path:'contact',component:ContactComponent},
+  {path:'wagering-solutions',component:WageringComponent},
+  {path:'cashout', component:CashoutComponent},
+  {path:'sportsbook-iframe', component:IFrameComponent},
+  {path:'betting-terminals', component:TerminalComponent},
+  {path:'sports-betting-software', component:SportbetComponent},
+  {path:'sports-betting-software/retail-solutions',component:RetailComponent},
+  {path:'sports-betting-software/esports-betting-software',component:EsportComponent},
+  {path:'sports-betting-software/mobile-betting-software',component:MobileComponent}
+
 
 
 

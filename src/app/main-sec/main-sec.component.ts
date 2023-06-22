@@ -1,4 +1,5 @@
 import { Component , OnInit  } from '@angular/core';
+import * as $ from 'jquery'
 
 @Component({
   selector: 'app-main-sec',
@@ -46,4 +47,11 @@ export class MainSecComponent implements OnInit {
       this.playAnim();
     }, this.isAdding ? 120 : 60);
   }
+
+
+
+  jquery(){
+    $('.hello').toggleClass('abid')
+  }
+
 }

@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { IonicModule } from '@ionic/angular'; 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { MainSecComponent } from './main-sec/main-sec.component';
@@ -25,6 +25,17 @@ import { Web3casinoComponent } from './web3casino/web3casino.component';
 import { DecentralizedComponent } from './decentralized/decentralized.component';
 import { BitcoinComponent } from './bitcoin/bitcoin.component';
 import { CertificateComponent } from './certificate/certificate.component';
+import { ContactComponent } from './contact/contact.component';
+import { WageringComponent } from './wagering/wagering.component';
+import { CashoutComponent } from './cashout/cashout.component';
+import { IFrameComponent } from './i-frame/i-frame.component';
+import { TerminalComponent } from './terminal/terminal.component';
+import { Header3Component } from './header3/header3.component';
+import { SportbetComponent } from './sportbet/sportbet.component';
+import { RetailComponent } from './retail/retail.component';
+import { EsportComponent } from './esport/esport.component';
+import { MobileComponent } from './mobile/mobile.component';
+
 
 @NgModule({
   declarations: [
@@ -49,12 +60,24 @@ import { CertificateComponent } from './certificate/certificate.component';
     Web3casinoComponent,
     DecentralizedComponent,
     BitcoinComponent,
-    CertificateComponent
+    CertificateComponent,
+    ContactComponent,
+    WageringComponent,
+    CashoutComponent,
+    IFrameComponent,
+    TerminalComponent,
+    Header3Component,
+    SportbetComponent,
+    RetailComponent,
+    EsportComponent,
+    MobileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    IonicModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

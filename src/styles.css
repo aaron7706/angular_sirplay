@@ -1303,7 +1303,7 @@ color: #a0c528;
 
 /* ===================rrrrr==<betting ka retail solution page  css >rrrrrrrrrr===================== */
 
-.betting_shops{
+/* .betting_shops{
     margin-top: 150px;
 }
 .bet_shop_head{
@@ -1314,13 +1314,13 @@ color: #a0c528;
     text-align: center;
     font-size: 17px;
 
-}
-.betting_shop_row{
+} */
+/* .betting_shop_row{
     width: 522px;
     position: relative;
     left: 31%;
-}
-.btn_s_1{
+} */
+/* .btn_s_1{
     font-family: system-ui, sans-serif;
     font-size: 18px;
     margin: 0;
@@ -1387,7 +1387,7 @@ display: none;
 
       .arrow_chck1{
         display: flex;
-      }
+      } */
 
       /* ==============screen header section============== */
 /*      
@@ -4697,7 +4697,7 @@ padding: 166px 0px 10px;
     font-weight: 100;
 }
 
-.index4-right-text p,b{
+.index4-right-text p b{
     font-size: 16px;
     font-family: Raleway, sans-serif;
     /* color: #575756; */
@@ -10555,7 +10555,7 @@ a:hover {
 width: 45% ;
 }
 .label-para p {
-    line-height: 0.6;
+    line-height: 1.6;
     font-size: 17px;
 }
 
