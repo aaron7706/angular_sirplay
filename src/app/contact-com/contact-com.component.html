@@ -1,0 +1,129 @@
+<section class="contact_sec">
+  <div class="contact_row">
+    <div class="contact_col">
+      <h3 class="contact_header">Contact US</h3>
+      <p class="contact_para">
+        Connect with a Sirplay expert for a detailed discussion about how our
+        services might give benefits to your Betting business and create your
+        own strategy.
+      </p>
+      <div class="contact_social">
+        <div class="contact_details">
+          <div class="row_col">
+            <img src="assets/Skype_logo.png" />
+          </div>
+          <div class="row_col_1">
+            <p class="contact_b">English Spanish</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact_social">
+        <div class="contact_details">
+          <div class="row_col">
+            <img class="whats_img" src="assets/Whatsapp.jpg" />
+          </div>
+          <div class="row_col_1">
+            <p class="contact_a">+356 99972143</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact_col_1">
+      <div class="contact_card">
+        <form>
+          <div class="name_label">
+            <label for="fname">Full name</label>
+          </div>
+          <div class="name_input">
+            <input type="text" id="fname" name="fname" value="" required />
+          </div>
+          <div class="email_label">
+            <label for="fname"><b>Your email</b></label>
+          </div>
+          <div class="email_input">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              value=""
+              onkeypress="myFunction()"
+            />
+          </div>
+          <div class="email_label">
+            <label for="fname"><b>Country</b></label>
+          </div>
+
+          <div class="email_input">
+            <!-- <input type="tel" id="country_selector" name="phone" value="" /> -->
+            <!-- <select class="form-control" name="country" id="country">
+              <option class="flag" *ngFor="let country of countries" [value]="country.name">
+                {{ country.name }} 
+              </option>
+            </select>    -->
+            <!-- <div *ngFor="let country of countries">
+<h1>dsdsds<img [src]="country.img"></h1>
+            </div> -->
+            <!-- <select [(ngModel)]="selectedOption">
+                <option *ngFor="let option of options" [value]="option.image">
+                 
+                    <img [src]="option.image" alt="Option Image" height="30" width="30">
+                    {{ option.label }}
+               
+                </option>
+              </select> -->
+
+
+            <!-- <input
+              type="text,img"
+              src="assets/FLAG.jpg"
+              id="country_selector"
+              name="phone"
+              width="35" height="35"
+              value="{{ selectedcountry }}"
+              (click)="selectdrop()"
+              class="icon"
+            />
+            <div class="chcks_condition">
+              <ul class="flag_chck" *ngIf="open" [@dropDownMenu]>
+                <div *ngFor="let chck of countries">
+                  <li (click)="selectcountry(chck.name)">
+                    <img src="{{ chck.img }}" /> {{ chck.name }}
+                  </li>
+                </div>
+              </ul>
+            </div> -->
+
+                <input type="tel" id="country_selector" name="phone" value="" />
+
+
+
+            <!-- <ngx-flag-picker
+              [selectedCountryCode]="selectedCountryCode"
+              [countryCodes]="countryCodes"
+              (changedCountryCode)="changeSelectedCountryCode($event)">
+            </ngx-flag-picker> -->
+          </div>
+          <div class="email_label">
+            <label for="fname"><b>Phone Number</b></label>
+          </div>
+          <div class="email_input">
+            <input value="" id="phone" type="tel" name="phone" />
+          </div>
+          <div class="email_label">
+            <label for="fname"><b>Message</b></label>
+          </div>
+          <div class="text_area">
+            <textarea rows="20" cols="44"></textarea>
+          </div>
+          <div class="btn">
+            <button class="con_btn">Submit</button>
+          </div>
+        </form>
+      </div>
+      <p class="con_param">
+        We don’t share your personal information with anyone. Check out our
+        <span class="white_change">“privacy policy”</span> for more information
+      </p>
+    </div>
+  </div>
+</section>

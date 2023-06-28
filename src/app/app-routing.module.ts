@@ -26,15 +26,16 @@ import { SportbetComponent } from './sportbet/sportbet.component';
 import { RetailComponent } from './retail/retail.component';
 import { EsportComponent } from './esport/esport.component';
 import { MobileComponent } from './mobile/mobile.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {path:'',component:MainSecComponent},
-  {path:'demo',component:DemoComponent},
-  {path:'onlines',component:OnlineSportsbookComponent},
-  {path:'onlines_c',component:OnlineCasinoSoftwareComponent},
-  {path:'livecasino',component:LiveCasinoComponent},
-  {path:'casinogames',component:CasinoGamesComponent},
-  {path:'lottery',component:LotteryGamesComponent},
+  {path:'demo-sportsbook',component:DemoComponent},
+  {path:'online-sportsbook-software',component:OnlineSportsbookComponent},
+  {path:'online-casino-software',component:OnlineCasinoSoftwareComponent},
+  {path:'casino/live-casino',component:LiveCasinoComponent},
+  {path:'casino/casino-games',component:CasinoGamesComponent},
+  {path:'casino/lottery-games',component:LotteryGamesComponent},
   {path:'casino/tournaments',component:CasinoTournamentComponent},
   {path:'streaming-platform-casino-and-betting',component:StreamingComponent},
   {path:'white-label-betting-platform',component:WhitelabelComponent},
@@ -53,7 +54,8 @@ const routes: Routes = [
   {path:'sports-betting-software', component:SportbetComponent},
   {path:'sports-betting-software/retail-solutions',component:RetailComponent},
   {path:'sports-betting-software/esports-betting-software',component:EsportComponent},
-  {path:'sports-betting-software/mobile-betting-software',component:MobileComponent}
+  {path:'sports-betting-software/mobile-betting-software',component:MobileComponent},
+  {path:'about-us',component:AboutComponent}
 
 
 

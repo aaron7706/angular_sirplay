@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-header2',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header2.component.css']
 })
 export class Header2Component {
-
+  isSticky: boolean = false;
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll > 150) {
+      this.isSticky = true;
+    } else {
+      this.isSticky = false;
+    }
+  }
 }

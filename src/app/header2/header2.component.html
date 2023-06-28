@@ -1,5 +1,5 @@
 <div class="normal_header">
-    <header class="page-header">
+    <header class="page-header" [class.is-sticky]="isSticky">
         <nav>
             <div class="hader_row">
                 <div class="nav_col">
@@ -7,14 +7,14 @@
                 </div>
                 <div class="nav_col_1">
 <ul class="nav_col_2">
-    <li><a href="/white_label.html"> WHITE LABEL SPORTSBOOK </a>   <i class="fa-solid fa-angles-down"></i></li>
+    <li><a routerLink="/white-label-betting-platform" > WHITE LABEL SPORTSBOOK </a>   <i class="fa-solid fa-angles-down"></i></li>
     <li><a href="">WHITE LABEL CASINO  </a> <i class="fa-solid fa-angles-down"></i>
     <div class="sub_menu">
         <ul>
-            <li> <a href="/casino_games.html"> Casino games</a></li>
-            <li> <a href="/live_casino.html"> Live casino</a></li>
-            <li> <a href="/lottery_games.html">Lottery Games</a> </li>
-            <li> <a href="/casino_tournaments.html">Casino tournament</a></li>
+            <li> <a routerLink="/casino/casino-games"> Casino games</a></li>
+            <li> <a routerLink="/casino/live-casino"> Live casino</a></li>
+            <li> <a routerLink="/casino/lottery-games">Lottery Games</a> </li>
+            <li> <a routerLink="/casino/tournaments">Casino tournament</a></li>
 
 
 
@@ -26,8 +26,8 @@
     <li><a href=""> WEB3 </a> <i class="fa-solid fa-angles-down"></i>
         <div class="sub_menu">
             <ul>
-                <li> <a href="/web3 casino.html"> Web3 casino</a> </li>
-                <li> <a href="crypto.html"> Crypto Casino </a></li>
+                <li> <a routerLink="/web3-casino"> Web3 casino</a> </li>
+                <li> <a routerLink="/crypto-casino"> Crypto Casino </a></li>
             </ul>
         </div>
     
@@ -36,10 +36,10 @@
     
         <div class="sub_menu">
             <ul>
-                <li> <a href="/About.html"> About</a></li>
-                <li> <a href="/index.html"> Sportsbook software provider</a></li>
-                <li> <a href="/certificate.html">Certification</a> </li>
-                <li> <a href="/contact-us.html">Contact us</a></li>
+                <li> <a routerLink="/about-us"> About</a></li>
+                <li> <a routerLink="/"> Sportsbook software provider</a></li>
+                <li> <a routerLink="/certified-sports-betting-software">Certification</a> </li>
+                <li> <a routerLink="/contact">Contact us</a></li>
 
     
     
@@ -77,7 +77,7 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accord_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            WHITE LABEL SPORTSBOOK
+                          <a routerLink="/white-label-betting-platform">  WHITE LABEL SPORTSBOOK </a>
                         </button>
                       </h2>
                       <!-- <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -91,10 +91,10 @@
                         </button>
                       </h2>
                       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body"> <a href="/casino_games.html">Casino games</a></div>
-                        <div class="accordion-body"> <a href="/live_casino.html">Live casino</a>  </div>
-                        <div class="accordion-body"><a href="/lottery_games.html">Lottery Games</a></div>
-                        <div class="accordion-body"><a href="/casino_tournaments.html">Casino tournament</a></div>
+                        <div class="accordion-body"> <a routerLink="/casino/casino-games">Casino games</a></div>
+                        <div class="accordion-body"> <a routerLink="/casino/live-casino" >Live casino</a>  </div>
+                        <div class="accordion-body"><a routerLink="/casino/lottery-games">Lottery Games</a></div>
+                        <div class="accordion-body"><a routerLink="/casino/tournaments">Casino tournament</a></div>
 
 
 
@@ -107,8 +107,8 @@
                         </button>
                       </h2>
                       <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body"> <a href="/web3 casino.html">Web3 casino</a></div>
-                        <div class="accordion-body"><a href="/crypto.html">Crypto Casino</a></div>
+                        <div class="accordion-body"> <a routerLink="/web3-casino">Web3 casino</a></div>
+                        <div class="accordion-body"><a routerLink="/crypto-casino">Crypto Casino</a></div>
 
                       </div>
                     </div>
@@ -120,10 +120,10 @@
                                                   </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body"> <a href="/About.html">About</a></div>
-                          <div class="accordion-body"><a href="/index.html">Sportsbook software provider</a></div>
-                          <div class="accordion-body"><a href="/certificate.html">Certification </a></div>
-                          <div class="accordion-body"><a href="/contact-us.html">Contact us</a></div>
+                          <div class="accordion-body"> <a routerLink="/about-us">About</a></div>
+                          <div class="accordion-body"><a routerLink="/">Sportsbook software provider</a></div>
+                          <div class="accordion-body"><a routerLink="/certified-sports-betting-software">Certification </a></div>
+                          <div class="accordion-body"><a routerLink="/contact">Contact us</a></div>
 
   
                         </div>

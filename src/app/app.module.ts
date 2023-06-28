@@ -35,6 +35,11 @@ import { SportbetComponent } from './sportbet/sportbet.component';
 import { RetailComponent } from './retail/retail.component';
 import { EsportComponent } from './esport/esport.component';
 import { MobileComponent } from './mobile/mobile.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComComponent } from './contact-com/contact-com.component';
+import { FormsModule } from '@angular/forms';
+import { ContactComponent2Component } from './contact-component2/contact-component2.component';
+
 
 
 @NgModule({
@@ -70,13 +75,19 @@ import { MobileComponent } from './mobile/mobile.component';
     SportbetComponent,
     RetailComponent,
     EsportComponent,
-    MobileComponent
+    MobileComponent,
+    AboutComponent,
+    ContactComComponent,
+    ContactComponent2Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     IonicModule,
+    FormsModule,
+
+
   
   ],
   providers: [],

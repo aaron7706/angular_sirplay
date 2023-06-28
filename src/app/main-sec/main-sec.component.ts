@@ -50,8 +50,4 @@ export class MainSecComponent implements OnInit {
 
 
 
-  jquery(){
-    $('.hello').toggleClass('abid')
-  }
-
 }

@@ -2285,7 +2285,7 @@ margin-top: 2%;
 }
 .btns_lives_sec{
 padding: 9px;
-    margin-top: 40px;
+    margin-top: 74px;
     border: none;
     font-size: 15px;
     font-weight: 600;
@@ -2293,6 +2293,7 @@ padding: 9px;
     box-shadow: 0em 0.15em 0.65em 0em rgba(0,0,0,0.25);
     background-color: rgba(255,255,255,1);
     width: 135px;
+    color: #000;
 }
 /* <!------LIVE CASINO end HERE-------> */
 
