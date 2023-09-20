@@ -14,10 +14,15 @@ export class MainSecComponent implements OnInit {
   index = 0;
   isAdding = true;
   typeIndex = 0;
+  i: number = 0;
+  private intervalId: any;
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
     this.playAnim();
+    this.intervalId = setInterval(() => {
+      this.updateBackgroundPosition();
+    }, 10);
   }
   playAnim() {
     setTimeout(() => {
@@ -48,6 +53,16 @@ export class MainSecComponent implements OnInit {
     }, this.isAdding ? 120 : 60);
   }
 
+  ngOnDestroy() {
+    clearInterval(this.intervalId);
+  }
 
+  private updateBackgroundPosition() {
+    this.i++;
+    const animateArea = document.getElementById('animate-area');
+    if (animateArea) {
+      animateArea.style.backgroundPosition = this.i + 'px';
+    }
+  }
 
 }
