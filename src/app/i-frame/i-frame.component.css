@@ -1,0 +1,23 @@
+.iframe_images{
+    width: 580px;
+    height: 295px;
+}
+
+.managed_images{
+    width: 484px;
+    height: 504px;
+}
+
+
+@media screen and (max-width: 820px){
+    .iframe_images{
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .managed_images{
+        width: 100% !important;
+        height: auto !important;
+    }
+      
+}

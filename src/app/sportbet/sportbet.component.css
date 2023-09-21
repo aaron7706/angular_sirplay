@@ -280,7 +280,10 @@ justify-content: center;
 }
 
 .sportsbetting-complete-sports-col2 img {
-  margin-left: 90%;
+  margin-left: 40%;
+}
+.crz_images{
+height: 93%;
 }
 /* =============================================================== */
 
@@ -2344,7 +2347,56 @@ width: 97%;
           margin-top: 0; 
           width: 100%;
       }
-  
-      
+      .sport_images_1{
+        height: auto !important;
+       
+        width: 100% !important;
+  }
+    
+      .images_benefit_1{
+        height: auto !important;
+       
+        width: 100% !important;
+      }
+      .addverties_img{
+        height: auto !important;
+       
+        width: 100% !important;
+      }
+    
+      .payment_system{
+        height: auto !important;
+       
+        width: 100% !important;
+       
+      }
+      .sportsbetting-online-retail-col1{
+        margin-left: 0px !important;
+      }
+  }
+
+  .sport_images_1{
+    height: 495px;
+   
+    width: 768px ;
+  }
+
+  .images_benefit_1{
+    width: 76%;
+    height: 538px;
+  }
+  .addverties_img{
+    height: 495px;
+   
+    width: 768px ;
+  }
+
+  .payment_system{
+    width: 707px;
+    height: 465px;
+    border-radius: 5px;
+  }
+  .sportsbetting-online-retail-col1{
+    margin-left: 24px ;
   }
   /* mobile betting */
