@@ -2022,11 +2022,14 @@ cursor: pointer;
     margin-left: 184px;
     border: none;
     color: black;
+    height: 50px;
    
 }
 
+
 .online-casino-button:hover{
-    color: white;
+    color: white !important;
+    background-color: #000 !important;
 }
 
 
@@ -2119,7 +2122,7 @@ font-family: 'Poppins', sans-serif;
     width: 36%;
     margin: 181px;
     margin-left: 405px; */
-    width: 62%;
+    width: 68%;
     margin: 288px 228px 200px 133px;
 
     

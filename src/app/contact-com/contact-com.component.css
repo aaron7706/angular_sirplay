@@ -139,14 +139,18 @@ width: 33%;
         width: 100%;
     }
     .name_input input {
-        width: 351px;
+        /* width: 351px; */
+        width: 100%;
     }
     .email_input input {
-        width: 351px;
+        /* width: 351px; */
+        width: 100%;
     }
     textarea {
-        width: 351px;
+        /* width: 351px; */
+        width: 100%;
     }
+    
 }
 .flag_chck{
     list-style: none;

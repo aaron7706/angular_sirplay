@@ -31,10 +31,19 @@ export class ContactComComponent implements OnInit {
 ];
   open: boolean=false;
   selectedcountry: any;
+  contact: { fname: string; femail: string; countries: string; phone: string; fmessage: string; };
 
 
   ngOnInit(): void {
 
+
+    this.contact = { 
+      fname:"",
+      femail:"",
+      countries:"",
+      phone: "",
+      fmessage:"",
+    };
     
     const inputElement = document.querySelector('#phone');
     if(inputElement){
@@ -63,6 +72,12 @@ export class ContactComComponent implements OnInit {
     $("#country_selector").countrySelect({
       preferredCountries: ['in', 'gb', 'us']
     });
+  }
+
+
+
+  onSubmit(contactForm) {
+    console.log(contactForm.value);
   }
 
 }

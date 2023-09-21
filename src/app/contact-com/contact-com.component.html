@@ -30,93 +30,46 @@
     </div>
     <div class="contact_col_1">
       <div class="contact_card">
-        <form>
+        <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)" novalidate>
           <div class="name_label">
             <label for="fname">Full name</label>
           </div>
           <div class="name_input">
-            <input type="text" id="fname" name="fname" value="" required />
+            <input type="text" id="fname"  [class.is-invalid]="fname.invalid && fname.touched" name="fname" value="" [(ngModel)]="contact.fname" #fname="ngModel" required />
+            <br> <small style="color: #a0c528;font-size: 18px;" [class.d-none]="fname.valid || fname.untouched">The field is required.</small>
           </div>
           <div class="email_label">
             <label for="fname"><b>Your email</b></label>
           </div>
           <div class="email_input">
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              value=""
-              onkeypress="myFunction()"
-            />
+            <input type="text" id="fname" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail
+              [(ngModel)]="contact.femail" #femail="ngModel" />
+              <br>  <small style="color: #a0c528;font-size: 18px;" [class.d-none]="femail.valid || femail.untouched">The field is required.</small>
           </div>
           <div class="email_label">
             <label for="fname"><b>Country</b></label>
           </div>
 
           <div class="email_input">
-            <!-- <input type="tel" id="country_selector" name="phone" value="" /> -->
-            <!-- <select class="form-control" name="country" id="country">
-              <option class="flag" *ngFor="let country of countries" [value]="country.name">
-                {{ country.name }} 
-              </option>
-            </select>    -->
-            <!-- <div *ngFor="let country of countries">
-<h1>dsdsds<img [src]="country.img"></h1>
-            </div> -->
-            <!-- <select [(ngModel)]="selectedOption">
-                <option *ngFor="let option of options" [value]="option.image">
-                 
-                    <img [src]="option.image" alt="Option Image" height="30" width="30">
-                    {{ option.label }}
-               
-                </option>
-              </select> -->
-
-
-            <!-- <input
-              type="text,img"
-              src="assets/FLAG.jpg"
-              id="country_selector"
-              name="phone"
-              width="35" height="35"
-              value="{{ selectedcountry }}"
-              (click)="selectdrop()"
-              class="icon"
-            />
-            <div class="chcks_condition">
-              <ul class="flag_chck" *ngIf="open" [@dropDownMenu]>
-                <div *ngFor="let chck of countries">
-                  <li (click)="selectcountry(chck.name)">
-                    <img src="{{ chck.img }}" /> {{ chck.name }}
-                  </li>
-                </div>
-              </ul>
-            </div> -->
-
-                <input type="tel" id="country_selector" name="phone" value="" />
-
-
-
-            <!-- <ngx-flag-picker
-              [selectedCountryCode]="selectedCountryCode"
-              [countryCodes]="countryCodes"
-              (changedCountryCode)="changeSelectedCountryCode($event)">
-            </ngx-flag-picker> -->
+            <input type="text" id="country_selector" name="countries" value="" required [(ngModel)]="contact.countries"
+              #countries="ngModel" />
           </div>
           <div class="email_label">
             <label for="fname"><b>Phone Number</b></label>
           </div>
           <div class="email_input">
-            <input value="" id="phone" type="tel" name="phone" />
+            <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone"
+              #phone="ngModel" />
           </div>
           <div class="email_label">
             <label for="fname"><b>Message</b></label>
           </div>
           <div class="text_area">
-            <textarea rows="20" cols="44"></textarea>
+            <textarea rows="20" cols="44" name="fmessage" required fmessage [(ngModel)]="contact.fmessage"
+              #fmessage="ngModel"></textarea>
           </div>
           <div class="btn">
-            <button class="con_btn">Submit</button>
+            <button class="con_btn" type="submit" [disabled]="!contactForm.valid">Submit</button>
           </div>
         </form>
       </div>
