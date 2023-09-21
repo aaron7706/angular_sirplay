@@ -1217,40 +1217,7 @@ Responsive Codes
   margin-top: 8%;
 }
 
-.esports-betting-col1-button button {
-  border-top-width: 2px;
-  border-right-width: 2px;
-  border-bottom-width: 2px;
-  border-left-width: 2px;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-color: rgb(160, 197, 40);
-  border-right-color: rgb(160, 197, 40);
-  border-bottom-color: rgb(160, 197, 40);
-  border-left-color: rgb(160, 197, 40);
-  border-top-left-radius: 0.764em;
-  border-top-right-radius: 0.764em;
-  border-bottom-right-radius: 0.764em;
-  border-bottom-left-radius: 0.764em;
-  font-size: 1em;
-  background-color: white;
-  box-shadow: none;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.75em;
-  padding-left: 1.5em;
-  font-size: 0.85em;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.1em;
-  margin-right: calc(0.1em * -1);
-  text-align: center;
-  text-transform: uppercase;
-  color: rgb(87, 87, 86);
-}
+
 
 .esports-betting-col2 img {
   width: 100%;
@@ -2398,3 +2365,56 @@ width: 97%;
       
   }
   /* mobile betting */
+  .esports-betting-col1-button button {
+   
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Define the hover effect */
+.esports-betting-col1-button button{
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(160, 197, 40);
+  border-right-color: rgb(160, 197, 40);
+  border-bottom-color: rgb(160, 197, 40);
+  border-left-color: rgb(160, 197, 40);
+  border-top-left-radius: 0.764em;
+  border-top-right-radius: 0.764em;
+  border-bottom-right-radius: 0.764em;
+  border-bottom-left-radius: 0.764em;
+  font-size: 1em;
+  background-color: white;
+  box-shadow: none;
+  padding-top: 1.55em;
+  padding-right: 1.5em;
+  padding-bottom: 1.55em;
+  padding-left: 1.5em;
+  font-size: 0.85em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.2;
+  letter-spacing: 0.1em;
+  margin-right: calc(0.1em * -1);
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(87, 87, 86);
+  transition: background-color 0.8s ease;
+}
+.esports-betting-col1-button button:hover {
+  background: linear-gradient(to right, rgb(160, 197, 40) 50%, transparent 50%),
+              linear-gradient(to left, rgb(131, 161, 20) 50%, transparent 50%);
+  background-position: left top, right top; /* Set the background positions */
+   /* Set the background size */
+  color: white; /* Change text color on hover */
+}
+

@@ -14,7 +14,7 @@
         padding: 20px;
       }
       
-    .typed-cursor{
+    .typed-cursor{  
         opacity: 1;
         -webkit-animation: blink 0.7s infinite;
         -moz-animation: blink 0.7s infinite;
@@ -106,7 +106,7 @@
         width: 45%;
         font-size: 53px;
         font-weight: 600;
-        margin-top:85px;
+        /* margin-top:85px; */
       }
 
       .param{
