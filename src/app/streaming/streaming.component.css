@@ -4,3 +4,17 @@
     background-image: url(/assets/we-are-sirplay.jpg.webp);
   background-size: cover ;
 }
+.online-casino-button-index6:hover {
+  color: white;
+}
+.online-casino-button-index6 {
+  background: rgb(160, 197, 40);
+  padding: 15px 20px;
+  margin-left: 59px;
+  border: none;
+  color: black;
+  margin-top: 62px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 33px;
+}

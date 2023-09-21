@@ -4,4 +4,5 @@ export class Contact {
       countries:string;
       phone: number;
       fmessage:string;
+      submit:string;
 }

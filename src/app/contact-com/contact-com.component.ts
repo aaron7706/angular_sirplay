@@ -13,6 +13,7 @@ declare var $: any;
 
 export class ContactComComponent implements OnInit {
   selectedOption:any=''
+  loder:boolean=false;
    countries= [
     { name: "india", img: "assets/FLAG.jpg"  },
     { name: "united", img: "assets/en.png" },
@@ -31,7 +32,7 @@ export class ContactComComponent implements OnInit {
 ];
   open: boolean=false;
   selectedcountry: any;
-  contact: { fname: string; femail: string; countries: string; phone: string; fmessage: string; };
+  contact: { fname: string; femail: string; countries: string; phone: string; fmessage: string; submit:string; };
 
 
   ngOnInit(): void {
@@ -43,6 +44,8 @@ export class ContactComComponent implements OnInit {
       countries:"",
       phone: "",
       fmessage:"",
+      submit:""
+     
     };
     
     const inputElement = document.querySelector('#phone');
@@ -77,7 +80,10 @@ export class ContactComComponent implements OnInit {
 
 
   onSubmit(contactForm) {
+    // this.loder=true
+    
     console.log(contactForm.value);
+    
   }
 
 }
