@@ -1,0 +1,21 @@
+.container_imgs{
+width: 853px;
+height: 344px;
+}
+
+.main_feater{
+    width: 252px;
+    height: 375px; 
+}
+
+.integration_images{
+    width: 638px;
+    height: 371px;
+}
+
+@media screen and (max-width: 820px){
+    .container_imgs{
+        width: 100%;
+        height: auto;
+        }
+}
