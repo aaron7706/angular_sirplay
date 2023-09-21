@@ -68,9 +68,17 @@
             <textarea rows="20" cols="44" name="fmessage" required fmessage [(ngModel)]="contact.fmessage"
               #fmessage="ngModel"></textarea>
           </div>
-          <div class="btn">
-            <button class="con_btn" type="submit" [disabled]="!contactForm.valid">Submit</button>
+        
+
+          <div class="btn" style="border: none;" >
+            <button class="con_btn"  type="submit" [disabled]="contactForm.invalid">Submit</button>
+
+
+            <!-- <span  class="wpcf7-spinner" *ngIf="loder"></span> -->
+                  
           </div>
+          <!-- <div class="wpcf7-response-output error" aria-hidden="true"  *ngIf="contactForm.invalid && (contactForm.touched || contactForm.dirty)">One or more fields have an error. Please check and try
+            again.</div> -->
         </form>
       </div>
       <p class="con_param">
