@@ -10,7 +10,7 @@ export class MainSecComponent implements OnInit {
 
 
   typingElement: any;
-  typeArray: string[] = ["Betting", "Web3", "Casino"];
+  typeArray: string[] = ["Betting", "B2C", "Casino"];
   index = 0;
   isAdding = true;
   typeIndex = 0;

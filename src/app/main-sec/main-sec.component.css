@@ -111,7 +111,8 @@
 
       .param{
         text-align: center;
-        font-size: 17px;
+        font-size: 16px;
+        font-weight: 400;
     }
     
     
@@ -120,10 +121,12 @@
     justify-content: center;
     align-items: center;
 }
-.platform_header{
-    font-size: 55px;
+.platform_header {
+    font-size: 40px;
     width: 93%;
-    font-weight: 500;
+    font-weight: 600;
+    text-align: left;
+    line-height: 50px;
 }
 
 .platform_para {

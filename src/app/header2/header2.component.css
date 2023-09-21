@@ -658,7 +658,7 @@ nav{
   .nav_col_1 ul li{
     margin: 15px;
     list-style: none;
-    padding-bottom: 16px;
+    padding-bottom: 4px !important;
   
   }
   
@@ -1205,7 +1205,7 @@ background-color: #a0c528 !important;
 .nav_col_1 ul li{
   margin: 15px;
   list-style: none;
-  padding-bottom: 16px;
+  padding-bottom: 4px;
 
 }
 

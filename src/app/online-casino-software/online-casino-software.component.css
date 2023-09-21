@@ -12,7 +12,13 @@ height: 344px;
     width: 638px;
     height: 371px;
 }
-
+.online-casino-button{
+background-color: #a0c528;
+}
+.online-casino-button:hover{
+   color: white;
+   background-color: #a0c528;
+    }
 @media screen and (max-width: 820px){
     .container_imgs{
         width: 100%;
