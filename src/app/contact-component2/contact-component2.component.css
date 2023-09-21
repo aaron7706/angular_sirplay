@@ -143,9 +143,11 @@ margin-bottom: 18px;
     color: white;
     border: none;
     max-width: 150px;
-    padding: 12px;
+    padding: 7px;
 }
-
+.contact-container .contactform2 .inputbox input[type="submit"]:hover {
+    background-color: #b7d5bd;
+}
 
 @media (max-width: 62em) {
     .contact-container {

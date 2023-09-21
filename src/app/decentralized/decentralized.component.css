@@ -4,3 +4,12 @@
     background-image: url(/assets/we-are-sirplay.jpg.webp);
   background-size: cover ;
 }
+.hover-1_1 {
+  background-color: #a0c528;
+  color: black;
+
+}
+.hover-1_1:hover{
+  color: #fff;
+  border-color: #a0c528;
+}
