@@ -80,10 +80,18 @@ export class ContactComComponent implements OnInit {
 
 
   onSubmit(contactForm) {
-    // this.loder=true
-    
+
+    this.loder=true
     console.log(contactForm.value);
+    setTimeout(() => {
+      // After some processing, hide the loader
+      this.loder = false;
+
+      // Handle your form submission logic here (e.g., sending data to the server)
+    }, 500); // Simulating a delay of 2 seconds
+  }
     
   }
+  
 
-}
+
