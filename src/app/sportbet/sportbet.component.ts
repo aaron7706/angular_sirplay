@@ -12,4 +12,10 @@ export class SportbetComponent {
       contactElement.scrollIntoView({ behavior: 'smooth' });
     }
   }
+  
+  accordian = false; // Initially, the accordion is closed
+
+  toggleAccordion() {
+    this.accordian = !this.accordian; // Toggle the accordion state
+  }
 }
