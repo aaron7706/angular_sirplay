@@ -287,7 +287,9 @@ cursor: pointer;
       margin-left: auto; */
       padding: 0;
     }
-   
+    /* .nav_col img{
+      margin: 30px 0 !important;
+    } */
     .navbar-collapse {
       flex-basis: 100%;
       flex-grow: 1;

@@ -4,3 +4,78 @@
     background-image: url(/assets/we-are-sirplay.jpg.webp);
   background-size: cover ;
 }
+.home_header_h1{
+  font-size: 60px;
+  font-family: Poppins;
+  width: 72%;
+}
+.main_sec{
+  margin-top: 130px;
+}
+.section-title {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.dark_title{
+  color: #a0c528 !important;
+  font-family: Poppins;
+}
+strong{
+  font-family: Poppins;
+}
+p{
+  margin-bottom: 0px;
+  font-family: Poppins;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+}
+.about-section1-para{
+  padding: 0px !important;
+}
+.about-section1-adddress{
+  margin-bottom: 40px;
+}
+.para1{
+  text-align: center;
+}
+.stats-content{
+  font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0;
+    opacity: 1;
+    text-align: center;
+    text-transform: capitalize;
+}
+.about-section1-counter-col .counter{
+  margin-bottom: 35px;
+}
+.about-section2-main{
+  padding-left: 86.3333px;
+  padding-right: 85.6667px;
+}
+.about-section2-main h2{
+  font-family: Poppins;
+}
+.about-section3-container{
+  padding: 0px;
+  box-sizing: border-box;
+  padding-top: 55px ;
+}
+/* @media (min-width: 768px){
+.vc_col-sm-3 {
+    width: 25%;
+}
+}
+@media (min-width: 768px){
+.vc_col-sm-6 {
+    width: 50%;
+}
+} */
