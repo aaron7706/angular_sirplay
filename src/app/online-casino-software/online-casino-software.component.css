@@ -19,6 +19,46 @@ background-color: #a0c528;
    color: white;
    background-color: #a0c528;
     }
+
+    .online-casino_col p{
+        font-family: Poppins;
+        line-height: 30px;
+        font-weight: 400;
+        color: #000;
+        font-size: 16px;
+    }
+    .online-casino_col p strong{
+        font-weight: bold;
+    }
+    .online-casino_col h3{
+        font-family: 'Poppins';
+        line-height: 20px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .online-casino-button{
+        margin-left: 15rem;
+    }
+    .online-casino-youtube img{
+
+        transition: all .4s ease-in-out 0s;
+        
+        }
+        .online-casino-youtube img:hover {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+        }
+        .col1-para{
+            font-family: Poppins;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+        }
+        .col1-para strong{
+            font-weight: bold;
+
+        }
 @media screen and (max-width: 820px){
     .container_imgs{
         width: 100%;
