@@ -8,7 +8,9 @@
     height: 504px;
 }
 
-
+.button_slide {
+border-color: black;
+}
 @media screen and (max-width: 820px){
     .iframe_images{
         width: 100% !important;
