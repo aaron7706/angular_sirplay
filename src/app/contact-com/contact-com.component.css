@@ -194,7 +194,10 @@ cursor: pointer;
     margin: 15px 0;
 }
 
-
+.iti__selected-flag {
+    z-index: none !important;
+    
+}
 .wpcf7-spinner {
     /* visibility: hidden; */
     display: inline-block;
@@ -207,6 +210,23 @@ cursor: pointer;
     padding: 0;
     margin: 0 24px;
     position: relative;
+}
+
+.wpcf7-spinner::before {
+    content: '';
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1000ms !important;
+    animation-timing-function: linear !important;
+    animation-iteration-count: infinite !important;
 }
 
 
