@@ -65,6 +65,7 @@ font-size: 16px;
   margin-left: 18px !important;
   font-size: 14px; 
   font-family: 'Poppins';
+ 
 
 }
 .nav_row_2 li:hover .sub_menu ul{
@@ -72,7 +73,7 @@ font-size: 16px;
   margin: 10px;
 }
 .nav_row_2 li:hover .sub_menu ul li{
-  padding: 4px;
+  padding: 8px;
 }
 .sub_menu ul li{
   color: white;

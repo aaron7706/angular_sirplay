@@ -658,7 +658,7 @@ nav{
   .nav_col_1 ul li{
     margin: 15px;
     list-style: none;
-    padding-bottom: 16px;
+    padding-bottom: 4px !important;
   
   }
   
@@ -1186,13 +1186,13 @@ background-color: #a0c528 !important;
 } */
 
 
-nav{
+/* nav{
   height: 77px;
   background-color: #FFF;
   color: #000;
   font-size: 18px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);  
-}
+  /* box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);   */
+/* }  */
 .hader_row{
   display: flex;
   justify-content: space-around;
@@ -1205,7 +1205,7 @@ nav{
 .nav_col_1 ul li{
   margin: 15px;
   list-style: none;
-  padding-bottom: 16px;
+  padding-bottom: 4px;
 
 }
 
@@ -3158,4 +3158,7 @@ whites_param {
 .freq_question_col {
   padding: 8px;
 }
+}
+.font-color{
+color: #808080;
 }
