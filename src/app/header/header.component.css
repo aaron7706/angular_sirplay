@@ -378,3 +378,13 @@ cursor: pointer;
     width: 100%;
     color: #a0c528;
 }
+.menubar{
+  border: none !important;
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:hover{
+  background: none;
+  border: none;
+}
