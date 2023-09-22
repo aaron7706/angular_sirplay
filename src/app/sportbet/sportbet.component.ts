@@ -12,4 +12,5 @@ export class SportbetComponent {
       contactElement.scrollIntoView({ behavior: 'smooth' });
     }
   }
+  
 }
