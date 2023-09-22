@@ -29,3 +29,51 @@
     background-color: #ffffff;
     height: 50px;
 }
+
+.web_images{
+   width: 1024px; 
+   height: 400px;
+}
+
+.live_sec5_imgs{
+    width: 793px; 
+    height: 370px;
+}
+.web_3_imag{
+    width: 768px; 
+    height: 640px;  
+}
+
+.lottery_img{
+    width: 781px; 
+    height: 323px; 
+}
+
+@media screen and (max-width: 820px){
+
+
+    .web_images{
+        width: 100% !important; 
+        height: auto !important;
+     }
+     
+     .live_sec5_imgs{
+        width: 100% !important; 
+        height: auto !important;
+     }
+     .web_3_imag{
+        width: 100% !important; 
+        height: auto !important;
+     }
+     
+     .lottery_img{
+        width: 100% !important; 
+        height: auto !important;
+     }
+     
+     .kohli_images{
+        width: 100% !important; 
+        height: auto !important;
+     }
+
+}

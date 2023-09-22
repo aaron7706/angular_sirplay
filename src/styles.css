@@ -2202,7 +2202,7 @@ font-family: 'Poppins', sans-serif;
 
 .container4-col2 img{
     margin-top: 45px;
-        width: 90% !important;
+        width: 100% !important;
 
 }
 
@@ -2812,11 +2812,11 @@ cursor: pointer;
      padding: 0px 0px 0px 0px !important; 
     }
 
-    .index5-leftimg img{
+    /* .index5-leftimg img{
         width: 88%;
     
     padding: 0px 23px 27px;
-    }
+    } */
 
     .conatiner14 {
         display: flex;
@@ -2933,11 +2933,11 @@ cursor: pointer;
 }
 
 
-.index4-right-img img{
+/* .index4-right-img img{
     width: 100% !important;
     padding: 46px 44px 34px 0px;
     margin-top: 0px !important;
-}
+} */
 
 
 .index4-main-div {
@@ -12460,6 +12460,11 @@ font-size: 20px;
     display: flex !important;
    flex-direction: column;
    
+}
+
+.chanel_sec{
+    padding-top: 10px !important;
+
 }
 
 

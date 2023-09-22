@@ -261,12 +261,12 @@ height: 93%;
 }
 .sportsbetting-crypto-sports-col1 img {
   width: 100%;
-  margin-left: 54%;
+  margin-left: 43%;
 }
 
 .sportsbetting-crypto-sports-col2 {
   width: 33%;
-  margin-left: 33%;
+  margin-left: 25%;
 }
 
 .sportsbetting-crypto-sports-col2 h2 {
@@ -2447,4 +2447,9 @@ width: 97%;
     position: relative;
     overflow: hidden;
     
+  }
+
+  .phone_images{
+    width:320px ;
+    height:622px ;
   }

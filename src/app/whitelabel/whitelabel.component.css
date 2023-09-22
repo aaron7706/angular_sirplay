@@ -1,0 +1,19 @@
+.white_label_imgs{
+width: 495px;
+height: 375px;
+}
+.custome_img{
+    width: 485px;
+    height: 345px;   
+}
+
+@media screen and (max-width: 820px){
+    .white_label_imgs{
+        width: 100%;
+        height: auto;
+        }
+        .custome_img{
+            width: 100%;
+            height: auto;  
+        }
+}

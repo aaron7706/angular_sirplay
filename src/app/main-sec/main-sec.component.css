@@ -194,7 +194,7 @@ font-weight: 600;
     transition: ease-out 0.9s;
     background-color: #000000;
     height: 50px;
-
+border-color: #000;
   }
   .slide_right:hover {
     box-shadow: inset 400px 0 0 0 #a0c528;

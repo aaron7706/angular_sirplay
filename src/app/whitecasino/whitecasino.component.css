@@ -3108,6 +3108,7 @@ flex-direction: column;
 }
 .tv_image{
 width: 100%;
+height: auto;
 
 }
 .white_f_col{
@@ -3151,6 +3152,7 @@ whites_param {
   /* width: 331px;
     height: 172px; */
     width: 100%;
+    height: auto;
 }
 .white_sol_row{
   display: flex;
@@ -3206,4 +3208,15 @@ whites_param {
 .freq_question_col {
   padding: 8px;
 }
+.pay_images{
+  width: 100% !important;
+  height: auto !important;
+
+}
+}
+
+.pay_images{
+  width: 687px;
+  height: 410px;
+  border-radius: 5px;
 }

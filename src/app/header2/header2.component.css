@@ -689,13 +689,14 @@ nav{
   
   .sub_menu{
     display: none;
+    background-color: white;
   }
   
   .nav_col_1 ul li:hover .sub_menu{
     display: block;
     position: absolute;
-    margin-top: 21px;
-      margin-left: -118px
+    margin-top: -2px;
+      margin-left: -20px
   }
   
   .nav_col_1 ul li:hover .sub_menu ul li{
@@ -1238,12 +1239,12 @@ background-color: #a0c528 !important;
   display: none;
 }
 
-.nav_col_1 ul li:hover .sub_menu{
+/* .nav_col_1 ul li:hover .sub_menu{
   display: block;
   position: absolute;
   margin-top: 21px;
     margin-left: -118px
-}
+} */
 
 .nav_col_1 ul li:hover .sub_menu ul li{
   width: 200px;

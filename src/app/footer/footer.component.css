@@ -37,7 +37,12 @@ line-height: 20px;
     color: #000;
 
 }
-
+.company_about p a{
+color: #a0c528;
+}
+.company_about p a:hover{
+    color: #000;
+}
 @media (max-width:820px){
    
     .comp_details {
