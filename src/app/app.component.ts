@@ -14,4 +14,10 @@ export class AppComponent {
       behavior: 'smooth' 
 });
   }
+  scrollToContact() {
+    const contactElement = document.querySelector('#contact'); // Use the ID of the target element
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

@@ -1,4 +1,4 @@
-import { Component , OnInit  } from '@angular/core';
+import { Component , ElementRef, OnInit, ViewChild  } from '@angular/core';
 import * as $ from 'jquery'
 
 @Component({
@@ -64,5 +64,12 @@ export class MainSecComponent implements OnInit {
       animateArea.style.backgroundPosition = this.i + 'px';
     }
   }
+  scrollToContact() {
+    const contactElement = document.querySelector('#contact'); // Use the ID of the target element
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  }
 
-}
+

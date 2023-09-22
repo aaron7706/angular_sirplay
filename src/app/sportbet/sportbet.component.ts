@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./sportbet.component.css']
 })
 export class SportbetComponent {
-
+  scrollToContact() {
+    const contactElement = document.querySelector('#contact'); // Use the ID of the target element
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  
 }
