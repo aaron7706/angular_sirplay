@@ -222,14 +222,23 @@ cursor: pointer;
     height: 6px;
     border: none;
     border-radius: 100%;
-    transform-origin: 8px 8px;
+    transform-origin: 50% 50%; /* Changed to center of the element */
     animation-name: spin;
     animation-duration: 1000ms !important;
     animation-timing-function: linear !important;
     animation-iteration-count: infinite !important;
-}
-
-
+  }
+  
+  /* Define the spin animation separately */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
 
 
 
