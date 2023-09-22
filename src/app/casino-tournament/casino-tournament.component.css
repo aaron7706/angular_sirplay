@@ -1816,7 +1816,7 @@ margin-top: 1%;
 .conatiner14{
     display: flex;
     gap: 20%;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .chck{
@@ -1838,7 +1838,7 @@ font-weight: bold;
 
 .index5-leftimg img{
     margin-top: 35%;
-    margin-left: 25%;
+    margin-left: 19%;
 }
 
 .index5-righttext strong{
@@ -1905,7 +1905,8 @@ font-weight: bold;
 
 .index5-right-img img {
     margin-top: 12%;
-    width: 100%;
+    width: 100% !important;
+    height: auto;
 }
 
 
@@ -1920,7 +1921,8 @@ font-weight: bold;
 .index5-leftimg img {
      margin-top: 0; 
     margin-left:0 ; 
-    width: 100%;
+    width: 100% !important;
+    height: auto !important;
 }
 
 .index5-righttext {
@@ -3192,4 +3194,9 @@ whites_param {
 .freq_question_col {
   padding: 8px;
 }
+}
+
+.tourna_images{
+  width: 539px;
+  height: 336px;
 }

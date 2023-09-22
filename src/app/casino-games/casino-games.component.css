@@ -254,10 +254,16 @@ width: 100%;
 
 
 .right-img-index3 img {
-    margin-top: 8%;
+   
     margin-left: 0;
-    width: 339px;
+    width: 100% !important;
+    height: auto;
+    margin-top: 1% !important;
 
+}
+.right-img-index3 img {
+  padding: 117px 0px 10px;
+ 
 }
 
 .card3{
@@ -299,7 +305,8 @@ width: 100%;
     padding: 0px 20px 0px 20px;
 }
 .index3-left-img img{
-    width: 86%;
+    width: 100%;
+    height: auto;
 }
 .footer_row{
 display: flex;
@@ -3189,4 +3196,9 @@ whites_param {
 .freq_question_col {
   padding: 8px;
 }
+}
+
+.container_10_img{
+  width: 613px;
+  height: 471px ;
 }
