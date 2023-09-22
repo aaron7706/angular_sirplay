@@ -2408,7 +2408,8 @@ width: 97%;
   text-align: center;
   text-transform: uppercase;
   color: rgb(87, 87, 86);
-  transition: background-color 0.8s ease;
+  transition: background-color 0.3s ease;
+  transition-duration: 300ms;
 }
 .esports-betting-col1-button button:hover {
   background: linear-gradient(to right, rgb(160, 197, 40) 50%, transparent 50%),
