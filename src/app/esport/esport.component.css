@@ -1252,9 +1252,9 @@ Responsive Codes
   color: rgb(87, 87, 86);
 }
 
-.esports-betting-col2 img {
+/* .esports-betting-col2 img {
   width: 100%;
-}
+} */
 
 /* =============================================================== */
 
@@ -1400,9 +1400,9 @@ Responsive Codes
 .esports-betting-middle-row2 {
   text-align: center;
 }
-.esports-betting-middle-row2 img {
+/* .esports-betting-middle-row2 img {
   max-width: 70%;
-}
+} */
 
 /* =============================================================== */
 
@@ -2394,7 +2394,26 @@ width: 97%;
           margin-top: 0; 
           width: 100%;
       }
+      .esport_img{
+        width: 100% !important;
+        height: auto !important;
+      }
+    
+      .all_images{
+        width: 100% !important;
+        height: auto !important;
+      }
   
       
   }
   /* mobile betting */
+
+  .esport_img{
+    width: 695px ;
+    height: 489px;
+  }
+
+  .all_images{
+    width: 940px ;
+    height: 420px;
+  }

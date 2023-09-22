@@ -1732,8 +1732,9 @@ hr .hr_1 {
 }
 
 .index4-right-img img{
-    margin-top: 15%;
+    /* margin-top: 15%; */
     width: 100%;
+    height: auto;
 }
 
 
@@ -1752,6 +1753,7 @@ flex-direction: column;
 .index4-left-img img{
 width: 100%;
 margin-top: 1%;
+height: auto !important;
 }
 
 
@@ -3190,4 +3192,13 @@ whites_param {
 .freq_question_col {
   padding: 8px;
 }
+}
+
+.lottery_images{
+  width: 680px;
+  height: 327px;
+}
+.images_data{
+  width: 591px;
+  height: 451px;
 }
