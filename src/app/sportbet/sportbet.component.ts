@@ -13,4 +13,9 @@ export class SportbetComponent {
     }
   }
   
+  accordian = false; // Initially, the accordion is closed
+
+  toggleAccordion() {
+    this.accordian = !this.accordian; // Toggle the accordion state
+  }
 }
