@@ -1263,9 +1263,11 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
   margin-top: 7%;
 }
+.esport_section{
+  padding-top: 9%;
+}
 
 .top-esports-col1 {
-  margin-left: 6%;
   width: 45%;
 }
 
@@ -1290,16 +1292,16 @@ Responsive Codes
 }
 
 .easy-setup-col1-photo{
-    width: 70%;
+    width: 49%;
 }
 
 .top-esports-col2 {
   display: grid;
-  grid-template-columns: 0fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1rem 1rem;
-
-  margin-right: -5%;
+  margin-right: -4%;
+  height: 237px;
 }
 
 .top-esports-col2-images img {
@@ -1312,17 +1314,18 @@ Responsive Codes
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 8%;
+  justify-content: center;
 }
 
 .easy-setup-col1-photo img {
-  width: 80%;
+  width: 98%;
 }
 
 .easy-setup-col2 {
-  margin-left: -3%;
-  margin-right: 7%;
+  /* margin-left: -3%; */
+  /* margin-right: 7%; */
   width: 37%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .easy-setup-col2 h3 {
@@ -1727,7 +1730,8 @@ width: 100%;
     width: 200px;
   }
 .esports_9 {
-    width: 200px;
+    width: 192px;
+    height: 138px;
   }
 
   .esports_10 {
@@ -2471,4 +2475,9 @@ width: 97%;
   .all_images{
     width: 940px ;
     height: 420px;
+  }
+  .top-esports-main{
+    display: flex;
+    justify-content: center;
+    gap:2%;
   }

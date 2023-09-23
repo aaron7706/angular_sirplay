@@ -13309,7 +13309,9 @@ padding-top: 22%;
   .sports_ifram_row{
     display: flex;
     justify-content: center;
-    padding-top: 72px;
+    padding-top: 111px;
+    gap: 4%;
+    padding-bottom: 5%;
   }
 
   .sport_iframe_sec{
@@ -13323,23 +13325,29 @@ padding-top: 22%;
 
   .sports_header{
     color: #a0c51b;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 39px;
 
   }
 
   .sports_para{
+    font-family: Poppins;
+    line-height: 27px;
+    font-weight: 400;
+   
+    font-size: 16px;
     margin-bottom: 38px;
   }
 
   .types_sports_sec{
-    padding-top: 150px;
+    padding-top: 35px;
   }
 
   .sports_type_row{
     display: flex;
     justify-content: center;
+    gap: 8%;
   }
   .types_images{
     width: 536px;
@@ -13347,11 +13355,11 @@ padding-top: 22%;
   }
 
   .sports_col{
-    width: 44%;
+    width: 40%;
   }
 
   .sports_col_1{
-    width: 35%;
+    width: 39%;
 
   }
   .types_header{
@@ -13407,12 +13415,31 @@ padding-top: 16px;
 .types_header {
     font-size: 28px;
 }
-.sports_col_1{
+.sports_col{
     display: none;
 }
+.sports_col_1 {
+    width: 100%;
+    padding: 12px;
+}
 
+.gaming_img_iframe{
+width: 100% !important;
+height: auto !important;
+}
+.gaming_col_2_iframe {
+    width: 100% !important;
+    padding: 12px;
+}
 .types_sports_sec {
     padding-top: 16px;
+}
+.i-frame_img1{
+display: none;
+}
+.sport_sol_col_1 {
+    width: 100% !important;
+    padding: 12px;
 }
 }
 

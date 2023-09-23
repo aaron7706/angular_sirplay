@@ -21,5 +21,76 @@ border-color: black;
         width: 100% !important;
         height: auto !important;
     }
-      
+
+    .gaming_row_iframe {
+        display: flex;
+        flex-direction: column;
+}
+.sport_sol_row{
+    display: flex;
+    flex-direction: column;  
+}
+
+
+}
+.gaming_sec_iframe {
+    padding-top: 63PX;
+    margin-bottom: 80px;
+}
+
+.gaming_row_iframe {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+
+.gaming_col_2_iframe{
+    width: 45%;
+}
+.gaming_img_iframe{
+    width: 520px;
+height:331px; 
+}
+
+.gaming_header_iframe{
+    font-size: 35px;
+    color: #a0c528;
+    line-height: 45px;
+    text-align: left;
+    margin-bottom: 29px;
+    font-weight: 600;
+}
+.gaming_para_iframe{
+    font-family: Poppins;
+    line-height: 30px;
+    font-weight: 400;
+  
+    font-size: 16px;
+}
+
+.sport_sol_row{
+    display: flex;
+    justify-content: center;
+    gap:4%;
+}
+.i-frame_img1{
+    width: 555px;
+    height: 451px;
+}
+
+.sports_iframes{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.sport_sol_col_1{
+  width: 45%;  
+}
+.header_iframes{
+    font-size: 35px;
+    color: #a0c528;
+    line-height: 45px;
+    text-align: left;
+    margin-bottom: 30px !important;
+    font-family: Poppins;
+font-weight: 600;
 }
