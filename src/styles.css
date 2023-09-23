@@ -9,6 +9,7 @@
 * {
     margin: 0px;
     padding:0px;
+    font-family: 'Poppins' !important;
 }
 
 body{
@@ -10550,12 +10551,13 @@ a:hover {
     margin-top: 65px;
     justify-content: center;
 }
-.label-para{
+/* .label-para{
 width: 45% ;
-}
+} */
 .label-para p {
     line-height: 1.6;
-    font-size: 17px;
+    font-size: 16px;
+    font-family: 'Poppins';
 }
 
 .label-list {
@@ -10567,14 +10569,14 @@ width: 45% ;
 }
 .label-list1 {
     line-height: 31px;
-    font-size: 17px;
+    font-size: 16px;
     color: gray;
 }
 
 .cutom-main {
     display: flex;
-    margin-top: 2rem;
-    padding-top: 50px;
+    /* margin-top: 2rem; */
+    /* padding-top: 50px; */
     gap: 50px;
     justify-content: center;
 
