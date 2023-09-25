@@ -7168,7 +7168,7 @@ cursor: pointer;
     font-weight: 600;
     line-height: 1 !important;
     margin: 0 auto;
-    padding: 0 0 20px;
+    padding: 0 0 10px;
     text-transform: capitalize;
     width: 100%;
     text-align: center;
@@ -7182,7 +7182,7 @@ cursor: pointer;
 .home {
     width: 100%;
     text-align: center;
-
+    font-size: 18px;
 }
 
 .home a {
@@ -7190,7 +7190,7 @@ cursor: pointer;
     text-decoration: none;
     width: 100%;
     text-align: center;
-    font-size: larger;
+    /* font-size: larger; */
 
 
 
@@ -7206,7 +7206,7 @@ cursor: pointer;
 .lil-para {
     color: white;
     margin-left: 10px;
-    font-size: larger;
+    /* font-size: larger; */
 
 }
 
@@ -10637,9 +10637,9 @@ width: 45% ;
 
 }
 
-.plat-oddhead{
+/* .plat-oddhead{
     width: 40%;
-}
+} */
 
 .plat-odd p {
     line-height: 1.6;
@@ -10841,9 +10841,9 @@ width: 62%;
         width: 98% ;
 
     }
-    .plat-oddhead {
+    /* .plat-oddhead {
         width: 91%;
-    }
+    } */
     .cutom-main {
         padding: 1em;
     }
