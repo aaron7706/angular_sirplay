@@ -2296,6 +2296,14 @@ font-weight: 300;
         font-size: 20px;
         font-weight: 600;
     }
+
+
+    .faq-col1 h3 {
+        line-height: 3;
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 600;
+    }
 .faq-col1 p{
     font-family: Poppins;
     line-height: 30px;

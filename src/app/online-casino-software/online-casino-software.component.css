@@ -24,11 +24,12 @@ background-color: #a0c528;
         font-family: Poppins;
         line-height: 30px;
         font-weight: 400;
-        color: #000;
+        color: #686868;
         font-size: 16px;
     }
     .online-casino_col p strong{
         font-weight: bold;
+        color: black;
     }
     .online-casino_col h3{
         font-family: 'Poppins';
@@ -59,6 +60,13 @@ background-color: #a0c528;
             font-weight: bold;
 
         }
+        .wpb_wrapper {
+           font-family: 'Poppins'!important; 
+        }
+        .faq-container{
+            padding-left: 200px;
+            padding-right: 82px;
+        }
 @media screen and (max-width: 820px){
     .container_imgs{
         width: 100%;
@@ -67,6 +75,18 @@ background-color: #a0c528;
 
 .online-casino-button:hover {
     color: white;
+}
+.online-casino_para{
+    font-family: 'Poppins' !important;
+    line-height: 30px;
+    font-weight: 400;
+    color: #686868;
+    font-size: 16px
+
+}
+.vc_custom_1673977594688 {
+    margin-top: 50px !important;
+    margin-bottom: 40px !important;
 }
 }
 .containt{
