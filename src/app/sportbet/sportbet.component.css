@@ -12,13 +12,16 @@
   display: flex;
   font-family: "Raleway", sans-serif;
   padding-top: 78px;
+  justify-content: center;
+  gap: 5%;
 }
-
+.sportsbetting-section1-col2{
+  width: 48%;  
+}
 .sportsbetting-section1-col1 {
-  width: 46%;
-  padding-right: 7%;
-  padding-left: 7%;
-  margin-top: 8%;
+  width: 35%;
+ 
+  margin-top: 3%;
 }
 
 .sportsbetting-section1-col1 strong {
@@ -27,6 +30,7 @@
   letter-spacing: 0.001em;
   text-transform: none;
   color: rgb(87, 87, 86);
+  font-weight: bold;
 }
 
 .sportsbetting-section1-col1 p {
@@ -42,8 +46,9 @@
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 228.5%;
+  font-size: 193.5%;
   font-family: "Raleway", sans-serif;
+  width: 93%;
 }
 
 .sportsbetting-section1-col1-link {
@@ -57,9 +62,9 @@
 }
 
 .sportsbetting-section1-col2 iframe {
-  width: 687px;
-  height: 392px;
-  margin-top: 33%;
+  width: 652px;
+  height: 394px;
+  margin-top: 48%;
   border-top-width: 6px;
   border-right-width: 6px;
   border-bottom-width: 6px;
@@ -89,7 +94,8 @@ justify-content: center;
 .sportsbetting-mainfeature-main {
   display: flex;
   font-family: "Raleway", sans-serif;
-  margin-top: 15%;
+  margin-top: 7%;
+  justify-content: center;
 }
 
 .sportsbetting-mainfeature-col1 img {
@@ -174,7 +180,7 @@ justify-content: center;
   margin-right: calc(-3.999em * -1);
   text-transform: none;
   color: rgb(87, 87, 86);
-  font-size: 36px;
+  /* font-size: 36px; */
   font-weight: 600;
   font-family: "Raleway", sans-serif;  
 }
@@ -258,15 +264,17 @@ height: 93%;
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 90px;
+  justify-content: center;
+  gap: 13%;
 }
 .sportsbetting-crypto-sports-col1 img {
   width: 100%;
-  margin-left: 43%;
+  /* margin-left: 43%; */
 }
 
 .sportsbetting-crypto-sports-col2 {
   width: 33%;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 
 .sportsbetting-crypto-sports-col2 h2 {
@@ -314,6 +322,7 @@ height: 93%;
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 166px;
+  justify-content: center;
 
 }
 
@@ -331,7 +340,8 @@ height: 93%;
   /* font-size: calc(285.7%); */
   font-family: "Raleway", sans-serif;
   font-size: 45px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  width: 70%;
 
 
 }
@@ -361,6 +371,7 @@ height: 93%;
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 10%;
+  justify-content: center;
 }
 
 .sportsbetting-online-retail-col2 {
@@ -2363,9 +2374,9 @@ width: 97%;
     height: 465px;
     border-radius: 5px;
   }
-  .sportsbetting-online-retail-col1{
+  /* .sportsbetting-online-retail-col1{
     margin-left: 24px ;
-  }
+  } */
   .x-div, .x-row, .x-col, .x-grid, .x-cell, .x-section, .x-image, .x-anchor, .x-text-headline, .x-slide {
     transition-property: border-color, background-color, box-shadow, opacity, filter, transform;
 }
