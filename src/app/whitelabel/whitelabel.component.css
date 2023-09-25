@@ -1,5 +1,6 @@
-body {
-    font-family: Poppins;
+*{
+    font-family: Poppins !important;
+    word-wrap: break-word;
 }
 .white_label_imgs {
     width: 595px;
@@ -9,10 +10,10 @@ body {
     width: 485px;
     height: 345px;   
 }
-/* .label-para {
+.label-para {
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
 .white-label{
     padding: 80px 0px;
     
@@ -113,7 +114,7 @@ h2 {
 }
 
 
-@media (max-width: 992px){
+/* @media (max-width: 992px){
     .containt {
         width: 818px;
     }
@@ -146,15 +147,45 @@ h2 {
     .head-custom{
         letter-spacing: 1px;
     }
-}
+    .plat-odd{
+        margin-top: 0px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 0px;
+        padding-left: 40px;
+        padding-right: 84px;
+      
+    }
+    .odd-headimg img,.tool_sec_img{
+        width: 354px;
+        height: 254px;
+    }
+    .plat-oddhead h1,.toolhead h1 {
+        font-size: 28px;
+    }
+    .tools{
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 20px;
+    }
+    .risk-img {
+        width: 17%;
+    }
+    .risk-para,.branding-head {
+        width: 66%;
+    }   
+    .branding{
+        justify-content: start !important;
+    } 
+} */
 
 
 @media (max-width: 768px){
     .containt {
-        width: 368px;
+        width: 360px;
     }
     .first-head h1 {
-    font-size: 30px;
+    font-size: 27px;
     letter-spacing: 1.5px;
     }
     .first-sec {
@@ -180,10 +211,16 @@ h2 {
         padding-right: 15px;
     }
     .head-custom h1{
-        font-size: 30px;
+        font-size: 23px;
+        line-height: 0;
+        margin-bottom: 51px;
+      
     }
     .sec-header{
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 0px;
+        font-weight: 570;
+        margin-bottom: 34px;
     }
     .niva-separator1{
         margin-left: 15px;
@@ -198,7 +235,35 @@ h2 {
     .tools {
         margin-top: 0px;
     }
+    .custom-sec{
+    box-sizing: border-box;
+   
+    width: 100%;
+    margin-top: 43px;
 
+    }
+p{
+    line-height: 28px;
+}
+.plat-oddhead h1,.toolhead h1 {
+    font-size: 23px;
+}
+.plat-odd h1 {
+    line-height: 3.6;
+}
+.label-para{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.risk-para h1,.risk-para h2,.risk-para p  {
+    padding: 0px;
+}
+.risk-para h1,.branding-head h1,.lanhead h1  {
+    font-size: 1.2rem;
+}
+.risk-para h2,.branding-head h2,.lanhead h2 {
+    font-size: 1rem;
+}
 }
 
 
