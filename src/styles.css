@@ -3921,7 +3921,7 @@ margin-top: 35px !important;
 
 }
 
-
+/* 
 
 .about-section1-add1 {
     margin: 0px 77px 0px 89px !important;
@@ -3930,7 +3930,7 @@ margin-top: 35px !important;
 
 .about-section1-add2 {
     margin: 2px 91px 0px 55px !important;
-}
+} */
 
 .about-section1-para {
     padding: 37px 15px 10px 15px !important;
@@ -6703,8 +6703,8 @@ line-height: 30px;
 
 
 .about-section3-container{
-   /* font-family: 'Poppins', sans-serif; */
-    padding: 98px 408px 0px 403px;
+    font-family: 'Poppins', sans-serif;
+    padding: 100px 272px 0px 272px;
 }
 
 
@@ -13862,4 +13862,9 @@ font-weight: 300;
     font-size: 18px;  
     line-height: 26px;
 list-style: none;
+}
+
+.contact_sec {
+    padding-top: 137px !important;
+    margin-bottom: 40px !important;
 }

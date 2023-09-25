@@ -363,8 +363,12 @@ cursor: pointer;
       background: none !important;
     }
     .nav_col img{
-      margin: 30px 0 !important;
+      margin: 30px 78px !important;
     }
+    .navbar-toggler-icon {
+     
+      margin-right: 19px !important;
+  }
     }
     .accordion-body a {
         color: white;
