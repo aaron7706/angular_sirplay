@@ -1179,13 +1179,15 @@ Responsive Codes
 .esports-betting-main {
   display: flex;
   font-family: "Raleway", sans-serif;
-  gap: 143px;
+  gap: 70px;
   margin-top: 14%;
+  justify-content: center;
+
 }
 
 .esports-betting-col1 {
-  width: 36%;
-  margin-left: 6%;
+  width: 37%;
+  
 }
 
 .esports-betting-col1 h1 {
@@ -1202,7 +1204,7 @@ Responsive Codes
 }
 
 .esports-betting-col1 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   line-height: 1.8;
   letter-spacing: 0em;
@@ -1258,17 +1260,18 @@ Responsive Codes
 
 /* =============================================================== */
 
-.top-esports-main {
+/* .top-esports-main {
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 7%;
-}
+
+} */
 .esport_section{
   padding-top: 9%;
 }
 
 .top-esports-col1 {
-  width: 45%;
+  width: 39%;
 }
 
 .top-esports-col1 h2 {
@@ -1282,12 +1285,14 @@ Responsive Codes
 }
 
 .top-esports-col1 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
+ 
   line-height: 40px;
   letter-spacing: 0em;
   text-transform: none;
   font-family: "Raleway", sans-serif;
+  padding-top: 24px;
 
 }
 
@@ -1315,6 +1320,7 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
   margin-top: 8%;
   justify-content: center;
+  gap: 4%;
 }
 
 .easy-setup-col1-photo img {
@@ -1335,14 +1341,14 @@ Responsive Codes
   margin-right: calc(0.001em * -1);
   text-transform: none;
   color: rgb(87, 87, 86);
-  font-size: calc(185.7%);
+  font-size: calc(189.7%);
   font-weight: 400;
   font-family: "Raleway", sans-serif;
 
 }
 
 .easy-setup-col2 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   line-height: 1.8;
   letter-spacing: 0em;
@@ -1363,7 +1369,7 @@ Responsive Codes
 
 .esports-betting-middle-row1 h2 {
   text-align: center;
-  font-size: calc(200%);
+  font-size: calc(221%);
   font-weight: 400;
   font-style: normal;
   line-height: 1.3;
@@ -1383,11 +1389,11 @@ Responsive Codes
     justify-content: center;
 }
 .esport_bet_center{
-    width: 63%;
+    width: 60%;
 
 }
 .esports-betting-middle-row1 p {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-style: normal;
   line-height: 1.8;
   letter-spacing: 0em;
@@ -2479,5 +2485,6 @@ width: 97%;
   .top-esports-main{
     display: flex;
     justify-content: center;
-    gap:2%;
+    
+    gap:4%;
   }
