@@ -103,9 +103,10 @@
       }
       
       .home_header_h1{
-        width: 45%;
-        font-size: 53px;
-        font-weight: 600;
+        width: 47%;
+        font-size: 55px;
+        font-weight: bold;
+        font-family: 'Poppins';
         /* margin-top:85px; */
       }
 
@@ -122,19 +123,21 @@
     align-items: center;
 }
 .platform_header {
-    font-size: 40px;
+    font-size: 43px;
     width: 93%;
-    font-weight: 600;
+    font-weight: bold;
     text-align: left;
     line-height: 50px;
+    margin-bottom: 42px;
 }
 
 .platform_para {
-    color: gray;
+    color: black;
     width: 93%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins' !important;
+    font-weight: 300;
 }
 
 
@@ -143,7 +146,7 @@
     padding-bottom: 100px ;
 }
 .platform_col{
-    width: 38%;
+    width: 43%;
 }
 
 .platform_you_tube{
@@ -277,6 +280,10 @@ cursor: pointer;
  a{
     text-decoration: none !important;
 
+}
+
+.whites_sec{
+    margin-top: 100px;
 }
 .white_back{
 background-color: #a0c528;
