@@ -3060,7 +3060,7 @@ hr .hr_1 {
 }
 
 .white_labe_live_col_1 {
-  width: 50%;
+  width: 60%;
   padding-right: 7.5%;
   padding-bottom: 7.5%;
   padding-left: 7.5%;
@@ -3075,7 +3075,7 @@ font-weight: 600;
 .white_live_h {
   font-size: 45px;
 
-  width: 93%;
+  width: 100%;
   color: #a0c527;
   font-weight: 400;
   margin-bottom: 30px;
@@ -3117,10 +3117,10 @@ font-size: 19px;
 }
 
 .white_play_col_2 {
-  width: 63%;
+  width: 60%;
   padding-right: 7.5%;
   padding-bottom: 7.5%;
-  padding-left: 17.5%;
+  padding-left: 7.5%;
 }
 
 .white_play_h {
@@ -3419,3 +3419,10 @@ strong {
 .whites_label > *:nth-child(1n - 0){
   flex-basis: calc(50% - clamp(0px,0rem,9999px));
 } 
+.explain_img{
+  display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border: 0;
+}

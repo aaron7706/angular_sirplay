@@ -1,7 +1,7 @@
 #animate-area { 
     width: 100%; 
     height: 400px; 
-    background-image: url(/assets/we-are-sirplay.jpg.webp);
+    background-image: url(/assets/Untitled-4.png);
   background-size: cover ;
 }
 .online-casino-button-index6:hover {
@@ -21,4 +21,119 @@
 .sats_img{
   width: 854px;
   height: 476px;
+}
+.home_header_h1{
+  font-size: 50px;
+    font-weight: 650;
+    letter-spacing: -2px;
+}
+.param{
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 30px;
+    color: #000;
+    font-size: 16px;
+}
+.index6-left-text h6{
+  font-weight: bold;
+  margin-top: 10px;
+    margin-bottom: 25px;
+}
+.index6-left-text h1{
+  font-weight: 650;
+}
+.index6-left-text p{
+  font-size: 16px;
+}
+.index6-middle h2{
+  line-height: 50px;
+  font-weight: 650;
+}
+.index6-middle h3{
+  font-weight: 650;
+  font-family: Poppins;
+}
+.chanel_param{
+  font-family: Poppins;
+  font-weight: 600;
+}
+.index6-sec3-righttext h2{
+  font-weight: 650;
+}
+.index6-sec3-righttext p{
+  font-family: Poppins;
+  /* width: 479px; */
+}
+.index6-sec3-righttext{
+  width: 100%;
+}
+.container18{
+  margin-top: 75px;
+}
+@media (max-width:375px) {
+  .container18{
+    margin-top: 0px;
+  }
+}
+.index6-sec4-lefttext h2{
+  font-weight: 650;
+  font-family: Poppins;
+}
+@media (min-width:768px) {
+  .index6-sec4-lefttext{
+    width: 50%;
+  }
+}
+.index6-sec4-lefttext p{
+  font-family: Poppins;
+}
+.index6-sec5-main{
+  padding-top: 110px;
+}
+.index6-sec5-righttext h2{
+  font-family: Poppins;
+  font-weight: 600;
+}
+.index6-sec5-righttext{
+  width: 100%;
+  font-weight: 600;
+}
+.index6-sec5-righttext p{
+  font-family: Poppins;
+  font-weight: 400;
+}
+@media (min-width:768px) {
+  .index6-sec6-lefttext{
+    width: 100%;
+  }
+}
+.index6-sec6-lefttext h2{
+  font-weight: 600;
+  font-family: Poppins;
+}
+.index6-sec6-lefttext p{
+  font-family: Poppins;
+  font-weight: 400;
+}
+.index6-sec7-main{
+  margin-top: 9%;
+}
+@media (min-width:768px) {
+  .index6-sec7-righttext{
+    width: 100%;
+  }
+}
+.index6-sec7-righttext h2{
+  font-weight: 600;
+  font-family: Poppins;
+}
+@media (max-width:375px) {
+  .container15{
+    padding-top: 0px;
+  }
+}
+@media (max-width:375px) {
+  .index6-sec5-main{
+    padding-top: 0px;
+  }
 }

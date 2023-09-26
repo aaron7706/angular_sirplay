@@ -47,6 +47,7 @@
 .lottery_img{
     width: 781px; 
     height: 323px; 
+    margin-left: 75px;
 }
 
 @media screen and (max-width: 820px){
@@ -92,4 +93,19 @@ b, strong {
 .features_col_1{
     width: 831px;
 
+}
+
+.wpb_wrapper{
+    padding-left: 98px;
+    padding-right: 98px;
+    width: 100%;
+    font-family: Poppins;
+    line-height: 30px;
+    font-weight: 400;
+    color: #686868;
+    font-size: 16px;
+}
+
+.crypto-section5-container{
+    margin-left: -33px;
 }
