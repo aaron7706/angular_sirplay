@@ -3428,3 +3428,13 @@ strong {
     vertical-align: bottom;
     border: 0;
 }
+/* media quary for 768 */
+@media (max-width: 768px){
+  .white_c_header {
+    width: 100%;
+    font-size: calc(285.7%);
+}
+.white_casino_col {
+  width: 100%;
+}
+}
