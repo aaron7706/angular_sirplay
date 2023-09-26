@@ -2824,7 +2824,7 @@ hr .hr_1 {
   width: 756px;
   margin-top: 11%;
   height: 400px;
-
+  margin-right: 12px;
 }
 
 .white_c_header {
@@ -2947,7 +2947,7 @@ hr .hr_1 {
 }
 
 .whites_content {
-  width: 43%;
+  width: 60%;
 }
 
 .whites_h1 {
@@ -3057,6 +3057,7 @@ hr .hr_1 {
   height: auto;
   vertical-align: bottom;
   border: 0;
+  margin-left: 12px;
 }
 
 .white_labe_live_col_1 {
@@ -3348,6 +3349,7 @@ font-size: 19px;
   height: auto;
   vertical-align: bottom;
   border: 0;
+  margin-left: 12px;
 }
 
 .fontcolor {
@@ -3425,4 +3427,14 @@ strong {
     height: auto;
     vertical-align: bottom;
     border: 0;
+}
+/* media quary for 768 */
+@media (max-width: 768px){
+  .white_c_header {
+    width: 100%;
+    font-size: calc(285.7%);
+}
+.white_casino_col {
+  width: 100%;
+}
 }
