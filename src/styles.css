@@ -2422,7 +2422,7 @@ padding: 0px 89px;
     text-align: center;
     color: #a0c528;
     width: 87%;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: 30px;
 
@@ -2454,7 +2454,7 @@ height: 534px;
 .sports_header_2{
     text-align: center;
     color: #a0c528;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 600;
     margin-bottom: 25px;
 }
@@ -6300,13 +6300,15 @@ width: 53%;
 }
 
 .crypto-section5-right h2{
-font-size: 34px;
+    font-size: 34px;
     color: #a0c528;
     line-height: 42px;
     text-align: center;
-    font-weight: 600;
-    /* margin-left: -218px; */
+    font-weight: 500;
+    margin-left: -26px;
+    width: 851px;
 }
+
 
 
 .crypto-section5-right img{
@@ -6329,11 +6331,11 @@ font-size: 34px;
     /* padding: 128px 238px 10px 250px; */
    /* font-family: 'Poppins', sans-serif; */
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 102px;
 }
 .crypto-section6-left{
-    width: 26%;
-
+    width: 20%;
+    margin-left: -63px;
 }
 
 .crypto-section6-left h2{
@@ -6355,12 +6357,12 @@ width: 58%;
 }
 
 .crypto-section6-right h2{
-font-size: 34px;
+    font-size: 32px;
     color: #a0c528;
     line-height: 42px;
     text-align: center;
     font-weight: 600;
-    /* margin-left: -218px; */
+    margin-left: 88px;
 }
 
 
@@ -11698,17 +11700,20 @@ color: gray;
 }
 .online_sports_list{
     line-height: 34px;
-   /* font-family: 'Poppins', sans-serif; */
-    font-size: 18px; 
-    color: gray;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 16px;
+    color: #686868;
+
 
 }
 
 .user_data_section{
    /* font-family: 'Poppins', sans-serif; */
-    font-size: 18px;   
-line-height: 34px;
-color: gray;
+   padding-left: 30px;
+    font-size: 15px;
+    color: #686868;
+    line-height: 30px;
+    font-weight: 400;
 }
 .data_treading_sec{
     padding: 59px;
