@@ -12,10 +12,25 @@ export class StreamingComponent implements OnInit {
   index = 0;
   isAdding = true;
   typeIndex = 0;
+  i: number = 0;
+  private intervalId: any;
+  counter: number;
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
+    // this.playAnim();
     this.playAnim();
+    this.intervalId = setInterval(() => {
+      this.updateBackgroundPosition();
+    }, 10);
+    const storedCounter = localStorage.getItem('counter');
+    if (storedCounter) {
+      this.counter = parseInt(storedCounter, 10);
+    } else {
+      this.counter = 0;
+    }
+
+    this.incrementCounter();
   }
   playAnim() {
     setTimeout(() => {
@@ -44,5 +59,22 @@ export class StreamingComponent implements OnInit {
       }
       this.playAnim();
     }, this.isAdding ? 120 : 60);
+  }
+
+  private updateBackgroundPosition() {
+    this.i++;
+    const animateArea = document.getElementById('animate-area');
+    if (animateArea) {
+      animateArea.style.backgroundPosition = this.i + 'px';
+    }
+  }
+  incrementCounter() {
+    if (this.counter < 40) {
+      this.counter++;
+      localStorage.setItem('counter', this.counter.toString());
+      setTimeout(() => {
+        this.incrementCounter();
+      }, 1000);
+    }
   }
 }
