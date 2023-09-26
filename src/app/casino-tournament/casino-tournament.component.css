@@ -1788,7 +1788,7 @@ margin-top: 1%;
     font-family: 'Raleway', sans-serif;
     justify-content: center;
     margin-top: 15%;
-    gap: 13%;
+    gap: 10%;
     align-items: center;
     
 }
@@ -1799,11 +1799,11 @@ margin-top: 1%;
 
 .index5-left-text h1{
     font-size: 33px;
-    font-weight: 200;
+    font-weight: 200 !important;
     letter-spacing: 0.001em;
     padding: 9px -1px 30px 4px;
     color: #a0c528;
-     font-weight: 100;
+    font-family: "Raleway",sans-serif;
 }
 
 /* .index5-right-img img{
@@ -1820,7 +1820,7 @@ margin-top: 1%;
 }
 
 .chck{
-font-size: 40px;
+font-size: 33px;
 color: #a0c528;
 font-weight: bold;
 }
@@ -1843,7 +1843,7 @@ font-weight: bold;
 
 .index5-righttext strong{
     color: #575756;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
@@ -3209,4 +3209,10 @@ whites_param {
   .index5-left-text{
     width: 100%;
   }
+}
+.chck{
+  font-weight: bolder;
+}
+strong{
+  font-weight: 500;
 }
