@@ -3475,3 +3475,26 @@ strong {
   font-size: 45px;
 }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .white_casino_row,.whites_c_row,.white_sol_row,.white_labe_live_row{
+    flex-direction: row;
+    gap:0px
+  }
+  .white_casino_col{
+    width: 50%;
+  }
+  .white_images_sec_sol{
+    width: 700px;
+  }
+  .white_live_h,.white_sol_h,.white_c_header,.white_c_header  {
+    font-size: 45px;
+  }
+}
+@media screen and (min-device-width: 1024px) and (min-device-height: 600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .white_casino_v iframe {
+    width: 628px;
+    margin-top: 11%;
+    height: 400px;
+    margin-right: 20px;
+}
+}
