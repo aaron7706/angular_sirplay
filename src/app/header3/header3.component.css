@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -784,10 +784,13 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 500;
-  color: #212529;
+  font-weight: 400;
   transition: all 0.3s;
   position: relative;
+  font-family: 'Lato', sans-serif;
+  color: rgb(87,87,86);
+  letter-spacing: 0.015em;
+
 }
 .navbar-link {
   padding: 15px 16px;
@@ -953,10 +956,14 @@ li:hover ul#submenu {
 
 #submenu a {
   text-decoration: none;
-  color: black;
+  font-family: 'Lato', sans-serif;
+  color: rgb(87,87,86);
   font-size: 17px;
 }
+#submenu a:hover {
+  color: rgb(150, 150, 123);
 
+}
 /* ===========================================
 Hero and Service Section Start
 ======================================= */

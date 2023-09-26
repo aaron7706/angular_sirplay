@@ -77,3 +77,19 @@
      }
 
 }
+
+.sports_row_1{
+    padding-left: 31px;
+}
+b, strong {
+    font-weight: bold;
+}
+
+.features_col{
+    margin-top: 100px;
+}
+
+.features_col_1{
+    width: 831px;
+
+}

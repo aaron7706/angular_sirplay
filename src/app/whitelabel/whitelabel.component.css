@@ -33,6 +33,7 @@
             width: 100%;
             height: auto;  
         }
+        
 }
 .containt{
     width: 1233px;
@@ -111,10 +112,11 @@ h2 {
     .containt {
         width: 1170px;
     }
+    
 }
 
 
-/* @media (max-width: 992px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .containt {
         width: 818px;
     }
@@ -177,9 +179,35 @@ h2 {
     .branding{
         justify-content: start !important;
     } 
+    .branding-img{
+        width: 24%;
+    }
+    .branding-img img{
+        margin-left: -23px;
+    }
+    .lanimg img{
+        margin-left: -89px;
+    }
+    .lanhead{
+        width: 70%;
+    }
+    .lanimg{
+        width: 16%;
+    }
+    .custome_img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* @media screen and (max-width: 720px) and (min-height: 540px)  {
+    .first-sec {
+        height: 216px;
+    }
+    .containt {
+        width: 516px;
+    }
 } */
-
-
 @media (max-width: 768px){
     .containt {
         width: 360px;
@@ -259,13 +287,23 @@ p{
     padding: 0px;
 }
 .risk-para h1,.branding-head h1,.lanhead h1  {
-    font-size: 1.2rem;
+    font-size: 22px;
 }
 .risk-para h2,.branding-head h2,.lanhead h2 {
-    font-size: 1rem;
+    font-size: 19px;
+}
+.branding-head p,.branding-head h1,.branding-head h2, .lanhead p,.lanhead h1,.lanhead h2{
+    padding: 0 0px;
+}
+.risk-para p,.branding-head p,.lanhead p{
+    font-size: 19px;
 }
 }
-
+@media (max-width: 370px){
+    .branding-head,.lanhead {
+        padding-left: 15px;
+    }
+ }
 
 @media (max-width: 280px){
     .containt {
