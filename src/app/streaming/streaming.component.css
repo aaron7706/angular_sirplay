@@ -1,7 +1,7 @@
 #animate-area { 
     width: 100%; 
     height: 400px; 
-    background-image: url(/assets/we-are-sirplay.jpg.webp);
+    background-image: url(/assets/Untitled-4.png);
   background-size: cover ;
 }
 .online-casino-button-index6:hover {
@@ -96,4 +96,44 @@
 }
 .index6-sec5-righttext{
   width: 100%;
+  font-weight: 600;
+}
+.index6-sec5-righttext p{
+  font-family: Poppins;
+  font-weight: 400;
+}
+@media (min-width:768px) {
+  .index6-sec6-lefttext{
+    width: 100%;
+  }
+}
+.index6-sec6-lefttext h2{
+  font-weight: 600;
+  font-family: Poppins;
+}
+.index6-sec6-lefttext p{
+  font-family: Poppins;
+  font-weight: 400;
+}
+.index6-sec7-main{
+  margin-top: 9%;
+}
+@media (min-width:768px) {
+  .index6-sec7-righttext{
+    width: 100%;
+  }
+}
+.index6-sec7-righttext h2{
+  font-weight: 600;
+  font-family: Poppins;
+}
+@media (max-width:375px) {
+  .container15{
+    padding-top: 0px;
+  }
+}
+@media (max-width:375px) {
+  .index6-sec5-main{
+    padding-top: 0px;
+  }
 }
