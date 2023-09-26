@@ -3163,3 +3163,13 @@ whites_param {
 .font-color{
 color: #808080;
 }
+.nav_col_1 ul li a{
+  color: rgb(87,87,86);
+  font-weight: 300;
+    letter-spacing: 0.085em;
+}
+.nav_col_1 ul li{
+  color: rgb(87,87,86);
+  font-weight: 300;
+    letter-spacing: 0.085em;
+}

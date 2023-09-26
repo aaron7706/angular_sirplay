@@ -3200,3 +3200,13 @@ whites_param {
   width: 539px;
   height: 336px;
 }
+.index5-left-text{
+  padding-right: 7.5%;
+    padding-bottom: 7.5%;
+    padding-left: 7.5%;
+}
+@media (min-width:768px) {
+  .index5-left-text{
+    width: 100%;
+  }
+}
