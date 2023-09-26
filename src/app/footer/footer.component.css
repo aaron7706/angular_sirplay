@@ -1,6 +1,8 @@
 
 /*=========== <  company and solution section  >=========== */
-
+.company_about{
+    margin-left: 118px;
+}
 .comp_row{
     display: flex;
     flex-direction: column;
@@ -10,7 +12,7 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    gap:207px;
+    gap:63px;
 }
 .comp_sol{
     padding-top: 80px;
