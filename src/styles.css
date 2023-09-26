@@ -9,12 +9,12 @@
 * {
     margin: 0px;
     padding:0px;
-    /* font-family: poppins !important; */
 }
 
 body{
     overflow-x: hidden !important;
-   
+        font-family: Poppins;
+
 }
 html {
     overflow-x: hidden !important;
@@ -1983,11 +1983,11 @@ cursor: pointer;
 }
 
 .online-casino_para{
-    font-family: Poppins;
     line-height: 30px;
     font-weight: 400;
     color: #000;
-    font-size: 16px
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -2269,7 +2269,7 @@ font-weight: 300;
 
 .faq-container-row{
     
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
@@ -2277,12 +2277,7 @@ font-weight: 300;
 .faq-header{
     display: flex;
     justify-content: center;
-    line-height: 2;
-    font-family: Poppins;
-    line-height: 28px;
-    font-weight: 600;
-    font-size: 28px;
-
+    line-height: 4;
 }
 
 .faq-col1{
@@ -2290,27 +2285,16 @@ font-weight: 300;
 }
 
 
+.faq-col1 h3{
+    line-height: 3;
+    font-family: 'Poppins', sans-serif;
+font-size: 30px;
+font-weight: 600;
+}
 
-    .faq-col1 h3 {
-        line-height: 3;
-        font-family: 'Poppins';
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-
-    .faq-col1 h3 {
-        line-height: 3;
-        font-family: 'Poppins';
-        font-size: 20px;
-        font-weight: 600;
-    }
 .faq-col1 p{
-    font-family: Poppins;
-    line-height: 30px;
-    font-weight: 400;
-    color: #000;
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
  
 }
 
@@ -6698,7 +6682,7 @@ line-height: 30px;
 
 .about-section3-container{
     font-family: 'Poppins', sans-serif;
-    padding: 100px 272px 0px 272px;
+    /* padding: 100px 272px 0px 272px; */
 }
 
 
@@ -7151,7 +7135,7 @@ cursor: pointer;
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Poppins;
     /* font-size: medium; */
     /* word-wrap: break-word; */
 }
@@ -7184,7 +7168,7 @@ cursor: pointer;
     font-weight: 600;
     line-height: 1 !important;
     margin: 0 auto;
-    padding: 0 0 10px;
+    padding: 0 0 20px;
     text-transform: capitalize;
     width: 100%;
     text-align: center;
@@ -7198,7 +7182,7 @@ cursor: pointer;
 .home {
     width: 100%;
     text-align: center;
-    font-size: 18px;
+
 }
 
 .home a {
@@ -7206,7 +7190,7 @@ cursor: pointer;
     text-decoration: none;
     width: 100%;
     text-align: center;
-    /* font-size: larger; */
+    font-size: larger;
 
 
 
@@ -7222,7 +7206,7 @@ cursor: pointer;
 .lil-para {
     color: white;
     margin-left: 10px;
-    /* font-size: larger; */
+    font-size: 18px;
 
 }
 
@@ -10567,13 +10551,12 @@ a:hover {
     margin-top: 65px;
     justify-content: center;
 }
-/* .label-para{
+.label-para{
 width: 45% ;
-} */
+}
 .label-para p {
     line-height: 1.6;
-    font-size: 16px;
-    font-family: 'Poppins';
+    font-size: 17px;
 }
 
 .label-list {
@@ -10585,14 +10568,14 @@ width: 45% ;
 }
 .label-list1 {
     line-height: 31px;
-    font-size: 16px;
+    font-size: 17px;
     color: gray;
 }
 
 .cutom-main {
     display: flex;
-    /* margin-top: 2rem; */
-    /* padding-top: 50px; */
+    margin-top: 2rem;
+    padding-top: 50px;
     gap: 50px;
     justify-content: center;
 
@@ -10653,9 +10636,9 @@ width: 45% ;
 
 }
 
-/* .plat-oddhead{
+.plat-oddhead{
     width: 40%;
-} */
+}
 
 .plat-odd p {
     line-height: 1.6;
@@ -10857,9 +10840,9 @@ width: 62%;
         width: 98% ;
 
     }
-    /* .plat-oddhead {
+    .plat-oddhead {
         width: 91%;
-    } */
+    }
     .cutom-main {
         padding: 1em;
     }
@@ -11580,41 +11563,47 @@ justify-content:center;
     padding-top: 28px;
 }
 .sports_changes{
-    padding-top: 60px;
-    padding-left: 74px;
+    padding-top: 133px;
+    padding-left: 100px;
 }
 .SPORTS_PARA{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 .sports_book_h1{
-    font-size: 40px;
+    font-size: 36px;
      font-weight: 600; 
     margin-bottom: 33px;
 }
 .sports_param{
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    line-height: 32px;
+    font-family: poppins;
+    line-height: 30px;
     font-weight: 300;
-
+    color: #000;
+    font-size: 16px;
 }
 
 
 .onther_param{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .onther_head{
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
     color: #a6c929;
 
 }
 .onther_p1{
     text-align: center;
-    margin-top: 12px;
+    margin-top: 37px;
+    font-style: italic;
+    font-family: Poppins;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
     
 }
 .onther_a{
@@ -11657,23 +11646,25 @@ justify-content:center;
     width: 256px;
 }
 
-.feature_header{
-    font-size: 30px;
+.feature_header {
+    font-size: 28px;
     margin-bottom: 10px;
-    font-weight: 600;
+    /* font-weight: 600; */
+   
 }
 .feature_para{
     font-size: 17px;
     margin-bottom: 20px;
 }
-.feature_list{
-    font-size: 17px;
-    line-height: 36px;
-    font-family: 'Poppins', sans-serif;
+.feature_list {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Poppins';
     font-weight: 300;
+    color: #000000;
 }
 .wev_pro_list{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 17px;
     line-height: 30px;
 color: gray;
