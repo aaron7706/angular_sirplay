@@ -15,7 +15,7 @@
 .contact_para{
     color: #686868;
     font-size: 20px;
-    width: 95%;
+    width: 100%;
 }
 .contact_header{
     font-weight: 600;
@@ -131,7 +131,7 @@ width: 33%;
         flex-direction: column;
     }    
     .contact_col {
-        width: 98%;
+        width: 100%;
         margin-left: 13px;
     }
     .contact_col_1 {
@@ -149,6 +149,9 @@ width: 33%;
     textarea {
         /* width: 351px; */
         width: 100%;
+    }
+    .contact_sec{
+        padding: 10px;
     }
     
 }
