@@ -2813,14 +2813,18 @@ hr .hr_1 {
 }
 
 .white_casino_col {
-  width: 63%;
-  padding: 126px;
+  width: 50%;
+  padding-right: 7.5%;
+  padding-bottom: 7.5%;
+  padding-left: 7.5%;
+  padding-top: 7.5%;
 }
 
 .white_casino_v iframe {
-  width: 837px;
+  width: 756px;
   margin-top: 11%;
   height: 400px;
+
 }
 
 .white_c_header {
@@ -2872,7 +2876,10 @@ hr .hr_1 {
 }
 
 .white_f_col_1 {
-  width: 53%;
+  width: 50%;
+  padding-right: 7.5%;
+  padding-bottom: 7.5%;
+  padding-left: 7.5%;
 }
 
 .white_f_h {
@@ -3358,7 +3365,7 @@ p {
 .white_f_col_1 {
 
   padding-bottom: 7.5%;
-  padding-left: 16.5%;
+  /* padding-left: 16.5%; */
 }
 
 .white_f_h2 {
@@ -3403,3 +3410,12 @@ strong {
 .white_header_h4,.white_para_p1{
   color: #999999;
 }
+@media (max-width: 1200px){
+  .containt {
+      width: 1170px;
+  }
+  
+}
+.whites_label > *:nth-child(1n - 0){
+  flex-basis: calc(50% - clamp(0px,0rem,9999px));
+} 
