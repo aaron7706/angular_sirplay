@@ -23,7 +23,13 @@ margin-top: 9%;
 
 }
 
+span{
+  font-size: 16px;
+}
 
+b{
+  font-size: 16px;
+}
 
 
 .left-text-index3{
@@ -34,6 +40,7 @@ margin-top: 9%;
     font-family: 'Raleway', sans-serif;
     line-height: 1.8;
     width: 87%;
+    font-size: 16px;
 
 }
 
@@ -3253,9 +3260,11 @@ q:before, q:after, blockquote:before, blockquote:after {
 }
 .x-quote-text :last-child {
   margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
 }
 .x-quote-text :first-child {
   margin-top: 0;
+  font-family: 'Raleway', sans-serif;
 }
 table {
   border-collapse: collapse;
