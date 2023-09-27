@@ -66,12 +66,12 @@
             <input type="text" id="country_selector" name="countries" value="" required [(ngModel)]="contact.countries"
               #countries="ngModel" />
           </div>
-          <div class="email_label">
+          <div class="email_label" >
             <label for="fname"><b>Phone Number</b></label>
           </div>
           <div class="email_input">
             <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone"
-              #phone="ngModel" />
+              #phone="ngModel" placeholder="00000 00000"/>
           </div>
           <div class="email_label">
             <label for="fname"><b>Message</b></label>

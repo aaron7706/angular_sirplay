@@ -2930,7 +2930,7 @@ hr .hr_1 {
   border-bottom-left-radius: 0.35em;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0em 0.15em 0.65em 0em rgba(0, 0, 0, 0.25);
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 98%);
 }
 
 .white_f_btn:hover {
@@ -3054,7 +3054,7 @@ hr .hr_1 {
   height: 360px;
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto !important;
   vertical-align: bottom;
   border: 0;
   margin-left: 12px;
@@ -3346,7 +3346,7 @@ font-size: 19px;
   border-radius: 5px;
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto !important;
   vertical-align: bottom;
   border: 0;
   margin-left: 12px;
@@ -3381,7 +3381,7 @@ ul {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  padding-inline-start: 20px;
 }
 
 .black-color {
@@ -3394,7 +3394,7 @@ strong {
 .casino_sec_img2{
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto !important;
   vertical-align: bottom;
   border: 0;
   width:840px ;
@@ -3403,7 +3403,7 @@ strong {
 .tv_image{
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto !important;
   vertical-align: bottom;
   border: 0;
   width:668px ;
@@ -3424,7 +3424,7 @@ strong {
 .explain_img{
   display: block;
     max-width: 100%;
-    height: auto;
+    height: auto !important;
     vertical-align: bottom;
     border: 0;
 }
@@ -3434,7 +3434,60 @@ strong {
     width: 100%;
     font-size: calc(285.7%);
 }
-.white_casino_col {
+.white_casino_col,.white_f_col_1 {
+  width: 100%;
+  padding-right: 7.5%;
+  padding-bottom: 7.5%;
+  padding-left: 7.5%;
+}
+.white_c_param_2,.white_f_p2,.white_sol_col{
   width: 100%;
 }
+.whites_label_sec{
+  padding-top: 0px;
 }
+.whites_h1{
+  font-size: calc(285.7%);
+}
+.whites_h3{  
+  font-size: calc(270.7%);
+  color: rgb(87,87,86)
+}
+.whites_content{
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.white_sol_h {
+  font-size: 45px;
+}
+.color-grey,.whites_sol_p2{
+  color: rgb(87,87,86);
+  font-size: 19px;
+
+}
+.white_images_sec_sol,.pay_images{
+  margin-left: 0px;
+  padding-left: 5px;
+    padding-right: 5px;
+}
+.white_live_h {
+  font-size: 45px;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .white_casino_row,.whites_c_row,.white_sol_row,.white_labe_live_row{
+    flex-direction: row;
+    gap:0px
+  }
+  .white_casino_col{
+    width: 50%;
+  }
+  .white_images_sec_sol{
+    width: 700px;
+  }
+  .white_live_h,.white_sol_h,.white_c_header,.white_c_header  {
+    font-size: 45px;
+  }
+}
+
