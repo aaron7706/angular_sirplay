@@ -39,6 +39,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComComponent } from './contact-com/contact-com.component';
 import { FormsModule } from '@angular/forms';
 import { ContactComponent2Component } from './contact-component2/contact-component2.component';
+import { FAQComponent } from './faq/faq.component';
 
 
 
@@ -78,7 +79,8 @@ import { ContactComponent2Component } from './contact-component2/contact-compone
     MobileComponent,
     AboutComponent,
     ContactComComponent,
-    ContactComponent2Component
+    ContactComponent2Component,
+    FAQComponent
   ],
   imports: [
     BrowserModule,

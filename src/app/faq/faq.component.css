@@ -1,154 +1,146 @@
-.iframe_images{
-    width: 580px;
-    height: 295px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+
+
+.faq_row{
+    display: flex;
+    justify-content: center;
 }
 
-.managed_images{
-    width: 524px;
-    height: 507px;
+.faq_sec_pages{
+    margin-top: 150px;
+}
+.faq_header_pgs{
+color: gray;
+font-weight: 600;
+cursor: pointer;
+text-align: center;
+}
+.faq_header_pgs:hover{
+    color: #000;
 }
 
-.button_slide {
-border-color: black;
+.para_faq{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 18px;
 }
-@media screen and (max-width: 820px){
-    .iframe_images{
-        width: 100% !important;
-        height: auto !important;
-    }
+
+.para_faq{
+    text-align: center;
+}
+
+.freq_param{
+    text-align: center;
+}
+
+.faq_col{
+    width: 69%;
+}
+b{
+    color: #a1c61d;
+cursor: pointer;
+}
+
+.faq_iamges_sec{
+    display: flex;
+    justify-content: center;
+}
+
+.images_fqa{
+    width: 250px;
+    height: 250px;
+}
+
+
+.x-div, .x-row, .x-col, .x-grid, .x-cell, .x-section, .x-image, .x-anchor, .x-text-headline, .x-slide {
+    transition-property: border-color, background-color, box-shadow, opacity, filter, transform;
+}
+.m73-28 > .is-primary {
+  width: 100%;
+  height: 100%;
+  color: rgb(160,197,40);
+  transform-origin: 0% 50%;
+}
+
+[data-x-particle*=overlap][data-x-particle~=scale-x], [data-x-particle*=inside][data-x-particle*=c_c][data-x-particle~=scale-x] {
+  /* transform: translate3d(-50%, -50%, 0) scale3d(0, 1, 1); */
+}
+[data-x-particle*=overlap][data-x-particle*=_l] {
+  /* left: 0%; */
+}
+[data-x-particle*=overlap][data-x-particle*=c_] {
+  /* top: 50%; */
+}
+.x-ttf, .x-div, .x-row, .x-col, .x-grid, .x-cell, .x-section, .x-acc-header, .x-acc-header-indicator, .x-crumbs-link, .x-paginate-inner > *, .x-anchor, .x-anchor-text-primary, .x-anchor-text-secondary, .x-anchor-sub-indicator, .x-anchor.has-int-content .x-anchor-content, .x-bar-is-sticky, .x-bar-is-sticky .x-bar-content, [data-x-toggle-collapse], .x-graphic-child, .x-image, .x-line, .x-mini-cart li, .x-mini-cart a:not(.x-anchor), .x-modal-close, .x-search, .x-search-btn, .x-search-input, .x-icon, .x-text, .x-text-content-text-primary, .x-text-content-text-subheadline, .x-text-typing, .x-typed-cursor, .x-menu-first-level, .x-menu-layered:not(.x-menu-first-level), .x-card, .x-card-faces, .x-statbar, .x-statbar-bar, .x-statbar-label, .x-wc-add-to-cart-form, .x-wc-shop-sort, [data-x-particle], .x-bar, .x-bar-scroll-button, .x-bar-container, .x-slide, .x-slide-pagination, .x-slide-pagination li {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+[data-x-particle] {
+  transition-property: opacity, transform;
+}
+.x-td, .x-div, .x-row, .x-col, .x-grid, .x-cell, .x-section, .x-acc-header, .x-acc-header-indicator, .x-crumbs-link, .x-paginate-inner > *, .x-anchor, .x-anchor-text-primary, .x-anchor-text-secondary, .x-anchor-sub-indicator, .x-anchor.has-int-content .x-anchor-content, .x-bar-is-sticky, .x-bar-is-sticky .x-bar-content, [data-x-toggle-collapse], .x-graphic-child, .x-image, .x-line, .x-mini-cart li, .x-mini-cart a:not(.x-anchor), .x-modal-close, .x-search, .x-search-btn, .x-search-input, .x-icon, .x-text, .x-text-content-text-primary, .x-text-content-text-subheadline, .x-text-typing, .x-typed-cursor, .x-menu-first-level, .x-menu-layered:not(.x-menu-first-level), .x-wc-add-to-cart-form, .x-wc-shop-sort, [data-x-particle], .x-bar, .x-bar-scroll-button, .x-bar-container, .x-slide, .x-slide-pagination, .x-slide-pagination li {
+  transition-duration: 300ms;
+}
+[data-x-particle] {
+  transition-delay: 0ms;
+}
+[data-x-particle*=overlap], [data-x-particle*=inside][data-x-particle*=c_c] {
+  transform: translate3d(-50%, -50%, 0);
+}
+[data-x-particle] span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background-color: currentColor;
+}
+  /* mobile betting */
+  .sportsbetting-section1-button button {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(160, 197, 40);
+    border-right-color: rgb(160, 197, 40);
+    border-bottom-color: rgb(160, 197, 40);
+    border-left-color: rgb(160, 197, 40);
+    border-top-left-radius: 0.764em;
+    border-top-right-radius: 0.764em;
+    border-bottom-right-radius: 0.764em;
+    border-bottom-left-radius: 0.764em;
+    font-size: 1em;
+    background-color: white;
+    box-shadow: none;
+    padding-top: 1.55em;
+    padding-right: 1.5em;
+    padding-bottom: 1.55em;
+    padding-left: 1.5em;
+    font-size: 0.85em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.2;
+    letter-spacing: 0.1em;
+    margin-right: calc(0.1em * -1);
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(87, 87, 86);
+    position: relative;
+    overflow: hidden;
     
-    .managed_images{
-        width: 100% !important;
-        height: auto !important;
-    }
+  }
 
-    .gaming_row_iframe {
-        display: flex;
-        flex-direction: column;
-}
-.sport_sol_row{
-    display: flex;
-    flex-direction: column;  
-}
-.types_images{
-display: none;
-}
-.gaming_img_iframe{
-    display: none;
-
-}
-
-.gaming_col_2_iframe {
-    width: 100% !important;
-    padding: 12px;
-}
-.gaming_header_iframe{
-    font-size: 27px !important;
-   
-    font-weight: 600 !important;
-}
-.sports_col_iframe {
-    width: 100% !important;
-    padding: 12px !important;
-}
-.i-frame_img1{
-display: none;
-}
-.sport_sol_col_1{
-width: 99% !important;
-padding: 12px;
-}
-.header_iframes{
-font-size: 27px !important;
-font-weight: 600 !important;
-}
-.sport_iframe_sec {
-    margin-top: 80px !important;
-
-}
-}
-.gaming_sec_iframe {
-    padding-top: 63PX;
-    margin-bottom: 80px;
-}
-
-.gaming_row_iframe {
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-}
-
-.gaming_col_2_iframe{
-    width: 40%;
-}
-.gaming_img_iframe{
-    width: 540px;
-height:370px; 
-}
-
-.gaming_col_iframe{
-    width: 43%;
-}
-
-.gaming_header_iframe{
-   font-size: 35px;
-    color: #a0c528;
-    line-height: 45px;
-    text-align: left;
-    margin-bottom: 37px;
-   
-    font-weight: bold;
-}
-.gaming_para_iframe{
-    font-family: Poppins;
-    line-height: 30px;
-   
-  font-weight: 300;
-    font-size: 16px;
-    color: black;
-}
-
-.sport_sol_row{
-    display: flex;
-    justify-content: center;
-    gap:4%;
-}
-.i-frame_img1{
-    width: 555px;
-    height: 451px;
-}
-
-.sports_iframes{
-    margin-top: 64px;
-    margin-bottom: 64px;
-}
-.sport_sol_col_1{
-  width: 45%;  
-}
-.header_iframes{
-    font-size: 35px;
-    color: #a0c528;
-    line-height: 45px;
-    text-align: left;
-    margin-bottom: 30px !important;
-    font-family: Poppins;
-font-weight: bold;
-}
-
-strong{
-    font-weight: bold;
-}
-
-.sports_col_1_iframe{
-
-}
-.sports_col_iframe{
-width: 41%;
-}
-.types_sports_sec_iframe{
-    padding-top: 11px;
-}
-.m73-7.x-section {
+  .phone_images{
+    width:320px ;
+    height:622px ;
+  }
+  .m73-7.x-section {
     padding-top: 45px;
     padding-bottom: 45px;
 }
