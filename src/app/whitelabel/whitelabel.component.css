@@ -116,7 +116,7 @@ h2 {
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .containt {
         width: 818px;
     }
@@ -198,7 +198,7 @@ h2 {
         width: 100%;
         height: auto;
     }
-}
+} */
 
 /* @media screen and (max-width: 720px) and (min-height: 540px)  {
     .first-sec {
@@ -314,18 +314,5 @@ p{
     }
     .sec-header{
         font-size: 22px;
-    }
-}
-@media screen and (width: 1024px) and (height: 768px) {
-    .containt {
-        width: 1153px;
-    }
-    .white-label{
-        padding: 0px;
-    }
-    .label-bet{
-        padding: 0px;
-    }.label-para{
-        width: 50%;
     }
 }
