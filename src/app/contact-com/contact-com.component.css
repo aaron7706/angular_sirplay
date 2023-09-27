@@ -1,4 +1,6 @@
-
+.company_about {
+    margin-left: 2px !important;
+}
 
 .contact_sec{
     padding-top: 80px;
@@ -14,8 +16,8 @@
 }
 .contact_para{
     color: #686868;
-    font-size: 20px;
-    width: 100%;
+    font-size: 16px;
+    width: 95%;
 }
 .contact_header{
     font-weight: 600;
@@ -116,9 +118,10 @@ color: #000;
             background-color: #000;
           }
 .con_param{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 27px;
     width: 100%;
+    color: #686868;
 }
 .contact_col_1{
 width: 33%;
@@ -131,9 +134,18 @@ width: 33%;
         flex-direction: column;
     }    
     .contact_col {
-        width: 100%;
-        margin-left: 13px;
+        width: 98%;
+        margin-left: 26px;
     }
+
+    .contact_social{
+        /* display: flex;
+        justify-content: center;
+        margin-top: 31px; */
+        margin-left: -45px;
+    }
+
+   
     .contact_col_1 {
         padding: 17px;
         width: 100%;

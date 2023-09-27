@@ -363,11 +363,11 @@ cursor: pointer;
       background: none !important;
     }
     .nav_col img{
-      margin: 30px 78px !important;
+      margin: 30px -310px !important;
     }
     .navbar-toggler-icon {
      
-      margin-right: 19px !important;
+      margin-right: 28px !important;
   }
     }
     .accordion-body a {
@@ -407,4 +407,16 @@ cursor: pointer;
 .navbar-toggler:hover{
   background: none;
   border: none;
+}
+
+@media(max-width: 479px){
+
+
+  .navbar-toggler-icon {
+    margin-right: -137px !important;
+}
+
+.nav_col img {
+  margin: 30px -28px !important;
+}
 }

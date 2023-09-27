@@ -6,7 +6,7 @@
 background-size: cover ;
 }
 .home_header_h1{
-  font-size: 54px;
+  font-size: 34px;
   font-family: Poppins;
   width: 60%;
 }
@@ -142,6 +142,7 @@ p{
   margin-top: 18px;
   
 }
+
 }
 
 
@@ -181,11 +182,350 @@ p{
 /* galaxy note 3 */
 @media(max-width: 479px){
   .home_header_h1{
-    font-size: 30px;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: 0;
     width: 129%;
   }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.partner-title {
+  font-weight: 700;
+  font-size: 2.8em;
+  margin-bottom: 0.8em;
+  text-align: center;
+font-family: 'Gilroy-Bold';
+padding-top: 120px;
+}
+
+.partner_section {
+  text-align: center;
+  background: #fcfcfc;
+  padding: 3px 0 60px 0;
+}
+
+.partners_logo_sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partners_logo_sec_desk {
+  max-width: 1270px;
+  margin: auto;
+}
+.partners_logo_box {
+  width: 100%;
+}
+
+.partner-image {
+background: #fff;
+  margin: 1em;
+  padding: 18px 10px;
+  box-shadow: 0 0 22px #eaeaec;
+  border-radius: 10px;
+  position: relative;
+  display: block;
+  width: 88%;
+    height: 80px;
+  object-fit: contain;
+  object-position: center;
+
+}
+
+.ourservice_section {
+  text-align: left;
+  padding: 60px 0;
+}
+
+.ourservice_section .partner-title {
+  text-align: left;
+font-family: 'Gilroy-Bold';
+}
+.ourservice_section .box-icon {
+  background: #e76c21;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.ourservice_section .title-2 {
+  display: flex;
+  align-items: center;
+    margin-bottom: 1em;
+}
+.aboutus-content-box {
+/* background: linear-gradient(45deg,#e35e25, #f9ac26); */
+  background-image: url(/assets/aboutus_bg\ \(1\).jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.aboutus-content-box .subpage-title-1 {
+  color: #fff;
+  margin: 0;
+  padding: 1em 0 0.5em 0;
+  /* text-align: center; */
+}
+
+.content-2 {
+  background: #fff;
+  padding: 2em;
+  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+  position: relative;
+  margin-bottom: -60px;
+font-size: 1.2em;
+/* margin-left: 181px; */
+}
+.footerbanner_content {
+  background: linear-gradient(45deg, #FBAE17, #E05526);
+  color: #fff;
+  border-radius: 10px;
+  padding: 3% 5%;
+  margin: auto;
+max-width: 90%;
+}
+
+.footerbanner_txt1 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.footerbanner_txt2 {
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 1.3;
+  padding-right: 12%;
+  font-family: 'Gilroy-Bold';
+}
+
+.footerbanner_common {
+  display: flex;
+  align-items: center;
+}
+
+.footerbanner_button {
+  background: #fff;
+  color: #1e1e1e !important;
+  text-decoration: none;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+
+@media screen and (min-width:576px) {
+.title-1.lap-title-mob {
+  display: none !important;
+}
+.partners_logo_sec_mob{
+display: none !important;
+}
+}
+@media screen and (max-width:575px) {
+.footer .container {
+max-width: 100%;
+}
+.title-1.lap-title-mob {
+  padding: 0 0.75rem;
+    margin-bottom: 0.7em;
+}
+.content-2 {
+  margin: -60px auto 0;
+  width: calc(100% - 1.5rem);
+}
+
+.aboutus-content-box {
+  background: transparent;
+}
+
+.aboutus-content-box .subpage-title-1 {
+  background: linear-gradient(45deg,#e35e25, #f9ac26);
+  background-image: url(/assets/aboutus_bg\ \(1\).jpg);
+  padding: 30px 0.75rem 90px 0.75rem;
+  background-position: right center;
+  background-size: cover;
+}
+
+.aboutus-content-box .container {
+  padding: 0;
+}
+
+.partner_section {
+  padding: 9px 0;
+}
+.footerbanner_content {
+  border-radius: 0;
+text-align: justify;
+padding: 5% 5%;
+    max-width: 100%;
+}
+.section_3_topcontentbox {
+  padding-top: 40px;
+}
+.platform-img {
+  width: 84%;
+margin-bottom: 2em;
+}
+.gradient-button {
+  padding: 10px 14px;
+  font-size: 14px;
+}
+.down_arrow {
+  top: 10px;
+  width: 53px;
+}
+.footerbanner_button {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 140px;
+}
+ul.footer_list:first-child {
+  padding-left: 3px;
+}
+.footer_common_banner .container {
+  padding: 0;
+}
+.platform_page .modal-content .modal-body,.aboutus_page .modal-content .modal-body {
+  padding: 0;
+}
+.banner_content {
+  text-align: center;
+}
+.section_3_topcontentbox .title_subtxt {
+  font-size: 1.3em;
+  line-height: 1.7;
+  margin-bottom: 0;
+    text-align: left;
+
+}
+.partners_logo_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: initial  !important;
+}
+
+.partner-image {
+  width: -webkit-calc(50% - 20px) !important;
+  width: calc(50% - 20px) !important;
+  margin: 10px ;
+    height: 70px;
+}
+.title-1.lap-title-desk {
+  display: none !important;
+}
+.partners_logo_sec_desk{
+display: none !important;
+}
+.section.section_2 {
+  display: flex;
+  flex-direction: column-reverse;
+    padding-bottom: 0;
+}
+#home .title-1 {
+  font-size: 2em;
+}
+.title_subtxt {
+  font-size: 1.5em;
+}
+.footerbanner_txt2 {
+  font-size: 1.6em;
+  line-height: 1.3;
+text-align: left;
+    padding-right: 0;
+}
+.aboutus-content-box {
+  background-position: center;
+}
+.list_ul_flex {
+  display: block;
+}
+.main_banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.main-img {
+  width: 100%;
+  position: static;
+margin-bottom: 2em;
+  margin-top: 27px;
+}
+.banner_content_main {
+  width: 100%;
+}
+.footerbanner_common {
+  display: block;
+}
+}
+@media screen and (max-width:767px) {
+.platform-dot-icon-right {
+  right: 0;
+}
+.platform-dot-icon-left {
+left: -24px;
+  top: 31px;
+  width: 80px;
+}
+.card-products {
+margin-bottom: 3em;
+margin-top: 1.2em;
+}
+.contactus-title {
+  margin-bottom: 1em;
+    font-size: 2em;
+}
+.form-box-main {
+  margin-bottom: 3em;
+}
+.partners_logo_sec {
+  flex-direction: column;
+}
+.partners_logo_box {
+  display: flex;
+  justify-content: center;
+}
+.partner-image {
+  margin: 0.5em;
+  padding: 10px;
+  width: 29%;
+}
+.sub_text {
+  margin-top: 0em;
+}
+.partner-title{
+  font-weight: 700;
+  font-size: 2.8em;
+  margin-bottom: 0.8em;
+  text-align: center;
+  font-family: 'Gilroy-Bold';
+  padding-top: 38px;
+}
 }
 
 
