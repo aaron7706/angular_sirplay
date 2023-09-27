@@ -316,8 +316,16 @@ p{
         font-size: 22px;
     }
 }
-@media screen and (width: 1024px) and (height: 600px) {
+@media screen and (width: 1024px) and (height: 768px) {
     .containt {
-        width: 1010px;
+        width: 1153px;
+    }
+    .white-label{
+        padding: 0px;
+    }
+    .label-bet{
+        padding: 0px;
+    }.label-para{
+        width: 50%;
     }
 }
