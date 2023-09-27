@@ -11,7 +11,7 @@
     margin-top: 150px;
 }
 .faq_header_pgs{
-color: gray;
+color: #a0c528;
 font-weight: 600;
 cursor: pointer;
 text-align: center;
@@ -323,7 +323,7 @@ h2, .h2 {
   letter-spacing: .001em;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Raleway",sans-serif;
+  font-family: Poppins;
   font-style: normal;
   font-weight: 400;
 }
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border: 1px solid #c5c5c5;
   background: #f6f6f6;
   font-weight: normal;
-  color: #454545;
+  color: #686868;
 }
 .ui-icon-triangle-1-e {
   background-position: -32px -16px;
