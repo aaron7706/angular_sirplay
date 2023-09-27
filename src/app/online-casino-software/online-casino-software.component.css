@@ -121,3 +121,84 @@ ol, ul {
     line-height: 30px;
     font-weight: 400;
 }
+.online-casino_col_2 img{
+    height: auto;
+}
+@media (max-width: 768px){
+    .online-casino_header {
+        margin-top: 87px;
+        margin-bottom: 17px;
+        font-size: 33px;
+        line-height: normal;
+    
+    }
+    .content{
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .online-casino-button{
+    margin-left: 0px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 7px;
+  }
+  .container2{
+    margin-top: 48px;
+  }
+  .col1-para{
+    font-size: 19px;
+  }
+  .casino_whites_sec_p,.clasico_f,.container5-col2 p{
+     font-size: 19px; 
+     margin-bottom: 0px;
+     font-weight: 400;
+  }
+  .container5-col2 h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .container5-col2 p{
+    line-height: 1.5;
+  }
+  .faq-container{
+    padding-left: 0px;
+    padding-right: 0px;
+ 
+}
+.faq-col1 p,.faq-col1 h1,.faq-col1 h3,.faq-col1 li{
+    text-align: initial;
+    list-style: disc;
+
+}
+}
+.youtube_img:hover {
+        transform: scale(1.1);
+        transition: all 400ms ease-in-out 0s !important;
+        -ms-transformtransition: all 400ms ease-in-out 0s;
+        -webkit-transformtransition: all 400ms ease-in-out 0s;
+}
+.youtube_img {
+        transform: scale(1.0);
+        transition: all 400ms ease-in-out 0s !important;
+        -ms-transformtransition: all 400ms ease-in-out 0s;
+        -webkit-transformtransition: all 400ms ease-in-out 0s;
+       
+    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .online-casino_col {
+        padding: 126px 2px 40px 76px;
+    }
+    .container5-row {
+        display: flex;
+        justify-content: center;
+        padding-left: 44px;
+        padding-right: 158px;
+    }  
+    .col2-text {
+        padding: 0px;
+        margin-left: 0px;
+        width: 50%;
+    }
+}
