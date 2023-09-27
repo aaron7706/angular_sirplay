@@ -3253,9 +3253,11 @@ q:before, q:after, blockquote:before, blockquote:after {
 }
 .x-quote-text :last-child {
   margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
 }
 .x-quote-text :first-child {
   margin-top: 0;
+  font-family: 'Raleway', sans-serif;
 }
 table {
   border-collapse: collapse;
