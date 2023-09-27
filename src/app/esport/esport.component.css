@@ -1320,11 +1320,11 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
   margin-top: 8%;
   justify-content: center;
-  gap: 4%;
+  gap: 2%;
 }
 
 .easy-setup-col1-photo img {
-  width: 98%;
+  width: 100%;
 }
 
 .easy-setup-col2 {
@@ -1340,10 +1340,11 @@ Responsive Codes
   letter-spacing: 0.001em;
   margin-right: calc(0.001em * -1);
   text-transform: none;
-  color: rgb(87, 87, 86);
-  font-size: calc(189.7%);
+  margin-bottom: 30px;
+  font-size: calc(289.7%);
   font-weight: 400;
   font-family: "Raleway", sans-serif;
+  color: #686868;
 
 }
 
@@ -1355,7 +1356,7 @@ Responsive Codes
   text-transform: none;
   font-weight: 400;
   margin: 0 0 1.5em;
-  color: rgb(47, 47, 47);
+  color: #686868;
   font-family: "Raleway", sans-serif;
 
 }
@@ -1369,15 +1370,14 @@ Responsive Codes
 
 .esports-betting-middle-row1 h2 {
   text-align: center;
-  font-size: calc(221%);
+  font-size: calc(314%);
   font-weight: 400;
   font-style: normal;
   line-height: 1.3;
   letter-spacing: 0.001em;
   margin-right: calc(0.001em * -1);
   text-transform: none;
-  color: rgb(87, 87, 86);
-  /* margin-left: 23%;
+  color: #686868;  /* margin-left: 23%;
   margin-right: 28%; */
   font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
@@ -1400,7 +1400,7 @@ Responsive Codes
   text-transform: none;
   /* margin-left: 24%;
   margin-right: 28%; */
-  color: rgb(47, 47, 47);
+  color: #686868;
   font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
 

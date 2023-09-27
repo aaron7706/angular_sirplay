@@ -757,7 +757,7 @@ body {
 
 .header {
   padding: 0 4.8rem;
-  height: 5rem;
+  /* height: 5rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -769,7 +769,7 @@ body {
 }
 
 .header .logo {
-  height: 3rem;
+  height: 5rem;
 }
 
 .navbar-list {
