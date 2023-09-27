@@ -162,6 +162,9 @@ width: 33%;
         /* width: 351px; */
         width: 100%;
     }
+    .contact_sec{
+        padding: 10px;
+    }
     
 }
 .flag_chck{

@@ -2019,10 +2019,13 @@ cursor: pointer;
 .online-casino-button{
     background: #a0c528;
     padding: 14px 18px;
-    margin-left: 184px;
+    /* margin-left: 184px; */
     border: none;
     color: black;
     height: 50px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
    
 }
 
@@ -2637,11 +2640,11 @@ cursor: pointer;
 
 
 
-.online-casino-em {
+/* .online-casino-em {
     margin: 0px 48px 0px 48px;
     line-height: 30px;
 
-}
+} */
 
 .online-casino-link p {
     
@@ -2649,11 +2652,11 @@ cursor: pointer;
    
 }
 
-.online-casino-button {
+/* .online-casino-button {
     
     margin-left: 112px;
     
-}
+} */
 
 .online-casino_col_2 img {
      padding: 0px; 
@@ -10475,9 +10478,9 @@ a:hover {
         height: 50%;
     }
 
-    .wpb_wrapper {
+    /* .wpb_wrapper {
         padding: 1.5rem;
-    }
+    } */
 
     .sports {
         display: flex;
