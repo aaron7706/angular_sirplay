@@ -400,3 +400,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+.sports_header {
+    color: #a0c51b;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 39px;
+}
+
+.types_header {
+    margin-bottom: 39px;
+    font-size: 35px;
+    color: #a0c528;
+    line-height: 45px;
+    text-align: left;
+    font-weight: bold;
+}

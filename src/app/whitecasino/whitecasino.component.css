@@ -1607,7 +1607,7 @@ header {
 }
 
 .index4-para {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.8;
   color: rgb(87, 87, 86);
@@ -2833,7 +2833,7 @@ hr .hr_1 {
   font-weight: 600;
 
   margin-bottom: 40px;
-  font-size: calc(285.7%);
+  /* font-size: calc(285.7%); */
   color: rgb(87, 87, 86);
 
 }
@@ -2859,7 +2859,7 @@ hr .hr_1 {
 .whitw_a {
   text-align: center;
   color: #a0c528;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 550;
   margin-top: 17px;
 }
@@ -2897,19 +2897,19 @@ hr .hr_1 {
 }
 
 .white_f_p {
-
+font-size: 16px;
   line-height: 30px;
   width: 100%;
 }
 
 .white_f_list {
-
+font-size: 16px;
   line-height: 30px;
   color: gray;
 }
 
 .white_f_p2 {
-
+  font-size: 16px;
   width: 89%;
   line-height: 30px;
   margin-bottom: 30px;
@@ -2984,7 +2984,7 @@ hr .hr_1 {
 }
 
 .param_fea {
-  font-size: 1rem;
+  font-size: 16px;
   /* line-height: 30px; */
   font-weight: 400;
   color: #000000;
@@ -3083,12 +3083,12 @@ font-weight: 600;
 }
 
 .white_live_p {
-  font-size: 1.1250000000000002rem;
+font-size: 17px;
 margin-bottom: 30px;
 }
 
 .white_live_p1 {
- font-size: 1.1250000000000002rem;
+font-size: 17px;
 font-weight: 600;
 margin-bottom: 30px;
 color:  rgb(87,87,86);
@@ -3096,14 +3096,14 @@ color:  rgb(87,87,86);
 }
 
 .white_live_list {
-font-size: 19px;
+font-size: 17px;
   line-height: 33px;
   color: gray;
 
 }
 
 .white_live_p2 {
-  font-size: 1.1250000000000002rem;
+  font-size: 17px;
 }
 
 .play_sec {
@@ -3432,7 +3432,7 @@ strong {
 @media (max-width: 768px){
   .white_c_header {
     width: 100%;
-    font-size: calc(285.7%);
+    font-size: 40px;
 }
 .white_casino_col,.white_f_col_1 {
   width: 100%;
@@ -3490,4 +3490,4 @@ strong {
     font-size: 45px;
   }
 }
-
+         

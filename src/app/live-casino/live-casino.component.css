@@ -13,7 +13,11 @@
 }
 
 
-
+b{
+  font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
 .container9{
     
 display: flex;
@@ -2081,10 +2085,14 @@ margin-top: 20%;
 
 
 .container7-col2-content{   
-     font-family: 'Raleway', sans-serif;
-     line-height: 1.8; 
-     margin-bottom: 30px;
-    width: 85%;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  width: 85%;
+  padding: 0px 21px;
+  /* padding: 17px 0px; */
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #686868;
 }
 
 .container7-col2{
@@ -2306,7 +2314,7 @@ margin-top: 2%;
 }
 .btns_lives_sec{
 padding: 9px;
-    margin-top: 74px;
+    margin-top: 111px;
     border: none;
     font-size: 15px;
     font-weight: 600;
