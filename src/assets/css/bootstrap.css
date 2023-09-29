@@ -417,7 +417,7 @@ html {
   .h2 .small,
   h3 .small,
   .h3 .small {
-    font-size: 65%;
+    /* font-size: 65%; */
   }
   h4,
   .h4,
@@ -444,27 +444,27 @@ html {
   }
   h1,
   .h1 {
-    font-size: 36px;
+    /* font-size: 36px; */
   }
   h2,
   .h2 {
-    font-size: 30px;
+    /* font-size: 30px; */
   }
   h3,
   .h3 {
-    font-size: 24px;
+    /* font-size: 24px; */
   }
   h4,
   .h4 {
-    font-size: 18px;
+    /* font-size: 18px; */
   }
   h5,
   .h5 {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
   h6,
   .h6 {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
   p {
     margin: 0 0 10px;
