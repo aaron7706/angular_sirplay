@@ -3303,3 +3303,7 @@ table th, table td {
 *, *:before, *:after {
   box-sizing: border-box;
 }
+.index3-right-text h1{
+  font-size: 40px;
+  margin-top: 60px;
+}

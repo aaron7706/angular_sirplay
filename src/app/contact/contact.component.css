@@ -4,3 +4,8 @@
     background-image: url(/assets/Untitled-4.png);
   background-size: cover ;
 }
+@media (max-width: 768px){
+  #animate-area{
+    height: 157px;
+  }
+}
