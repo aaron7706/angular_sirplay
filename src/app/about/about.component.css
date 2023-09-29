@@ -425,7 +425,7 @@ ul.footer_list:first-child {
 
 }
 .partners_logo_box {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: initial  !important;
 }
@@ -434,7 +434,8 @@ ul.footer_list:first-child {
   width: -webkit-calc(50% - 20px) !important;
   width: calc(50% - 20px) !important;
   margin: 10px ;
-    height: 70px;
+  height: 70px;
+  display: initial !important;
 }
 .title-1.lap-title-desk {
   display: none !important;
@@ -507,7 +508,7 @@ margin-top: 1.2em;
   flex-direction: column;
 }
 .partners_logo_box {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 .partner-image {
@@ -527,5 +528,11 @@ margin-top: 1.2em;
   padding-top: 38px;
 }
 }
+
+.copy {
+  background: rgb(160,197,40);
+  /* color: rgb(160,197,40); */
+}
+
 
 
