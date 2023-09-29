@@ -290,7 +290,7 @@ html {
   a {
       color: #eee;
       text-decoration: none;
-      /* font-size: 13px; */
+      font-size: 13px;
   }
   a:hover,
   a:focus {

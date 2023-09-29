@@ -113,9 +113,9 @@ color: #a0c528;
 text-decoration: none;
 }
 @media (max-width: 768px){
-    .comp_row{
+    /* .comp_row{
         flex-direction: row;
-    }
+    } */
     .com {
         margin-left: 0px  !important;
         margin-top: 31px;
