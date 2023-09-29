@@ -119,7 +119,7 @@ justify-content: center;
 
     font-size: 45px;
     font-weight: bold;
-    font-size: calc(285.7%);
+    /* font-size: calc(285.7%); */
     width: 80%;
     margin-bottom: 40px;
     letter-spacing: 0.001em;
@@ -130,13 +130,15 @@ justify-content: center;
   letter-spacing: 0.001em;
   color: rgb(87, 87, 86);
   /* font-size: 34px; */
-  font-weight: 300;
+     font-weight: 400;
+
   letter-spacing: 0.001em;
 
 }
 
 .sportsbetting-mainfeature-col2 p {
-  font-weight: 300;
+     font-weight: 400;
+
   line-height: 1.9;
   letter-spacing: 0.01em;
   font-size: 16px;
@@ -146,7 +148,8 @@ justify-content: center;
 }
 
 .sportsbetting-mainfeature-col2 ul li {
-  font-weight: 300;
+     font-weight: 400;
+
   line-height: 1.9;
   letter-spacing: 0.01em;
   font-size: 16px;
@@ -180,7 +183,7 @@ strong{
   font-style: normal;
   line-height: 1.3;
   letter-spacing: 0.001em;
-  margin-right: calc(-3.999em * -1);
+  margin-right: calc(-1.999em * -1);
   text-transform: none;
   color: rgb(87, 87, 86);
   font-size: calc(285.7%);
@@ -201,7 +204,8 @@ strong{
 }
 
 .sportsbetting-benefits p {
-  font-weight: 300;
+     font-weight: 400;
+
   line-height: 1.9;
   letter-spacing: 0.01em;
   font-size: 16px;
@@ -265,6 +269,8 @@ strong{
 .sportsbetting-complete-sports-col1 p {
   line-height: 1.8;
   font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
 
 }
 
@@ -1927,13 +1933,15 @@ margin-top: -63px;
 .screen_header_1{
 width: 220px;
 font-size: 31px;
-font-weight: 300;
+   font-weight: 400;
+
 
 }
 .screen_header_2{
 width: 263px;
 font-size: 31px;
-font-weight: 300;
+   font-weight: 400;
+
 }
  .use_list li a{
 text-decoration: none;
@@ -2252,7 +2260,8 @@ width: 97%;
       font-size: 16px;
       line-height: 1.8;
       margin: 0 0 1.5em;
-      font-weight: 300;
+         font-weight: 400;
+
       letter-spacing: 0em;
       text-transform: none;
       color: rgb(87,87,86);
@@ -2301,7 +2310,8 @@ width: 97%;
   font-size: 16px;
       line-height: 1.4;
       font-style: normal;
-      font-weight: 300;
+         font-weight: 400;
+
       letter-spacing: 0em;
       text-transform: none;
       color: rgb(87,87,86);
