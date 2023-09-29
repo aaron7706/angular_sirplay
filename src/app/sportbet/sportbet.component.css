@@ -2740,3 +2740,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   overflow: hidden;
   background-repeat: no-repeat;
 }
+@media (max-width:768px) {
+  .sportsbetting-mainfeature-col2 h2{
+    width: 100%;
+  }
+}
