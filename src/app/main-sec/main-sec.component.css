@@ -168,7 +168,10 @@ transition: all .4s ease-in-out 0s;
     height: 77px;
 }
 .header_plat{
-font-weight: 600;
+    font-family: Poppins;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 20px;
 }
 .platform_anchor{
     color: #a0c528;
