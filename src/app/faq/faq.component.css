@@ -15,6 +15,7 @@ color: #a0c528;
 font-weight: 600;
 cursor: pointer;
 text-align: center;
+font-size: 40px !important;
 }
 .faq_header_pgs:hover{
     color: #000;
@@ -26,13 +27,18 @@ text-align: center;
     font-size: 18px;
 }
 
-.para_faq{
+/* .para_faq{
     text-align: center;
-}
+    font-size: 16px !important;
+} */
 
 .freq_param{
     text-align: center;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 16px;
 }
+
 
 .faq_col{
     width: 69%;
@@ -355,7 +361,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   position: relative;
   margin: 2px 0 0 0;
   padding: 0.5em 0.5em 0.5em 0.7em;
-  font-size: 100%;
+  font-size: 17px !important;
+  font-family: Poppins !important;
+  font-weight: 400 !important;
 }
 .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
   border-top-right-radius: 3px;
@@ -391,4 +399,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-indent: -99999px;
   overflow: hidden;
   background-repeat: no-repeat;
+}
+
+p{
+    font-size: 16px;
 }
