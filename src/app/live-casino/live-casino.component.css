@@ -2316,7 +2316,7 @@ margin-top: 2%;
 }
 .btns_lives_sec{
 padding: 9px;
-    margin-top: 111px;
+    margin-top: 150px !important;
     border: none;
     font-size: 15px;
     font-weight: 600;
