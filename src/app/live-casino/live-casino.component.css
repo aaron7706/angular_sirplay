@@ -248,7 +248,9 @@ margin-left: 100px;
 }
 
 
-
+.btns_lives_sec{
+  margin-top: 65px !important;
+}
 
 .right-img-index3 img {
     margin-top: 8%;
@@ -2286,10 +2288,10 @@ margin-top: 2%;
       padding-top: 4px !important;
       padding-bottom: 15px !important;
   }
-  .btns_lives_sec{
+  /* .btns_lives_sec{
     margin-top: 21px !important;
 
-  }
+  } */
   .container7 {
     padding-top: 2px !important;
     padding-bottom: 90px !important;
