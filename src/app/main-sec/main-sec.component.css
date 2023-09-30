@@ -1135,6 +1135,22 @@ font-family: Poppins;
     .first-sec{
 margin-top: 2px !important;
     }
+    .virtual_img{
+    width: 100%;
+    height: auto;
+    }
   }
 
+  .virtual_header{
+    color: #a0c528;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .virtual_header_1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 27px;
+  }
 /*=========== <  question section end  >=========== */
