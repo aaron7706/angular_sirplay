@@ -113,7 +113,8 @@
       .param{
         text-align: center;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 350;
+        color: #000;
     }
     
     
@@ -137,7 +138,7 @@
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Poppins' !important;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
@@ -271,7 +272,7 @@ font-size: 16px;
     width: 96%;
     line-height: 1.5;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 350;
     color: #000;
 }
 .white_change{
@@ -358,7 +359,7 @@ border-radius: 5px;
     width: 100%;
     line-height: 1.5;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 350;
 }
 @media (max-width:820px){
     .gaming_row{
@@ -412,7 +413,7 @@ display: none;
     color: black;
     line-height: 1.5;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 350;
     
 }
 .casino_para_1{
@@ -482,7 +483,7 @@ display: none;
     color: gray;
     line-height: 1.9;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 350;
 }
 
 @media (max-width:820px){
@@ -678,7 +679,7 @@ height: 330px;
     font-size: 16px;
     width: 86%;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 350;
     color: black;
 }
 .inte_bold{
@@ -1088,7 +1089,7 @@ width: 50%;
 font-size: 16px;
 font-family:'Poppins';
 line-height: 30px;
-font-weight: 400;
+font-weight: 350;
   }
   .sirplay_certificate h2 {
     /* font-family: Poppins; */
@@ -1101,13 +1102,13 @@ font-weight: 400;
         font-size: 16px;
         color: #686868;
         line-height: 30px;
-        font-weight: 400;
+        font-weight: 350;
     
 }
 .faq_container p{
 font-family: Poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 350;
     color: #000;
     font-size: 16px;
 }

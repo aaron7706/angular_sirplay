@@ -3215,3 +3215,390 @@ whites_param {
   padding: 8px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.side-slider {
+  position: fixed;
+  top: 9.375rem;
+  width: 195px;
+}
+
+.side-slider .slide-btn {
+  position: absolute;
+  top: 200px;
+  left: -35px;
+  padding: 10px 5px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background: #45aaff;
+  box-shadow: 1px 1px 7px rgba(37,67,91,.9);
+  cursor: pointer
+}
+
+.side-slider .slide-btn img {
+  display: block;
+  width: 25px;
+  height: auto
+}
+
+.side-slider .slide-btn span {
+  display: block;
+  width: 25px;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: initial;
+  word-break: keep-all;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr
+}
+
+.side-slider .slide-btn.active {
+  visibility: hidden;
+  opacity: 0
+}
+
+.side-slider .side-slider-content {
+  position: absolute;
+  top: 0;
+  width: 12.1875rem;
+  background: #fff;
+  box-shadow: 1px 1px 7px rgba(37,67,91,.9)
+}
+
+.side-slider .contact-service-list {
+  width: 90%;
+  margin: 0 auto 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #f5f5f5;
+  color: #333
+}
+
+.side-slider .contact-service-list li {
+  display: block;
+  overflow: hidden;
+  transition: .3s;
+  background: 0 0;
+  font-size: 0
+}
+
+.side-slider .contact-service-list li:hover {
+  background: rgba(18,18,18,.2)
+}
+
+.side-slider .contact-service-list li:hover .contact-service-qrcode {
+  height: 120px;
+  margin-bottom: 10px
+}
+
+.side-slider .contact-service-list li:last-child hr {
+  display: none
+}
+
+.side-slider .contact-service-list a {
+  display: block;
+  padding: 0 5px 0 10px
+}
+
+.side-slider .contact-service-list hr {
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background: rgba(51,51,51,.2)
+}
+
+.side-slider .contact-service-list span {
+  display: inline-block;
+  width: 79%;
+  padding: 8px 0;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  vertical-align: middle
+}
+
+.side-slider .contact-service-list a img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  vertical-align: middle
+}
+
+.side-slider .contact-service-list .qr-code {
+  width: 15px;
+  height: 15px;
+  margin: 0 0 0 10px!important
+}
+
+.side-slider #quickTransferForm label {
+  display: block;
+  width: 90%;
+  margin: 0 auto 8px;
+  color: #f35e5e;
+  font-size: .8125rem;
+  line-height: 1
+}
+
+.side-slider.contact-service-box {
+  right: -13.75rem;
+  width: 13.75rem;
+  transition: .3s
+}
+
+.side-slider.contact-service-box .side-slider-content {
+  width: 25.75rem;
+    padding-top: 15px;
+}
+
+.side-slider.contact-service-box:hover {
+  right: 0;
+  width: 179px;
+}
+
+.side-slider.contact-service-box .slide-btn {
+  top: 0
+}
+
+.side-slider.contact-service-box .contact-service-icon,.side-slider.contact-service-box .contact-service-logo {
+  margin: 10px 0
+}
+
+.side-slider.contact-service-box .contact-service-icon>img,.side-slider.contact-service-box .contact-service-logo>img {
+  display: block;
+  margin: 0 auto
+}
+
+.side-slider.contact-service-box .contact-service-logo img {
+  max-width: 45%
+}
+
+.side-slider.contact-service-box .contact-service-qrcode {
+  display: block;
+  max-width: 60%;
+  height: 0;
+  margin: 0 auto;
+  padding-bottom: 0;
+  transition: height .3s ease
+}
+
+.side-slider.contact-service-box .contact-service-list hr {
+  width: 92%;
+  margin: 0 auto
+}
+
+.side-slider.contact-service-box .contact-service-list span {
+  width: 67%
+}
+
+.side-slider.transfer-box {
+  top: 130px;
+  right: -195px;
+  transition: .3s
+}
+
+.side-slider.transfer-box.active {
+  visibility: visible;
+  right: 0;
+  transition: all .3s;
+  opacity: 1
+}
+
+.side-slider.transfer-box .side-slider-content {
+  padding: .625rem 0 0;
+  transition: left .1s,visibility .1s,opacity .3s
+}
+
+.side-slider.transfer-box .side-slider-content input,.side-slider.transfer-box .side-slider-content select {
+  display: block;
+  width: 90%;
+  height: 25px;
+  margin: 0 auto .625rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #eee;
+  font-size: 12px
+}
+
+.side-slider.transfer-box .side-slider-content .btn-submit-transfer {
+  display: block;
+  width: 90%;
+  height: 25px;
+  margin: 0 auto .625rem;
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px
+}
+
+.side-slider.transfer-box .side-slider-content input {
+  padding: 0 .625rem;
+  color: #000
+}
+
+.side-slider.transfer-box .side-slider-content input ::-webkit-input-placeholder {
+  color: #666
+}
+
+.side-slider.transfer-box .side-slider-content input ::-moz-placeholder {
+  color: #666
+}
+
+.side-slider.transfer-box .side-slider-content input ::placeholder {
+  color: #666
+}
+
+.side-slider.transfer-box .side-slider-content .btn-submit-transfer {
+  transition: .3s;
+  background-color: #005dab;
+  color: #fff;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  text-align: center
+}
+
+.side-slider.transfer-box .side-slider-content .btn-submit-transfer:hover {
+  background-color: #004178
+}
+
+.side-slider.transfer-box .side-slider-content .wallet {
+  width: 90%;
+  margin: 0 auto .625rem;
+  color: #555;
+  text-align: center
+}
+
+.side-slider.transfer-box .side-slider-content .wallet dt {
+  margin-bottom: .3125rem;
+  font-size: .875rem;
+  font-weight: 700
+}
+
+.side-slider.transfer-box .side-slider-content .wallet dd {
+  font-size: 1.125rem;
+  font-weight: 700
+}
+
+.side-slider.transfer-box .side-slider-content .wallet .btn-refresh {
+  display: none;
+  border: 0;
+  background: 0 0;
+  vertical-align: middle;
+  cursor: pointer
+}
+
+.side-slider.transfer-box .side-slider-content .game-wallet-list {
+  width: 100%;
+  max-height: 290px;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-size: .8125rem
+}
+
+.side-slider.transfer-box .side-slider-content .game-wallet-list>li:nth-of-type(odd) {
+  background: rgba(0,0,0,.1)
+}
+
+.side-slider.transfer-box .side-slider-content .game-wallet-item {
+  display: block;
+  font-size: 0;
+  line-height: 0
+}
+
+.side-slider.transfer-box .side-slider-content .game-wallet-item .balance,.side-slider.transfer-box .side-slider-content .game-wallet-item .platform {
+  display: inline-block;
+  width: 50%;
+  color: #555;
+  font-size: .8125rem;
+  line-height: 30px
+}
+
+.side-slider.transfer-box .side-slider-content .game-wallet-item .platform {
+  padding-left: .625rem
+}
+
+.side-slider.transfer-box .side-slider-content .game-wallet-item .balance {
+  padding-right: .625rem;
+  text-align: right
+}
+
+.side-slider.client-download-box {
+  right: none;
+  left: -195px;
+  transition: .3s
+}
+
+.side-slider.client-download-box:hover {
+  left: 0
+}
+
+.side-slider.client-download-box .slide-btn {
+  top: 0;
+  right: -35px;
+  left: auto;
+  border-radius: 0 5px 5px 0
+}
+
+.side-slider.client-download-box .contact-service-devices {
+  width: 90%;
+  margin: 10px auto;
+  overflow: hidden;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  line-height: 0
+}
+
+.side-slider.client-download-box .contact-service-devices img {
+  width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
