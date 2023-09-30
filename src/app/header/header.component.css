@@ -265,7 +265,7 @@ cursor: pointer;
         border-radius: 0;
         background-color: #a0c528 !important;
         color: white;
-        padding: 15px;
+        padding: 22px;
         font-size: 13px;
         font-family: Poppins;
     }
@@ -341,13 +341,15 @@ cursor: pointer;
     }
     .accord_btn{
       background: #a0c528;
-      padding: 11px;
-      font-size: 10px 15px;
+      padding: 8px;
+      font-size:  13px;
       width: 100%;
       text-align: start;
       border: none;
       color: white;
       padding-left: 20px;
+      height: 42px;
+
     }
     @media (max-width:820px){
     
@@ -363,12 +365,18 @@ cursor: pointer;
       background: none !important;
     }
     .nav_col img{
-      margin: 30px -310px !important;
+      /* margin: 30px -310px !important; */
     }
     .navbar-toggler-icon {
      
-      margin-right: 28px !important;
+      margin-right: 44px !important;
   }
+
+  .nav_col{
+    width: 59%;
+
+  }
+
     }
     .accordion-body a {
         color: white;
@@ -413,10 +421,15 @@ cursor: pointer;
 
 
   .navbar-toggler-icon {
-    margin-right: -137px !important;
+    /* margin-right: -137px !important; */
 }
 
 .nav_col img {
   margin: 30px -28px !important;
 }
+}
+
+.vrnl_logo{
+  width: 134px;
+  height: 40px;
 }
