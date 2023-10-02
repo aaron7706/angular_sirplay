@@ -425,6 +425,7 @@ cursor: pointer;
 
   .navbar-toggler-icon {
     /* margin-right: -137px !important; */
+    font-size: 16px;
 }
 
 .nav_col img {
