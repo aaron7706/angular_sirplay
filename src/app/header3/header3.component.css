@@ -807,6 +807,7 @@ body {
   width: 2rem;
   height: 2rem;
   color: #a0c528;
+  font-size: 18px;
 }
 
 .mobile-nav-icon[name="close-outline"] {
