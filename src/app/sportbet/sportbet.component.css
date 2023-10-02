@@ -63,6 +63,13 @@
   text-decoration: none;
   color: #a0c528;
   font-family: "Raleway",sans-serif;
+  cursor: pointer;
+}
+
+.sportsbetting-section1-col1-link a:hover{
+  color: #e42727;
+ 
+  
 }
 
 .sportsbetting-section1-col2 iframe {
