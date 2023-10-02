@@ -418,7 +418,7 @@ display: none;
 .casino_list{
     font-size: 17px;
     color: gray;
-    margin-left: 30px;
+    margin-left: 6px;
     /* font-family: 'Poppins', sans-serif; */
 }
 
@@ -2917,13 +2917,13 @@ cursor: pointer;
         margin-left: 0px !important;
     }
 
-    .index4-left-text h1 {
+    /* .index4-left-text h1 {
        
         padding: 60px 9px 21px 25px !important;
-    }
+    } */
 
 .index4-para{
-    padding: 1px 37px 10px 30px !important;
+    /* padding: 1px 37px 10px 30px !important; */
     line-height: 1.5 !important;
 }
 
@@ -4023,6 +4023,7 @@ padding: 98px 15px 0px 15px !important;
     font-family: 'Poppins';
     font-size: 16px;
     color: #686868;
+    font-weight: 390;
 }
 
 .index2-col .index2-col-para2{
@@ -4030,6 +4031,8 @@ padding: 98px 15px 0px 15px !important;
     font-family: 'Poppins';
     font-size: 16px;
     color: #686868;
+    font-weight: 390;
+
 }
 
 
@@ -4050,6 +4053,8 @@ padding: 98px 15px 0px 15px !important;
     font-family: 'Poppins';
     font-size: 16px;
     color: #686868;
+    font-weight: 390;
+
 }
 .index2-col ul li b{
     color: rgb(0 0 0);
@@ -4060,12 +4065,7 @@ padding: 98px 15px 0px 15px !important;
 width: 500px;
 }
 
-.index2-col2 img{
-    width: 85%;
-    height: 503px;
-    margin-left: 120px;
-    margin-top: 127px;
-}
+
 .index2-col-para p{
     line-height: 4;
 }
@@ -4080,6 +4080,8 @@ width: 500px;
     font-family:'Raleway', sans-serif;
     margin-top: 75px;
     color: #575756;
+    font-weight: 390;
+
 }
 
 .demo-link{
