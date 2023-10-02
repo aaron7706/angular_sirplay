@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sirplay_task": {
+    "vrnl": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sirplay_task",
+            "outputPath": "dist/vrnl",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "sirplay_task:build:production"
+              "browserTarget": "vrnl:build:production"
             },
             "development": {
-              "browserTarget": "sirplay_task:build:development"
+              "browserTarget": "vrnl:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sirplay_task:build"
+            "browserTarget": "vrnl:build"
           }
         },
         "test": {
