@@ -71,7 +71,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: #403939;
-    font-weight: 350;
+    font-weight: 395;
     
 }
 .head-custom h1{
@@ -227,7 +227,7 @@ h2 {
     }
     .home{
         font-size: 18px;
-        font-weight: 350;
+        font-weight: 395;
         display: grid;
     }
     .dash{
@@ -287,7 +287,7 @@ p{
 .label-para{
     padding-left: 0px;
     padding-right: 0px;
-    font-weight: 350;
+    font-weight: 395;
 }
 .risk-para h1,.risk-para h2,.risk-para p  {
     padding: 0px;
