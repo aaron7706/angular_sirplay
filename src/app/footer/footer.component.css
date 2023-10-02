@@ -21,6 +21,7 @@
 .comp_header{
     font-weight: 600;
     font-size: 24px;
+    margin-bottom: 25px;
 }
 .comp_list{
 font-size: 16px;
@@ -28,6 +29,7 @@ color:  #a0c528;
 margin-bottom: 3px;
 cursor: pointer;
 line-height: 20px;
+font-weight: 350;
 
 }
 
@@ -41,6 +43,7 @@ line-height: 20px;
 }
 .company_about p a{
 color: #a0c528;
+font-weight: 350;
 }
 .company_about p a:hover{
     color: #000;
@@ -95,7 +98,7 @@ height: 80px;
 
 .footer_para p{
 text-align: center;
-font-size: 18px;
+font-size: 15px;
 }
 .footer_para p a{
   color: #a0c528;
