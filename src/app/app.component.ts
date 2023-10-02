@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sirplay_task';
+  title = 'vrnl';
   onActivate(event: any){
     window.scroll({ 
       top: 0, 
