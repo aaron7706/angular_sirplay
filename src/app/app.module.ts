@@ -41,6 +41,7 @@ import { FormsModule } from '@angular/forms';
 import { ContactComponent2Component } from './contact-component2/contact-component2.component';
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
+import { OurThemeComponent } from './our-theme/our-theme.component';
 
 
 
@@ -82,7 +83,8 @@ import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
     ContactComComponent,
     ContactComponent2Component,
     FAQComponent,
-    ScrollBtnComponent
+    ScrollBtnComponent,
+    OurThemeComponent
   ],
   imports: [
     BrowserModule,
