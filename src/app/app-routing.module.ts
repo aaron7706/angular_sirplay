@@ -29,6 +29,7 @@ import { MobileComponent } from './mobile/mobile.component';
 import { AboutComponent } from './about/about.component';
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
   {path:'',component:MainSecComponent},
@@ -59,7 +60,8 @@ const routes: Routes = [
   {path:'sports-betting-software/mobile-betting-software',component:MobileComponent},
   {path:'about-us',component:AboutComponent},
   {path:'FAQ',component:FAQComponent},
-  {path:'scroll-btn', component:ScrollBtnComponent}
+  {path:'scroll-btn', component:ScrollBtnComponent},
+  {path:'privacy-policy',component:PrivacyPolicyComponent}
 
 
 
