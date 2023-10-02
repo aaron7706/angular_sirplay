@@ -2032,10 +2032,10 @@ width: 45%;
 }
 
 .index2-col2 img{
-    width: 85%;
-    height: 503px;
-    margin-left: 120px;
-    margin-top: 127px;
+  width: 100% !important;
+  height: 100% !important;
+  margin-left: 120px !important;
+  margin-top: 0px !important;
 }
 .index2-col-para p{
     line-height: 4;
