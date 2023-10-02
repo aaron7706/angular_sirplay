@@ -30,6 +30,8 @@ import { AboutComponent } from './about/about.component';
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+
 const routes: Routes = [
   {path:'',component:MainSecComponent},
   {path:'demo-sportsbook',component:DemoComponent},
@@ -60,7 +62,9 @@ const routes: Routes = [
   {path:'about-us',component:AboutComponent},
   {path:'FAQ',component:FAQComponent},
   {path:'our-theme', component:OurThemeComponent},
-  {path:'scroll-btn', component:ScrollBtnComponent}
+  {path:'scroll-btn', component:ScrollBtnComponent},
+  {path:'scroll-btn', component:ScrollBtnComponent},
+  {path:'privacy-policy',component:PrivacyPolicyComponent}
 
 
 

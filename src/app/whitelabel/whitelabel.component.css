@@ -70,7 +70,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: #403939;
+    color: #000;
     font-weight: 395;
     
 }
@@ -109,6 +109,7 @@ h2 {
 .font-weight{
     font-weight: 600;
     font-family: Poppins;
+    font-size: 50px;
 }
 
 

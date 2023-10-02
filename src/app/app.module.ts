@@ -42,6 +42,7 @@ import { ContactComponent2Component } from './contact-component2/contact-compone
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 
 
@@ -84,7 +85,8 @@ import { OurThemeComponent } from './our-theme/our-theme.component';
     ContactComponent2Component,
     FAQComponent,
     ScrollBtnComponent,
-    OurThemeComponent
+    OurThemeComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

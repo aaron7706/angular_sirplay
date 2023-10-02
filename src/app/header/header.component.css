@@ -366,6 +366,8 @@ cursor: pointer;
     }
     .nav_col img{
       /* margin: 30px -310px !important; */
+      max-width: 17%;
+    margin-left: -121px;
     }
     .navbar-toggler-icon {
      
@@ -374,6 +376,7 @@ cursor: pointer;
 
   .nav_col{
     width: 59%;
+    margin: 30px 0 !important;
 
   }
 
@@ -417,7 +420,7 @@ cursor: pointer;
   border: none;
 }
 
-@media(max-width: 479px){
+@media(max-width: 800px){
 
 
   .navbar-toggler-icon {
@@ -425,11 +428,38 @@ cursor: pointer;
 }
 
 .nav_col img {
-  margin: 30px -28px !important;
+  /* margin: 30px -28px !important; */
+  max-width: 19%;
+    margin-left: -122px;
 }
 }
 
 .vrnl_logo{
   width: 134px;
   height: 53px;
+}
+
+
+
+
+@media(min-width: 1200px){
+
+.nav_col img {
+  /* margin: 30px -28px !important; */
+  max-width: 61%;
+  margin-left: -13px;
+}
+}
+
+@media screen and (max-width:767px) {
+  
+.nav_col img {
+  /* margin: 30px -28px !important; */
+  max-width: 36%;
+  margin-left: -13px;
+}
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
 }
