@@ -52,7 +52,11 @@
 
 @media screen and (max-width: 820px){
 
-
+    .wpb_wrapper{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+       
+    }
     .web_images{
         width: 100% !important; 
         height: auto !important;
@@ -91,7 +95,7 @@ b, strong {
 }
 
 .features_col_1{
-    width: 831px;
+    width: 735px;
 
 }
 
@@ -109,3 +113,10 @@ b, strong {
 .crypto-section5-container{
     margin-left: -33px;
 }
+
+
+/* @media(max-width:1200){
+    .features_col_1 {
+        width: 735px;
+    }
+} */
