@@ -2026,6 +2026,7 @@ cursor: pointer;
     align-items: center;
     margin: 0 auto;
     display: flex;
+    font-size: 16px;
    
 }
 
@@ -2042,7 +2043,7 @@ cursor: pointer;
 
 .online-casino_col_2 img{
     padding: 36px;
-    margin-right: 105px;
+    margin-right: 44px;
     margin-top: 122px;
 }
 
@@ -2126,7 +2127,7 @@ font-family: 'Poppins', sans-serif;
     margin: 181px;
     margin-left: 405px; */
     width: 68%;
-    margin: 288px 228px 200px 133px;
+    margin: 150px 132px 200px 133px;
 
     
 }

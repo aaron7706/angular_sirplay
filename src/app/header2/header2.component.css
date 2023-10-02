@@ -737,6 +737,11 @@ nav{
         display: none;
   
       }
+
+      .navbar-brand{
+        width: 77%;
+
+      }
     }
   
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -747,6 +752,8 @@ nav{
       padding-left: calc(var(--bs-gutter-x) * .5);
       margin-right: auto;
       margin-left: auto;
+      margin-top: 19px;
+
   }
   .navbar-nav {
     --bs-nav-link-padding-x: 0;
@@ -816,7 +823,7 @@ nav{
   .accord_btn{
     background-color: #ede5e5;
     padding: 11px;
-    font-size: 14px;
+    font-size: 10px;
     width: 100%;
     text-align: start;
     border: none;
@@ -824,6 +831,10 @@ nav{
     color: black;
   
   }
+
+  .accord_btn a {
+    color: #080707;
+}
   
   header {
         
@@ -1360,6 +1371,7 @@ color: gray;
 .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
   border-radius: 0;
   background: #ede5e5;
+  padding: 21px;
 }
 .accord_btn{
   background-color: #ede5e5;
@@ -2699,7 +2711,10 @@ line-height: 18px;
         line-height: 60px;
        
     }
-
+    .images_logo_1{
+      width: 128px;
+      height: 48px;
+    }
     
 }
 /* <-------------cash out section code css here------------->  */
@@ -2707,6 +2722,8 @@ line-height: 18px;
 .accordion-body a{
 text-decoration: none;
 color: #000;
+font-size: 12px;
+padding: 5px;
 }
 
 
