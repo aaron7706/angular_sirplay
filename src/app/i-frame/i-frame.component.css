@@ -132,7 +132,7 @@ height:370px;
     text-align: left;
     margin-bottom: 30px !important;
     font-family: Poppins;
-font-weight: bold;
+    font-weight: 600;
 }
 
 strong{
@@ -331,7 +331,7 @@ h2, .h2 {
   letter-spacing: .001em;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Raleway",sans-serif;
+  font-family: Poppins;
   font-style: normal;
   font-weight: 395;
 }
@@ -415,4 +415,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 45px;
     text-align: left;
     font-weight: bold;
+}
+.type_para{
+  font-weight: 400;
 }
