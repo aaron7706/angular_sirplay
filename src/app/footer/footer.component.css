@@ -28,6 +28,7 @@ color:  #a0c528;
 margin-bottom: 3px;
 cursor: pointer;
 line-height: 20px;
+font-weight: 350;
 
 }
 
@@ -41,6 +42,7 @@ line-height: 20px;
 }
 .company_about p a{
 color: #a0c528;
+font-weight: 350;
 }
 .company_about p a:hover{
     color: #000;

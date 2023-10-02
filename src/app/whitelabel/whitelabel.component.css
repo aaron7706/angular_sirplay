@@ -59,7 +59,7 @@
     font-weight: 350
 }
 p{
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 30px;
     font-family: Poppins;
   
@@ -70,7 +70,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: #403939;
+    /* color: #403939; */
     font-weight: 350;
     
 }
@@ -88,7 +88,7 @@ p {
 }
 h2 {
     display: block;
-    font-size: 1.5em;
+    font-size: 34px;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -321,6 +321,18 @@ p{
     .sec-header{
         font-size: 22px;
     }
+    .sec-line{
+        line-height: 30px;
+    }
+}
+.lanhead a{
+    color: #a0c528;
+}
+.head-custom p,.plat-oddhead p{
+    font-size: 16px;
+}
+.risk-para p,.branding-head p,.lanhead p{
+    font-size: 16px;
 }
 .odds_sec_img{
     width: 557px;
