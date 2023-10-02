@@ -2033,8 +2033,9 @@ width: 45%;
 
 .index2-col2 img{
   
-    margin-left: 81px;
+    margin-left: 50px;
     margin-top: 127px;
+    border-radius: 5px ;
 }
 .index2-col-para p{
     line-height: 4;
