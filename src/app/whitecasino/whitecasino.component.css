@@ -198,9 +198,10 @@
   font-size: 16px ;
 }
 .casino-img{
-width: 624px;
-height: auto;
+/* width: 624px;
+height: auto; */
 margin-top: 151px;
+
 }
 
 /* ============================INDEX 3 ENDS============================= */
@@ -3486,9 +3487,10 @@ strong {
   font-size: 45px;
 }
 .casino-img {
-  width: 341px;
-  height: auto;
+  /* width: 341px;
+  height: auto; */
   margin-top: 26px;
+  margin-left: 0px;
 }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
@@ -3506,16 +3508,18 @@ strong {
     font-size: 45px;
   }
   .casino-img {
-    width: 429px;
-    height: auto;
+    /* width: 553px;
+    height: auto; */
     margin-top: 104px;
+    margin-left: -13px;
 }
 }
 @media (max-width: 280px){
   .casino-img {
-    width: 256px;
-    height: auto;
+    /* width: 256px;
+    height: auto; */
     margin-top: 26px;
+    margin-left: 0px;
 }
 }
          
