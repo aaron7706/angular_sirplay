@@ -124,6 +124,9 @@ ol, ul {
 .online-casino_col_2 img{
     height: auto;
 }
+strong{
+    font-weight: bold;
+}
 @media (max-width: 768px){
     .online-casino_header {
         margin-top: 87px;
