@@ -63,8 +63,8 @@
           </div>
 
           <div class="email_input">
-            <input type="text" id="country_selector" name="countries" value="" required [(ngModel)]="contact.countries"
-              #countries="ngModel" />
+            <input type="text"  id="country_selector" name="countries" value="" required [(ngModel)]="contact.countries"
+              #countries="ngModel" class="cot">
           </div>
           <div class="email_label" >
             <label for="fname"><b>Phone Number</b></label>
@@ -95,7 +95,7 @@
       </div>
       <p class="con_param">
         We don’t share your personal information with anyone. Check out our
-        <span class="white_change">“privacy policy”</span> for more information
+        <span class="white_change" routerLink="/privacy-policy">“privacy policy”</span> for more information
       </p>
     </div>
   </div>

@@ -167,6 +167,21 @@ width: 33%;
         padding: 10px;
     }
     
+  .country-select {
+ 
+    width: 100% !important;
+  }
+  .cot{
+    width: 110% !important;
+
+  }
+    
+}
+
+.country-select {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
 }
 .flag_chck{
     list-style: none;
