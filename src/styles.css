@@ -1277,7 +1277,7 @@ color: #a0c528;
   .navbar-links li.navbar-dropdown .dropdown a {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 400;
+    font-weight: 395;
   }
   .navbar-dropdown .dropdown a:hover {
     padding-left: 30px;
@@ -1983,7 +1983,7 @@ cursor: pointer;
 
 .online-casino_para{
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -2026,6 +2026,7 @@ cursor: pointer;
     align-items: center;
     margin: 0 auto;
     display: flex;
+    font-size: 16px;
    
 }
 
@@ -2126,8 +2127,7 @@ font-family: 'Poppins', sans-serif;
     margin: 181px;
     margin-left: 405px; */
     width: 68%;
-    margin: 288px 228px 200px 133px;
-
+    margin: 127px 144px 185px 133px;
     
 }
 
@@ -2153,7 +2153,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #686868;
     line-height: 31px;
-    font-weight: 400;
+    font-weight: 395;
    /* font-family: 'Poppins', sans-serif; */
 
 }
@@ -4284,7 +4284,7 @@ padding: 0px 0px 13px;
 .contact-container .contactinfo ul.contact-info-index2 li span:nth-child(2){
     color: white;
     margin-left: 10px;
-    font-weight: 400;
+    font-weight: 395;
 }
 
 
@@ -4641,7 +4641,7 @@ hr .hr_1 {
     text-align: start;
     padding: 0px 9px 13px;
     color: #000;
-    font-weight: 400;
+    font-weight: 395;
     font-family: Raleway, sans-serif;
 }
 
@@ -4826,7 +4826,7 @@ font-weight: bold;
 
 .index5-para{
     font-family: 'Raleway', sans-serif; 
-    font-weight: 400;
+    font-weight: 395;
     line-height: 1.8;
     color: rgb(87,87,86);
     padding: 0px 0px 30px;
@@ -5288,7 +5288,7 @@ color: #000;
     font-size: 16px;
     margin-top: 27px;
     width: 100%;
-    font-weight: 400;
+    font-weight: 395;
 }
 .contact_col_1{
 width: 33%;
@@ -5423,7 +5423,7 @@ margin-top: 20px;
 .web3-online-casino_col p{
 font-family: Poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-top: 17px;
@@ -5551,7 +5551,7 @@ font-size: 32px;
     font-size: 16px;
     color: #686868;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
 }
 
 /* ================================================================== */
@@ -5689,7 +5689,7 @@ padding: 0px 56px 0px 248px;
     font-size: 16px;
     color: #686868;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
 }
 
 .web3-container4-col2 img{
@@ -5758,7 +5758,7 @@ font-size: 34px;
 .web3-sport-main p{
 font-family: Poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -5869,7 +5869,7 @@ line-height: 28px;
 
 .web3-faq-col1 p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -6034,7 +6034,7 @@ padding: 0px 89px;
 .crypto-online-casino_col p{
 font-family: Poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-top: 17px;
@@ -6187,7 +6187,7 @@ font-size: 32px;
 .crypto-section3-righttext p{
 font-family: Poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-bottom: 12px;
@@ -6202,7 +6202,7 @@ font-family: Poppins;
     color: gray;
     line-height: 27px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 395;
    /* font-family: 'Poppins', sans-serif; */
 
 }
@@ -6279,7 +6279,7 @@ font-family: Poppins;
     font-size: 16px;
     color: #686868;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
 }
 
 /* =========================================================== */
@@ -6404,7 +6404,7 @@ font-size: 35px;
 
 .crypto-section7-main p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -6463,7 +6463,7 @@ margin-left: 315px;
     font-size: 16px;
     /* color: #000000; */
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     width: 94%;
     color: gray;
    /* font-family: 'Poppins', sans-serif; */
@@ -6543,7 +6543,7 @@ margin-left: 315px;
 
 .crypto-faq-col1 p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -6632,7 +6632,7 @@ justify-content: center;
 padding: 37px 312px 10px 312px;
 font-family: 'Poppins', sans-serif;
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -6694,7 +6694,7 @@ line-height: 28px;
 
 .about-section2-main p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -6723,7 +6723,7 @@ line-height: 28px;
 
 .about-section3-container p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -7120,7 +7120,7 @@ cursor: pointer;
 
    /* font-family: 'Poppins', sans-serif; */
     line-height: 30px;
-        font-weight: 400;
+        font-weight: 395;
         color: #000;
         font-size: 16px;
     }
@@ -7258,7 +7258,7 @@ cursor: pointer;
 .content-para p {
 
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-top: 65px;
@@ -7443,7 +7443,7 @@ cursor: pointer;
     /* margin-top: 25px;
     margin-left: 290px; */
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-top: 65px;
@@ -7515,7 +7515,7 @@ cursor: pointer;
     text-align: justify;
     color: black;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-top: 40px;
@@ -7595,7 +7595,7 @@ cursor: pointer;
     /* margin-top: 25px;
     margin-left: 290px; */
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin-top: 65px;
@@ -11280,7 +11280,7 @@ color: #000;
     font-size: 16px;
     margin-top: 27px;
     width: 94%;
-    font-weight: 400;
+    font-weight: 395;
 }
 .contact_col_1{
 width: 33%;
@@ -11432,7 +11432,7 @@ margin-top: 20px;
     .certificate-section1-h3{
         text-align: center;
         color: #fff;
-        font-weight: 400;
+        font-weight: 395;
     }
 
 
@@ -11442,7 +11442,7 @@ margin-top: 20px;
         width: 96%;
         font-family: Poppins;
         line-height: 30px;
-        font-weight: 400;
+        font-weight: 395;
         color: #000;
         font-size: 16px;
     }
@@ -11473,7 +11473,7 @@ margin-top: 20px;
     
     .certificate-section2-paras{
     line-height: 30px;
-        font-weight: 400;
+        font-weight: 395;
         color: #000;
         font-size: 16px;
         font-family: Poppins , sans-serif; 
@@ -11605,7 +11605,7 @@ justify-content:center;
 .sports_param{
     font-family: poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
 }
@@ -11627,7 +11627,7 @@ justify-content:center;
     font-style: italic;
     font-family: Poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     
@@ -11686,7 +11686,7 @@ justify-content:center;
     font-size: 16px;
     line-height: 30px;
     font-family: 'Poppins';
-    font-weight: 400;
+    font-weight: 395;
     color: #000000;
 }
 .wev_pro_list{
@@ -11708,7 +11708,7 @@ color: gray;
     list-style: none;
     line-height: 30px;
    /* font-family: 'Poppins', sans-serif; */
-    font-weight: 400;
+    font-weight: 395;
 
 }
 .online_sports_list{
@@ -11726,7 +11726,7 @@ color: gray;
     font-size: 15px;
     color: #686868;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
 }
 .data_treading_sec{
     padding: 59px;
@@ -12220,7 +12220,7 @@ margin-left: 100px;
       font-weight: 400; 
       text-align: center;
       line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 19px;
     max-width: 240px;
@@ -12467,7 +12467,7 @@ font-size: 50px;
 font-size: 20px;
     line-height: 30px;
     text-align: left;
-    font-weight: 400;
+    font-weight: 395;
 }
 
 
@@ -12846,7 +12846,7 @@ font-size: 50px;
 
 .cashout-section1-left-col-paras{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 17px;
     margin-bottom: 48px;
@@ -12897,7 +12897,7 @@ font-size: 35px;
 .cashout-section2-col1-paras{
 font-family: 'Poppins', sans-serif;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 17px;
 }
@@ -12942,7 +12942,7 @@ font-size: 35px;
 .cashout-section3-col2 p{
    /* font-family: 'Poppins', sans-serif; */
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 17px;
 }
@@ -12982,7 +12982,7 @@ margin-top: 45px;
     .cashout-section4-col1 ol li{
        /* font-family: 'Poppins', sans-serif; */
         line-height: 30px;
-        font-weight: 400;
+        font-weight: 395;
         color: #686868;
         font-size: 17px;
     }
@@ -13035,7 +13035,7 @@ font-size: 20px;
 
 .cashout-section5-col2 p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 17px;
 }
@@ -13373,7 +13373,7 @@ padding-top: 22%;
     font-size: 16px;
     line-height: 34px;
     font-family: Poppins;
-    font-weight: 400;
+    font-weight: 395;
   }
 
   .types_sports_sec{
@@ -13413,7 +13413,7 @@ padding-top: 22%;
     line-height: 32px;
     line-height: 30px;
     font-family: Poppins;
-     font-weight: 400;
+     font-weight: 395;
 }
   
   .type_para{
@@ -13421,7 +13421,8 @@ padding-top: 22%;
     font-size: 16px;
     line-height: 30px;
     font-family: Poppins !important;
-    font-weight: 400;
+    font-weight: 395;
+    color: #000;
 }
   
 
@@ -13518,7 +13519,7 @@ width: 264px;
 max-width: 500px;
     margin-bottom: 30px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin: 0 0 10px;
@@ -13546,11 +13547,11 @@ color: white;
 
 .terminals-all-in-one-col2 p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     font-size: 16px;
     color: #ffffff;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     margin: 0 27px 10px;
 }
 
@@ -13588,7 +13589,7 @@ margin-left: 2%;
 max-width: 500px;
     margin-bottom: 30px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     color: #000;
     font-size: 16px;
     margin: 0 0 10px;
@@ -13621,11 +13622,11 @@ width: 47%;
 
 .terminals-android-col1 p{
 line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     font-size: 16px;
     color: #ffffff;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 395;
     margin: 0 27px 10px;
 }
 
@@ -13777,7 +13778,7 @@ margin-top: 88px;
     font-size: 18px;
     line-height: 30px;
     width: 91%;
-    font-weight: 400;
+    font-weight: 395;
 
 }
 
