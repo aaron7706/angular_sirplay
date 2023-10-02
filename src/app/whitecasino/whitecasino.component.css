@@ -194,6 +194,14 @@
 .index3-right-text {
   width: 35%;
 }
+.white_sol_p,.color-grey{
+  font-size: 16px ;
+}
+.casino-img{
+width: 624px;
+height: auto;
+margin-top: 151px;
+}
 
 /* ============================INDEX 3 ENDS============================= */
 
@@ -2805,7 +2813,7 @@ hr .hr_1 {
 
 .white_casino_row {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .white_casino_sec {
@@ -3194,6 +3202,9 @@ font-size: 17px;
 
   .white_casino_col_1 {
     padding: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
   }
 
@@ -3447,10 +3458,10 @@ strong {
   padding-top: 0px;
 }
 .whites_h1{
-  font-size: calc(285.7%);
+  /* font-size: calc(285.7%); */
 }
 .whites_h3{  
-  font-size: calc(270.7%);
+  /* font-size: calc(270.7%); */
   color: rgb(87,87,86)
 }
 .whites_content{
@@ -3474,6 +3485,11 @@ strong {
 .white_live_h {
   font-size: 45px;
 }
+.casino-img {
+  width: 341px;
+  height: auto;
+  margin-top: 26px;
+}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
   .white_casino_row,.whites_c_row,.white_sol_row,.white_labe_live_row{
@@ -3489,8 +3505,17 @@ strong {
   .white_live_h,.white_sol_h,.white_c_header,.white_c_header  {
     font-size: 45px;
   }
+  .casino-img {
+    width: 429px;
+    height: auto;
+    margin-top: 104px;
+}
+}
+@media (max-width: 280px){
+  .casino-img {
+    width: 256px;
+    height: auto;
+    margin-top: 26px;
+}
 }
          
-.white_sol_p,.color-grey{
-  font-size: 16px ;
-}

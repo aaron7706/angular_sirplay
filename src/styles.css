@@ -10699,7 +10699,7 @@ width: 480px;
     line-height: 32px;
     margin-top: 10px;
     /* text-align: justify; */
-    font-size: 1rem;
+    font-size: 16px;
     /* padding: 0 4rem; */
     width: 96% !important;
 
@@ -10721,7 +10721,7 @@ width: 56%;
 
 .risk-para h1 {
     color: #a0c528;
-    font-size: 3rem;
+    font-size: 48px;
     /* padding: 0 3rem; */
     margin-bottom: 30px;
 
@@ -10754,7 +10754,7 @@ width: 12%;
 
 .branding-head h1 {
     color: #a0c528;
-    font-size: 3rem;
+    font-size: 48px;
     margin-bottom: 30px
 
 }
@@ -10777,7 +10777,7 @@ width: 62%;
 }
 .lanhead h1 {
     color: #a0c528;
-    font-size: 3rem;
+    font-size: 48px;
 
 }
 
@@ -10933,7 +10933,7 @@ width: 62%;
     }
 
     .toolhead p {
-        padding: 1rem;
+        padding: 19px;
     }
 
     .niva-separator1 {
@@ -10953,12 +10953,13 @@ width: 62%;
         margin-top: 0;
     }
 
-    .risk {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        justify-content: center;
+    .risk,.branding,.language {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
     align-items: center;
+    margin-top: 90px;
 
     }
     .branding-head {
@@ -11034,7 +11035,7 @@ width: 62%;
 
     }
     .lanhead {
-        width: 98%;
+        width: 92%;
     }
     .online-para
     h2 {
@@ -11053,11 +11054,11 @@ width: 62%;
         padding: 0 1rem;
     }
 
-    .language {
+    /* .language {
         display: flex;
         flex-direction: column;
         padding: 0;
-    }
+    } */
 
     .lanhead h1 {
         padding: 0 1rem;
@@ -11605,7 +11606,7 @@ justify-content:center;
 .sports_param{
     font-family: poppins;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 350;
     color: #000;
     font-size: 16px;
 }
