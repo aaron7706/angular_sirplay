@@ -209,11 +209,12 @@ p{
 
 
 .partner-title {
-  font-weight: 700;
-  font-size: 2.8em;
+  
+  font-size: 45px;
+  font-weight: 600;
   margin-bottom: 0.8em;
   text-align: center;
-font-family: 'Gilroy-Bold';
+  font-family: 'Poppins';
 padding-top: 120px;
 }
 
