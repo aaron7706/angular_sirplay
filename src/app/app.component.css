@@ -334,4 +334,6 @@
   .side-slider.client-download-box .contact-service-devices img {
     width: 100%
   }
-  
+  .contact-service-list{
+padding-left: 0px!important;
+  }
