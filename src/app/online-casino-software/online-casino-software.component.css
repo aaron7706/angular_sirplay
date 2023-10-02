@@ -24,7 +24,7 @@ background-color: #a0c528;
         font-family: Poppins;
         line-height: 30px;
         font-weight: 395;
-        color: #686868;
+        color: #000;
         font-size: 16px;
     }
     .online-casino_col p strong{
@@ -207,4 +207,20 @@ strong{
 }
 .container2-col1 p,.casino_whites_sec_p{
     font-size: 16px;
+}
+.online-casino-button{
+    padding: 15px 20px;
+    font-size: 14px;
+}
+.fa-solid{
+    margin-right: 5px;
+}
+.casino_whites_sec_p{
+    font-family: Poppins;
+}
+ol, li{
+    color: #000000;
+}
+.container5-col2 h1{
+    font-size: 30px;
 }
