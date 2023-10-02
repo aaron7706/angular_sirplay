@@ -717,11 +717,11 @@ nav{
   
     .images_logo{
       margin-top: 21px;
+      width: 134px;
+      height: 53px;
     }
   
-    .normal_header{
-  
-    }
+   
     .responsive_nav{
       display: none;
     }

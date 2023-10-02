@@ -2133,27 +2133,40 @@ font-size: 52px;
 
 .text{
      text-align: start;
-     
+     padding: 5px;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 450;
     
 }
 .text_1_main{
-    margin-left: 120px;
+    margin-left: 98px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .text_2_main{
-    margin-left: 192px;
+    margin-left: 166px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .text_3_main{
-    margin-left: 143px;
+    margin-left: 122px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .text_4_main{
-    margin-left: 211px;
+    margin-left: 187px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .text_5_main{
-margin-left: 164px;
+margin-left: 146px;
+font-size: 16px;
+font-weight: 600;
 }
 
 .table-content1 p{
