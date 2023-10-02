@@ -8,7 +8,7 @@
     position: absolute;
     top: 200px;
     left: -35px;
-    padding: 10px 5px;
+    padding: 7px 5px;
     border: 0;
     border-radius: 5px 0 0 5px;
     background:#a0c528;
@@ -334,4 +334,6 @@
   .side-slider.client-download-box .contact-service-devices img {
     width: 100%
   }
-  
+  .contact-service-list{
+padding-left: 0px!important;
+  }
