@@ -328,6 +328,9 @@ p{
 .lanhead a{
     color: #a0c528;
 }
+.lanhead a:hover{
+    color: #000000;
+}
 .head-custom p,.plat-oddhead p{
     font-size: 16px;
 }
