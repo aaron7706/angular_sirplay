@@ -21,6 +21,7 @@
 .comp_header{
     font-weight: 600;
     font-size: 24px;
+    margin-bottom: 25px;
 }
 .comp_list{
 font-size: 16px;
@@ -97,7 +98,7 @@ height: 80px;
 
 .footer_para p{
 text-align: center;
-font-size: 18px;
+font-size: 15px;
 }
 .footer_para p a{
   color: #a0c528;
