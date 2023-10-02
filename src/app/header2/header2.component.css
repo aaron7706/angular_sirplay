@@ -243,6 +243,10 @@ margin-left: 100px;
 }
 
 
+.navbar-brand img{
+ 
+  margin-left: 19px;
+}
 
 
 .right-img-index3 img {
@@ -3209,4 +3213,8 @@ color: #808080;
 }
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
   display: block !important;
+}
+.navbar-brand img{
+  width: 34%;
+ 
 }

@@ -1092,8 +1092,11 @@ Responsive Codes
 /* Below 560px  */
 @media (max-width: 35em) {
   .header {
-    padding: 0 2.4rem;
+   
+      padding: 23px 2.4rem;
+      border-bottom: 1px solid rgba(0,0,0, 0.1);
   }
+  
 
   .header .logo {
     width: 40%;
@@ -1122,7 +1125,7 @@ Responsive Codes
 
 .new_logos{
   width: 134px !important;
-  height: 53px !important;
+  height: 38px !important;
 }
 /* header css end here */
 
@@ -2304,3 +2307,12 @@ width: 97%;
       
   }
   /* mobile betting */
+  @media (max-width:820px){
+    .new_logos {
+     
+      max-width: 28% !important;
+  }
+  .header {
+    padding: 23px 2.4rem;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+}}
