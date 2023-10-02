@@ -1,6 +1,7 @@
 *{
     font-family: Poppins !important;
- 
+    font-size: 19px;
+    font-weight: 390;
 }
 
 
@@ -13,10 +14,11 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1140px;
 }
-h3, h3 span {
+/* h3, h3 span {
     font-family: Poppins;
     line-height: 28px;
     font-weight: 600;
@@ -40,12 +42,91 @@ margin-bottom: 17px;
 .privacy_list_2 li{
     font-size: 16px;
 }
-.privacy_list_2 a{
-color: #a0c528;;
-}
-.privacy_list_2 a:hover{
-    color: #030303;;
-}
+
 li{
     font-weight: 390;
+}
+.strongly{
+    margin-bottom: 0px ;
+    line-height: 0px !important;
+} */
+@media (max-width:768px){
+    .privacy_list_2 li strong{
+        font-size: 22px;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+}
+
+
+h3 {
+    text-align: -webkit-auto;
+}
+.h3, h3 {
+    font-size: 34px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.row {
+    text-align: -webkit-auto;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.row {
+    text-align: -webkit-auto;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.para_14 {
+    color: black;
+}
+p {
+    text-align: left;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.privacy_list_2 a{
+    color: #a0c528;;
+}
+.privacy_list_2 a:hover{
+color: #030303;;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+b, strong {
+    font-weight: bolder;
 }
