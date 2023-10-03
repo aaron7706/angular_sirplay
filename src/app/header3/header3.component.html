@@ -1,136 +1,149 @@
 
 <header class="header">
-  <div class="nav_col">
-    <a ><img class="vrnl_logo" src="assets/VRNL new.png"  routerLink="/"/></a>
-  </div>
+  <img
+    src="assets/VRNL new.png"
+    alt=""
+    class="logo new_logos" routerLink="/"
+  />
 
-    <nav class="navbar">
-  
-      <ul class="navbar-list">
-        <li><a class="navbar-link" routerLink="/" >Vrnl</a></li>
-        <li><a  class="navbar-link" href="">Sports betting software <i class="fa-solid fa-angle-down"></i></a>
-          <ul id="submenu" >
-              <!-- <li><a routerLink="/sports-betting-software/retail-solutions">Retail solution <i class="fa-solid fa-angle-down"></i></a>
-              <ul id="menu">
+  <nav class="navbar">
+
+    <ul class="navbar-list">
+      <li><a class="navbar-link" routerLink="/" >Vrnl</a></li>
+      <li><a  class="navbar-link" href="">Sports betting software <i class="fa-solid fa-angle-down"></i></a>
+        <ul id="submenu" >
+            <!-- <li><a routerLink="/sports-betting-software/retail-solutions">Retail solution <i class="fa-solid fa-angle-down"></i></a>
+            <ul id="menu">
 <li><a routerLink="/betting-terminals" >Betting terminals</a></li>
-              </ul>
-              
-              </li> -->
-              <li><a routerLink="/sports-betting-software/mobile-betting-software">Mobile betting</a></li>
-              <!-- <li><a routerLink="/cashout">Cashout</a></li> -->
-              <li><a routerLink="/sportsbook-iframe">Sportsbook iFrame   <i class="fa-solid fa-angle-down"></i></a>
-                  <ul id="menu_2">
-                      <li><a routerLink="/"> Sport betting widget</a></li>
-                  </ul>
-              
-              </li>
-              <li><a routerLink="/sports-betting-software/esports-betting-software" >eSports betting</a></li>
+            </ul>
+            
+            </li> -->
+            <li><a routerLink="/sports-betting-software/mobile-betting-software">Mobile betting</a></li>
+            <!-- <li><a routerLink="/cashout">Cashout</a></li> -->
+            <li><a routerLink="/sportsbook-iframe">Sportsbook iFrame   <i class="fa-solid fa-angle-down"></i></a>
+                <ul id="menu_2">
+                    <li><a routerLink="/"> Sport betting widget</a></li>
+                </ul>
+            
+            </li>
+            <li><a routerLink="/sports-betting-software/esports-betting-software" >eSports betting</a></li>
 
-          </ul>
-      
-      
+        </ul>
+    
+    
+    </li>
+      <li><a class="navbar-link" href="#">White label casino <i class="fa-solid fa-angle-down"></i></a>
+    <ul id="submenu">
+        <li><a routerLink="/casino/casino-games">Casino games</a></li>
+        <li><a routerLink="/casino/live-casino" >Live Casino </a></li>
+        <li><a routerLink="/casino/lottery-games">Lottery games</a></li>
+
+    </ul>
+    
+    </li>
+      <!-- <li><a class="navbar-link" href="#">Web3 <i class="fa-solid fa-angle-down"></i></a>
+    
+        <ul id="submenu">
+            <li><a routerLink="/web3-sportsbook">Web3 Sportsbook</a></li>
+            <li><a routerLink="/web3-casino">Web3 Casino </a></li>
+            <li><a routerLink="/bitcoin-sportsbook">Bitcoin Sportsbook</a></li>
+            <li><a routerLink="/decentralized-sports-betting"> Decentralized Sport betting</a></li>
+
+
+        </ul>
+    
+    </li> -->
+      <li>
+        <li><a class="navbar-link" href="#">Company <i class="fa-solid fa-angle-down"></i></a>
+        
+            <ul id="submenu">
+                <li><a routerLink="/about-us">About</a></li>
+                <!-- <li><a routerLink="/certified-sports-betting-software">Certifications </a></li> -->
+
+    
+            </ul>
+    
+
       </li>
-        <li><a class="navbar-link" href="#">White label casino <i class="fa-solid fa-angle-down"></i></a>
-      <ul id="submenu">
-          <li><a routerLink="/casino/casino-games">Casino games</a></li>
-          <li><a routerLink="/casino/live-casino" >Live Casino </a></li>
-          <li><a routerLink="/casino/lottery-games">Lottery games</a></li>
+      <li><a class="navbar-link" routerLink="/contact">Contact us</a></li>
 
-      </ul>
-      
-      </li>
-       
-        <li>
-          <li><a class="navbar-link" href="#">Company <i class="fa-solid fa-angle-down"></i></a>
-          
-              <ul id="submenu">
-                  <li><a routerLink="/about-us">About</a></li>
-                  <!-- <li><a routerLink="/certified-sports-betting-software">Certifications </a></li> -->
-  
-      
-              </ul>
-      
+    </ul>
 
-        </li>
-        <li><a class="navbar-link" routerLink="/contact">Contact us</a></li>
 
-      </ul>
+    
+        <ul  class="res_data">
+            <div class="use_list" id="panel">
+            <li><a href="/index.html ">Vrnl</a></li>
+            <li (click)="animation()" >Sports betting software</li>
+            <li (click)="animation12()">White label casino</li>
+            
+            <li (click)="anime()">Company</li>
+            <li> <a href="/contact-us.html">Contact</a>  </li>
+            </div>
+        </ul>
 
-  
-      
-          <ul  class="res_data">
-              <div class="use_list" id="panel">
-              <li><a href="/index.html ">Vrnl</a></li>
-              <li (click)="animation()" >Sports betting software</li>
-              <li (click)="animation12()">White label casino</li>
-              
-              <li (click)="anime()">Company</li>
-              <li> <a href="/contact-us.html">Contact</a>  </li>
-              </div>
-          </ul>
+        <div class="next_back">
 
-          <div class="next_back">
+        
+        <ul  class="res_data_1">
+            <div class="use_list_1" id="panel_1">
+            <li  (click)="animation1()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
+            <!-- <li><a routerLink="/sports-betting-software/retail-solutions">Retail solutions</a></li> -->
+            <li><a routerLink="/sports-betting-software/mobile-betting-software">Mobile betting</a></li>
+            <!-- <li><a routerLink="/cashout">Cashout</a></li> -->
+            <li> <a routerLink="/sportsbook-iframe">Sportsbook IFrame </a></li>
+            <li><a routerLink="/sports-betting-software/esports-betting-software">eSports betting</a></li>
+            </div>
+        </ul>
+        </div>
 
-          
+        <div class="next_back">
+
+        
           <ul  class="res_data_1">
-              <div class="use_list_1" id="panel_1">
-              <li  (click)="animation1()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-              <!-- <li><a routerLink="/sports-betting-software/retail-solutions">Retail solutions</a></li> -->
-              <li><a routerLink="/sports-betting-software/mobile-betting-software">Mobile betting</a></li>
-              <!-- <li><a routerLink="/cashout">Cashout</a></li> -->
-              <li> <a routerLink="/sportsbook-iframe">Sportsbook IFrame </a></li>
-              <li><a routerLink="/sports-betting-software/esports-betting-software">eSports betting</a></li>
+              <div class="use_list_1" id="panel_2">
+              <li  (click)="animation_2()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
+              <li><a routerLink="/casino/casino-games">Casino games</a></li>
+              <li><a routerLink="/casino/live-casino">Live Casino</a></li>
+              <li><a routerLink="/casino/lottery-games">Lottery</a></li>
               </div>
           </ul>
           </div>
 
-          <div class="next_back">
-
           
-            <ul  class="res_data_1">
-                <div class="use_list_1" id="panel_2">
-                <li  (click)="animation_2()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-                <li><a routerLink="/casino/casino-games">Casino games</a></li>
-                <li><a routerLink="/casino/live-casino">Live Casino</a></li>
-                <li><a routerLink="/casino/lottery-games">Lottery</a></li>
-                </div>
-            </ul>
-            </div>
+        <div class="next_back">
 
-            
-          <div class="next_back">
-
-          
-            <ul  class="res_data_1">
-                <div class="use_list_1" id="panel_3">
-                <li  (click)="animated_1()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-                <li><a routerLink="/web3-sportsbook">Web3 Sportsbook</a></li>
-                <li><a routerLink="/web3-casino">Web3 Casino</a></li>
-                <li><a routerLink="/bitcoin-sportsbook">Bitcoin Sportsbook</a></li>
-                <li><a routerLink="/decentralized-sports-betting">Decentralized Sports betting</a></li>
-                </div>
-            </ul>
-            </div>
-
-
-            <div class="next_back">
-
-          
-              <ul  class="res_data_1">
-                  <div class="use_list_1" id="panel_4">
-                  <li (click)="anime_1()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-                  <li><a routerLink="/about-us">About</a></li>
-                  <!-- <li><a routerLink="/certified-sports-betting-software">Certifications</a></li> -->
-            
-                  </div>
-              </ul>
+        
+          <ul  class="res_data_1">
+              <div class="use_list_1" id="panel_3">
+              <li  (click)="animated_1()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
+              <li><a routerLink="/web3-sportsbook">Web3 Sportsbook</a></li>
+              <li><a routerLink="/web3-casino">Web3 Casino</a></li>
+              <li><a routerLink="/bitcoin-sportsbook">Bitcoin Sportsbook</a></li>
+              <li><a routerLink="/decentralized-sports-betting">Decentralized Sports betting</a></li>
               </div>
-    </nav>
+          </ul>
+          </div>
 
-    <div class="mobile-navbar-btn">
-      <ion-icon (click)="jquery()" name="menu-outline" class=" fa-solid fa-bars  mobile-nav-icon"></ion-icon>
-      <ion-icon (click)="jquery()" name="close-outline" class="fa-solid fa-xmark  mobile-nav-icon close_btn"></ion-icon>
-    </div>
-  </header>
+
+          <div class="next_back">
+
+        
+            <ul  class="res_data_1">
+                <div class="use_list_1" id="panel_4">
+                <li (click)="anime_1()"><a> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
+                <li><a routerLink="/about-us">About</a></li>
+                <!-- <li><a routerLink="/certified-sports-betting-software">Certifications</a></li> -->
+          
+                </div>
+            </ul>
+            </div>
+  </nav>
+
+  <div class="mobile-navbar-btn">
+    <ion-icon (click)="jquery()" name="menu-outline" class=" fa-solid fa-bars  mobile-nav-icon"></ion-icon>
+    <ion-icon (click)="jquery()" name="close-outline" class="fa-solid fa-xmark  mobile-nav-icon close_btn"></ion-icon>
+  </div>
+</header>
 
 
