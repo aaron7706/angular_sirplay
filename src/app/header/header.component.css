@@ -275,6 +275,8 @@ cursor: pointer;
       color: white;
       font-size: 13px;
       font-family: Poppins;
+      padding-left: 25px;
+
     }
     
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -297,7 +299,7 @@ cursor: pointer;
      
     }
     
-    .accordion {
+    /* .accordion {
       --bs-accordion-color: #212529;
       --bs-accordion-bg: #fff;
       --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
@@ -320,8 +322,7 @@ cursor: pointer;
       --bs-accordion-body-padding-y: .6rem;
       --bs-accordion-active-color: white;
       --bs-accordion-active-bg: #e7f1ff;
-      /* background-color: white; */
-    }
+    } */
     .accordion-button:focus {
       z-index: 3;
       border-color: var(--bs-accordion-btn-focus-border-color);
