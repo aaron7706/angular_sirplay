@@ -15,11 +15,10 @@ import { Footers2Component } from './footers2/footers2.component';
 import { CasinoGamesComponent } from './casino-games/casino-games.component';
 import { LotteryGamesComponent } from './lottery-games/lottery-games.component';
 import { CasinoTournamentComponent } from './casino-tournament/casino-tournament.component';
-import { StreamingComponent } from './streaming/streaming.component';
 import { WhitelabelComponent } from './whitelabel/whitelabel.component';
 import { WhitecasinoComponent } from './whitecasino/whitecasino.component';
 import { ContactComponent } from './contact/contact.component';
-import { WageringComponent } from './wagering/wagering.component';
+
 
 import { IFrameComponent } from './i-frame/i-frame.component';
 
@@ -53,11 +52,10 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
     CasinoGamesComponent,
     LotteryGamesComponent,
     CasinoTournamentComponent,
-    StreamingComponent,
     WhitelabelComponent,
     WhitecasinoComponent,
     ContactComponent,
-    WageringComponent,
+
  
     IFrameComponent,
 
