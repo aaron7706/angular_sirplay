@@ -37,7 +37,6 @@ margin-top: 190px;
     100% { opacity:1; }
 }
 .output {
-    /* text-align:center; */
     font-family: 'Source Code Pro', monospace;
     color:black;
    
@@ -51,14 +50,6 @@ margin-top: 190px;
     animation-duration:0.5s;
     animation-iteration-count: infinite;
   }
-  /* h1.cursor::after {
-    height:24px;
-    width:13px;
-  }
-  p.cursor::after {
-    height:13px;
-    width:6px;
-  } */
   
   @keyframes blink {
     0% {
@@ -386,7 +377,6 @@ display: none;
 .casino_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap:20px;
 }
 
@@ -502,7 +492,7 @@ padding-top: 80PX;
 .web3_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+ 
 }
 
 .web3_col_1{
@@ -631,7 +621,7 @@ height: 330px;
 .integration_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+
 }
 
 .integration_col{
@@ -741,7 +731,7 @@ color: #000 !important;
 .contact_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+
 }
 .contact_col{
     width: 41%;
@@ -1100,7 +1090,6 @@ margin-top: 2px !important;
 .comp_details{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap:207px;
 }
 .comp_sol{
@@ -1198,105 +1187,17 @@ color: #a0c528;
 
 
   
-  /* .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: -1;
-    opacity: 0;
-    transition: 1s all;
-  }
-   */
+  
   .navbar {
     display: flex;
     align-items: center;
-    /* width: 100vw; */
-    /* background-color: #fff; */
-    /* box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3); */
     position: relative;
     padding: 0px 70px;
     background-color: #fff;
     height: 87px;
   }
   
-  /* }
-  .navbar-logo {
-    color: #ff3f34;
-    text-decoration: none;
-    font-size: 25px;
-    padding: 0px 20px;
-  }
   
-  .navbar-links {
-    list-style-type: none;
-    display: flex;
-  }
-  .navbar-links li a {
-    display: block;
-    text-decoration: none;
-    color: #444;
-    padding: 20px 20px;
-    font-weight: 700;
-    transition: 0.4s all;
-    font-size: 22px;
-  }
-  
-  .navbar-links li.navbar-dropdown {
-    position: relative;
-  }
-  
-  .navbar-links li.navbar-dropdown:hover .dropdown {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  
-  .navbar-links li.navbar-dropdown .dropdown {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    padding: 20px 0;
-    top: 100%;
-    transform: translateY(50px);
-    left: 0;
-    width: 250px;
-    background-color: #fff;
-    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    z-index: 111;
-    transition: 0.4s all;
-  }
-  .navbar-links li.navbar-dropdown .dropdown a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-  .navbar-dropdown .dropdown a:hover {
-    padding-left: 30px;
-  }
-  .navbar-links li a:hover {
-    color: #a0c528;
-  }
-  
-
-  
-  .header-inner {
-    text-align: center;
-    color: #ff3f34;
-    text-shadow: 0px 10px 10px rgba(0, 0, 0, .8);
-  }
-  
-  .header-inner h1 {
-    font-family: "Great Vibes", cursive;
-    font-size: 130px;
-  } */
-/* =====================<betting navbar end here>===================== */
-
-
 /* ===================rrrrr==<betting ka retail solution page  css >rrrrrrrrrr===================== */
 
 .betting_shops{
@@ -1386,315 +1287,6 @@ display: none;
       }
 
       /* ==============screen header section============== */
-/*      
-      .screen_terminal{
-        padding-top: 168px;
-      }
-
-      .screen_row{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-.screen_img{
-    width: 446px;
-    height: 300px;
-}
-.screen_img_1{
-    width: 446px;
-    height: 300px;
-}
-
-.terminal_img {
-    width: 579px;
-}
-
-
-.screen_cards{
-background-color: #000;
-width: 116px;
-height: 116px;
-cursor: pointer;
-position: absolute;
-top: 367px;
-left: 551px;
-}
-.screen_deitails{
-    text-align: center;
-    color: white;
-    padding-top: 42px;
-    font-size: 30px;
-    font-weight: 600;   
-    display: flex;
-    padding-left: 45px;
-
-}
-.screen_cards:hover{
-    background-color: #a0c528;
-}
-
-.screen_deitails .arrow_3{
-    display: none;
-}
-
-.screen_cards:hover .arrow_3{
-    display: block;
-}
-.screen_col{
-    width: 40%;
-}
-.screen_col_1{
-    margin-top: -254px;
-
-}
-
-.screen_card:hover{
-    background-color: #a0c528;
-}
-
-.screen_deitails .arrow_3{
-    display: none;
-}
-
-.screen_card:hover .arrow_3{
-    display: block;
-}
-.screen_card{
-    background-color: #000;
-    width: 116px;
-    height: 116px;
-    cursor: pointer;
-    position: absolute;
-    top: 263px;
-    right: 179px;
-}
-.screen_header_1{
-    width: 199px;
-    font-size: 25px;
-}
-.screen_header_2{
-    width: 204px;
-    font-size: 25px;   
-}
- */
-
-
-      /* ==============screen header section============== */
-
-
-      /* sales solution start here */
-      /* .sale_solution_sec{
-padding-top: 100px;
-      }
-.sales_images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.sales_img_1{
-    width: 1000px;
-    height: 596px;
-}
-.sales_contain_row{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 128px;
-}
-.sales_card{
-    background-color: #a0c528;
-    width: 231px;
-    height: 70px;
-}
-.sales_card_details{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 22px;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-}
-.sales_card_details .arrow_4{
-    display: none;
-}
-.sales_card:hover .arrow_4{
-    display: block;
-}
-.sales_card:hover{
-
-    background-color: #575756;
-}
-.arrow_5{
-    margin-left: 12px;
-    margin-top: 6px;
-}
-.arrow_4{
-    margin-top: 6px;
-}
-.sales_para_1{
-    color: #a0c528;
-    font-size: 30px;
-}
-.sales_col{
-width: 36%;
-}
-.sales_col_1{
-    width: 29%;
-    } */
-
-     /* sales solution start here end */
-
-
-     /* Prepaid_cards section start */
-
-     /* .Prepaid_cards{
-padding-top: 80px;
-     }
-     .prepaid_row{
-        display: flex;
-        justify-content: center;
-     }
-     .prepaid_img{
-width: 680px;
-height: 530px;
-     }
-     .prepaid_col{
-width: 37%;
-}
-.prepaid_col_1{
-    width: 36%;
-    } */
-
-   
-    /* Prepaid_cards section end*/
-
-    /* @media (max-width:820px){
-        .betting_shop_row {
-            width: 358px;
-            position: relative;
-            left: 5%;
-        }
-        .bet_shop_head {
-            font-size: 25px;
-        }
-        .bet_shop_para {
-            text-align: center;
-            font-size: 14px;
-        }
-        .teriminal_row {
-            display: flex;
-            flex-direction: column;
-        }
-        .terminal_col {
-            width: 94%;
-        }
-        .ter_head_1 {
-            font-size: 52px;
-            color: #a0c528;
-        }
-        .terminal_col_1 {
-            width: 90%;
-            margin-top: 25px;
-        }
-        .ter_head_2 {
-            font-size: 33px;
-        }
-        .screen_row {
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-
-        }
-        .screen_col {
-            width: 93%;
-        }
-        .screen_col_1 {
-            margin-top: 2px;
-        }
-        .screen_cards {
-            background-color: #000;
-            width: 97px;
-            height: 174px;
-            cursor: pointer;
-            position: absolute;
-            top: 438px;
-            left: 263px;
-        }
-        .screen_header_1 {
-            width: 155px;
-            font-size: 25px;
-        }
-        .screen_card {
-            background-color: #000;
-            width: 97px;
-            height: 174px;
-            cursor: pointer;
-            position: absolute;
-        
-            top: 80%;
-    right: 11%;
-        }
-        .screen_header_2 {
-            width: 115px;
-            font-size: 25px;
-        }
-        .screen_deitails {
-            text-align: center;
-            color: white;
-            padding-top: 67px;
-            font-size: 30px;
-            font-weight: 600;
-            display: flex;
-            padding-left: 36px;
-        }
-        .screen_img {
-            width: 375px;
-            height: 300px;
-        }
-        .screen_img_1 {
-            width: 391px;
-            height: 300px;
-        }
-        .sales_contain_row {
-display: flex;
-flex-direction: column;
-margin-left: 1px;
-    }
-    .sales_img_1 {
-        width: 453px;
-        height: 291px;
-    }
-    .sales_col {
-        width: 96%;
-    }
-    .sales_para_1 {
-        color: #a0c528;
-        font-size: 29px;
-    }
-    .sales_col_1 {
-        width: 86%;
-    }
-    .prepaid_row {
-display: flex;
-flex-direction: column;
-padding: 15px;
-    }
-    .prepaid_col {
-        width: 100%;
-    }
-    .prepaid_head {
-        color: #a0c528;
-        font-size: 59px;
-    }
-    .prepaid_para {
-        font-size: 21px;
-    }
-    .prepaid_col_1 {
-        width: 97%;
-    }
-} */
-/* ===================xxxxxxxxxrr==<betting ka retail solution page  css end  >===rrrrrrrrrrr================== */
 
 
 
@@ -1743,15 +1335,11 @@ a{
 }
 .nav_row_2 li a{
 color: #000;
-/* padding: 18px; */
 padding-bottom: 21px !important;
-/* padding-left: 14px; */
 font-family: 'Poppins';
 
 }
-.active,.nav_row_2 li:hover{
-/* background-color: aqua; */
-}
+
 
 .nav_row_2 li:hover .sub_menu{
   display: block;
@@ -1856,7 +1444,7 @@ display: none;
 .hover_me:hover .sub_menu_2{
   display: block;
   position: absolute;
-  /* margin-left: 22px; */
+
   left: 95%;
     top: 0;
     background: #a0c528;
@@ -1918,7 +1506,6 @@ display: none;
   top: 0;
   right: 0;
   left: 0;
-  /* padding: 20px 0; */
   z-index: 1;
 }
 .page-header.is-sticky {
@@ -2117,7 +1704,6 @@ font-weight: 600;
 
 
 .col2-text{
-    /* padding: 158px; */
     margin: 75px;
     margin-left: 3px;
     padding: 0px 179px 0px 10px;
@@ -2130,7 +1716,6 @@ font-weight: 600;
 .container4-row{
     display: flex;
     padding: 82px;
-    /* margin: 5px; */
     text-align: justify;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
@@ -2214,9 +1799,6 @@ font-size: 18px;
     line-height: 4;
 }
 
-.faq-col1{
-    /* padding: 0px 10px 0px 164px; */
-}
 
 
 .faq-col1 h3{
@@ -2709,9 +2291,7 @@ cursor: pointer;
     .container13{
         padding: 34px 22px 19px ;
     }
-    /* .param_1 h1,b{
-        line-height: 0 !important;
-    } */
+ 
     .index5-maindiv {
         
         flex-direction: column;
@@ -2809,7 +2389,6 @@ cursor: pointer;
 
 
     .index4-content1 {
-        /* display: flex; */
         flex-direction: column;
         padding: 0px !important;
     }
@@ -2881,7 +2460,7 @@ cursor: pointer;
 
 .index4-right-text {
     padding: 2px 28px 0px 19px !important;
-    /* margin-top: -58px; */
+
 }
 /* ============================index 4 media query ends==================================== */
 
@@ -3360,7 +2939,6 @@ padding: 0px 247px 0px 5px !important;
 }
 
 .crypto-online-casino_col {
-    /* padding: 0px 0px 0px 0px !important; */
     width: 100% !important; 
 
 }
@@ -3483,7 +3061,6 @@ margin-left: 128px !important;
 .crypto-section4-left h2 {
     font-size: 24px !important;   
     line-height: 32px !important; 
-    /* padding: 30px; */
     padding-left: 10px !important;
     margin-top: 79px !important;
 }
@@ -3491,11 +3068,6 @@ margin-left: 128px !important;
     width: 100% !important;
 }
 
-/* .crypto-section4-left img {
-    
-    margin-left: 54px !important;
-   
-} */
 .pro_img_sec{
 width: 330px !important;
 margin-left: 37px !important;
@@ -3509,7 +3081,6 @@ margin-left: 37px !important;
 .crypto-section4-right h2 {
     font-size: 24px !important;
     line-height: 34px !important;
-    /* text-align: left; */
     margin-left: 15px !important;
     margin-top: 71px !important;
     width: 96% !important;
@@ -3552,21 +3123,11 @@ margin-left: 37px !important;
 .crypto-section5-right h2 {
     font-size: 24px !important;   
     line-height: 30px !important;
-    /* margin-left: -164px !important; */
-    /* margin-right: -44px !important; */
+ 
     margin-top: 17px !important;
 }
 
 
-/* .crypto-section5-right img {
-    margin-left: -187px !important;
-    margin-top: 29px !important;
-    width: 347% !important;
-} */
-
-/* .pro_img_sec{
-    width: 400px !important;
-} */
 .crypto-section5-right {
     width: 94% !important;
 }
@@ -3837,7 +3398,6 @@ margin-top: 35px !important;
 .about-section1-counter-row {
      display: flex !important;
     flex-direction: column !important;
-    /* margin-left: -257px !important; */
     gap:45px !important;
     
 }
@@ -3951,7 +3511,6 @@ padding: 98px 15px 0px 15px !important;
 .index2-col ul li b{
     color: rgb(0 0 0);
     line-height: 1.5; 
-    /* padding: 0px 21px; */
 }
 .iframe_card{
 width: 500px;
@@ -4023,7 +3582,6 @@ margin-top: 108px;
 
 .table-col1{
     display: flex;
-    /* gap: 169px; */
 }
 
 
@@ -4106,20 +3664,9 @@ padding: 0px 0px 13px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
     background: gray;
     height: 60em;
 }
-
-/* .contactform-containermain::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: rgb(53, 53, 53);
-} */
 
 .contact-container{
     position: relative;
@@ -4127,7 +3674,6 @@ padding: 0px 0px 13px;
     min-height: 550px;
     display: flex;
     z-index: 1000;
-    /* background: #fff; */
 
 }
 
@@ -4135,7 +3681,6 @@ padding: 0px 0px 13px;
     position: absolute;
     top: 39px;
     width: 279px;
-    /* height: calc(87% - 224px); */
     background: rgb(160,197,40);
     z-index: 1;
     padding: 40px;
@@ -4177,7 +3722,6 @@ padding: 0px 0px 13px;
 
 .contact-container .contactinfo ul.contact-info-index2 li span:nth-child(1) i{
     max-width: 100%;
-    /* filter: invert(1);  */
 }
 
 
@@ -4277,7 +3821,6 @@ padding: 0px 0px 13px;
 
 .social_icons i{
     text-align: center;
-    /* display: flex; */
     justify-content: center;
     padding-top: 17px;
     font-size: 18px;
@@ -4369,7 +3912,6 @@ font-weight: 500;
 
 .table-col{
     display: flex;
-    /* gap: 169px; */
 }
 
 
@@ -4525,7 +4067,6 @@ margin-left: -85px;
 
 .table-col{
     display: flex;
-    /* gap: 169px; */
 }
 
 
@@ -4623,7 +4164,6 @@ padding: 166px 0px 10px;
 .index4-right-text p,b{
     font-size: 16px;
     font-family: Raleway, sans-serif;
-    /* color: #575756; */
     line-height: 44px;
 }
 
@@ -4668,13 +4208,10 @@ padding: 166px 0px 10px;
     letter-spacing: 0.001em;
     padding: 9px -1px 30px 4px;
     color: #a0c528;
-    /* font-family: Raleway,sans-serif; */
      font-weight: 100;
 }
 
-/* .index5-left-text h1,b{
-    color: #a0c528;
-} */
+
 
 .index5-right-img img{
     padding: 256px 10px 10px 10px;
@@ -5415,7 +4952,6 @@ font-family: Poppins;
     color: #a0c528;
     line-height: 72px;
     text-align: center;
-    /* padding: 30px; */
     padding-left: 66px;
 }
 
@@ -5425,7 +4961,6 @@ font-family: Poppins;
 
     width: 80%;
     height: 80%;
-    /* text-align: center; */
     margin-left: 110px;
     margin-top: 37px;
     
@@ -5436,7 +4971,6 @@ font-family: Poppins;
 .web3-second-right h2{
 font-size: 32px;
     line-height: 73px;
-    /* text-align: left; */
     margin-left: 48px;
 }
 
@@ -5527,7 +5061,6 @@ font-size: 32px;
 
 
 .web3-col2-text{
-    /* padding: 158px; */
     padding: 144px 288px 10px 194px;
 }
 
@@ -5559,7 +5092,6 @@ margin-left: 27px;
 .web3-container4-row{
     display: flex;
     padding: 82px;
-    /* margin: 5px; */
     text-align: justify;
     justify-content: center;
     font-family: 'Poppins', sans-serif;

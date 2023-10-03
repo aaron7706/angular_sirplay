@@ -18,38 +18,7 @@
     padding-right: 20px;
     max-width: 1140px;
 }
-/* h3, h3 span {
-    font-family: Poppins;
-    line-height: 28px;
-    font-weight: 600;
-    font-size: 28px;
-}
-p {
-line-height: 30px;
-font-weight: 390;
-color: #000;
-font-size: 16px;
-margin-bottom: 17px;
-}
 
-.privacy_list_2 li strong{
-    font-size: 22px;
-    line-height: 68px;
-}
-.privacy_list_2 li span,.privacy_list li span{
-    font-size: 16px;
-}
-.privacy_list_2 li{
-    font-size: 16px;
-}
-
-li{
-    font-weight: 390;
-}
-.strongly{
-    margin-bottom: 0px ;
-    line-height: 0px !important;
-} */
 @media (max-width:768px){
     .privacy_list_2 li strong{
         font-size: 22px;

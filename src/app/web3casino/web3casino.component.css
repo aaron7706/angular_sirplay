@@ -1,9 +1,9 @@
-/* #animate-area { 
+#animate-area { 
     width: 100%; 
     height: 400px; 
-    background-image: url(assets/we-are-sirplay.jpg.webp);
+    /* background-image: url(assets/we-are-sirplay.jpg.webp); */
   background-size: cover ;
-} */
+}
 button:hover {
   background-color: none !important;
   border-color:none !important;
