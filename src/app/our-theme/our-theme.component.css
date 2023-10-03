@@ -23,6 +23,7 @@ body {
     transition: transform 0.3s, box-shadow 0.3s;
     justify-content: center;
     margin: 0 auto;
+    z-index: -1;
   
 }
 
