@@ -2460,3 +2460,13 @@ color: #808080;
   width: 34%;
  
 }
+@media (min-width: 1200px){
+.nav_col img {
+    /* max-width: 61%; */
+    margin-left: -13px;
+}
+.vrnl_logo {
+    width: 134px;
+    height: 53px;
+}
+}
