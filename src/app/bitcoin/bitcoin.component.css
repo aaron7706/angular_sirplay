@@ -1,7 +1,7 @@
 #animate-area { 
     width: 100%; 
     height: 400px; 
-    background-image: url(/assets/we-are-sirplay.jpg.webp);
+    background-image: url(assets/we-are-sirplay.jpg.webp);
   background-size: cover ;
 }
 .hover-1_1{
