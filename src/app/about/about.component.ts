@@ -20,7 +20,6 @@ export class AboutComponent  implements OnInit {
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
-    // this.playAnim();
     this.playAnim();
     this.intervalId = setInterval(() => {
       this.updateBackgroundPosition();

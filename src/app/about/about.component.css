@@ -210,7 +210,7 @@ p {
   margin-bottom: 1em;
 }
 .aboutus-content-box {
-  background-image: url(/assets/aboutus_bg\ \(1\).jpg);
+  background-image: url('../../assets/aboutus_new.jpg');
   background-size: cover;
   background-position: right;
 }
