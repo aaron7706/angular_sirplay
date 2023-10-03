@@ -27,7 +27,6 @@
         100% { opacity:1; }
     }
     .output {
-        /* text-align:center; */
         font-family: 'Source Code Pro', monospace;
         color:black;
        
@@ -41,14 +40,7 @@
         animation-duration:0.5s;
         animation-iteration-count: infinite;
       }
-      /* h1.cursor::after {
-        height:24px;
-        width:13px;
-      }
-      p.cursor::after {
-        height:13px;
-        width:6px;
-      } */
+    
       
       @keyframes blink {
         0% {
@@ -107,7 +99,6 @@
         font-size: 55px;
         font-weight: bold;
         font-family: 'Poppins';
-        /* margin-top:85px; */
       }
 
       .param{
@@ -397,8 +388,7 @@ display: none;
 .casino_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    gap:20px;
+gap:20px;
 }
 
 .casino_header{
@@ -518,7 +508,6 @@ padding-top: 80PX;
 .web3_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .web3_col_1{
@@ -653,7 +642,6 @@ height: 330px;
 .integration_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .integration_col{
@@ -765,7 +753,6 @@ color: #000 !important;
 .contact_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 .contact_col{
     width: 41%;
@@ -1091,12 +1078,7 @@ font-family:'Poppins';
 line-height: 30px;
 font-weight: 350;
   }
-  .sirplay_certificate h2 {
-    /* font-family: Poppins; */
-    /* line-height: 28px; */
-    /* font-weight: 600; */
-    /* font-size: 28px; */
-}
+
 .faq_container ul{
         padding-left: 30px;
         font-size: 16px;

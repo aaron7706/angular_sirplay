@@ -266,7 +266,6 @@ justify-content: center;
 }
 .sportsbetting-complete-sports-col1 ul li {
   padding: 0;
-  /* margin: 21px 0px 0.5em -1.345em; */
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   line-height: 30px;
@@ -358,7 +357,6 @@ justify-content: center;
   letter-spacing: 0.001em;
   color: rgb(87, 87, 86);
   font-weight: 200;
-  /* font-size: calc(285.7%); */
   font-family: "Raleway", sans-serif;
   font-size: 45px;
   margin-bottom: 30px
@@ -481,14 +479,10 @@ justify-content: center;
     width: 320px;
   }
 
-  .sportsbetting-benefits p {
-    /* padding-right: 25%;
-         padding-left: 6%; */
-  }
+ 
 
   .sportsbetting-benefits h3 {
-    /* margin-left: 5%; */
-    width: 96%;
+width: 96%;
     font-size: 27px;
     margin-bottom: 15px;
   }
@@ -580,7 +574,6 @@ justify-content: center;
 .contact_row {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 .contact_col {
   width: 41%;
@@ -725,7 +718,6 @@ textarea {
 .comp_details {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 207px;
 }
 .comp_sol {
@@ -815,7 +807,6 @@ textarea {
 }
 
 html {
-  /* 1em = 10px */
   overflow-x: hidden;
 }
 
@@ -841,8 +832,7 @@ body {
 
 .navbar-list {
   display: flex;
-  /* gap: 0.8em; */
-  list-style: none;
+list-style: none;
 }
 
 .navbar-link:link,
@@ -1059,7 +1049,6 @@ Responsive Codes
   }
 
   .navbar {
-    /* display: none; */
     width: 100%;
     height: 100vh;
     background-color: rgba(160, 197, 40, 0.94);
@@ -1302,9 +1291,6 @@ Responsive Codes
   margin-right: -5%;
 }
 
-.top-esports-col2-images img {
-  /* width: 50%; */
-}
 
 /* =============================================================== */
 
@@ -1368,8 +1354,6 @@ Responsive Codes
   margin-right: calc(0.001em * -1);
   text-transform: none;
   color: rgb(87, 87, 86);
-  /* margin-left: 23%;
-  margin-right: 28%; */
   font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
 
@@ -1389,8 +1373,6 @@ Responsive Codes
   line-height: 1.8;
   letter-spacing: 0em;
   text-transform: none;
-  /* margin-left: 24%;
-  margin-right: 28%; */
   color: rgb(47, 47, 47);
   font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
@@ -1793,8 +1775,6 @@ margin-top: 146px;
 }
 .ter_head_2{
     font-size: 40px;
-    /* margin-top: -13px; */
-    /* font-size: calc(200%); */
     font-family: "Raleway", sans-serif;
     font-weight: 400;
 }
@@ -2263,9 +2243,6 @@ width: 97%;
 
 
   /* mobile betting */
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
   
   
   .mobile-sports-main{
