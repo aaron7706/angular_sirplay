@@ -16,7 +16,6 @@ import { Footers2Component } from './footers2/footers2.component';
 import { CasinoGamesComponent } from './casino-games/casino-games.component';
 import { LotteryGamesComponent } from './lottery-games/lottery-games.component';
 import { CasinoTournamentComponent } from './casino-tournament/casino-tournament.component';
-import { StreamingComponent } from './streaming/streaming.component';
 import { WhitelabelComponent } from './whitelabel/whitelabel.component';
 import { WhitecasinoComponent } from './whitecasino/whitecasino.component';
 import { Web3sportbookComponent } from './web3sportbook/web3sportbook.component';
@@ -26,7 +25,6 @@ import { DecentralizedComponent } from './decentralized/decentralized.component'
 import { BitcoinComponent } from './bitcoin/bitcoin.component';
 import { CertificateComponent } from './certificate/certificate.component';
 import { ContactComponent } from './contact/contact.component';
-import { WageringComponent } from './wagering/wagering.component';
 import { CashoutComponent } from './cashout/cashout.component';
 import { IFrameComponent } from './i-frame/i-frame.component';
 import { TerminalComponent } from './terminal/terminal.component';
@@ -61,7 +59,6 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
     CasinoGamesComponent,
     LotteryGamesComponent,
     CasinoTournamentComponent,
-    StreamingComponent,
     WhitelabelComponent,
     WhitecasinoComponent,
     Web3sportbookComponent,
@@ -71,7 +68,6 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
     BitcoinComponent,
     CertificateComponent,
     ContactComponent,
-    WageringComponent,
     CashoutComponent,
     IFrameComponent,
     TerminalComponent,

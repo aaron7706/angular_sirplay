@@ -8,7 +8,6 @@ import { LiveCasinoComponent } from './live-casino/live-casino.component';
 import { CasinoGamesComponent } from './casino-games/casino-games.component';
 import { LotteryGamesComponent } from './lottery-games/lottery-games.component';
 import { CasinoTournamentComponent } from './casino-tournament/casino-tournament.component';
-import { StreamingComponent } from './streaming/streaming.component';
 import { WhitelabelComponent } from './whitelabel/whitelabel.component';
 import { WhitecasinoComponent } from './whitecasino/whitecasino.component';
 import { Web3sportbookComponent } from './web3sportbook/web3sportbook.component';
@@ -18,7 +17,6 @@ import { DecentralizedComponent } from './decentralized/decentralized.component'
 import { BitcoinComponent } from './bitcoin/bitcoin.component';
 import { CertificateComponent } from './certificate/certificate.component';
 import { ContactComponent } from './contact/contact.component';
-import { WageringComponent } from './wagering/wagering.component';
 import { CashoutComponent } from './cashout/cashout.component';
 import { IFrameComponent } from './i-frame/i-frame.component';
 import { TerminalComponent } from './terminal/terminal.component';
@@ -41,7 +39,6 @@ const routes: Routes = [
   {path:'casino/casino-games',component:CasinoGamesComponent},
   {path:'casino/lottery-games',component:LotteryGamesComponent},
   {path:'casino/tournaments',component:CasinoTournamentComponent},
-  {path:'streaming-platform-casino-and-betting',component:StreamingComponent},
   {path:'white-label-betting-platform',component:WhitelabelComponent},
   {path:'casino',component:WhitecasinoComponent},
   {path:'web3-sportsbook',component:Web3sportbookComponent},
@@ -51,7 +48,6 @@ const routes: Routes = [
   {path:'bitcoin-sportsbook',component:BitcoinComponent},
   {path:'certified-sports-betting-software',component:CertificateComponent},
   {path:'contact',component:ContactComponent},
-  {path:'wagering-solutions',component:WageringComponent},
   {path:'cashout', component:CashoutComponent},
   {path:'sportsbook-iframe', component:IFrameComponent},
   {path:'betting-terminals', component:TerminalComponent},
