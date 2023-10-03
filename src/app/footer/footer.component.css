@@ -11,7 +11,6 @@
 .comp_details{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap:63px;
 }
 .comp_sol{
@@ -126,9 +125,6 @@ text-decoration: none;
 }
 
 @media (max-width: 768px){
-    /* .comp_row{
-        flex-direction: row;
-    } */
     .com {
         margin-left: 0px  !important;
         margin-top: 31px;

@@ -37,9 +37,7 @@ background-color: #a0c528;
         font-weight: 700;
         font-size: 22px;
     }
-    /* .online-casino-button{
-        margin-left: 15rem;
-    } */
+
     .online-casino-youtube img{
 
         transition: all .4s ease-in-out 0s;
@@ -103,7 +101,7 @@ height: 700px;
     width: 1233px;
     justify-content: center;
     margin: 0 auto;
-    /* / padding: 80px 0; / */
+
 }
 @media (max-width: 1200px){
 .containt {

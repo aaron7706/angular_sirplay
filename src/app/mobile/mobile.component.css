@@ -490,7 +490,7 @@ width: 96%;
   .sportsbetting-benefits-image img {
     width: 90%;
   }
-  /* ========================================================== */
+
 
   .sportsbetting-complete-sports-main {
     flex-direction: column;
@@ -516,7 +516,7 @@ width: 96%;
   .payment_img {
     width: 100%;
   }
-  /* ========================================================== */
+
 
   .sportsbetting-crypto-sports-main {
     flex-direction: column;
@@ -539,7 +539,7 @@ width: 96%;
     margin-left: 3%;
   }
 
-  /* ========================================================== */
+
 
   .sportsbetting-betting-software-main {
     flex-direction: column;
@@ -550,7 +550,7 @@ width: 96%;
     width: 93%;
   }
 
-  /* ========================================================== */
+
 
   .sportsbetting-online-retail-main {
     flex-direction: column;
@@ -1597,7 +1597,7 @@ Responsive Codes
     width: 86%;
     margin-left: 5%;
   }
-  /* =========================================== */
+
 
   .top-esports-main {
     flex-direction: column;
@@ -1607,7 +1607,6 @@ Responsive Codes
     display: contents;
   }
 
-  /* =========================================== */
 
   .easy-setup-main {
     flex-direction: column;
@@ -1641,7 +1640,7 @@ width: 100%;
     max-width: 100%;
   }
 
-  /* =========================================== */
+
 
   .bitcoin-esports-main {
     flex-direction: column;
@@ -1655,7 +1654,7 @@ width: 100%;
     margin-left: 5%;
   }
 
-  /* =========================================== */
+
 
   .esports-faq-content {
     flex-direction: column;
@@ -2237,12 +2236,7 @@ width: 97%;
 
 
 
-  /* retail css end here */
 
-
-
-
-  /* mobile betting */
   
   
   .mobile-sports-main{
