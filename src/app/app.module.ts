@@ -30,7 +30,6 @@ import { MobileComponent } from './mobile/mobile.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComComponent } from './contact-com/contact-com.component';
 import { FormsModule } from '@angular/forms';
-import { ContactComponent2Component } from './contact-component2/contact-component2.component';
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
@@ -66,7 +65,6 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
     MobileComponent,
     AboutComponent,
     ContactComComponent,
-    ContactComponent2Component,
     FAQComponent,
     ScrollBtnComponent,
     OurThemeComponent,

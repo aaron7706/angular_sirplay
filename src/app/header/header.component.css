@@ -446,7 +446,7 @@ cursor: pointer;
 
 .nav_col img {
   /* margin: 30px -28px !important; */
-  max-width: 61%;
+  max-width: 100%;
   margin-left: -13px;
 }
 }
@@ -455,7 +455,7 @@ cursor: pointer;
   
 .nav_col img {
   /* margin: 30px -28px !important; */
-  max-width: 36%;
+  max-width: 50%;
   margin-left: -13px;
 }
 }
