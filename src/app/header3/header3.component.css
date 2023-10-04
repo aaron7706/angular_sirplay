@@ -765,7 +765,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9999;
-  /* box-shadow: 0em 0.19em 0.3em 0px hsla(0, 0%, 0%, 0.11); */
+  box-shadow: 0em 0.19em 0.3em 0px hsla(0, 0%, 0%, 0.11);
 }
 
 .header .logo {
@@ -2323,4 +2323,8 @@ width: 97%;
     max-width: 37%;
     margin-left: -13px;
   }
+  }
+  .images_logo{
+    width: 134px;
+    height: 53px;
   }
