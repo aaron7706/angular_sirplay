@@ -214,9 +214,7 @@ p {
     align-items: center;
     padding: 20px;
     font-family: 'Poppins';
-    background-image: url('../../assets/aboutus_new.jpg');
-    background-size: cover;
-    background-position: right;
+
 }
 
 .left-content {
@@ -236,6 +234,10 @@ p {
 }
 .main-container{
     margin-top: 90px;
+}
+.container1 ul li{
+font-size: 15px;
+margin-left: 20px;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
