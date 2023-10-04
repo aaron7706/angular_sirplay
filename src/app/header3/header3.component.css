@@ -53,7 +53,11 @@
   text-decoration: none;
   color: #a0c528;
 }
-
+.images_logo{
+  width: 134px;
+  height: 53px;
+ 
+}
 .sportsbetting-section1-col2 iframe {
   width: 747px;
   height: 392px;
@@ -2318,13 +2322,8 @@ width: 97%;
 }}
 @media screen and (max-width:767px) {
   
-  .nav_col img {
-    /* margin: 30px -28px !important; */
-    max-width: 37%;
-    margin-left: -13px;
-  }
-  }
-  .images_logo{
-    width: 134px;
-    height: 53px;
+  .images_logo {
+    width: 105px;
+    height: 43px;
+}
   }
