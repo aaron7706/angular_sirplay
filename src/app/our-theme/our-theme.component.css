@@ -254,3 +254,9 @@ margin-left: 20px;
 }
 
 
+.theme_header{
+    color: #a0c228;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
