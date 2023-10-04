@@ -1104,7 +1104,7 @@ Responsive Codes
 }
 
 .use_list li:hover {
-  background-color: rgba(255, 255, 255, 0.94);
+  /* background-color: rgba(255, 255, 255, 0.94); */
   color: #a0c528;
 }
 
@@ -2316,3 +2316,11 @@ width: 97%;
     padding: 23px 2.4rem;
     border-bottom: 1px solid rgba(0,0,0, 0.1);
 }}
+@media screen and (max-width:767px) {
+  
+  .nav_col img {
+    /* margin: 30px -28px !important; */
+    max-width: 37%;
+    margin-left: -13px;
+  }
+  }

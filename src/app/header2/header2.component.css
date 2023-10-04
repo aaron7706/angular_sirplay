@@ -243,9 +243,6 @@ margin-left: 100px;
 }
 
 
-.navbar-brand img{
-  margin-left: 19px;
-}
 
 
 .right-img-index3 img {
@@ -3214,6 +3211,17 @@ color: #808080;
   /* display: block !important; */
 }
 .navbar-brand img{
-  width: 34%;
+  max-width: 39%;
  
+}
+@media screen and (max-width:767px) {
+  
+  .nav_col img {
+    /* margin: 30px -28px !important; */
+    max-width: 50%;
+    margin-left: -13px;
+  }
+  }
+  .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    font-size: 14px;
 }
