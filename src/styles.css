@@ -13904,3 +13904,6 @@ list-style: none;
     padding-top: 137px !important;
     margin-bottom: 40px !important;
 }
+.iti__country,.iti__selected-dial-code {
+    font-size: 14px !important;
+}
