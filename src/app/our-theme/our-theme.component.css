@@ -220,6 +220,7 @@ p {
 .left-content {
     flex: 1;
     padding: 20px;
+    line-height: 1.8;
 }
 
 .right-images {
@@ -250,6 +251,14 @@ margin-left: 20px;
     .right-images {
         flex: none; /* Reset flex to none for stacking on small screens */
         width: 100%;
+    }
+    .card-content {
+        padding: 6px;      
+        height: 30%;
+    }
+    h2 {
+        font-size: 11px;
+        padding-bottom: 10px;
     }
 }
 
