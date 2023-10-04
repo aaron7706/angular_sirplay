@@ -51,7 +51,7 @@
     font-size: 16px;
     margin-top: 15px;
     cursor: pointer;
-    margin-left: 19px;
+    margin-left: 48px;
 
 }
 .contact_b:hover{
@@ -208,6 +208,11 @@ cursor: pointer;
 }
 
 
+
+.row_col{
+    display: flex;
+    justify-content: center; 
+}
 
 .wpcf7-response-output {
     border: 2px solid;
