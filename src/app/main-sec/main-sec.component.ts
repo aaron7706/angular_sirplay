@@ -21,8 +21,9 @@ export class MainSecComponent implements OnInit {
     this.typingElement = document.querySelector(".typing-text");
     this.playAnim();
     this.intervalId = setInterval(() => {
-      this.updateBackgroundPosition();
+     
     }, 10);
+    //  this.updateBackgroundPosition();
   }
   playAnim() {
     setTimeout(() => {
@@ -53,17 +54,17 @@ export class MainSecComponent implements OnInit {
     }, this.isAdding ? 120 : 60);
   }
 
-  ngOnDestroy() {
-    clearInterval(this.intervalId);
-  }
+  // ngOnDestroy() {
+  //   clearInterval(this.intervalId);
+  // }
 
-  private updateBackgroundPosition() {
-    this.i++;
-    const animateArea = document.getElementById('animate-area');
-    if (animateArea) {
-      animateArea.style.backgroundPosition = this.i + 'px';
-    }
-  }
+  // private updateBackgroundPosition() {
+  //   this.i++;
+  //   const animateArea = document.getElementById('animate-area');
+  //   if (animateArea) {
+  //     animateArea.style.backgroundPosition = this.i + 'px';
+  //   }
+  // }
   scrollToContact() {
     const contactElement = document.querySelector('#contact'); // Use the ID of the target element
     if (contactElement) {
