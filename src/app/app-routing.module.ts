@@ -20,6 +20,7 @@ import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+let useHashData = true;
 
 const routes: Routes = [
   {path:'',component:MainSecComponent},
@@ -53,20 +54,10 @@ const routes: Routes = [
 
 
 
-
-
-
-
-
-
-
-
-
-
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{ useHash: useHashData })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
