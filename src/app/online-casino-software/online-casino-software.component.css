@@ -1,6 +1,6 @@
 .container_imgs{
 width: 853px;
-height: 344px;
+height: 100% !important;
 }
 
 .main_feater{
