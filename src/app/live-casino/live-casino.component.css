@@ -1522,6 +1522,7 @@ height: auto !important;
 
     .card1 {
         width: 100%;
+        height: auto;
     }
     .iframe_sec_images iframe {
         width: 382px !important;
