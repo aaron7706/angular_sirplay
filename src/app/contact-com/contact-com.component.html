@@ -1,7 +1,7 @@
 <section class="contact_sec">
   <div class="contact_row">
     <div class="contact_col">
-      <h3 class="contact_header">Contact US</h3>
+      <h1 class="contact_header">Contact US</h1>
       <p class="contact_para">
         Connect with a Vrnl expert for a detailed discussion about how our
         services might give benefits to your Betting business and create your
@@ -40,9 +40,9 @@
 
     <div class="contact_col_1">
       <div class="wpb_wrapper">
-        <h4 class="x-text-content-text-primary" style="font-size: 18px;
+        <h2 class="x-text-content-text-primary" style="font-size: 18px;
         font-weight: bolder;
-    ">JUST WRITE US A MESSAGE</h4>
+    ">JUST WRITE US A MESSAGE</h2>
   
       </div>
       <div class="contact_card">
@@ -55,15 +55,15 @@
             <br> <small style="color: #a0c528;font-size: 18px;" [class.d-none]="fname.valid || fname.untouched">The field is required.</small>
           </div>
           <div class="email_label">
-            <label for="fname"><b>Your email</b></label>
+            <label for="email"><b>Your email</b></label>
           </div>
           <div class="email_input">
-            <input type="text" id="fname" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail
+            <input type="text" id="email" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail
               [(ngModel)]="contact.femail" #femail="ngModel" />
               <br>  <small style="color: #a0c528;font-size: 18px;" [class.d-none]="femail.valid || femail.untouched">The field is required.</small>
           </div>
           <div class="email_label">
-            <label for="fname"><b>Country</b></label>
+            <label for="Country"><b>Country</b></label>
           </div>
 
           <div class="email_input">
@@ -71,14 +71,14 @@
               #countries="ngModel" class="cot">
           </div>
           <div class="email_label" >
-            <label for="fname"><b>Phone Number</b></label>
+            <label for="number"><b>Phone Number</b></label>
           </div>
           <div class="email_input">
             <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone"
               #phone="ngModel" placeholder="000-000-0000" style="padding-left: 74px !important ;">
           </div>
           <div class="email_label">
-            <label for="fname"><b>Message</b></label>
+            <label for="Message"><b>Message</b></label>
           </div>
           <div class="text_area">
             <textarea rows="20" cols="44" name="fmessage" required fmessage [(ngModel)]="contact.fmessage"
