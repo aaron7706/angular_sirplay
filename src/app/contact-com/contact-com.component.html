@@ -51,7 +51,7 @@
             <label for="fname">Full name</label>
           </div>
           <div class="name_input">
-            <input type="text" id="fnameInput" [class.is-invalid]="fname.invalid && fname.touched" name="fname" value="" [(ngModel)]="contact.fname" #fname="ngModel" required />
+            <input type="text" id="fname" [class.is-invalid]="fname.invalid && fname.touched" name="fname" value="" [(ngModel)]="contact.fname" #fname="ngModel" required />
 
             <br> <small style="color: #a0c528;font-size: 18px;" [class.d-none]="fname.valid || fname.untouched">The field is required.</small>
           </div>
@@ -59,30 +59,30 @@
             <label for="email"><b>Your email</b></label>
           </div>
           <div class="email_input">
-         <input type="text" id="emailInput" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail [(ngModel)]="contact.femail" #femail="ngModel" />
+         <input type="text" id="email" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail [(ngModel)]="contact.femail" #femail="ngModel" />
 
               <br>  <small style="color: #a0c528;font-size: 18px;" [class.d-none]="femail.valid || femail.untouched">The field is required.</small>
           </div>
           <div class="email_label">
-            <label for="Country"><b>Country</b></label>
+            <label for="Country" ><b>Country</b></label>
           </div>
 
           <div class="email_input">
-            <input type="text"  id="country_selector" name="countries" value="" required [(ngModel)]="contact.countries"
+            <input type="text" aria-labelledby="country_selector-label"  id="country-input" name="countries" value="" required [(ngModel)]="contact.countries"
               #countries="ngModel" class="cot">
           </div>
           <div class="email_label" >
             <label for="number"><b>Phone Number</b></label>
           </div>
           <div class="email_input">
-            <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone"
+            <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone" 
               #phone="ngModel" placeholder="000-000-0000" style="padding-left: 74px !important ;">
           </div>
           <div class="email_label">
             <label for="Message"><b>Message</b></label>
           </div>
           <div class="text_area">
-            <textarea rows="20" cols="44" name="fmessage" required fmessage [(ngModel)]="contact.fmessage"
+            <textarea rows="20" aria-labelledby="message-label" cols="44" name="message" required fmessage [(ngModel)]="contact.fmessage" id="text-input"
               #fmessage="ngModel"></textarea>
           </div>
         
