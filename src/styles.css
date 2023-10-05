@@ -10596,7 +10596,7 @@ width: 45% ;
 .label-list1 {
     line-height: 31px;
     font-size: 17px;
-    color: gray;
+    /* color: gray; */
 }
 
 .cutom-main {
