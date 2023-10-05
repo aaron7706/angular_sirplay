@@ -1522,6 +1522,7 @@ height: auto !important;
 
     .card1 {
         width: 100%;
+        height: auto;
     }
     .iframe_sec_images iframe {
         width: 382px !important;
@@ -2706,11 +2707,36 @@ li{
 
 
 
+@media(max-width:280px){
+  .text_4_main {
+    margin-left: 94px !important;
+}
+.text_1_main {
+  margin-left: 13px !important;
+}
+.text_2_main {
+  margin-left: 78px !important;
+}
+.text_3_main {
+  margin-left: 60px !important;
+}
+.text_5_main {
+  margin-left: 49px !important;
+}
+.demo-link {
+  font-size: 15px;}
 
-
-
-
-
+.index2-col2 img {
+  margin-left: 0px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container7-col2 h2 strong {
+  font-size: 45px;
+}
+.container7-col2 h2 {
+  font-size: 39px;}
+}
 
 
 
