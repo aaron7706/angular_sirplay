@@ -64,7 +64,7 @@
               <br>  <small style="color: #a0c528;font-size: 18px;" [class.d-none]="femail.valid || femail.untouched">The field is required.</small>
           </div>
           <div class="email_label">
-            <label for="Country" ><b>Country</b></label>
+            <label for="Country" id="country_selector-label"><b>Country</b></label>
           </div>
 
           <div class="email_input">
@@ -79,7 +79,7 @@
               #phone="ngModel" placeholder="000-000-0000" style="padding-left: 74px !important ;">
           </div>
           <div class="email_label">
-            <label for="Message"><b>Message</b></label>
+            <label for="Message" id="message-label"><b>Message</b></label>
           </div>
           <div class="text_area">
             <textarea rows="20" aria-labelledby="message-label" cols="44" name="message" required fmessage [(ngModel)]="contact.fmessage" id="text-input"
