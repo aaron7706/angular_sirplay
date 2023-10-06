@@ -22,8 +22,8 @@
 
 <section>
   <div
-    id="accordionExample"
-    class="x-section e255-e74 m73-0 m73-3 m73-7 accordion"
+    id="accordionFlushExample"
+    class="x-section e255-e74 m73-0 m73-3 m73-7 accordion accordion-flush"
   >
     <div
       class="x-row x-container max width e255-e78 m73-9 m73-a m73-c m73-d m73-g m73-k m73-l m73-z"
@@ -43,19 +43,24 @@
                 >
                   <div class="accordion-item">
                     <h3
+                    id="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseone"
+                      data-bs-target="#flush-collapseone"
                       aria-expanded="false"
-                      aria-controls="collapseone"
+                      aria-controls="flush-collapseone"
+                      (click)="changeicons('1')"
                       class="ui-accordion-header ui-corner-top ui-corner-all ui-state-default ui-accordion-icons collapsed"
                     >
                       <span
                         class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"
                       ></span>
-                      What is Sports Betting Software?
+                      <i 
+                      [ngClass]=" icon==1 ? ' fa-caret-down' : ''"
+                      class="fa-solid  fa-caret-right"></i>   What is Sports Betting Software?
                     </h3>
                     <div
-                      id="collapseone"
+                      id="flush-collapseone"
                       class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content accordion-collapse collapse"
                     >
                       <div class="accordion-body">
@@ -69,19 +74,26 @@
                   
                   <div class="accordion-item">
                     <h3
+                    id="flush-headingtwo"
+                    (click)="changeicons('2')"
+                    data-bs-parent="#accordionFlushExample"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapsefour"
+                      data-bs-target="#flush-collapsefour"
                       aria-expanded="false"
-                      aria-controls="collapsefour"
+                      aria-controls="flush-collapsefour"
                       class="ui-accordion-header ui-corner-top ui-corner-all ui-state-default ui-accordion-icons collapsed"
                     >
                       <span
                         class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"
                       ></span
-                      >Do you offer affiliate systems?
+                      >
+                      <i 
+                      [ngClass]=" icon==2 ? ' fa-caret-down' : ''"
+                      class="fa-solid fa-caret-right"></i> 
+                      Do you offer affiliate systems?
                     </h3>
                     <div
-                      id="collapsefour"
+                      id="flush-collapsefour"
                       class="ui-accordion-content ui-corner-bottom ui-helper-reset ui-widget-content accordion-collapse collapse"
                     >
                       <div class="accordion-body">
