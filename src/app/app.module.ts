@@ -34,7 +34,7 @@ import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
-import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+
 
 
 
@@ -55,8 +55,6 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
     WhitelabelComponent,
     WhitecasinoComponent,
     ContactComponent,
-
- 
     IFrameComponent,
 
     Header3Component,
@@ -76,12 +74,9 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
     AppRoutingModule,
     NgbModule,
     IonicModule,
-    FormsModule,
-
-
-  
+    FormsModule, 
   ],
-  providers: [ { provide: LocationStrategy, useClass: PathLocationStrategy }],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
