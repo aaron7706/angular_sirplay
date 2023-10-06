@@ -1333,3 +1333,29 @@ margin-top: 2px !important;
         display: none;
     }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .integration_col1,.integration_col_1{
+        width: 83%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .virtual_img {
+        width: 68%;
+        height: auto;
+    }
+    .ai-img8 {
+        margin-left: 0px;
+    }
+    .para6 {
+        margin-left: 247px;
+        margin-right: 247px;
+}
+.platform_header {
+    margin-top: 0px;
+  
+}
+.platform_sec,.whites_sec,.integration_sec{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
