@@ -35,7 +35,10 @@ import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { RiskManagementComponent } from './risk-management/risk-management.component';
+import { BettingTradeMasterComponent } from './betting-trade-master/betting-trade-master.component';
 
+// 
 
 
 @NgModule({
@@ -69,7 +72,9 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
     FAQComponent,
     ScrollBtnComponent,
     OurThemeComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    RiskManagementComponent,
+    BettingTradeMasterComponent
   ],
   imports: [
     BrowserModule,
