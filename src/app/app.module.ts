@@ -34,7 +34,8 @@ import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
-import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+
+
 import { RiskManagementComponent } from './risk-management/risk-management.component';
 import { BettingTradeMasterComponent } from './betting-trade-master/betting-trade-master.component';
 
@@ -58,8 +59,6 @@ import { BettingTradeMasterComponent } from './betting-trade-master/betting-trad
     WhitelabelComponent,
     WhitecasinoComponent,
     ContactComponent,
-
- 
     IFrameComponent,
 
     Header3Component,
@@ -81,12 +80,9 @@ import { BettingTradeMasterComponent } from './betting-trade-master/betting-trad
     AppRoutingModule,
     NgbModule,
     IonicModule,
-    FormsModule,
-
-
-  
+    FormsModule, 
   ],
-  providers: [ { provide: LocationStrategy, useClass: PathLocationStrategy }],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
