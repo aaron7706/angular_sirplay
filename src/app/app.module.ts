@@ -36,7 +36,6 @@ import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
-// 
 
 
 @NgModule({
@@ -82,7 +81,7 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
   
   ],
-  providers: [ { provide: LocationStrategy, useClass: PathLocationStrategy } ],
+  providers: [ { provide: LocationStrategy, useClass: PathLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

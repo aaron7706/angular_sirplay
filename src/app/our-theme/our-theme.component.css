@@ -92,7 +92,6 @@ p {
     width: 100%;
     font-size: 30px;
     font-weight: 700;
-    color: blacks;
     padding-top: 40px;
     color: black;
     
@@ -275,9 +274,23 @@ margin-left: 20px;
         padding-bottom: 10px;
     }
 }
-
-
-.theme_header {
+.fa-copy {
+    margin-left: 20px;
+}
+.icon{
+    margin-left: 56px;
+}
+.fa-check{
+    margin-left: 20px;
+}
+.fa-copy {
+    cursor: pointer;  
+  }
+  
+  .fa-check {
+    color: green;
+  }
+.theme_header{
     color: #a0c228;
     font-size: 35px;
     font-weight: 600;

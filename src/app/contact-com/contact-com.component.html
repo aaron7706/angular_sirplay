@@ -1,7 +1,7 @@
 <section class="contact_sec">
   <div class="contact_row">
     <div class="contact_col">
-      <h3 class="contact_header">Contact US</h3>
+      <h1 class="contact_header">Contact US</h1>
       <p class="contact_para">
         Connect with a Vrnl expert for a detailed discussion about how our
         services might give benefits to your Betting business and create your
@@ -11,7 +11,7 @@
         <div class="contact_details">
           <div class="row_col" style="cursor: pointer;">
             <a href="skype:live:9960f32f776599a2?chat">
-            <img src="assets/Skype_logo.webp" />
+            <img src="assets/Skype_logo.webp" alt="skype"/>
           </a>
           </div>
           <div class="row_col_1">
@@ -23,14 +23,16 @@
         <div class="contact_details">
 
           <div class="row_col">
-            <a href="https://wa.me/+918268808222">
-            <img class="whats_img" src="assets/Whatsapp.webp" />
+            <a >
+            <img class="whats_img" src="assets/Whatsapp.webp" alt="whatsapp" />
             </a>
           </div>
           <div class="row_col_1">
 
             <div class="row_2">
-            <p class="contact_a"> +918268088383 | +918268808222 </p>
+             <a href="https://wa.me/+91826808838" target="_blank"> <p class="contact_a"> +918268088383 | </p></a>
+             <a href="https://wa.me/+918268808222" target="_blank">  <p class="contact_a">+918268808222 </p></a>
+           
           
           </div>
           </div>
@@ -40,9 +42,9 @@
 
     <div class="contact_col_1">
       <div class="wpb_wrapper">
-        <h4 class="x-text-content-text-primary" style="font-size: 18px;
+        <h2 class="x-text-content-text-primary" style="font-size: 18px;
         font-weight: bolder;
-    ">JUST WRITE US A MESSAGE</h4>
+    ">JUST WRITE US A MESSAGE</h2>
   
       </div>
       <div class="contact_card">
@@ -51,37 +53,38 @@
             <label for="fname">Full name</label>
           </div>
           <div class="name_input">
-            <input type="text" id="fname"  [class.is-invalid]="fname.invalid && fname.touched" name="fname" value="" [(ngModel)]="contact.fname" #fname="ngModel" required />
+            <input type="text" id="fname" [class.is-invalid]="fname.invalid && fname.touched" name="fname" value="" [(ngModel)]="contact.fname" #fname="ngModel" required />
+
             <br> <small style="color: #a0c528;font-size: 18px;" [class.d-none]="fname.valid || fname.untouched">The field is required.</small>
           </div>
           <div class="email_label">
-            <label for="fname"><b>Your email</b></label>
+            <label for="email"><b>Your email</b></label>
           </div>
           <div class="email_input">
-            <input type="text" id="fname" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail
-              [(ngModel)]="contact.femail" #femail="ngModel" />
+         <input type="text" id="email" [class.is-invalid]="femail.invalid && femail.touched" name="femail" value="" onkeypress="myFunction()" required femail [(ngModel)]="contact.femail" #femail="ngModel" />
+
               <br>  <small style="color: #a0c528;font-size: 18px;" [class.d-none]="femail.valid || femail.untouched">The field is required.</small>
           </div>
           <div class="email_label">
-            <label for="fname"><b>Country</b></label>
+            <label for="Country" id="country_selector-label"><b>Country</b></label>
           </div>
 
           <div class="email_input">
-            <input type="text"  id="country_selector" name="countries" value="" required [(ngModel)]="contact.countries"
+            <input type="text" aria-labelledby="country_selector-label"  id="country-input" name="countries" value="" required [(ngModel)]="contact.countries"
               #countries="ngModel" class="cot">
           </div>
           <div class="email_label" >
-            <label for="fname"><b>Phone Number</b></label>
+            <label for="number"><b>Phone Number</b></label>
           </div>
           <div class="email_input">
-            <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone"
+            <input value="" id="phone" type="tel" name="phone" required maxlength="10" [(ngModel)]="contact.phone" 
               #phone="ngModel" placeholder="000-000-0000" style="padding-left: 74px !important ;">
           </div>
           <div class="email_label">
-            <label for="fname"><b>Message</b></label>
+            <label for="Message" id="message-label"><b>Message</b></label>
           </div>
           <div class="text_area">
-            <textarea rows="20" cols="44" name="fmessage" required fmessage [(ngModel)]="contact.fmessage"
+            <textarea rows="20" aria-labelledby="message-label" cols="44" name="message" required fmessage [(ngModel)]="contact.fmessage" id="text-input"
               #fmessage="ngModel"></textarea>
           </div>
         

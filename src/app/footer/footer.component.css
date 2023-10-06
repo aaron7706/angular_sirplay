@@ -124,6 +124,14 @@ text-decoration: none;
     margin-left: 80px;
 }
 
+
+
+.vrnl-net{
+color: #a0c528;
+}
+.vrnl-net:hover{
+    color: white;
+    }
 @media (max-width: 768px){
     .com {
         margin-left: 0px  !important;

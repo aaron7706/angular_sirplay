@@ -145,7 +145,7 @@
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 100px;
+margin-top: 15px;
 transition: all .4s ease-in-out 0s;
 
 }
@@ -224,7 +224,7 @@ border-color: #000;
   }
 
   .platform_para {
-    color: gray;
+    color: #575757;
     width: 98%;
     font-size: 16px;
 }
@@ -1139,3 +1139,6 @@ margin-top: 2px !important;
     font-size: 27px;
   }
 /*=========== <  question section end  >=========== */
+.platform_col_2{
+    width: 32%;
+}

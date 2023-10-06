@@ -1,16 +1,15 @@
-
-
 <div class="normal_view">
   <header class="page-header" [class.is-sticky]="isSticky">
     <nav>
       <div class="nav_row">
         <div class="nav_col">
-          <a ><img class="vrnl_logo" src="assets/VRNL new.png"  routerLink="/"/></a>
+          <img class="vrnl_logo" src="assets/VRNL new.png" routerLink="/" alt="vrnl-logo" />
         </div>
         <div class="nav_col_2">
           <div class="nav_row_2">
+            <ul  class="nav_row_2">
             <li class="active ">
-              <a class="act acthome current_page_item active" routerLink="/"  >Home</a>
+              <a class="act acthome current_page_item active" routerLink="/">Home</a>
             </li>
             <li>
               <a class="act" href="#">Betting</a>
@@ -44,7 +43,7 @@
                       </ul>
                     </div>
                   </li> -->
-                  <li><a routerLink="/sports-betting-software/esports-betting-software">eSports betting</a></li>
+                  <li><a routerLink="/sports-betting-software/esports-betting-software">Esports betting</a></li>
                 </ul>
               </div>
             </li>
@@ -122,58 +121,52 @@
               <a class="act casino" >Our Theme</a>
              </li>
             <li><a class="act" routerLink="/FAQ">FAQ</a></li>
+            <li routerLink="/our-theme">
+              <a class="act" href="#">Our Theme</a>
+            </li>
+            <li><a class="act" routerLink="/FAQ">Faq</a></li>
             <li><a class="act" routerLink="/contact">Contact Us</a></li>
-            
+          </ul>
           </div>
         </div>
         <div class="nav_col_3">
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=100092326342619&mibextid=LQQJ4d" style="color: black;" ><i class="fa-brands fa-facebook-f"></i></a>
-         
-          <a target="_blank" href="https://t.me/Johnmark1974" style="color: black;" ><i class="fa-brands fa-twitter"></i></a>
-          <!-- <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-linkedin"></i> -->
-          <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B918268808222&text&type=phone_number&app_absent=0" style="color: black;" ><i class="fa-brands fa-whatsapp"></i></a>
-          <a target="_blank" href="skype:live:9960f32f776599a2?chat" style="color: black;"> <i class="fa-brands fa-skype"></i></a>
-          <a target="_blank" href="https://www.instagram.com/vrnl_exchange" style="color: black;"> <i class="fa-brands fa-instagram"></i></a>
-         
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100092326342619&mibextid=LQQJ4d"
+          style="color: black;" aria-label="Visit Facebook Profile">
+          <i class="fa-brands fa-facebook-f"></i>
+       </a>
+          <a target="_blank" href="https://t.me/Johnmark1974" style="color: black;" aria-label="Visit Twitter Profile"><i
+              class="fa-brands fa-twitter"></i></a>
+          <a target="_blank"
+            href="https://api.whatsapp.com/send/?phone=%2B918268808222&text&type=phone_number&app_absent=0"
+            style="color: black;" aria-label="Visit whatsapp Profile"><i class="fa-brands fa-whatsapp"></i></a>
+          <a target="_blank" href="skype:live:9960f32f776599a2?chat" style="color: black;" aria-label="Visit skype Profile"> <i
+              class="fa-brands fa-skype"></i></a>
+          <a target="_blank" href="https://www.instagram.com/vrnl_exchange" style="color: black;" aria-label="Visit instagram Profile"> <i
+              class="fa-brands fa-instagram"></i></a>
+
         </div>
       </div>
     </nav>
   </header>
 </div>
+
 <!-- responsive header -->
 <div class="responsive">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <div class="nav_col" routerLink="/">
-        <img src="assets/VRNL new.png" />
+        <img src="assets/VRNL new.png" alt="vrnl-logo" />
       </div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div
-          class="accordion accordion-flush navigation"
-          id="accordionFlushExample"
-        >
+        <div class="accordion accordion-flush navigation" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
-              <button
-                class="accord_btn collapsed"
-                type=""
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
+              <button class="accord_btn collapsed" type="" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                aria-expanded="false" aria-controls="flush-collapseOne">
                 <a routerLink="/">Home</a>
               </button>
             </h2>
@@ -183,23 +176,13 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 Betting
               </button>
             </h2>
-            <div
-              id="flush-collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample"
-            >
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">
                 <a routerLink="/sports-betting-software">sports betting software</a>
               </div>
@@ -207,29 +190,19 @@
                 <a routerLink="/sportsbook-iframe">Sportsbook iFrame</a>
               </div>
               <div class="accordion-body">
-                <a routerLink="/sports-betting-software/esports-betting-software" >eSports betting</a>
+                <a routerLink="/sports-betting-software/esports-betting-software">eSports betting</a>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingThree">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 Casino
               </button>
             </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample"
-            >
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">
                 <a routerLink="/online-casino-software">Online Casino Software</a>
               </div>
@@ -237,7 +210,7 @@
                 <a routerLink="/casino/live-casino">Live casino Software</a>
               </div>
               <div class="accordion-body">
-                <a  routerLink="/casino/casino-games">Casino games</a>
+                <a routerLink="/casino/casino-games">Casino games</a>
               </div>
               <div class="accordion-body">
                 <a routerLink="/casino/lottery-games">Lottery and bingo</a>
@@ -253,23 +226,13 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingFour">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour"
-                aria-expanded="false"
-                aria-controls="flush-collapseFour"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                 White label
               </button>
             </h2>
-            <div
-              id="flush-collapseFour"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingFour"
-              data-bs-parent="#accordionFlushExample"
-            >
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
               <div class="accordion-body">
                 <a routerLink="/white-label-betting-platform">White label Sportsbook</a>
               </div>
@@ -279,7 +242,7 @@
             </div>
           </div>
 
-         <!-- <div class="accordion-item">
+          <!-- <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingFive">
               <button
                 class="accordion-button collapsed"
@@ -314,27 +277,17 @@
                 <a routerLink="/bitcoin-sportsbook" >Bitcoin sportsbook</a>
               </div>
                <div class="accordion-body"> Streaming platform</div> -->
-            <!-- </div>
-          </div> --> 
+          <!-- </div>
+          </div> -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingSix">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseSix"
-                aria-expanded="false"
-                aria-controls="flush-collapseSix"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                 Company
               </button>
             </h2>
-            <div
-              id="flush-collapseSix"
-              class="accordion-collapse collapse"
-              aria-labelledby="flush-headingSix"
-              data-bs-parent="#accordionFlushExample"
-            >
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample">
               <!-- <div class="accordion-body">
                 <a routerLink="/demo-sportsbook" >Demo</a>
               </div> -->
@@ -342,9 +295,7 @@
                 <a routerLink="/about-us">About Us</a>
               </div>
               <div class="accordion-body">
-                <a routerLink="/online-sportsbook-software"
-                  >Online sportsbook Software</a
-                >
+                <a routerLink="/online-sportsbook-software">Online sportsbook Software</a>
               </div>
               <!-- <div class="accordion-body">
                 <a routerLink="/certified-sports-betting-software">Certifications</a>
@@ -353,30 +304,18 @@
               <!-- <div class="accordion-body"> Streaming platform</div> -->
             </div>
           </div>
-          <div class="accordion-item">
+          <div class="accordion-item" routerLink="/our-theme">
             <h2 class="accordion-header" id="flush-headingseven">
-              <button
-                class="accord_btn collapsed"
-                type=""
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseseven"
-                aria-expanded="false"
-                aria-controls="flush-collapseseven"
-              >
-                <a routerLink="/our-theme"> Our Theme</a>
+              <button class="accord_btn collapsed" type="" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
+                <a href="#"> Our Theme</a>
               </button>
             </h2>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingseven">
-              <button
-                class="accord_btn collapsed"
-                type=""
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseseven"
-                aria-expanded="false"
-                aria-controls="flush-collapseseven"
-              >
+              <button class="accord_btn collapsed" type="" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
                 <a routerLink="/contact">contact Us</a>
               </button>
             </h2>
@@ -386,14 +325,8 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingten">
-              <button
-                class="accord_btn collapsed"
-                type=""
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseseven"
-                aria-expanded="false"
-                aria-controls="flush-collapseseven"
-              >
+              <button class="accord_btn collapsed" type="" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
                 <a routerLink="/FAQ">FAQ</a>
               </button>
             </h2>
@@ -405,4 +338,3 @@
 </div>
 
 <!-- responsive header end -->
-
