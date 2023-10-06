@@ -7,7 +7,6 @@ import { Component, HostListener } from '@angular/core';
 })
 export class ScrollBtnComponent {
   showScrollButton = false;
-
   scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -26,4 +25,5 @@ onWindowScroll() {
     }
   }
 }
+
 }
