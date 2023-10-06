@@ -34,6 +34,10 @@ import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { RiskManagementComponent } from './risk-management/risk-management.component';
+import { BettingTradeMasterComponent } from './betting-trade-master/betting-trade-master.component';
+
 // 
 
 
@@ -68,7 +72,9 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
     FAQComponent,
     ScrollBtnComponent,
     OurThemeComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    RiskManagementComponent,
+    BettingTradeMasterComponent
   ],
   imports: [
     BrowserModule,
@@ -80,7 +86,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 
   
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
