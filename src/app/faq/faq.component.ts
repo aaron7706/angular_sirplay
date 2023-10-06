@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./faq.component.css']
 })
 export class FAQComponent {
+icon:any
 
+changeicons(ids){
+
+  
+  this.icon=ids
+}
 }
