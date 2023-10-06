@@ -86,7 +86,7 @@ import { BettingTradeMasterComponent } from './betting-trade-master/betting-trad
 
   
   ],
-  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
+  providers: [ { provide: LocationStrategy, useClass: PathLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
