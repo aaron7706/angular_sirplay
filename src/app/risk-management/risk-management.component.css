@@ -415,7 +415,7 @@ gap:20px;
     color: gray;
 }
 .casino_col{
-    width: 20%;
+    width: 20% !important;
 }
 .casino_list{
     font-size: 16px;
@@ -648,10 +648,10 @@ height: 330px;
 }
 
 .integration_col1{
-    width: 44%;
+    width: 44% !important;
 }
 .integration_col_1{
-    width: 40%;
+    width: 40% !important;
 }
 .integration_header{
     color: #a0c528;
@@ -1153,6 +1153,8 @@ margin-top: 2px !important;
     height: auto;
     max-width: 100%;
     vertical-align: top;
+    margin-top: 27px;
+
 }
 
 .slide_right1{
@@ -1332,6 +1334,8 @@ margin-top: 2px !important;
     .ai-img5{
         display: none;
     }
+
+   
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .integration_col1,.integration_col_1{

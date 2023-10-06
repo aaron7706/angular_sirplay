@@ -10,7 +10,7 @@ export class HeaderComponent {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const currentScroll = window.pageYOffset;
-    if (currentScroll > 100) {
+    if (currentScroll > 150) {
       this.isSticky = true;
     } else {
       this.isSticky = false;

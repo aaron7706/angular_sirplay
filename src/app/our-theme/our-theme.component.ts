@@ -17,6 +17,7 @@ copytoclip(value: string) {
       this.copyed = null;
     }, 3000);
   });
+  
 }
 
   
