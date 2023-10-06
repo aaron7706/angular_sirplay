@@ -287,3 +287,10 @@ cursor: pointer;
  background-repeat: no-repeat;
  padding-top: 12px;
 } */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .comp_details {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+    }
+}

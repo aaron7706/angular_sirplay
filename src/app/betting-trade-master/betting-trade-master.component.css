@@ -1321,3 +1321,29 @@ margin-top: 2px !important;
 
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .casino_col {
+        width: 91%;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        display: block;
+    }
+    .casino_col_2{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .para6{
+        margin-left: 245px;
+        margin-right: 245px;
+    }
+    .platform_sec,.whites_sec,.Casino_sec{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .casino_sec_img2{
+        height: auto;
+        width: 574px;
+    }
+    
+}
