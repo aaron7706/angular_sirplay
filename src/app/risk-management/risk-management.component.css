@@ -291,6 +291,7 @@ background-color: #a0c528;
 width: 59px;
 height: 4px;
 border-radius: 5px;
+margin-left: 48px;
 }
 
 @media (max-width:820px){
@@ -684,7 +685,7 @@ font-weight: 600;
     }
    
     .integration_col_1 {
-        width: 97%;
+        width: 97% !important;
         margin-left: 12px;
     }
     .integration_header {
@@ -1301,7 +1302,7 @@ margin-top: 2px !important;
     }
 
     .integration_col1 {
-        width: 97%;
+        width: 97% !important;
         margin-left: 20px;
     }
 
@@ -1339,9 +1340,10 @@ margin-top: 2px !important;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .integration_col1,.integration_col_1{
-        width: 83%;
+        width: 83% !important;
         justify-content: center;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        margin-left: 101px
     }
     .virtual_img {
         width: 68%;
@@ -1351,8 +1353,8 @@ margin-top: 2px !important;
         margin-left: 0px;
     }
     .para6 {
-        margin-left: 247px;
-        margin-right: 247px;
+        margin-left: 173px;
+        margin-right: 173px;
 }
 .platform_header {
     margin-top: 0px;
