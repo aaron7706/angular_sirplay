@@ -389,7 +389,7 @@ display: none;
 .casino_row{
     display: flex;
     justify-content: center;
-gap:76px;
+    gap:76px;
 }
 
 .casino_header{
