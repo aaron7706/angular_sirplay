@@ -8,17 +8,18 @@ import { Component } from '@angular/core';
 export class OurThemeComponent {
   copyed: string | null = null;
 
-copytoclip(value: string) {
-  const textToCopy = document.getElementById(value)?.textContent || '';
-  navigator.clipboard.writeText(textToCopy).then(() => {
-    this.copyed = value;
-
-    setTimeout(() => {
-      this.copyed = null;
-    }, 3000);
-  });
+  copytoclip(value: string) {
+    if (this.copyed !== value) {
+      const textToCopy = document.getElementById(value)?.textContent || '';
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        this.copyed = value;
   
-}
+        setTimeout(() => {
+          this.copyed = null;
+        }, 3000);
+      });
+    }
+  }
 
   
 }
