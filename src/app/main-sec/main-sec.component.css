@@ -309,8 +309,8 @@ border-radius: 5px;
         width: 95%;
     }
     .whites_sec_img2{
-        width: 350px;
-        height: 260px;
+        width: 100%;
+        height: auto;
     }
     .web3_list {
 
@@ -431,8 +431,8 @@ gap:20px;
         display: none;
     }
     .casino_sec_img2{
-        width: 378px;
-        height: 370px;
+        width: 100%;
+        height: auto;
     
     }
   }
