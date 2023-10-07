@@ -389,7 +389,7 @@ display: none;
 .casino_row{
     display: flex;
     justify-content: center;
-gap:20px;
+gap:76px;
 }
 
 .casino_header{
@@ -413,7 +413,7 @@ gap:20px;
     color: gray;
 }
 .casino_col{
-    width: 20% !important;
+    width: 25% !important;
 }
 .casino_list{
     font-size: 16px;
@@ -1323,7 +1323,7 @@ margin-top: 2px !important;
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
     .casino_col {
-        width: 91%;
+        width: 91% !important;
         justify-content: center;
         margin: 0 auto;
         align-items: center;
@@ -1334,12 +1334,12 @@ margin-top: 2px !important;
         margin: 0 auto;
     }
     .para6{
-        margin-left: 245px;
-        margin-right: 245px;
+        margin-left: 127px;
+        margin-right: 127px;
     }
     .platform_sec,.whites_sec,.Casino_sec{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 111px;
+        padding-right: 111px;
     }
     .casino_sec_img2{
         height: auto;
