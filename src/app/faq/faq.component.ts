@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-faq',
@@ -13,4 +13,12 @@ changeicons(ids){
   
   this.icon=ids
 }
+
+@Input() title: string;
+  isOpen: boolean = false;
+
+  toggleAccordion() {
+    this.isOpen = !this.isOpen;
+  }
+  
 }
