@@ -90,6 +90,12 @@ export class ContactComComponent implements OnInit {
       // Handle your form submission logic here (e.g., sending data to the server)
     }, 500); // Simulating a delay of 2 seconds
   }
+
+  openbutton(){
+    $(".country-list").toggleClass("hide");
+    console.log("sksskdk");
+    
+  }
     
   }
   

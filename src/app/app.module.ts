@@ -19,7 +19,6 @@ import { WhitelabelComponent } from './whitelabel/whitelabel.component';
 import { WhitecasinoComponent } from './whitecasino/whitecasino.component';
 import { ContactComponent } from './contact/contact.component';
 
-
 import { IFrameComponent } from './i-frame/i-frame.component';
 
 import { Header3Component } from './header3/header3.component';
