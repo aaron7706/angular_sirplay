@@ -177,6 +177,12 @@ width: 33%;
     width: 110% !important;
 
   } */
+
+  .iti {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+}
     
 }
 
