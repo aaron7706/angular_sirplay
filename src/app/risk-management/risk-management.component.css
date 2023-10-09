@@ -294,6 +294,29 @@ border-radius: 5px;
 margin-left: 48px;
 }
 
+.white_backRM{
+    background-color: #a0c528;
+    width: 59px;
+    height: 4px;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+
+.white_backCS{
+    background-color: #a0c528;
+    width: 59px;
+    height: 4px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.white_backP{
+    background-color: #a0c528;
+    width: 59px;
+    height: 4px;
+    border-radius: 5px;
+    margin-left: -9px;
+}
 @media (max-width:820px){
     .whites_row{
         display: flex;
