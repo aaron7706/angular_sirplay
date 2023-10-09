@@ -21,11 +21,12 @@
     "@ionic/angular": "^7.1.0",
     "@ng-bootstrap/ng-bootstrap": "^14.2.0",
     "@popperjs/core": "^2.11.6",
-    "@types/intl-tel-input": "^18.1.0",
+    "@types/intl-tel-input": "^18.1.2",
     "bootstrap": "^5.2.3",
     "country-select-js": "^2.1.0",
     "intl-tel-input": "^18.1.6",
     "jquery": "^3.7.0",
+    "ngx-flag-picker": "^14.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

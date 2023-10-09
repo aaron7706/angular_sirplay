@@ -250,7 +250,7 @@ header {
   border-radius: 0;
   background-color: #a0c528 !important;
   color: white;
-  padding: 22px;
+  padding: 14px;
   font-size: 13px;
   font-family: Poppins;
 }
@@ -409,13 +409,13 @@ header {
     /* margin-right: -137px !important; */
     font-size: 16px;
   }
-
+/* 
   .nav_col img {
     /* margin: 30px -28px !important; */
-    max-width: 19%;
-    margin-left: -122px;
+    /* max-width: 19%;
+    margin-left: -122px; */
+  /* } */ 
   }
-}
 
 .vrnl_logo {
   width: 134px;
@@ -458,4 +458,7 @@ header {
   to {
     color: #9b0a16;
   }
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+  display: none !important;
 }

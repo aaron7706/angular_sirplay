@@ -27,15 +27,15 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css",
-              "node_modules/intl-tel-input/build/css/intlTelInput.min.css",
               "src/assets/css/bootstrap.min.css",
-              "src/assets/css/bootstrap.css"
+              "src/assets/css/bootstrap.css",
+              "node_modules/intl-tel-input/build/css/intlTelInput.css"
            ],
             "scripts": [
             
               "node_modules/jquery/dist/jquery.js",
-              "node_modules/country-select-js/build/js/countrySelect.min.js"
-              
+              "node_modules/country-select-js/build/js/countrySelect.min.js",
+              "src/assets/country.js"
             ]
           },
           "configurations": {
