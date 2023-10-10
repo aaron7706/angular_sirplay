@@ -45,7 +45,7 @@
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 36.56px;
+  font-size: 34.56px;
   font-family: "Raleway",sans-serif;
   width: 100%;
   color: #272727;
@@ -1201,6 +1201,8 @@ Responsive Codes
   color: rgb(87, 87, 86);
   font-size: calc(220%);
   font-weight: 600;
+  margin-bottom: 10px;
+
 }
 
 .esports-betting-col1 p {
