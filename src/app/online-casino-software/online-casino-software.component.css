@@ -232,3 +232,12 @@ ol, li{
 .container5-col2 h1{
     font-size: 30px;
 }
+.online-casino-link p:hover{
+    color: #000 !important;
+}
+.casino_whites_sec_p span{
+cursor: pointer;
+}
+.casino_whites_sec_p span:hover{
+    color: #000 !important;
+    }
