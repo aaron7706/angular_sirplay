@@ -29,6 +29,7 @@
     transition: ease-out 0.9s;
     background-color: #ffffff;
     height: 50px;
+    font-weight: bold;
 }
 
 .web_images{
@@ -165,4 +166,7 @@ b, strong {
   }
   .lc247:hover{
     color: #000000;
+  }
+  .sports_para {
+    font-size: 36px;
   }
