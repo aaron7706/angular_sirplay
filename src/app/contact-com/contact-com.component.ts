@@ -112,7 +112,7 @@ export class ContactComComponent implements OnInit {
     
   }
    async send(){
-    emailjs.init('pIj92LaMGVqrI-q3D')
+    emailjs.init('v97KRax88upRjrV_J')
   let response = await emailjs.send('service_s3kv5f8','template_r29xby7',{
     
     to_name: this.form.value.to_name,
