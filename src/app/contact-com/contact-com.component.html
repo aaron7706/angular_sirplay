@@ -55,8 +55,10 @@
       </div>
       <div class="contact_card">
         <form
-          #contactForm="ngForm"
-          (ngSubmit)="onSubmit(contactForm)"
+        [formGroup]="form"
+        action="javascript:void(0)"
+        (submit)="send()"
+       
           novalidate
         >
           <div class="name_label">
@@ -64,46 +66,45 @@
           </div>
           <div class="name_input">
             <input
+            formControlName="from_name"
               type="text"
               id="fname"
-              [class.is-invalid]="fname.invalid && fname.touched"
               name="fname"
               value=""
-              [(ngModel)]="contact.fname"
-              #fname="ngModel"
+             
               required
             />
 
             <br />
-            <small
+            <!-- <small
               style="color: #a0c528; font-size: 18px"
-              [class.d-none]="fname.valid || fname.untouched"
               >The field is required.</small
-            >
+            > -->
           </div>
           <div class="email_label">
             <label for="email"><b>Your email</b></label>
           </div>
           <div class="email_input">
             <input
+            formControlName="from_email"
               type="text"
               id="email"
-              [class.is-invalid]="femail.invalid && femail.touched"
+          
               name="femail"
               value=""
               onkeypress="myFunction()"
               required
               femail
-              [(ngModel)]="contact.femail"
-              #femail="ngModel"
+         
+             
             />
 
             <br />
-            <small
+            <!-- <small
               style="color: #a0c528; font-size: 18px"
-              [class.d-none]="femail.valid || femail.untouched"
+            
               >The field is required.</small
-            >
+            > -->
           </div>
           <div class="email_label">
             <label for="Country" id="country_selector-label"
@@ -113,6 +114,7 @@
 
           <div class="email_input">
             <input
+            formControlName="country"
               type="text"
               aria-labelledby="country_selector-label"
               id="country-input"
@@ -120,7 +122,7 @@
               value=""
               required
               [(ngModel)]="contact.countries"
-              #countries="ngModel"
+           
               class="cot"
             />
           </div>
@@ -1267,6 +1269,7 @@
           <div class="iti">
           <div class="email_input">
             <input
+            formControlName="phone_number"
               value=""
               id="phone"
               type="tel"
@@ -1274,7 +1277,7 @@
               required
               maxlength="10"
               [(ngModel)]="contact.phone"
-              #phone="ngModel"
+             
               placeholder="000-000-0000"
               style="padding-left: 74px !important "
             />
@@ -1285,15 +1288,16 @@
           </div>
           <div class="text_area">
             <textarea
+            formControlName="message"
               rows="20"
               aria-labelledby="message-label"
               cols="44"
               name="message"
               required
               fmessage
-              [(ngModel)]="contact.fmessage"
+              
               id="text-input"
-              #fmessage="ngModel"
+            
             ></textarea>
           </div>
 
@@ -1301,7 +1305,7 @@
             <button
               class="con_btn"
               type="submit"
-              [disabled]="contactForm.invalid"
+          
             >
               Submit
             </button>

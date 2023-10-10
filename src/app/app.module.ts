@@ -28,7 +28,7 @@ import { EsportComponent } from './esport/esport.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComComponent } from './contact-com/contact-com.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule } from '@angular/forms';
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
@@ -80,6 +80,7 @@ import { BettingTradeMasterComponent } from './betting-trade-master/betting-trad
     NgbModule,
     IonicModule,
     FormsModule, 
+    ReactiveFormsModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]

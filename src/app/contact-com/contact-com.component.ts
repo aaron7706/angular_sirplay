@@ -1,5 +1,9 @@
 import { Component , OnInit , AfterViewInit} from '@angular/core';
 import * as intlTelInput from 'intl-tel-input';
+import emailjs from '@emailjs/browser';
+// import emailjs from 'emailjs-com';
+
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 
 declare var $: any;
@@ -14,32 +18,43 @@ declare var $: any;
 export class ContactComComponent implements OnInit {
   selectedOption:any=''
   loder:boolean=false;
-   countries= [
-    { name: "india", img: "assets/FLAG.jpg"  },
-    { name: "united", img: "assets/en.png" },
-    { name: "jermany", img: "assets/jr.png" },
-    { name: "array", img: "assets/FLAG.jpg" },
-    { name: "india", img: "assets/FLAG.jpg"  },
-    { name: "united", img: "assets/en.png" },
-    { name: "jermany", img: "assets/jr.png" },
-    { name: "array", img: "assets/FLAG.jpg" },
-    { name: "india", img: "assets/FLAG.jpg"  },
-    { name: "united", img: "assets/en.png" },
-    { name: "jermany", img: "assets/jr.png" },
-    { name: "array", img: "assets/FLAG.jpg" },
+
+  form: FormGroup =this.fb.group({
+    from_name:'',
+    to_name:'Admin',
+    from_email:'',
+    country:'',
+    phone_number:'',
+    message:''
+
+  })
+  constructor(private fb:FormBuilder){}
+//    countries= [
+//     { name: "india", img: "assets/FLAG.jpg"  },
+//     { name: "united", img: "assets/en.png" },
+//     { name: "jermany", img: "assets/jr.png" },
+//     { name: "array", img: "assets/FLAG.jpg" },
+//     { name: "india", img: "assets/FLAG.jpg"  },
+//     { name: "united", img: "assets/en.png" },
+//     { name: "jermany", img: "assets/jr.png" },
+//     { name: "array", img: "assets/FLAG.jpg" },
+//     { name: "india", img: "assets/FLAG.jpg"  },
+//     { name: "united", img: "assets/en.png" },
+//     { name: "jermany", img: "assets/jr.png" },
+//     { name: "array", img: "assets/FLAG.jpg" },
 
 
-];
+// ];
   open: boolean=false;
   selectedcountry: any;
-  contact: { fname: string; femail: string; countries: string; phone: string; fmessage: string; submit:string; };
+  contact: { from_name: string; femail: string; countries: string; phone: string; fmessage: string; submit:string; };
 
 
   ngOnInit(): void {
 
 
     this.contact = { 
-      fname:"",
+      from_name:"",
       femail:"",
       countries:"",
       phone: "",
@@ -96,8 +111,52 @@ export class ContactComComponent implements OnInit {
     console.log("sksskdk");
     
   }
+   async send(){
+    emailjs.init('pIj92LaMGVqrI-q3D')
+  let response = await emailjs.send('service_s3kv5f8','template_r29xby7',{
     
+    to_name: this.form.value.to_name,
+    from_name: this.form.value.from_name,
+    from_email: this.form.value.from_email,
+    country: this.form.value.country,
+    phone_number: this.form.value.phone_number,
+    message: this.form.value.message,
+    });
+    console.log(response);
+    
+    alert('Message has been send successfully')
+    this.form.reset()
   }
+
+
+  // async send() {
+  //   emailjs.init('pIj92LaMGVqrI-q3D');
+  
+  //   try {
+  //     let response = await emailjs.send('service_s3kv5f8', 'template_r29xby7', {
+  //       to_name: this.form.value.to_name,
+  //       from_name: this.form.value.from_name,
+  //       from_email: this.form.value.from_email,
+  //       country: this.form.value.country,
+  //       phone_number: this.form.value.phone_number,
+  //       message: this.form.value.message,
+  //     });
+  
+  //     console.log(response);
+  
+  //     alert('Message has been sent successfully');
+  
+  //     // Add a delay of 2 seconds (2000 milliseconds) before resetting the form
+  //     setTimeout(() => {
+  //       this.form.reset();
+  //     }, 2000);
+  //   } catch (error) {
+  //     console.error('Error sending email:', error);
+  //     alert('Failed to send message. Please try again later.');
+  //   }
+  // }
+  
+}
   
 
 
