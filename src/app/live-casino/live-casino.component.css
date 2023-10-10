@@ -1294,9 +1294,9 @@ strong{
 .demo-live{
     font-size: 35px;
     text-align: center;
+    margin-top: 21px;
     font-family:'Raleway', sans-serif;
-    
-    color: #272727;
+   color: #272727;
 }
 
 .demo-link{
@@ -1363,8 +1363,8 @@ font-size: 51px;
 
 
 .card1{
-    width: 443px;
-    height: 485px;
+    width: 485px;
+    height: 422px;
     background-color: #fdfdfd;
     border: 9px solid #e5e5e5;
 }
@@ -2687,7 +2687,7 @@ table th, table td {
 
 .tab_content{
   font-family: "Raleway",sans-serif;
-  font-size: 1.7em;
+  font-size: 1em;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;

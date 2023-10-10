@@ -7,7 +7,7 @@
 .nav_row {
   display: flex;
   justify-content: space-around;
-  padding-top: 27px;
+  padding-top: 37px;
 }
 .nav_row_2 {
   display: flex;
@@ -461,4 +461,7 @@ header {
 }
 .VIpgJd-ZVi9od-l4eHX-hSRGPd{
   display: none !important;
+}
+.nav_col img{
+  margin-top: -8px;
 }

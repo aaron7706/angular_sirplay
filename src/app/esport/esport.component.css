@@ -1291,7 +1291,7 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
   font-family: "Raleway",sans-serif;
-  padding-top: 24px;
+  /* padding-top: 24px; */
   font-weight: 400;
 
 }
@@ -1337,7 +1337,7 @@ Responsive Codes
   margin-right: calc(0.001em * -1);
   text-transform: none;
   margin-bottom: 30px;
-  font-size: calc(289.7%);
+  font-size: calc(185.7%);
  font-weight: 395;
 
   font-family: "Raleway", sans-serif;
@@ -1371,7 +1371,7 @@ strong{
 
 .esports-betting-middle-row1 h2 {
   text-align: center;
-  font-size: calc(314%);
+  font-size: calc(200%);
  font-weight: 500;
 
   font-style: normal;
@@ -1399,7 +1399,7 @@ strong{
   line-height: 1.8;
   letter-spacing: 0em;
   text-transform: none;
-  color: #686868;
+  color:rgb(47, 47, 47);  
   font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
 
