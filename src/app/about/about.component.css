@@ -748,3 +748,9 @@ flex-wrap: wrap;
     40% {transform: translateY(-30px);}
     60% {transform: translateY(-15px);}
   }
+  @media(max-width:768px){
+    .map__marker--florida {
+      left: 75%;
+      top: 35%;
+  }
+  }
