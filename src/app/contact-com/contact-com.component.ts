@@ -24,7 +24,7 @@ export class ContactComComponent implements OnInit {
     to_name:'Admin',
     from_email:'',
     country:'',
-    phone_number:'',
+    number:'',
     message:''
 
   })
@@ -112,14 +112,14 @@ export class ContactComComponent implements OnInit {
     
   }
    async send(){
-    emailjs.init('v97KRax88upRjrV_J')
-  let response = await emailjs.send('service_s3kv5f8','template_r29xby7',{
+    emailjs.init('tJ20h_IDOpuHeRXCS')
+  let response = await emailjs.send("service_v70dr4s","template_yq8v5o5",{
     
     to_name: this.form.value.to_name,
     from_name: this.form.value.from_name,
     from_email: this.form.value.from_email,
     country: this.form.value.country,
-    phone_number: this.form.value.phone_number,
+    phone_number: this.form.value.number,
     message: this.form.value.message,
     });
     console.log(response);
@@ -127,7 +127,15 @@ export class ContactComComponent implements OnInit {
     alert('Message has been send successfully')
     this.form.reset()
   }
-
+  // emailjs.send("service_yoss2mb","template_ovw2e95",{
+  //   from_name: "admin",
+  //   to_name: "contemt",
+  //   from_email: "tech@gmail.com",
+  //   Country: "india",
+  //   Phone_number: "45454545",
+  //   message: "hihiihih",
+  //   });
+    
 
   // async send() {
   //   emailjs.init('pIj92LaMGVqrI-q3D');
