@@ -8,12 +8,13 @@
     position: absolute;
     top: 200px;
     left: -35px;
-    padding: 7px 5px;
+    padding: 5px 5px;
     border: 0;
     border-radius: 5px 0 0 5px;
     background:#a0c528;
     box-shadow: 1px 1px 7px rgba(56, 114, 69, 0.9);
-    cursor: pointer
+    cursor: pointer;
+    padding-top: 7px;
   }
   
   .side-slider .slide-btn img {
