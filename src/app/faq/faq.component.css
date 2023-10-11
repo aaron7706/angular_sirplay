@@ -402,3 +402,31 @@ p{
     margin-top: 54px;
 }
 }
+
+ .accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: #a0c528 !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color) !important;
+} 
+
+.accordion-button {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x) !important;
+  font-size: 1rem !important;
+  color: #686868 !important;
+  text-align: left !important;
+  background-color: #f6f6f6 !important;
+  border: 1px solid #c5c5c5 !important;
+  border-radius: 0 !important;
+  overflow-anchor: none !important;
+  transition: var(--bs-accordion-transition) !important;
+}
+
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border: 0;
+}
