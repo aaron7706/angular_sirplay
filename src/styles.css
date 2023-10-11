@@ -10,7 +10,10 @@
     margin: 0px;
     padding:0px;
 }
-
+::selection{
+    background-color: #a0c528;
+    color: white;
+}
 body{
     overflow-x: hidden !important;
         font-family: Poppins;
