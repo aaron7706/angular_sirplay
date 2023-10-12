@@ -231,7 +231,14 @@ header {
 .nav_col_3 i {
   margin: 4px;
 }
+<<<<<<< HEAD
 
+=======
+/* .nav_col_3 .fa-brands:hover {
+  color: #a0c528;
+  cursor: pointer;
+} */
+>>>>>>> cad44d09fddc2032771204070770fe1031660d94
 .responsive {
   display: none;
 }
