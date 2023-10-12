@@ -463,32 +463,35 @@ header {
   margin-top: -8px;
 }
 
-.fa-facebook-f{
+.fa-facebook-f:hover{
   color: #1877F2;
 }
 
-.fa-telegram{
+.fa-telegram:hover{
   color: #0088cc;
 }
 
-.fa-twitter{
+.fa-twitter:hover{
 color:#00acee
 }
 
-.fa-whatsapp{
+.fa-whatsapp:hover{
   color: #25D366 ;
 }
 
-.fa-skype{
+.fa-skype:hover{
   color: #00aff0 ;
 }
 
-.fa-instagram{
+.fa-instagram:hover{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   -webkit-background-clip: text;
-          /* Also define standard property for compatibility */
           background-clip: text;
   -webkit-text-fill-color: transparent;
   
- /* change this to change the size*/
   }
+
+
+
+
+ 
