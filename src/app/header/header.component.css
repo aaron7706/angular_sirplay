@@ -465,3 +465,33 @@ header {
 .nav_col img{
   margin-top: -8px;
 }
+
+.fa-facebook-f{
+  color: #1877F2;
+}
+
+.fa-telegram{
+  color: #0088cc;
+}
+
+.fa-twitter{
+color:#00acee
+}
+
+.fa-whatsapp{
+  color: #25D366 ;
+}
+
+.fa-skype{
+  color: #00aff0 ;
+}
+
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+  }
