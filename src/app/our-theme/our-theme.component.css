@@ -266,12 +266,13 @@ margin-left: 20px;
         width: 100%;
     }
     .card-content {
-        padding: 6px;      
-        height: 30%;
+        padding: 4px;      
+        height: 32%;
     }
     h2 {
-        font-size: 11px;
-        padding-bottom: 10px;
+        font-size: 8px;
+        padding-bottom: 5px;
+        padding-top: 7px;
     }
 }
 .fa-copy {
