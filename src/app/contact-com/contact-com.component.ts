@@ -3,7 +3,7 @@ import * as intlTelInput from 'intl-tel-input';
 import emailjs from '@emailjs/browser';
 // import emailjs from 'emailjs-com';
 
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup , Validators} from '@angular/forms';
 
 
 declare var $: any;
@@ -20,13 +20,13 @@ export class ContactComComponent implements OnInit {
   loder:boolean=false;
 
   form: FormGroup =this.fb.group({
-    from_name:'',
+    from_name: ['',Validators.required],
     to_name:'Admin',
-    from_email:'',
+    from_email:['',Validators.required,Validators.email],
     country:'',
     number:'',
-    message:''
-
+    message:'',
+   
   })
   constructor(private fb:FormBuilder){}
 //    countries= [
@@ -49,7 +49,13 @@ export class ContactComComponent implements OnInit {
   selectedcountry: any;
   contact: { from_name: string; femail: string; countries: string; phone: string; fmessage: string; submit:string; };
 
+  get from_name(){
+    return this.form.get('from_name')
+  } 
 
+  get from_email(){
+    return this.form.get('from_email')
+  }
   ngOnInit(): void {
 
 
