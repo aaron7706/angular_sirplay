@@ -29,22 +29,7 @@ export class ContactComComponent implements OnInit {
    
   })
   constructor(private fb:FormBuilder){}
-//    countries= [
-//     { name: "india", img: "assets/FLAG.jpg"  },
-//     { name: "united", img: "assets/en.png" },
-//     { name: "jermany", img: "assets/jr.png" },
-//     { name: "array", img: "assets/FLAG.jpg" },
-//     { name: "india", img: "assets/FLAG.jpg"  },
-//     { name: "united", img: "assets/en.png" },
-//     { name: "jermany", img: "assets/jr.png" },
-//     { name: "array", img: "assets/FLAG.jpg" },
-//     { name: "india", img: "assets/FLAG.jpg"  },
-//     { name: "united", img: "assets/en.png" },
-//     { name: "jermany", img: "assets/jr.png" },
-//     { name: "array", img: "assets/FLAG.jpg" },
 
-
-// ];
   open: boolean=false;
   selectedcountry: any;
   contact: { from_name: string; femail: string; countries: string; phone: string; fmessage: string; submit:string; };
@@ -133,42 +118,7 @@ export class ContactComComponent implements OnInit {
     alert('Message has been send successfully')
     this.form.reset()
   }
-  // emailjs.send("service_yoss2mb","template_ovw2e95",{
-  //   from_name: "admin",
-  //   to_name: "contemt",
-  //   from_email: "tech@gmail.com",
-  //   Country: "india",
-  //   Phone_number: "45454545",
-  //   message: "hihiihih",
-  //   });
-    
-
-  // async send() {
-  //   emailjs.init('pIj92LaMGVqrI-q3D');
   
-  //   try {
-  //     let response = await emailjs.send('service_s3kv5f8', 'template_r29xby7', {
-  //       to_name: this.form.value.to_name,
-  //       from_name: this.form.value.from_name,
-  //       from_email: this.form.value.from_email,
-  //       country: this.form.value.country,
-  //       phone_number: this.form.value.phone_number,
-  //       message: this.form.value.message,
-  //     });
-  
-  //     console.log(response);
-  
-  //     alert('Message has been sent successfully');
-  
-  //     // Add a delay of 2 seconds (2000 milliseconds) before resetting the form
-  //     setTimeout(() => {
-  //       this.form.reset();
-  //     }, 2000);
-  //   } catch (error) {
-  //     console.error('Error sending email:', error);
-  //     alert('Failed to send message. Please try again later.');
-  //   }
-  // }
   
 }
   

@@ -9,17 +9,6 @@
     height: 157px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 .map {
   margin-top: 3em;
   position: relative;
@@ -226,10 +215,7 @@ margin-left: -2px;
   position: absolute;
   bottom: 30px;
   left: 50% ;
-  /* width: 60px; */
-  /* height: 60px ; */
   margin-left:-7px;
-  /* border: 2px solid #990000; */
   -webkit-border-radius:50%;
   -moz-border-radius:50%;
   -ms-border-radius:50%;
@@ -265,12 +251,8 @@ margin-left: -2px;
 
 .bounce1{
   position: absolute;
-  /* bottom: 30px; */
   left: 50% ;
-  /* width: 60px; */
-  /* height: 60px ; */
   margin-left:-4px;
-  /* border: 2px solid #990000; */
   -webkit-border-radius:50%;
   -moz-border-radius:50%;
   -ms-border-radius:50%;

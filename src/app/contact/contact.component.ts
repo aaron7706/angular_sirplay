@@ -20,11 +20,9 @@ export class ContactComponent {
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
-    // this.playAnim();
+    
     this.playAnim();
-    // this.intervalId = setInterval(() => {
-    //   this.updateBackgroundPosition();
-    // }, 10);
+ 
     const storedCounter = localStorage.getItem('counter');
     if (storedCounter) {
       this.counter = parseInt(storedCounter, 10);
@@ -63,13 +61,7 @@ export class ContactComponent {
     }, this.isAdding ? 120 : 60);
   }
 
-  // private updateBackgroundPosition() {
-  //   this.i++;
-  //   const animateArea = document.getElementById('animate-area');
-  //   if (animateArea) {
-  //     animateArea.style.backgroundPosition = this.i + 'px';
-  //   }
-  // }
+  
   incrementCounter() {
     if (this.counter < 40) {
       this.counter++;

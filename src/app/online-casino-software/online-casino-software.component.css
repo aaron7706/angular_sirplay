@@ -1,13 +1,10 @@
 .container_imgs{
 width: 853px;
-/* height: 100% !important; */
 }
-
 .main_feater{
     width: 252px;
     height: 375px; 
 }
-
 .integration_images{
     width: 638px;
     height: 371px;
@@ -18,16 +15,15 @@ background-color: #a0c528;
 .online-casino-button:hover{
    color: white;
    background-color: #a0c528;
-    }
-
-    .online-casino_col p{
+}
+.online-casino_col p{
         font-family: Poppins;
         line-height: 30px;
         font-weight: 395;
         color: #000;
         font-size: 16px;
-    }
-    .online-casino_col p strong{
+}
+.online-casino_col p strong{
         font-weight: bold;
         color: black;
     }
@@ -37,30 +33,27 @@ background-color: #a0c528;
         font-weight: 700;
         font-size: 22px;
     }
-
-    .online-casino-youtube img{
-
-        transition: all .4s ease-in-out 0s;
-        
-        }
-        .online-casino-youtube img:hover {
+.online-casino-youtube img{
+transition: all .4s ease-in-out 0s;
+      }
+.online-casino-youtube img:hover {
             -webkit-transform: scale(1.08);
             transform: scale(1.08);
-        }
-        .col1-para{
+}
+.col1-para{
             font-family: Poppins;
     line-height: 30px;
     font-weight: 395;
     color: #000;
     font-size: 16px;
-        }
-        .col1-para strong{
+ }
+.col1-para strong{
             font-weight: bold;
 
-        }
-        .wpb_wrapper {
+}
+.wpb_wrapper {
            font-family: 'Poppins'!important; 
-        }
+}
         .faq-container{
             padding-left: 200px;
             padding-right: 82px;
@@ -129,9 +122,6 @@ ol, ul {
     line-height: 30px;
     font-weight: 395;
 }
-/* .online-casino_col_2 img{
-    height: auto;
-} */
 strong{
     font-weight: bold;
 }

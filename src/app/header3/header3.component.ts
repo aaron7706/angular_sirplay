@@ -62,18 +62,6 @@ anime_1(){
   $("#panel_4").css("display", "none");
   $(".res_data").toggleClass('listanimation1')
 }
-// anime(){
-//   $(".res_data_1").toggleClass('listanimation')
-
-// }
-// anime1(){
-//   $(".res_data").toggleClass('listanimation1')
-
-// }
-
-// animations(){
-//   $("#pane_1").addClass('listanimation')
-// }
 
 
 }
