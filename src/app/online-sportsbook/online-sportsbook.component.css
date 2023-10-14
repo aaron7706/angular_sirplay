@@ -84,9 +84,12 @@
      }
 
 }
-
+.sports_changes {
+    padding-top: 133px;
+    padding-left: 70px;
+}
 .sports_row_1{
-    padding-left: 31px;
+    /* padding-left: 31px; */
 }
 b, strong {
     font-weight: bold;

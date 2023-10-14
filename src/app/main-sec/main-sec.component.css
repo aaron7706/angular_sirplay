@@ -413,7 +413,7 @@ gap:30px;
     color: gray;
 }
 .casino_col{
-    width: 16%;
+    width: 19%;
 }
 .casino_list{
     font-size: 16px;
@@ -633,6 +633,10 @@ padding-top: 80PX;
 width: 330px;
 height: 330px;
     }
+
+    .virtual_img{
+    display: none !important;
+    }
   }
 /*=========== <  crypto section end >=========== */
 
@@ -642,6 +646,7 @@ height: 330px;
     padding-top: 80px;
 }
 .integration_row{
+    align-items: center;
     display: flex;
     justify-content: center;
 }
@@ -1142,5 +1147,11 @@ margin-top: 2px !important;
   }
 /*=========== <  question section end  >=========== */
 .platform_col_2{
-    width: 32%;
+    width: 40%;
+}
+
+
+.virtual_img{
+    width: 487px;
+    height: 467px;
 }
