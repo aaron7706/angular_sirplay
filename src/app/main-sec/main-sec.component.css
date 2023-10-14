@@ -237,9 +237,6 @@ border-color: #000;
     display: none;
 }
   }
-
-
-/*=========== < whites label section >=========== */
 .whites_row{
     display: flex;
     justify-content: center;
@@ -319,11 +316,6 @@ border-radius: 5px;
     }
     
   }
-
-/*=========== < whites label section end >=========== */
-
-
-/*=========== <  Igaming section START >=========== */
 .gaming_row{
     display: flex;
     justify-content: center;
@@ -376,12 +368,6 @@ display: none;
     }
 
   }
-/*=========== <  Igaming section end  >=========== */
-
-
-
-/*=========== <  casino section >=========== */
-
 .Casino_sec{
     padding-top: 80px;
     margin-bottom: 80px;
@@ -438,10 +424,6 @@ gap:30px;
     
     }
   }
-
-/*=========== <  casino section end  >=========== */
-
-/*=========== <  live casino section  >=========== */
 .live_Casino_sec{
     padding-top: 80px;
 }
@@ -498,12 +480,6 @@ gap:30px;
     }
     
   }
-
-/*=========== <  live casino section end   >=========== */
-
-
-/*=========== <  WEB3 section   >=========== */
-
 .Web3_sec{
 padding-top: 80PX;
 }
@@ -562,14 +538,7 @@ padding-top: 80PX;
         margin-top: 40px;
 }
     }
-  
-
-/*=========== <  WEB3 section end >=========== */
-
-
-
-/*=========== <  crypto section>=========== */
-.crypto_sec{
+  .crypto_sec{
     padding-top:80px;
 
 }
@@ -638,10 +607,6 @@ height: 330px;
     display: none !important;
     }
   }
-/*=========== <  crypto section end >=========== */
-
-
-/*=========== <  integration section end >=========== */
 .integration_sec{
     padding-top: 80px;
 }
@@ -704,9 +669,6 @@ font-weight: 600;
         width: 87%;
     }
   }
-/*=========== <  integration section end  >=========== */
-
-/*=========== <  starting section  >=========== */
 .starting_sec{
     padding-top: 80px;
 }
@@ -750,9 +712,6 @@ color: #000 !important;
 
     
   }
-/*=========== <  starting section end  >=========== */
-
-/*=========== <  contact section  >=========== */
 .contact_sec{
     padding-top: 80px;
     margin-bottom: 40px;
@@ -900,12 +859,6 @@ width: 33%;
         width: 351px;
     }
 }
-/*=========== <  contact section end  >=========== */
-
-
-
-/*=========== <  FAQ section  >=========== */
-
 .faq_sec{
 padding-top: 80px;
 }
@@ -1005,14 +958,6 @@ padding-top: 80px;
     width: 97%;
 }
 }
-/*=========== <  FAQ section end  >=========== */
-
-
-
-
-
-/*=========== <  question section  >=========== */
-
 .q_header{
     text-align: center;
     color: #a0c528;

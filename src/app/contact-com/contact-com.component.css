@@ -9,7 +9,6 @@
 .contact_row{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 .contact_col{
     width: 41%;
@@ -142,9 +141,6 @@ width: 33%;
     }
 
     .contact_social{
-        /* display: flex;
-        justify-content: center;
-        margin-top: 31px; */
         margin-left: -45px;
     }
 
@@ -154,16 +150,13 @@ width: 33%;
         width: 100%;
     }
     .name_input input {
-        /* width: 351px; */
         width: 100%;
     }
     .email_input input {
-        /* width: 351px; */
-        width: 100%;
+      width: 100%;
     }
     textarea {
-        /* width: 351px; */
-        width: 100%;
+       width: 100%;
     }
     .contact_sec{
         padding: 10px;
@@ -173,10 +166,7 @@ width: 33%;
  
     width: 100% !important;
   }
-  /* .cot{
-    width: 110% !important;
 
-  } */
 
   .iti {
     position: relative;
@@ -211,7 +201,6 @@ cursor: pointer;
     height: 49px;
 }
 #country_selector{
-    /* padding-top: 15px; */
     padding-left: 45px;
 }
 
@@ -225,7 +214,6 @@ cursor: pointer;
 .wpcf7-response-output {
     border: 2px solid;
     border-color: #ffb900 !important;
-    /* display: none; */
 }
 .wpcf7 form .wpcf7-response-output {
     margin: 2em 0.5em 1em;
@@ -243,7 +231,6 @@ cursor: pointer;
     
 }
 .wpcf7-spinner {
-    /* visibility: hidden; */
     display: inline-block;
     background-color: #23282d;
     opacity: 0.75;
@@ -266,14 +253,13 @@ cursor: pointer;
     height: 6px;
     border: none;
     border-radius: 100%;
-    transform-origin: 50% 50%; /* Changed to center of the element */
+    transform-origin: 50% 50%; 
     animation-name: spin;
     animation-duration: 1000ms !important;
     animation-timing-function: linear !important;
     animation-iteration-count: infinite !important;
   }
-  
-  /* Define the spin animation separately */
+
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -282,16 +268,6 @@ cursor: pointer;
       transform: rotate(180deg);
     }
   }
-  
 
-
-
-
-
-/* .icon{
-    background-image: url("/assets/FLAG.jpg");
- background-repeat: no-repeat;
- padding-top: 12px;
-} */
 
 

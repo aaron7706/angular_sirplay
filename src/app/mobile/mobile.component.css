@@ -7,7 +7,6 @@
   padding: 0px;
 }
 
-/* =======================sports betting css starts============================ */
 .sportsbetting-section1-main {
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -116,9 +115,6 @@ justify-content: center;
   text-transform: uppercase;
   color: rgb(87, 87, 86);
 }
-
-/* =============================================================== */
-
 .sportsbetting-mainfeature-main {
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -170,8 +166,6 @@ justify-content: center;
   font-family: "Raleway", sans-serif;
 
 }
-/* =============================================================== */
-
 .sportsbetting-benefits {
   font-family: "Raleway", sans-serif;
 }
@@ -229,9 +223,6 @@ justify-content: center;
   display: flex;
   margin-top: 2%;
 }
-
-/* =============================================================== */
-
 .sportsbetting-complete-sports-main {
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -281,8 +272,6 @@ justify-content: center;
 .sportsbetting-complete-sports-col2 img {
   margin-left: 90%;
 }
-/* =============================================================== */
-
 .sportsbetting-crypto-sports-main {
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -321,12 +310,10 @@ justify-content: center;
   font-family: "Raleway", sans-serif;
 
 }
-
 .sportsbetting-crypto-sports-col2 a {
   color: rgb(160, 197, 40);
   text-decoration: none;
 }
-
 .sportsbetting-crypto-sports-col2 ul li {
   font-size: 1em;
   line-height: 1.8;
@@ -336,16 +323,12 @@ justify-content: center;
   font-family: "Raleway", sans-serif;
 
 }
-
-/* =============================================================== */
-
 .sportsbetting-betting-software-main {
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 166px;
 
 }
-
 .sportsbetting-betting-software-col1 {
   margin-left: 7%;
   width: 40%;
@@ -363,7 +346,6 @@ justify-content: center;
 
 
 }
-
 .sportsbetting-betting-software-col1 strong {
   font-weight: bold;
   line-height: 1.3;
@@ -379,23 +361,18 @@ justify-content: center;
   font-family: "Raleway", sans-serif;
 
 }
-
 .sportsbetting-betting-software-col2 img {
   width: 88%;
 }
-/* =============================================================== */
-
 .sportsbetting-online-retail-main {
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 10%;
 }
-
 .sportsbetting-online-retail-col2 {
   width: 33%;
   margin-left: 10%;
 }
-
 .sportsbetting-online-retail-col2 h2 {
   font-style: normal;
   line-height: 1.3;
@@ -408,7 +385,6 @@ justify-content: center;
     margin-bottom: 30px;
 
 }
-
 .sportsbetting-online-retail-col2 p {
   line-height: 1.9;
   color: #999999;
@@ -427,352 +403,110 @@ justify-content: center;
   color: rgb(160, 197, 40);
   text-decoration: none;
 }
-
-/* =======================sports betting css ends============================ */
-
 @media screen and (max-width: 820px) {
   .sportsbetting-section1-main {
     flex-direction: column;
   }
-
-  .sportsbetting-section1-col1 {
+.sportsbetting-section1-col1 {
     width: 98%;
   }
-
-  .sportsbetting-section1-button {
+.sportsbetting-section1-button {
     margin-left: 0%;
     margin-top: 14%;
     text-align: center;
   }
-
-  .sportsbetting-section1-col2 iframe {
+.sportsbetting-section1-col2 iframe {
     width: 100%;
     height: 217px;
     margin-top: 20%;
   }
-
-  .sportsbetting-section1-col2 {
+.sportsbetting-section1-col2 {
     justify-content: center;
     display: flex;
   }
-  /* ========================================================== */
-
-  .sportsbetting-mainfeature-main {
+ .sportsbetting-mainfeature-main {
     flex-direction: column;
     gap: 40px;
   }
-
-  .sportsbetting-betting-software-col2 img {
-
-    width: 100%;
-
-  }
-
-  .sportsbetting-mainfeature-col2 {
+.sportsbetting-betting-software-col2 img {
+width: 100%;
+}
+.sportsbetting-mainfeature-col2 {
     width: 87%;
     margin-right: 7%;
     margin-left: 6%;
-  }
-  /* ========================================================== */
-
-  .sportsbetting-benefits {
+}
+.sportsbetting-benefits {
     width: 320px;
   }
-
- 
-
-  .sportsbetting-benefits h3 {
+.sportsbetting-benefits h3 {
 width: 96%;
     font-size: 27px;
     margin-bottom: 15px;
-  }
-
-  .sportsbetting-benefits-image img {
+}
+.sportsbetting-benefits-image img {
     width: 90%;
   }
-
-
-  .sportsbetting-complete-sports-main {
+.sportsbetting-complete-sports-main {
     flex-direction: column;
   }
-
-  .sportsbetting-complete-sports-col1 {
+.sportsbetting-complete-sports-col1 {
     width: 86%;
   }
-
-  .sportsbetting-complete-sports-col1 ul li {
+ .sportsbetting-complete-sports-col1 ul li {
     line-height: 1.8;
   }
-
-  .sportsbetting-complete-sports-col2 {
+.sportsbetting-complete-sports-col2 {
     width: 100%;
     justify-content: center;
     text-align: center;
   }
-  .sportsbetting-complete-sports-col2 img {
+ .sportsbetting-complete-sports-col2 img {
     margin-left: 0;
   }
-
-  .payment_img {
+.payment_img {
     width: 100%;
   }
-
-
-  .sportsbetting-crypto-sports-main {
+.sportsbetting-crypto-sports-main {
     flex-direction: column;
   }
-
-  .sportsbetting-crypto-sports-col1 {
+.sportsbetting-crypto-sports-col1 {
     text-align: center;
-  }
-  .sportsbetting-crypto-sports-col1 img {
+}
+.sportsbetting-crypto-sports-col1 img {
     margin-left: 0;
     width: 82%;
-  }
-
-  .sportsbetting-crypto-sports-col2 {
+}
+.sportsbetting-crypto-sports-col2 {
     width: 89%;
     margin-left: 6%;
-  }
-
-  .sportsbetting-crypto-sports-col2 ul li {
+}
+.sportsbetting-crypto-sports-col2 ul li {
     margin-left: 3%;
-  }
-
-
-
-  .sportsbetting-betting-software-main {
+}
+.sportsbetting-betting-software-main {
     flex-direction: column;
   }
-
-  .sportsbetting-betting-software-col1 {
+.sportsbetting-betting-software-col1 {
     margin-left: 6%;
     width: 93%;
   }
-
-
-
-  .sportsbetting-online-retail-main {
+.sportsbetting-online-retail-main {
     flex-direction: column;
   }
-
-  .sportsbetting-online-retail-col1 {
+.sportsbetting-online-retail-col1 {
     width: 100%;
   }
-
-  .sportsbetting-online-retail-col2 {
+ .sportsbetting-online-retail-col2 {
     width: 87%;
     margin-left: 6%;
   }
 }
-
-/*=========== <  contact section  >=========== */
-.contact_sec {
-  padding-top: 80px;
-  margin-bottom: 40px;
-}
-.contact_row {
-  display: flex;
-  justify-content: center;
-}
-.contact_col {
-  width: 41%;
-}
-.contact_para {
-  color: #151313;
-  font-size: 20px;
-  width: 95%;
-}
-.contact_header {
-  font-weight: 600;
-  font-size: 25px;
-}
-.contact_social {
-  display: flex;
-  justify-content: center;
-  margin-top: 31px;
-}
-.contact_details {
-  display: flex;
-  flex-direction: column;
-}
-.contact_a {
-  color: #a0c528;
-  font-size: 16px;
-  margin-top: 15px;
-  cursor: pointer;
-}
-.contact_a:hover {
-  color: #000;
-}
-.whats_img {
-  margin-left: 23px;
-}
-.contact_b {
-  color: #a0c528;
-  font-size: 16px;
-  margin-top: 15px;
-  cursor: pointer;
-  margin-left: 19px;
-}
-.contact_b:hover {
-  color: #000;
-}
-.name_input input {
-  width: 392px;
-  padding: 4px;
-  font-size: 18px;
-  font-weight: bold;
-  border: 1px solid black;
-  color: #000;
-}
-.name_label {
-  font-weight: 900;
-  font-size: 18px;
-  color: #000;
-}
-.email_input input {
-  width: 392px;
-  padding: 4px;
-  font-size: 18px;
-  font-weight: bold;
-  border: 1px solid black;
-  color: #000;
-}
-.email_label {
-  font-weight: 900;
-  font-size: 18px;
-  margin-top: 12px;
-  color: #000;
-}
-input:focus {
-  outline: none !important;
-  border: 1px solid #a0c528;
-}
-textarea:focus {
-  outline: none !important;
-  border: 1px solid #a0c528;
-}
-
-textarea {
-  resize: vertical;
-  width: 392px;
-  border: 1px solid black;
-}
-.con_btn {
-  margin-top: 45px;
-}
-.con_btn {
-  color: white;
-  background-color: #a0c528;
-  padding: 12px;
-  border: none;
-  width: 155px;
-  font-size: 18px;
-  height: 50px;
-}
-.con_btn:hover {
-  background-color: #000;
-}
-.con_param {
-  font-size: 18px;
-  margin-top: 27px;
-  width: 100%;
-}
-.contact_col_1 {
-  width: 33%;
-}
-
-@media (max-width: 820px) {
-  .contact_row {
-    display: flex;
-    flex-direction: column;
-  }
-  .contact_col {
-    width: 98%;
-    margin-left: 13px;
-  }
-  .contact_col_1 {
-    padding: 7px;
-    width: 92%;
-  }
-  .name_input input {
-    width: 351px;
-  }
-  .email_input input {
-    width: 351px;
-  }
-  textarea {
-    width: 351px;
-  }
-}
-/*=========== <  contact section end  >=========== */
-
-/*=========== <  company and solution section  >=========== */
-
-.comp_row {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.comp_details {
-  display: flex;
-  justify-content: center;
-  gap: 207px;
-}
-.comp_sol {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.comp_header {
-  font-weight: 600;
-  font-size: 24px;
-}
-.comp_list {
-  font-size: 16px;
-  color: #a0c528;
-  margin-bottom: 1px;
-  cursor: pointer;
-  line-height: 20px;
-}
-
-.comp_list:hover {
-  color: #000;
-}
-
-@media (max-width: 820px) {
-  .comp_details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 21px;
-  }
-  .about_left {
-    margin-left: 54px;
-  }
-  .comp_1 {
-    margin-left: -11px;
-  }
-  .comp_2 {
-    margin-left: -36px;
-    width: 125px;
-  }
-  .comp_3 {
-    margin-left: -21px;
-  }
-}
-
-/*=========== <  company and solution section end  >=========== */
-
-/* =======================<foooter sec>=======================  */
-
 .footer_sec {
   background-color: #0a0a0a;
   width: 100%;
   height: 80px;
 }
-
 .footer_para p {
   text-align: center;
   font-size: 18px;
@@ -796,24 +530,18 @@ textarea {
     font-family: "Lato",sans-serif;
     line-height: 35px;
 }
-
-/* header css start here */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@400;500;600;700&display=swap");
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 html {
   overflow-x: hidden;
 }
-
 body {
   overflow-x: hidden;
 }
-
 .header {
   padding: 0 4.8em;
   height: 5em;
@@ -825,16 +553,13 @@ body {
   width: 100%;
   box-shadow: 0em 0.19em 0.3em 0px hsla(0, 0%, 0%, 0.11);
 }
-
 .header .logo {
   height: 4em;
 }
-
 .navbar-list {
   display: flex;
 list-style: none;
 }
-
 .navbar-link:link,
 .navbar-link:visited {
   display: inline-block;
@@ -850,23 +575,19 @@ list-style: none;
   padding: 15px 16px;
   position: relative;
 }
-
 .mobile-navbar-btn {
   display: none;
   background: transparent;
   cursor: pointer;
 }
-
 .mobile-nav-icon {
   width: 2em;
   height: 2em;
   color: #a0c528;
 }
-
 .mobile-nav-icon[name="close-outline"] {
   display: none;
 }
-
 .navbar-link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: -16px;
@@ -879,7 +600,6 @@ list-style: none;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-
 .navbar-link:hover:after {
   width: 100%;
   left: 0;
@@ -887,41 +607,6 @@ list-style: none;
 .navbar-link:hover {
   color: #a0c528;
 }
-/* .navbar-list li :hover  .sub_menu{
-    color: #a0c528;
-display: block;
-position: absolute;
-margin-top: 25px;
-margin-left: -15px;
-background-color: #fff;
-box-shadow: 0em 0.15em 2em 0em rgba(0,0,0,0.15);
-transition-duration: 500ms,500ms,0s;
-transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
-
-  }
-
-  .sub_menu{
-    display: none;
-  }
-
-  .navbar-list li:hover .sub_menu ul li{
-    list-style: none;
-    font-size: 20px;
-    width: 200px;
-    padding: 10px;
-
-  }
-
-  .navbar-list li:hover .sub_menu ul {
-
-    margin: 10px;
-  }
-
-  .navbar-list li:hover .sub_menu ul li a{
-
-    text-decoration: none;
-    color: black;
-  } */
 #menu {
   opacity: 0;
   position: absolute;
@@ -935,19 +620,16 @@ transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   left: 180px;
 }
-
 #menu li {
   list-style: none;
   font-size: 20px;
   width: 220px;
   padding: 10px;
 }
-
 #submenu li:hover #menu {
   opacity: 1;
   visibility: visible;
 }
-
 #menu_2 {
   opacity: 0;
   position: absolute;
@@ -961,19 +643,16 @@ transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   left: 180px;
 }
-
 #menu_2 li {
   list-style: none;
   font-size: 20px;
   width: 220px;
   padding: 10px;
 }
-
 #submenu li:hover #menu_2 {
   opacity: 1;
   visibility: visible;
 }
-
 #submenu {
   opacity: 0;
   position: absolute;
@@ -986,123 +665,93 @@ transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
   transition-duration: 500ms, 500ms, 0s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 li:hover ul#submenu {
   opacity: 1;
   visibility: visible;
 }
-
 #submenu li {
   list-style: none;
   font-size: 20px;
   width: 220px;
   padding: 10px;
 }
-
 #submenu a {
   text-decoration: none;
   color: black;
   font-size: 17px;
 }
-
-/* ===========================================
-Hero and Service Section Start
-======================================= */
 .section-hero,
 .section-services {
   padding: 9.6em 0;
   background-color: #ffffff;
   height: 60vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .section-services {
   background: #f3f0ff;
 }
-
 .section-hero p,
 .section-services p {
   font-size: 3.2em;
 }
-
-/* ===========================================
-Responsive Codes 
-======================================= */
-
-/* 980px  */
 @media (max-width: 62em) {
   .mobile-navbar-btn {
     display: block;
     z-index: 999;
     color: #a0c528 !important ;
   }
-
-  .header {
+ .header {
     position: relative;
   }
-
-  .header .logo {
+.header .logo {
     width: 40%;
   }
-
-  .navbar {
+.navbar {
     width: 100%;
     height: 100vh;
     background-color: rgba(160, 197, 40, 0.94);
     position: absolute;
     top: 0;
     left: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* to get the tranisition  */
-    transform: translateX(100%);
+   transform: translateX(100%);
     transition: all 0.5s linear;
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     position: fixed;
   }
-
-  .navbar-list {
+.navbar-list {
     flex-direction: column;
     align-items: center;
   }
-
-  .active .navbar {
+.active .navbar {
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
   }
-
-  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+.active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
     display: block;
   }
-
-  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+.active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
-
-  .navbar-link:link,
+.navbar-link:link,
   .navbar-link:visited {
     color: white;
   }
   .close_btn {
     color: #ffff;
   }
-
-  #submenu {
+#submenu {
     display: none;
   }
-
-  .user_data {
+.user_data {
     display: none;
   }
   .res_data {
@@ -1123,60 +772,46 @@ Responsive Codes
     display: block !important;
   }
 }
-
 .next_back {
   display: none;
 }
-
-/* Below 560px  */
 @media (max-width: 35em) {
   .header {
     padding: 0 2.4em;
   }
-
-  .header .logo {
+.header .logo {
     width: 40%;
   }
 }
-
 .use_list li:hover {
   background-color: rgba(255, 255, 255, 0.94);
   color: #a0c528;
 }
-
 .res_data {
   display: none;
 }
-
 .res_data_1 {
   list-style: none;
   color: white;
   text-align: center;
   font-size: 2em;
 }
-
 .res_data_1 li {
   margin: 20px;
 }
-
-/* header css end here */
-
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
-
 .esports-betting-main {
   display: flex;
   font-family: "Raleway", sans-serif;
   gap: 143px;
   margin-top: 14%;
 }
-
 .esports-betting-col1 {
   width: 36%;
   margin-left: 6%;
 }
-
 .esports-betting-col1 h1 {
   font-style: normal;
   line-height: 1.3;
@@ -1187,9 +822,7 @@ Responsive Codes
   font-size: calc(220%);
   font-weight: 600;
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-betting-col1 p {
   font-size: 1em;
   font-style: normal;
@@ -1199,13 +832,10 @@ Responsive Codes
   color: rgb(47, 47, 47);
   font-weight: 400;
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-betting-col1-button {
   margin-top: 8%;
 }
-
 .esports-betting-col1-button button {
   border-top-width: 2px;
   border-right-width: 2px;
@@ -1240,24 +870,18 @@ Responsive Codes
   text-transform: uppercase;
   color: rgb(87, 87, 86);
 }
-
 .esports-betting-col2 img {
   width: 100%;
 }
-
-/* =============================================================== */
-
 .top-esports-main {
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 7%;
 }
-
 .top-esports-col1 {
   margin-left: 6%;
   width: 45%;
 }
-
 .top-esports-col1 h2 {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -1267,7 +891,6 @@ Responsive Codes
   color: rgb(87, 87, 86);
   font-size: calc(185.7%);
 }
-
 .top-esports-col1 p {
   font-size: 1em;
   font-style: normal;
@@ -1275,42 +898,31 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
   font-family: "Raleway", sans-serif;
-
 }
-
 .easy-setup-col1-photo{
     width: 70%;
 }
-
 .top-esports-col2 {
   display: grid;
   grid-template-columns: 0fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1em 1em;
-
   margin-right: -5%;
 }
-
-
-/* =============================================================== */
-
 .easy-setup-main {
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-top: 8%;
 }
-
 .easy-setup-col1-photo img {
   width: 80%;
 }
-
 .easy-setup-col2 {
   margin-left: -3%;
   margin-right: 7%;
   width: 37%;
   margin-top: 5%;
 }
-
 .easy-setup-col2 h3 {
   font-style: normal;
   line-height: 1.3;
@@ -1323,7 +935,6 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
 
 }
-
 .easy-setup-col2 p {
   font-size: 1em;
   font-style: normal;
@@ -1336,14 +947,10 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
 
 }
-
-/* =============================================================== */
-
 .esports-betting-middle-main {
   font-family: "Raleway", sans-serif;
   margin-top: 5%;
 }
-
 .esports-betting-middle-row1 h2 {
   text-align: center;
   font-size: calc(200%);
@@ -1356,8 +963,6 @@ Responsive Codes
   color: rgb(87, 87, 86);
   font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
-
-
 }
 .esports-betting-middle-row1{
     display: flex;
@@ -1365,7 +970,6 @@ Responsive Codes
 }
 .esport_bet_center{
     width: 63%;
-
 }
 .esports-betting-middle-row1 p {
   font-size: 18px;
@@ -1376,29 +980,22 @@ Responsive Codes
   color: rgb(47, 47, 47);
   font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
-
 }
-
 .esports-betting-middle-row2 {
   text-align: center;
 }
 .esports-betting-middle-row2 img {
   max-width: 70%;
 }
-
-/* =============================================================== */
-
 .bitcoin-esports-main {
   display: flex;
   margin-top: 7%;
   font-family: "Raleway", sans-serif;
 }
-
 .bitcoin-esports-col2 {
   width: 34%;
   margin-left: 4%;
 }
-
 .bitcoin-esports-col2 h2 {
   font-style: normal;
   line-height: 1.3;
@@ -1411,7 +1008,6 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
 
 }
-
 .bitcoin-esports-col2 p {
   font-size: 17px;
   font-style: normal;
@@ -1420,9 +1016,7 @@ Responsive Codes
   text-transform: none;
   color: #999999;
   font-family: "Raleway", sans-serif;
-
 }
-
 .bitcoin-esports-col2 strong {
   color: #999999;
   font-size: 1em;
@@ -1431,7 +1025,6 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
 }
-
 .bitcoin-esports-col2 h3 {
   font-style: normal;
   line-height: 1.3;
@@ -1442,17 +1035,12 @@ Responsive Codes
   font-size: calc(200%);
   font-weight: 400;
   font-family: "Raleway", sans-serif;
-
 }
-
-/* =============================================================== */
 .esports-faq-main {
   font-family: "Raleway", sans-serif;
 }
-
 .esports-faq-content {
   display: flex;
-
   margin-right: auto;
   margin-left: auto;
   border: 0;
@@ -1462,31 +1050,26 @@ Responsive Codes
   padding-left: 1px;
   font-size: 1em;
 }
-
 .esports-faq-col1 {
   margin-top: calc(2em / 2);
   margin-bottom: calc(2em / 2);
   margin-right: calc(3em / 2);
   margin-left: calc(16em / 2);
 }
-
 .esports-faq-heading {
   text-align: center;
 }
-
 .esports-faq-heading h3 {
   font-weight: 200;
   line-height: 1.3;
   letter-spacing: 0.001em;
   margin-right: calc(0.001em * -1);
-
   color: #575757;
   font-size: calc(185.7%);
   font-family: "Raleway", sans-serif;
   margin-top: 10%;
 
 }
-
 .esports-faq-heading strong {
   font-style: normal;
   line-height: 1.3;
@@ -1495,7 +1078,6 @@ Responsive Codes
   text-transform: none;
   color: rgb(87, 87, 86);
 }
-
 .esports-faq-col1 h3 {
   font-size: calc(140%);
   font-weight: 500;
@@ -1506,9 +1088,7 @@ Responsive Codes
   text-transform: none;
   color: rgb(87, 87, 86);
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-faq-col1 p {
   margin: 0 0 0.5em;
   font-weight: 400;
@@ -1519,9 +1099,7 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-faq-col1 ol li {
   margin: 0 0 0.5em -1.345em;
   font-size: 17px;
@@ -1530,16 +1108,13 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-faq-col2 {
   margin-top: calc(2em / 2);
   margin-bottom: calc(2em / 2);
   margin-right: calc(20em / 2);
   margin-left: calc(15em / 2);
 }
-
 .esports-faq-heading strong {
   font-style: normal;
   line-height: 1.3;
@@ -1548,7 +1123,6 @@ Responsive Codes
   text-transform: none;
   color: rgb(47, 47, 47);
 }
-
 .esports-faq-col2 h3 {
   font-size: calc(140%);
   font-weight: 500;
@@ -1559,9 +1133,7 @@ Responsive Codes
   text-transform: none;
   color: rgb(87, 87, 86);
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-faq-col2 p {
   margin: 0 0 0.5em;
   font-weight: 400;
@@ -1572,9 +1144,7 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
   font-family: "Raleway", sans-serif;
-
 }
-
 .esports-faq-col2 ol li {
   margin: 0 0 0.5em -1.345em;
   font-size: 17px;
@@ -1585,95 +1155,71 @@ Responsive Codes
   font-family: "Raleway", sans-serif;
 
 }
-
-/* ======================esports betting media query========================================= */
-
 @media screen and (max-width: 820px) {
   .esports-betting-main {
     flex-direction: column;
   }
-
-  .esports-betting-col1 {
+.esports-betting-col1 {
     width: 86%;
     margin-left: 5%;
   }
-
-
-  .top-esports-main {
+.top-esports-main {
     flex-direction: column;
   }
-
-  .top-esports-col2 {
+.top-esports-col2 {
     display: contents;
   }
-
-
-  .easy-setup-main {
+.easy-setup-main {
     flex-direction: column;
   }
-
-  .easy-setup-col1-photo img {
+.easy-setup-col1-photo img {
     width: 100%;
   }
-
-  .easy-setup-col2 {
+.easy-setup-col2 {
     margin-left: 5%;
     width: 86%;
   }
 .easy-setup-col1-photo{
 width: 100%;
 }
-  .esports-betting-middle-row1 h2 {
+.esports-betting-middle-row1 h2 {
     margin-left: 5%;
     margin-right: 4%;
   }
-
-  .esports-betting-middle-row1 p {
+.esports-betting-middle-row1 p {
     margin-left: 5%;
     margin-right: -2%;
   }
   .esport_bet_center{
 width: 100%;
   }
-
-  .esports-betting-middle-row2 img {
+.esports-betting-middle-row2 img {
     max-width: 100%;
   }
-
-
-
-  .bitcoin-esports-main {
+.bitcoin-esports-main {
     flex-direction: column;
   }
   .bitcoin-esports-col1 {
     width: 100%;
   }
-
-  .bitcoin-esports-col2 {
+.bitcoin-esports-col2 {
     width: 86%;
     margin-left: 5%;
   }
-
-
-
-  .esports-faq-content {
+.esports-faq-content {
     flex-direction: column;
   }
-
-  .esports-faq-heading h3 {
+.esports-faq-heading h3 {
     margin-right: calc(-1.999em * -1);
   }
-
-  .esports-faq-col1 {
+.esports-faq-col1 {
     margin-left: calc(2em / 2);
   }
-
-  .esports-faq-col2 {
+.esports-faq-col2 {
     margin-right: calc(4em / 2);
     margin-left: calc(2em / 2);
   }
-
-  .top-esports-col1 {
+.top-esports-col1 {
     margin-left: 6%;
     width: 83%;
 }
@@ -1682,7 +1228,6 @@ width: 100%;
 
 }
 }
-
 .esports_1 {
   width: 200px;
 }
@@ -1710,8 +1255,7 @@ width: 100%;
 .esports_9 {
     width: 200px;
   }
-
-  .esports_10 {
+.esports_10 {
     width: 200px;
   }
   .esports_11 {
@@ -1725,9 +1269,6 @@ width: 100%;
     margin-bottom: 17px;
    
 }
-/* retail css start here */
-
-
 .betting_shops{
 margin-top: 150px;
 margin-bottom: 80px;
@@ -1744,17 +1285,9 @@ font-size: 20px;
 
 }
 .betting_shop_row{
-/* width: 522px;
-position: relative;
-left: 31%; */
 display: flex;
 justify-content: center;
 }
-
-/* .terminals_sec{
-margin-top: 30px;
-} */
-
 .teriminal_row{
 display: flex;
 justify-content: center;
@@ -1770,14 +1303,12 @@ width: 52%;
 .terminal_col_1{
 width: 22%;
 margin-top: 146px;
-
 }
 .ter_head_2{
     font-size: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
 }
-
 .termin_1{
     margin-top: 12px;
     font-size: 18px;
@@ -1785,46 +1316,26 @@ margin-top: 146px;
     color: gray;
     margin-bottom: 12px; 
 }
-
-
 .arrow_2{
 display: none;
 }
-/* .arrow_2:hover{
-display: block;
-background-color: #00adf1;
-} */
-
-/* .arrows_chck:hover{
-color: #a0c528;
-
-} */
 .arrows_chck:hover{
 color: #a0c528;
 cursor: pointer;
 }
-
 .arrows_chck:hover + .arrow_2 {
 display: block;
 color: #a0c528;
-
-
 }
-
 .arrow_chck1{
 display: flex;
 }
-
 .bet_col_sec{
     width: 32%;
-
 }
-/* ==============screen header section============== */
-
 .screen_terminal{
 padding-top: 188px;
 }
-
 .screen_row{
 display: flex;
 justify-content: center;
@@ -1838,53 +1349,22 @@ height: 300px;
 width: 446px;
 height: 300px;
 }
-
 .terminal_img {
 width: 579px;
 }
-
 .sc_param{
     color: darkgray;
     letter-spacing: 1px;
     margin-top: 12px;
     font-size: 18px;
 }
-
 .sc_game_card{
     display: flex;
     gap: 119px;
 }
-
-
-/* .screen_card{
-background-color: #000;
-width: 116px;
-height: 116px;
-cursor: pointer;
-} */
-/* .screen_details{
-text-align: center;
-color: white;
-padding-top: 31px;
-font-size: 30px;
-font-weight: 600;
-} */
-/* .screen_cotaiber{
-display: flex;
-} */
-
-/* .screen_card:hover{
-background-color: #a0c528;
-} */
-/* .arrows_chck{
-display: flex;
-} */
-
-
 .expert_game_card{
 display: flex;
 gap: 66px;
-
 }
 .terminals_sec{
 margin-bottom: 50px;
@@ -1894,11 +1374,9 @@ background-color: #000;
 width: 116px;
 height: 116px;
 cursor: pointer;
-/* position: absolute; */
 top: 367px;
 left: 551px;
 margin-top: -67px;
-
 }
 .screen_deitails{
 text-align: center;
@@ -1908,16 +1386,13 @@ font-size: 30px;
 font-weight: 600;   
 display: flex;
 padding-left: 45px;
-
 }
 .screen_cards:hover{
 background-color: #a0c528;
 }
-
 .screen_deitails .arrow_3{
 display: none;
 }
-
 .screen_cards:hover .arrow_3{
 display: block;
 }
@@ -1926,17 +1401,13 @@ width: 40%;
 }
 .screen_col_1{
 margin-top: -254px;
-
 }
-
 .screen_card:hover{
 background-color: #a0c528;
 }
-
 .screen_deitails .arrow_3{
 display: none;
 }
-
 .screen_card:hover .arrow_3{
 display: block;
 }
@@ -1945,25 +1416,21 @@ background-color: #000;
 width: 116px;
 height: 116px;
 cursor: pointer;
-/* position: absolute; */
 top: 263px;
 right: 179px;
 margin-top: -63px;
-
-
 }
 .screen_header_1{
 width: 220px;
 font-size: 31px;
 font-weight: 300;
-
 }
 .screen_header_2{
 width: 263px;
 font-size: 31px;
 font-weight: 300;
 }
- .use_list li a{
+.use_list li a{
 text-decoration: none;
 color: white;
  }
@@ -1972,10 +1439,6 @@ color: white;
   color: white;
    }
 
-/* ==============screen header section============== */
-
-
-/* sales solution start here */
 .sale_solution_sec{
 padding-top: 100px;
 }
@@ -2001,7 +1464,6 @@ height: 70px;
 }
 .sales_card_details{
 display: flex;
-/* gap: 10px; */
 justify-content: center;
 text-align: center;
 padding-top: 22px;
@@ -2036,19 +1498,12 @@ width: 36%;
 .sales_col_1{
 width: 29%;
 }
-
-/* sales solution start here end */
-
-
-/* Prepaid_cards section start */
-
 .Prepaid_cards{
 padding-top: 80px;
 }
 .prepaid_row{
 display: flex;
 justify-content: center;
-/* align-items: center; */
 }
 .prepaid_img{
 width: 551px;
@@ -2060,10 +1515,6 @@ width: 37%;
 .prepaid_col_1{
 width: 36%;
 }
-
-
-/* Prepaid_cards section end*/
-
 @media (max-width:820px){
     .bet_col_sec {
         width: 79%;
@@ -2117,7 +1568,6 @@ width: 36%;
  width: 97px;
  height: 174px;
  cursor: pointer;
- /* position: absolute; */
  top: 438px;
  left: 263px;
 }
@@ -2130,9 +1580,6 @@ width: 36%;
  width: 97px;
  height: 174px;
  cursor: pointer;
- /* position: absolute; */
- /* top: 117px; */
- /* right: 197px; */
  top: 80%;
 right: 11%;
 }
@@ -2229,17 +1676,9 @@ width: 97%;
 }
 .terminals-all-in-one-col1 img {
     width: 178px;
-
 } 
 }
-
-
-
-
-
-  
-  
-  .mobile-sports-main{
+.mobile-sports-main{
       display: flex;
       font-family: 'Raleway', sans-serif;
       margin-top: 14%;
@@ -2249,8 +1688,6 @@ width: 97%;
   
   .mobile-sports-left{
       width: 35%;
-    
-  
   }
   
   .mobile-sports-left h1{
@@ -2264,11 +1701,8 @@ width: 97%;
       font-family: 'Raleway', sans-serif;
       font-size: 45px;
       margin-bottom: 43px;
-      
-  }
-  
-  
-  .mobile-sports-left p{
+      }
+ .mobile-sports-left p{
       font-size: 1em;
       line-height: 1.8;
       margin: 0 0 1.5em;
@@ -2276,39 +1710,27 @@ width: 97%;
       letter-spacing: 0em;
       text-transform: none;
       color: rgb(87,87,86);
-      font-family: 'Raleway', sans-serif;
-
-  }
-  
-  
-  .mobile-sports-left strong{
+      font-family: 'Raleway', sans-serif;}
+ .mobile-sports-left strong{
   letter-spacing: 0em;
       text-transform: none;
       color: rgb(87,87,86);
   }
-  
-  .mobile-sports-right img{
+ .mobile-sports-right img{
   margin-top: -5%;
   }
-  
-   /* ===================================================================  */
-  
-  
-  .mobile-advantages-main{
+ .mobile-advantages-main{
       display: flex;
       font-family: 'Raleway', sans-serif;
       gap: 6%;
       margin-top: 5%;
       justify-content: center;
   }
-  
-  
-  .mobile-advantages-left{
+ .mobile-advantages-left{
   width: 35%;
 
   }
-  
-  .mobile-advantages-left h1{
+ .mobile-advantages-left h1{
       font-size: 43px;
       width: 91%;
       font-style: normal;
@@ -2320,11 +1742,8 @@ width: 97%;
       color: rgb(87,87,86);
       font-family: 'Raleway', sans-serif;
       margin-bottom: 35px;
-
-
-  }
-  
-  .mobile-advantages-left p{
+}
+ .mobile-advantages-left p{
   margin: 0 0 1.5em;
   font-size: 1em !important;
       line-height: 1.4;
@@ -2334,10 +1753,8 @@ width: 97%;
       text-transform: none;
       color: rgb(87,87,86);
       font-family: 'Raleway', sans-serif;
-
-  } 
-  
-  .mobile-advantages-left strong{
+} 
+ .mobile-advantages-left strong{
   font-style: normal;
   font-size: 1.7em !important;
       line-height: 1.4;
@@ -2345,21 +1762,14 @@ width: 97%;
       text-transform: none;
       color: rgb(87,87,86);
   }
-  
-  
-  .mobile-advantages-right img{
+ .mobile-advantages-right img{
   margin-top: 14%;
   }
-  
-  /* ==========================mobile-betting media query=========================================  */
-  
-  @media screen and (max-width: 820px){
+ @media screen and (max-width: 820px){
       .mobile-sports-main {
           flex-direction: column;
       }
-  
-  
-      .mobile-sports-left {
+  .mobile-sports-left {
           width: 88%;
           margin-left: 7%;
       }
@@ -2367,9 +1777,7 @@ width: 97%;
         width: 100% !important;
         height: auto !important;
       }
-  /* ========================================== */
-  
-      .mobile-advantages-main{
+  .mobile-advantages-main{
           flex-direction: column;
       }
   
@@ -2389,7 +1797,7 @@ width: 97%;
   .image_1{
     width: 535px;
   }
-  /* mobile betting */
+ 
 
   .mobile_images{
     width: 450px;
