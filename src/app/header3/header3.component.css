@@ -418,13 +418,9 @@ justify-content: center;
     width: 320px;
   }
 
-  .sportsbetting-benefits p {
-    /* padding-right: 25%;
-         padding-left: 6%; */
-  }
+
 
   .sportsbetting-benefits h3 {
-    /* margin-left: 5%; */
     width: 96%;
     font-size: 27px;
     margin-bottom: 15px;
@@ -516,7 +512,6 @@ justify-content: center;
 .contact_row {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 .contact_col {
   width: 41%;
@@ -649,10 +644,6 @@ textarea {
     width: 351px;
   }
 }
-/*=========== <  contact section end  >=========== */
-
-/*=========== <  company and solution section  >=========== */
-
 .comp_row {
   display: flex;
   flex-direction: column;
@@ -661,7 +652,6 @@ textarea {
 .comp_details {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 207px;
 }
 .comp_sol {
@@ -706,11 +696,6 @@ textarea {
     margin-left: -21px;
   }
 }
-
-/*=========== <  company and solution section end  >=========== */
-
-/* =======================<foooter sec>=======================  */
-
 .footer_sec {
   background-color: #0a0a0a;
   width: 100%;
@@ -761,7 +746,6 @@ body {
 
 .header {
   padding: 0 4.8rem;
-  /* height: 5rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -778,7 +762,6 @@ body {
 
 .navbar-list {
   display: flex;
-  /* gap: 0.8rem; */
   list-style: none;
 }
 
@@ -838,41 +821,7 @@ body {
 .navbar-link:hover {
   color: #a0c528;
 }
-/* .navbar-list li :hover  .sub_menu{
-    color: #a0c528;
-display: block;
-position: absolute;
-margin-top: 25px;
-margin-left: -15px;
-background-color: #fff;
-box-shadow: 0em 0.15em 2em 0em rgba(0,0,0,0.15);
-transition-duration: 500ms,500ms,0s;
-transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
 
-  }
-
-  .sub_menu{
-    display: none;
-  }
-
-  .navbar-list li:hover .sub_menu ul li{
-    list-style: none;
-    font-size: 20px;
-    width: 200px;
-    padding: 10px;
-
-  }
-
-  .navbar-list li:hover .sub_menu ul {
-
-    margin: 10px;
-  }
-
-  .navbar-list li:hover .sub_menu ul li a{
-
-    text-decoration: none;
-    color: black;
-  } */
 #menu {
   opacity: 0;
   position: absolute;
@@ -969,9 +918,7 @@ li:hover ul#submenu {
   color: rgb(150, 150, 123);
 
 }
-/* ===========================================
-Hero and Service Section Start
-======================================= */
+
 .section-hero,
 .section-services {
   padding: 9.6rem 0;
@@ -992,11 +939,6 @@ Hero and Service Section Start
   font-size: 3.2rem;
 }
 
-/* ===========================================
-Responsive Codes 
-======================================= */
-
-/* 980px  */
 @media (max-width: 62em) {
   .mobile-navbar-btn {
     display: block;
@@ -1013,7 +955,6 @@ Responsive Codes
   }
 
   .navbar {
-    /* display: none; */
     width: 100%;
     height: 100vh;
     background-color: rgba(160, 197, 40, 0.94);
@@ -1024,8 +965,6 @@ Responsive Codes
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* to get the tranisition  */
     transform: translateX(100%);
     transition: all 0.5s linear;
 
@@ -1093,7 +1032,7 @@ Responsive Codes
   display: none;
 }
 
-/* Below 560px  */
+
 @media (max-width: 35em) {
   .header {
    
@@ -1108,7 +1047,6 @@ Responsive Codes
 }
 
 .use_list li:hover {
-  /* background-color: rgba(255, 255, 255, 0.94); */
   color: #a0c528;
 }
 
@@ -1253,9 +1191,7 @@ Responsive Codes
   margin-right: -5%;
 }
 
-.top-esports-col2-images img {
-  /* width: 50%; */
-}
+
 
 /* =============================================================== */
 
@@ -1651,9 +1587,6 @@ Responsive Codes
     margin-bottom: 17px;
    
 }
-/* retail css start here */
-
-
 .betting_shops{
 margin-top: 150px;
 margin-bottom: 80px;
@@ -1670,16 +1603,11 @@ font-size: 20px;
 
 }
 .betting_shop_row{
-/* width: 522px;
-position: relative;
-left: 31%; */
 display: flex;
 justify-content: center;
 }
 
-/* .terminals_sec{
-margin-top: 30px;
-} */
+
 
 .teriminal_row{
 display: flex;
@@ -1700,8 +1628,6 @@ margin-top: 146px;
 }
 .ter_head_2{
     font-size: 40px;
-    /* margin-top: -13px; */
-    /* font-size: calc(200%); */
     font-family: "Raleway", sans-serif;
     font-weight: 400;
 }
@@ -1718,15 +1644,6 @@ margin-top: 146px;
 .arrow_2{
 display: none;
 }
-/* .arrow_2:hover{
-display: block;
-background-color: #00adf1;
-} */
-
-/* .arrows_chck:hover{
-color: #a0c528;
-
-} */
 .arrows_chck:hover{
 color: #a0c528;
 cursor: pointer;
@@ -1783,32 +1700,6 @@ width: 579px;
     gap: 119px;
 }
 
-
-/* .screen_card{
-background-color: #000;
-width: 116px;
-height: 116px;
-cursor: pointer;
-} */
-/* .screen_details{
-text-align: center;
-color: white;
-padding-top: 31px;
-font-size: 30px;
-font-weight: 600;
-} */
-/* .screen_cotaiber{
-display: flex;
-} */
-
-/* .screen_card:hover{
-background-color: #a0c528;
-} */
-/* .arrows_chck{
-display: flex;
-} */
-
-
 .expert_game_card{
 display: flex;
 gap: 66px;
@@ -1822,7 +1713,6 @@ background-color: #000;
 width: 116px;
 height: 116px;
 cursor: pointer;
-/* position: absolute; */
 top: 367px;
 left: 551px;
 margin-top: -67px;
@@ -1873,7 +1763,6 @@ background-color: #000;
 width: 116px;
 height: 116px;
 cursor: pointer;
-/* position: absolute; */
 top: 263px;
 right: 179px;
 margin-top: -63px;
@@ -1900,12 +1789,6 @@ color: white;
   color: white;
    }
 
-
-
-/* ==============screen header section============== */
-
-
-/* sales solution start here */
 .sale_solution_sec{
 padding-top: 100px;
 }
@@ -1931,7 +1814,6 @@ height: 70px;
 }
 .sales_card_details{
 display: flex;
-/* gap: 10px; */
 justify-content: center;
 text-align: center;
 padding-top: 22px;
@@ -1966,19 +1848,12 @@ width: 36%;
 .sales_col_1{
 width: 29%;
 }
-
-/* sales solution start here end */
-
-
-/* Prepaid_cards section start */
-
 .Prepaid_cards{
 padding-top: 80px;
 }
 .prepaid_row{
 display: flex;
 justify-content: center;
-/* align-items: center; */
 }
 .prepaid_img{
 width: 551px;
@@ -2047,7 +1922,6 @@ width: 36%;
  width: 97px;
  height: 174px;
  cursor: pointer;
- /* position: absolute; */
  top: 438px;
  left: 263px;
 }
@@ -2060,9 +1934,6 @@ width: 36%;
  width: 97px;
  height: 174px;
  cursor: pointer;
- /* position: absolute; */
- /* top: 117px; */
- /* right: 197px; */
  top: 80%;
 right: 11%;
 }
@@ -2166,17 +2037,7 @@ width: 97%;
 
 } 
 }
-
-
-
-
-  /* retail css end here */
-
-
-
-
-  /* mobile betting */
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
   
