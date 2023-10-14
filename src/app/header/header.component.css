@@ -36,17 +36,12 @@ a {
 }
 .nav_row_2 li a {
   color: #000;
-  /* padding: 18px; */
   padding-bottom: 21px !important;
-  /* padding-left: 14px; */
-  font-family: "Poppins";
+font-family: "Poppins";
   font-size: 16px;
   cursor: pointer;
 }
-.active,
-.nav_row_2 li:hover {
-  /* background-color: aqua; */
-}
+
 
 .nav_row_2 li:hover .sub_menu {
   display: block;
@@ -147,7 +142,6 @@ a {
 .hover_me:hover .sub_menu_2 {
   display: block;
   position: absolute;
-  /* margin-left: 22px; */
   left: 95%;
   top: 0;
   background: #a0c528;
@@ -184,13 +178,6 @@ header {
   transition: all 0.5s ease;
 }
 
-/* .fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  animation: smoothScroll 1s forwards;
-  width: 100%;
-} */
 @keyframes smoothScroll {
   0% {
     transform: translateY(-40px);
@@ -205,7 +192,6 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  /* padding: 20px 0; */
   z-index: 1;
 }
 .page-header.is-sticky {
@@ -235,9 +221,7 @@ header {
 .responsive {
   display: none;
 }
-/* .normal_view{
-      display: block;
-      } */
+
 .navigation {
   background-color: #a0c528 !important;
 }
@@ -267,48 +251,15 @@ header {
 .container-sm,
 .container-xl,
 .container-xxl {
-  /* --bs-gutter-x: 2.5rem !important;
-      --bs-gutter-y: 0;
-      width: 100%;
-      padding-right: calc(var(--bs-gutter-x) * .5);
-      padding-left: calc(var(--bs-gutter-x) * .5);
-      margin-right: auto;
-      margin-left: auto; */
-  padding: 0;
+padding: 0;
 }
-/* .nav_col img{
-      margin: 30px 0 !important;
-    } */
+
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
 }
 
-/* .accordion {
-      --bs-accordion-color: #212529;
-      --bs-accordion-bg: #fff;
-      --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
-      --bs-accordion-border-color: var(--bs-border-color);
-      --bs-accordion-border-width: 1px;
-      --bs-accordion-border-radius: 0.375rem;
-      --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
-      --bs-accordion-btn-padding-x: 1.25rem;
-      --bs-accordion-btn-padding-y: 1rem;
-      --bs-accordion-btn-color: #212529;
-      --bs-accordion-btn-bg: var(--bs-accordion-bg);
-      --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#fffff'%3e%3cpath fill-rule='white' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
-      --bs-accordion-btn-icon-width: 1.25rem;
-      --bs-accordion-btn-icon-transform: rotate(-180deg);
-      --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-      --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
-      --bs-accordion-btn-focus-border-color: #86b7fe;
-      --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-      --bs-accordion-body-padding-x: 1.9rem;
-      --bs-accordion-body-padding-y: .6rem;
-      --bs-accordion-active-color: white;
-      --bs-accordion-active-bg: #e7f1ff;
-    } */
 .accordion-button:focus {
   z-index: 3;
   border-color: var(--bs-accordion-btn-focus-border-color);
@@ -350,7 +301,6 @@ header {
     background: none !important;
   }
   .nav_col img {
-    /* margin: 30px -310px !important; */
     max-width: 28%;
   
   }
@@ -403,15 +353,10 @@ header {
 
 @media (max-width: 800px) {
   .navbar-toggler-icon {
-    /* margin-right: -137px !important; */
+    
     font-size: 16px;
   }
-/* 
-  .nav_col img {
-    /* margin: 30px -28px !important; */
-    /* max-width: 19%;
-    margin-left: -122px; */
-  /* } */ 
+ 
   }
 
 .vrnl_logo {
@@ -421,16 +366,14 @@ header {
 
 @media (min-width: 1200px) {
   .nav_col img {
-    /* margin: 30px -28px !important; */
-    max-width: 100%;
+ max-width: 100%;
     margin-left: -13px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .nav_col img {
-    /* margin: 30px -28px !important; */
-    max-width: 50%;
+  max-width: 50%;
     margin-left: 20px;
   }
 }

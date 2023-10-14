@@ -21,7 +21,6 @@ export class BettingTradeMasterComponent {
     this.intervalId = setInterval(() => {
      
     }, 10);
-    //  this.updateBackgroundPosition();
   }
   playAnim() {
     setTimeout(() => {
@@ -51,19 +50,7 @@ export class BettingTradeMasterComponent {
       this.playAnim();
     }, this.isAdding ? 120 : 60);
   }
-
-  // ngOnDestroy() {
-  //   clearInterval(this.intervalId);
-  // }
-
-  // private updateBackgroundPosition() {
-  //   this.i++;
-  //   const animateArea = document.getElementById('animate-area');
-  //   if (animateArea) {
-  //     animateArea.style.backgroundPosition = this.i + 'px';
-  //   }
-  // }
-  scrollToContact() {
+scrollToContact() {
     const contactElement = document.querySelector('#contact'); // Use the ID of the target element
     if (contactElement) {
       contactElement.scrollIntoView({ behavior: 'smooth' });

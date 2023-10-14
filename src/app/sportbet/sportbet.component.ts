@@ -7,15 +7,13 @@ import { Component } from '@angular/core';
 })
 export class SportbetComponent {
   scrollToContact() {
-    const contactElement = document.querySelector('#contact'); // Use the ID of the target element
+    const contactElement = document.querySelector('#contact'); 
     if (contactElement) {
       contactElement.scrollIntoView({ behavior: 'smooth' });
     }
   }
-  
-  accordian = false; // Initially, the accordion is closed
-
-  toggleAccordion() {
-    this.accordian = !this.accordian; // Toggle the accordion state
+  accordian = false; 
+toggleAccordion() {
+    this.accordian = !this.accordian; 
   }
 }

@@ -17,29 +17,17 @@ cursor: pointer;
 text-align: center;
 font-size: 40px !important;
 }
-/* .faq_header_pgs:hover{
-    color: #000;
-} */
-
 .para_faq{
     font-family: 'Poppins';
     text-align: center;
     font-size: 18px;
 }
-
-/* .para_faq{
-    text-align: center;
-    font-size: 16px !important;
-} */
-
 .freq_param{
     text-align: center;
     font-family: 'Poppins';
     text-align: center;
     font-size: 16px;
 }
-
-
 .faq_col{
     width: 70%;
 }
@@ -57,8 +45,6 @@ cursor: pointer;
     width: 250px;
     height: 250px;
 }
-
-
 .x-div, .x-row, .x-col, .x-grid, .x-cell, .x-section, .x-image, .x-anchor, .x-text-headline, .x-slide {
     transition-property: border-color, background-color, box-shadow, opacity, filter, transform;
 }
@@ -68,8 +54,6 @@ cursor: pointer;
   color: rgb(160,197,40);
   transform-origin: 0% 50%;
 }
-
-
 .x-ttf, .x-div, .x-row, .x-col, .x-grid, .x-cell, .x-section, .x-acc-header, .x-acc-header-indicator, .x-crumbs-link, .x-paginate-inner > *, .x-anchor, .x-anchor-text-primary, .x-anchor-text-secondary, .x-anchor-sub-indicator, .x-anchor.has-int-content .x-anchor-content, .x-bar-is-sticky, .x-bar-is-sticky .x-bar-content, [data-x-toggle-collapse], .x-graphic-child, .x-image, .x-line, .x-mini-cart li, .x-mini-cart a:not(.x-anchor), .x-modal-close, .x-search, .x-search-btn, .x-search-input, .x-icon, .x-text, .x-text-content-text-primary, .x-text-content-text-subheadline, .x-text-typing, .x-typed-cursor, .x-menu-first-level, .x-menu-layered:not(.x-menu-first-level), .x-card, .x-card-faces, .x-statbar, .x-statbar-bar, .x-statbar-label, .x-wc-add-to-cart-form, .x-wc-shop-sort, [data-x-particle], .x-bar, .x-bar-scroll-button, .x-bar-container, .x-slide, .x-slide-pagination, .x-slide-pagination li {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -330,7 +314,6 @@ h2, .h2 {
   line-height: 1.2;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  /* margin: 1.25em 0 0.2em; */
   text-rendering: optimizelegibility;
 }
 .ui-widget {
