@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class RiskManagementComponent {
  
   typingElement: any;
-  typeArray: string[] = ["Real-time monitoring", "Predictive modeling", "Risk mitigation", "Risk analysis", "Fraud detection", "Betting strategies", "portsbooks data analysis", "Risk assessment"];
+  typeArray: string[] = ["Your Bets", "Data Security"];
   index = 0;
   isAdding = true;
   typeIndex = 0;
