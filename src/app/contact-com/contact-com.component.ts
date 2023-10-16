@@ -54,7 +54,7 @@ export class ContactComComponent implements OnInit {
      
     };
     
-    const inputElement = document.querySelector('#number');
+    const inputElement = document.querySelector('#phone');
     if(inputElement){
       intlTelInput(inputElement,{
         initialCountry :'in',
