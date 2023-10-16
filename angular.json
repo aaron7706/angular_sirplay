@@ -34,8 +34,8 @@
             "scripts": [
             
               "node_modules/jquery/dist/jquery.js",
-              "node_modules/country-select-js/build/js/countrySelect.min.js",
-              "src/assets/country.js"
+              "node_modules/country-select-js/build/js/countrySelect.min.js"
+              
             ]
           },
           "configurations": {

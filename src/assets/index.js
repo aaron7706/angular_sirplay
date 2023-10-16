@@ -1,15 +1,15 @@
 
 
 
-var i=0
+// var i=0
 
-function x() {
+// function x() {
 
-  i++;
-  document.getElementById("animate-area").style.backgroundPosition=i+"px";
+//   i++;
+//   document.getElementById("animate-area").style.backgroundPosition=i+"px";
   
-}
-setInterval(x,10)
+// }
+// setInterval(x,10)
 
 
 
