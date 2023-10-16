@@ -444,19 +444,8 @@ color:#00acee
     .nav_col_2 {
       width: 71% !important;
     }
-    .home_header_h1{
-width: 61% !important;
-    }
-    .gaming_col{
-width: 55% !important;
-
-    }
-    .live_col{
-width: 76% !important;
-    }
-
-    .integration_col{
-width: 55% !important;
+    .nav_col_3{
+      width: 14% !important;
     }
   }
 
