@@ -7,7 +7,7 @@
   .side-slider .slide-btn {
     position: absolute;
     top: 200px;
-   left: -47px;
+    left: -35px;
     padding: 5px 5px;
     border: 0;
     border-radius: 5px 0 0 5px;
@@ -19,7 +19,7 @@
   
   .side-slider .slide-btn img {
     display: block;
-    width: 36px;
+    width: 25px;
     height: auto
   }
   
