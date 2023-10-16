@@ -21,12 +21,14 @@
       <div class="contact_social">
         <div class="contact_details">
           <div class="row_col">
-        <img
+            
+              <img
                 class="whats_img"
                 src="assets/Whatsapp.webp"
                 alt="whatsapp"
               />
-           </div>
+        
+          </div>
           <div class="row_col_1">
             <div class="row_2">
               <a href="https://wa.me/+91826808838" target="_blank">
@@ -87,7 +89,7 @@
             formControlName="from_email"
               type="text"
               id="email"
-          
+              autocomplete="off"
               name="femail"
               value=""
               onkeypress="myFunction()"
@@ -114,9 +116,10 @@
           <div class="email_input">
             <input
             formControlName="country"
+            autocomplete="country"
               type="text"
               aria-labelledby="country_selector-label"
-              id="Country"
+              id="country-input"
               name="countries"
               value=""
               required
@@ -142,7 +145,7 @@
             <input
             formControlName="number"
               value=""
-              id="number"
+              id="phone"
               type="tel"
               name="phone"
               required
@@ -166,7 +169,7 @@
               required
               fmessage
               
-              id="Message"
+              id="text-input"
             
             ></textarea>
           </div>
@@ -182,6 +185,8 @@
 
             <span class="wpcf7-spinner" *ngIf="loder"></span>
           </div>
+          <!-- <div class="wpcf7-response-output error" aria-hidden="true"  *ngIf="contactForm.invalid && (contactForm.touched || contactForm.dirty)">One or more fields have an error. Please check and try
+            again.</div> -->
         </form>
       </div>
       <p class="con_param">
