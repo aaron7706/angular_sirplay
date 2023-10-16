@@ -435,6 +435,29 @@ color:#00acee
   }
 
 
+  @media only screen and (max-width: 1024px) and (min-width: 950px){
 
+    .nav_row_2 a{
+      margin: 1px 4px !important;
+    }
+
+    .nav_col_2 {
+      width: 71% !important;
+    }
+    .home_header_h1{
+width: 61% !important;
+    }
+    .gaming_col{
+width: 55% !important;
+
+    }
+    .live_col{
+width: 76% !important;
+    }
+
+    .integration_col{
+width: 55% !important;
+    }
+  }
 
  
