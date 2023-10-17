@@ -1,4 +1,4 @@
 
 User-agent: *
 Disallow:
-Sitemap: https://vrnl.net/
+Sitemap: https://vrnl.net/sitemap.xml
