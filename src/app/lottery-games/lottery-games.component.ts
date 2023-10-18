@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-lottery-games',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./lottery-games.component.css']
 })
 export class LotteryGamesComponent {
-
+  constructor(private titleService: Title){}
+  ngOnInit() {
+    this.titleService.setTitle('Lottery Games - White label Casino');
+  }
 }
