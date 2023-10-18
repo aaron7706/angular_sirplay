@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-sportbet',
@@ -16,4 +17,10 @@ export class SportbetComponent {
 toggleAccordion() {
     this.accordian = !this.accordian; 
   }
+  constructor(private titleService: Title) {
+  }
+  ngOnInit() {
+    this.titleService.setTitle('Optimize your sports betting experience with our software to increase your chances of success and maximize your winnings');
+  }
+
 }
