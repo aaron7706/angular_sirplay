@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'vrnl';
+  constructor(private titleService: Title){}
 
   i: number = 0;
   private intervalId: any;
@@ -38,5 +40,8 @@ export class AppComponent {
       animateArea.style.backgroundPosition = this.i + 'px';
     }
   }
-
+  ngOnDestroy() {
+    // Reset the title when the component is destroyed
+    this.titleService.setTitle('VRNL is the best sports online betting whitelabel provider in India and Bangladesh | Betfair Api provider |Casino provider');
+  }
 }
