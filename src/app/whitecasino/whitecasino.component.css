@@ -6,7 +6,6 @@
 }
 .container9 {
  display: flex;
-  font-family: Raleway, sans-serif;
   justify-content: center;
   margin-top: 15%;
 }
@@ -14,7 +13,6 @@
   width: 38%;
 }
 .left-text-index3-paras {
-  font-family: 'Raleway', sans-serif;
   line-height: 1.8;
   width: 87%;
 
@@ -693,7 +691,7 @@ hr .hr_1 {
   text-align: start;
   padding: 0.5em 0.625em;
   color: #000;
-  font-weight: 400;
+  font-weight: 399;
   font-family: Raleway, sans-serif;
   line-height: 1.4;
 }
@@ -1143,7 +1141,7 @@ width: 100%;
 }
 .cashout-section1-left-col-paras {
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 399;
   color: #000;
   font-size: 17px;
   margin-bottom: 48px;
@@ -1173,7 +1171,7 @@ width: 100%;
 .cashout-section2-col1-paras {
   font-family: 'Poppins', sans-serif;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 399;
   color: #000;
   font-size: 17px;
 }
@@ -1203,7 +1201,7 @@ width: 100%;
 .cashout-section3-col2 p {
   font-family: 'Poppins', sans-serif;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 399;
   color: #000;
   font-size: 17px;
 }
@@ -1231,7 +1229,7 @@ width: 100%;
 .cashout-section4-col1 ol li {
   font-family: 'Poppins', sans-serif;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 399;
   color: #686868;
   font-size: 17px;
 }
@@ -1270,7 +1268,7 @@ width: 100%;
 }
 .cashout-section5-col2 p {
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 399;
   color: #000;
   font-size: 17px;
 }
@@ -1526,7 +1524,7 @@ font-size: calc(285.7%);
 }
 .param_fea {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 399;
   color: #000000;
 }
 .white_sol_sec {
@@ -1547,7 +1545,7 @@ font-size: calc(285.7%);
 .white_sol_h {
 font-size: 45px;
   color: #a0c527;
-  font-weight: 400;
+  font-weight: 399;
 }
 .white_sol_col span {
   font-weight: 600;
@@ -1588,7 +1586,7 @@ font-weight: 600;
   font-size: 45px;
 width: 100%;
   color: #a0c527;
-  font-weight: 400;
+  font-weight: 399;
   margin-bottom: 30px;
 }
 .white_live_p {
