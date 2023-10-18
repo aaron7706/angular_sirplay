@@ -1,7 +1,7 @@
 #animate-area {
   width: 100%;
   height: 400px;
-  background-image: url('../../assets/Untitled-4.png');
+  background-image: url('../../assets/Untitled-4.webp');
   background-size: cover;
 }
 .home_header_h1 {
@@ -210,7 +210,7 @@ p {
   margin-bottom: 1em;
 }
 .aboutus-content-box {
-  background-image: url('../../assets/aboutus_new.jpg');
+  background-image: url('../../assets/aboutus_new.webp');
   background-size: cover;
   background-position: right;
 }
