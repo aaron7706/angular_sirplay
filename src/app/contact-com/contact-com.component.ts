@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 // import emailjs from 'emailjs-com';
 
 import { FormBuilder, FormControl, FormGroup , Validators} from '@angular/forms';
+import { Title } from '@angular/platform-browser';
 
 
 declare var $: any;
@@ -28,7 +29,7 @@ export class ContactComComponent implements OnInit {
     message:'',
    
   })
-  constructor(private fb:FormBuilder){}
+  constructor(private fb:FormBuilder,private titleService: Title){}
 
   open: boolean=false;
   selectedcountry: any;
@@ -43,7 +44,7 @@ export class ContactComComponent implements OnInit {
   }
   ngOnInit(): void {
 
-
+    this.titleService.setTitle('VRNL is the best sports online betting whitelabel provider in India and Bangladesh | Betfair Api provider |Casino provider');
     this.contact = { 
       from_name:"",
       femail:"",
@@ -63,7 +64,9 @@ export class ContactComComponent implements OnInit {
       });
     }
 
-
+  
+    
+   
     
 
   }

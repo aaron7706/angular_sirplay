@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-our-theme',
@@ -20,6 +21,10 @@ export class OurThemeComponent {
       });
     }
   }
-
+  constructor(private titleService: Title) {
+  }
+  ngOnInit() {
+    this.titleService.setTitle('Bet & Win: Our Work in the World of Online Betting and Casinos');
+  }
   
 }

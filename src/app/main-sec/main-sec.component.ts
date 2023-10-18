@@ -1,4 +1,5 @@
 import { Component , ElementRef, OnInit, ViewChild  } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import * as $ from 'jquery'
 
 @Component({
@@ -8,7 +9,8 @@ import * as $ from 'jquery'
 })
 export class MainSecComponent implements OnInit {
 
-
+  constructor(private titleService: Title) {
+  }
   typingElement: any;
   typeArray: string[] = ["Betting", "B2C", "Casino"];
   index = 0;
@@ -23,6 +25,10 @@ export class MainSecComponent implements OnInit {
     this.intervalId = setInterval(() => {
      
     }, 10);
+    
+ 
+      this.titleService.setTitle('VRNL is the best sports online betting whitelabel provider in India and Bangladesh | Betfair Api provider |Casino provider');
+ 
   }
   playAnim() {
     setTimeout(() => {
