@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-faq',
@@ -20,5 +21,9 @@ changeicons(ids){
   toggleAccordion() {
     this.isOpen = !this.isOpen;
   }
-  
+  constructor(private titleService: Title) {
+  }
+  ngOnInit() {
+    this.titleService.setTitle('FAQs: Your Questions Answered');
+  }
 }

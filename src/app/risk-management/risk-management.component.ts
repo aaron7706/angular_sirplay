@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-risk-management',
@@ -6,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./risk-management.component.css']
 })
 export class RiskManagementComponent {
- 
+  constructor(private titleService: Title) {
+  }
+  
   typingElement: any;
   typeArray: string[] = ["Your Bets", "Data Security"];
   index = 0;
@@ -22,6 +25,9 @@ export class RiskManagementComponent {
      
     }, 10);
     //  this.updateBackgroundPosition();
+   
+      this.titleService.setTitle('Risk Management Strategies for Sportsbook Operators - White label sports betting software and casino ');
+    
   }
   playAnim() {
     setTimeout(() => {

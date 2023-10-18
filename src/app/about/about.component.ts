@@ -1,4 +1,5 @@
 import { Component , OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about',
@@ -6,6 +7,9 @@ import { Component , OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent  implements OnInit {
+  constructor(private titleService: Title) {
+  }
+
   counter: number = 0;
 
 
@@ -32,6 +36,7 @@ export class AboutComponent  implements OnInit {
     }
 
     this.incrementCounter();
+    this.titleService.setTitle('About Us - White label sports betting software and Online casino');
   }
   playAnim() {
     setTimeout(() => {

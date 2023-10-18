@@ -1,4 +1,5 @@
 import { Component , OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-online-sportsbook',
@@ -7,7 +8,9 @@ import { Component , OnInit } from '@angular/core';
 })
 export class OnlineSportsbookComponent implements OnInit  {
 
-
+  constructor(private titleService: Title) {
+  }
+ 
   typingElement: any;
   typeArray: string[] = ["Casino Providers", "Gambling Providers", "Games Providers"];
   index = 0;
@@ -17,6 +20,9 @@ export class OnlineSportsbookComponent implements OnInit  {
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
     this.playAnim();
+   
+      this.titleService.setTitle('Online sportsbook software - White label sports betting software and  Online casino');
+
   }
   playAnim() {
     setTimeout(() => {

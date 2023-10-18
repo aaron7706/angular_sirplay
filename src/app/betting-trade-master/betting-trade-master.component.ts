@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-betting-trade-master',
@@ -6,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./betting-trade-master.component.css']
 })
 export class BettingTradeMasterComponent {
-
+  constructor(private titleService: Title) {
+  }
+ 
   typingElement: any;
   typeArray: string[] = ["faster", "profitable", "smarter"];
   index = 0;
@@ -21,6 +24,9 @@ export class BettingTradeMasterComponent {
     this.intervalId = setInterval(() => {
      
     }, 10);
+ 
+      this.titleService.setTitle('Nash Trade Master AI: Transforming the Betting Industry ');
+    
   }
   playAnim() {
     setTimeout(() => {
