@@ -2321,7 +2321,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .sportsbetting-mainfeature-col2 h2{
     width: 100%;
   }
-
+  .sportsbetting-section1-main{
+    padding-top: 0px;
+  }
 }
 .sportsbetting-section1-button button:hover{
   border-top-color: rgb(109,140,1);
