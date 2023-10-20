@@ -1264,8 +1264,8 @@ margin-top: 2px !important;
 
 @media (max-width: 768px){
     .headerh1{
-        width: 86%;
-        font-size: 27px;
+        width: 96%;
+        font-size: 24px;
         font-weight: bold;
         font-family: "Poppins";
         line-height: 40px;
