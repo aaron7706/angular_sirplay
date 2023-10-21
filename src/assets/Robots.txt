@@ -1,1 +1,1 @@
-Sitemap: https://vrnl.net/
+Sitemap: https://vrnl.net/sitemap.xml

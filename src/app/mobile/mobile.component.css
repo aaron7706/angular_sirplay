@@ -1681,11 +1681,13 @@ width: 97%;
 .mobile-sports-main{
       display: flex;
       font-family: 'Raleway', sans-serif;
-      margin-top: 14%;
       justify-content: center;
       gap: 6%;
   }
   
+  .mobile_tv{
+    margin-top: 105px;
+  }
   .mobile-sports-left{
       width: 35%;
   }
