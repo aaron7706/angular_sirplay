@@ -20,7 +20,7 @@ toggleAccordion() {
   constructor(private titleService: Title) {
   }
   ngOnInit() {
-    this.titleService.setTitle('Optimize your sports betting experience with our software to increase your chances of success and maximize your winnings');
+    this.titleService.setTitle('Enhance Your Betting Experience with VRNL Sports Betting Software');
   }
 
 }
