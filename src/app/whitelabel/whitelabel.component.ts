@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-whitelabel',
@@ -7,10 +7,11 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./whitelabel.component.css']
 })
 export class WhitelabelComponent {
-  constructor(private titleService: Title) {
-  }
-  ngOnInit() {
-    this.titleService.setTitle('White label sports betting software with an integrated online casino');
+  constructor(private titleService: Title,
+    private meta: Meta) {
+      this.titleService.setTitle('White label sports betting software with an integrated online casino');
+      this.meta.addTag({name:'description',content:"Discover vrnl for Your Premier Destination for White Label Exchange Solutions, Customizations, and Exceptional Odds. "});
+      this.meta.addTag({name:'keyword',content:'white label exchange solution, white label betting platform , white label betting exchange'});
   }
 
 }
