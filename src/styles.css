@@ -10114,7 +10114,7 @@ width: 45% ;
 }
 
 .head-custom p {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     line-height: 28px;
     text-align: justify;
 
@@ -10142,7 +10142,7 @@ width: 45% ;
 } */
 
 .plat-odd h1 {
-    line-height: 1.6;
+    /* line-height: 1.6; */
     /* padding: 0 1.5rem; */
 }
 

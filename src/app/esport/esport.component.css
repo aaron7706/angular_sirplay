@@ -1143,7 +1143,7 @@ Responsive Codes
   display: flex;
   font-family: "Raleway", sans-serif;
   gap: 70px;
-  margin-top: 14%;
+  padding-top: 10%;
   justify-content: center;
 
 }
