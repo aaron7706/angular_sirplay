@@ -11,6 +11,7 @@ export class OnlineCasinoSoftwareComponent {
     private meta: Meta) {
     this.titleService.setTitle('The Evolution of Online Casino Software & Platform Provider');
     this.meta.addTag({name:'description',content:'Explore the Future of Online Casinos with VRNL - Your Premier Source for Online Casino Software, Live Casino Software, Casino Platform Provider, and Seamless Iframe Solutions.  '});
-      this.meta.addTag({name:'keyword',content:'Online Casino Software, casino Platform Provider, live casino software'});
+      this.meta.addTag({name:'keyword',content:'Online Casino Software, casino Platform Provider, live casino software, casino'});
   }
 }
+ 
