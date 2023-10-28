@@ -36,7 +36,6 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 
 
 import { RiskManagementComponent } from './risk-management/risk-management.component';
-import { BettingTradeMasterComponent } from './betting-trade-master/betting-trade-master.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +68,7 @@ import { BettingTradeMasterComponent } from './betting-trade-master/betting-trad
     OurThemeComponent,
     PrivacyPolicyComponent,
     RiskManagementComponent,
-    BettingTradeMasterComponent
+  
   ],
   imports: [
     BrowserModule,
