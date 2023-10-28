@@ -1840,6 +1840,7 @@ strong {
   border: 0;
   width:668px ;
   height:682px ;
+  border-radius: 5px;
 }
 .white_header_h4,.white_para_p1{
   color: #999999;

@@ -4,45 +4,94 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://vrnl.net/</loc>
-<priority>1.00</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 
 <url>
   <loc>https://vrnl.net/#/sports-betting-software</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://vrnl.net/#/sportsbook-iframe</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://vrnl.net/#/sports-betting-software/esports-betting-software</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vrnl.net/#/online-casino-software</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vrnl.net/#/our-theme</loc>
-<priority>0.90</priority>
+  <loc>https://vrnl.net/#/casino/live-casino</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vrnl.net/#/casino/casino-games</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vrnl.net/#/casino/lottery-games</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://vrnl.net/sports-betting-software</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vrnl.net/#/casino/tournaments</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://vrnl.net/#/white-label-betting-platform</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://vrnl.net/#/casino</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://vrnl.net/#/about-us</loc>
-<priority>0.90</priority>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://vrnl.net/#/online-sportsbook-software</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vrnl.net/#/our-theme</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://vrnl.net/#/FAQ</loc>
+  <lastmod>2023-10-28T09:41:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 </urlset>
