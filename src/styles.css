@@ -13409,3 +13409,8 @@ list-style: none;
 body{
     top:0px !important;
 }
+.email_input .iti {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+}
