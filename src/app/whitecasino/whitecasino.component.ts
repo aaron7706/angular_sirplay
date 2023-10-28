@@ -12,8 +12,6 @@ export class WhitecasinoComponent {
       this.meta.addTag({name:'description',content:"VRNL is Your trusted partner for Online Casino platform  and White Label casino services. Explore our premium solutions and boost your online gaming business today. "});
       this.meta.addTag({name:'keyword',content:'Online Casino platform, white label betting platform , White label casino'});
   }
-  ngOnInit() {
-    this.titleService.setTitle('');
-  }
+  
 
 }
