@@ -12,8 +12,10 @@ export class Header2Component {
     const currentScroll = window.pageYOffset;
     if (currentScroll > 100) {
       this.isSticky = true;
-    } else {
+    }  
+    else {
       this.isSticky = false;
     }
   }
 }
+ 
