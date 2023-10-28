@@ -25,7 +25,7 @@ let useHashData = true;
 
 const routes: Routes = [
   {path:'',component:MainSecComponent},
-  {path:'online-sportsbook-software',component:OnlineSportsbookComponent},
+  {path:'online-exchangebook-software',component:OnlineSportsbookComponent},
   {path:'online-casino-software',component:OnlineCasinoSoftwareComponent},
   {path:'casino/live-casino',component:LiveCasinoComponent},
   {path:'casino/casino-games',component:CasinoGamesComponent},
@@ -36,7 +36,7 @@ const routes: Routes = [
 
   {path:'contact',component:ContactComponent},
   
-  {path:'sportsbook-iframe', component:IFrameComponent},
+  {path:'exchangebook-iframe', component:IFrameComponent},
 
   {path:'sports-betting-software', component:SportbetComponent},
 
