@@ -470,7 +470,7 @@ display: none;
 .live_header_1{
     color: #a0c528;
     font-weight: 600;
-    margin-left: 75px;
+    /* margin-left: 75px; */
     font-size: 35px;
 }
 .live_casino_list{

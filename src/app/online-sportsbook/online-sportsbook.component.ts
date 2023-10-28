@@ -12,7 +12,7 @@ export class OnlineSportsbookComponent implements OnInit  {
   }
  
   typingElement: any;
-  typeArray: string[] = ["Casino Providers", "Gambling Providers", "Games Providers"];
+  typeArray: string[] = ["Casino Providers", "Betting Providers", "Games Providers"];
   index = 0;
   isAdding = true;
   typeIndex = 0;
@@ -21,7 +21,7 @@ export class OnlineSportsbookComponent implements OnInit  {
     this.typingElement = document.querySelector(".typing-text");
     this.playAnim();
    
-      this.titleService.setTitle('Online sportsbook software - White label sports betting software and  Online casino');
+      this.titleService.setTitle('Revolutionize Your Business with VRNL Online Exchange Software');
 
   }
   playAnim() {
