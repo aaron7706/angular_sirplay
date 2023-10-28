@@ -21,7 +21,6 @@ import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { RiskManagementComponent } from './risk-management/risk-management.component';
-import { BettingTradeMasterComponent } from './betting-trade-master/betting-trade-master.component';
 let useHashData = true;
 
 const routes: Routes = [
@@ -50,7 +49,6 @@ const routes: Routes = [
   {path:'scroll-btn', component:ScrollBtnComponent},
   {path:'privacy-policy',component:PrivacyPolicyComponent},
   {path:'risk-management', component:RiskManagementComponent},
-  {path:'betting-trade-master',component:BettingTradeMasterComponent}
 
 
 
