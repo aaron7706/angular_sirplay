@@ -80,12 +80,10 @@
           "options": {
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "assets": ["src/favicon.ico", "src/assets","src/assets/sitemap.xml","src/assets/Robots.txt"],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/intl-tel-input/build/css/intlTelInput.min.css",
-              "src/assets/css/bootstrap.min.css",
-              "src/assets/css/bootstrap.css"
+              "node_modules/intl-tel-input/build/css/intlTelInput.min.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.js",
