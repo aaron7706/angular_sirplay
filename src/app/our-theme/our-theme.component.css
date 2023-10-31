@@ -306,3 +306,6 @@ font-weight: 350;
     font-size: 18px;
    font-weight: 500;
 }
+.disc{
+    list-style: disc;
+}
