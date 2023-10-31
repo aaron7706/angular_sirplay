@@ -36,7 +36,7 @@
 @media (max-width: 820px) {
 
 .page_404 {
-    padding: 64px  !important;
+    padding-top: 120px  !important;
     background: #fff;
     font-family: Arvo,serif;
 }
