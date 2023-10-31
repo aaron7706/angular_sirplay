@@ -995,7 +995,7 @@ textarea {
     gap: 21px;
   }
   .about_left {
-    margin-left: 54px;
+    margin-left: 0px !important;
   }
   /* .comp_1{
 margin-left: -11px;
@@ -2674,10 +2674,10 @@ cursor: pointer;
     flex-direction: column;
     padding: 0px !important;
   }
-  .container7-col2-content {
+  /* .container7-col2-content {
     margin: 0px 0px 0px 0px !important;
     padding: 0px 49px 30px 19px !important;
-  }
+  } */
   .container7-col2 {
     padding: 0px 0px 0px 0px !important;
   }
