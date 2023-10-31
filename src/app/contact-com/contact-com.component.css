@@ -270,3 +270,7 @@ cursor: pointer;
     }
   }
  
+
+  .emails_pad input{
+    padding-left: 91px !important;
+  }
