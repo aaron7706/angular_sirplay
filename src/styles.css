@@ -995,7 +995,7 @@ textarea {
     gap: 21px;
   }
   .about_left {
-    margin-left: 54px;
+    margin-left: 0px !important;
   }
   /* .comp_1{
 margin-left: -11px;

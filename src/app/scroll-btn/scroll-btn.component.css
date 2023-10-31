@@ -1,19 +1,19 @@
 .scroll-button {
-    position: fixed;
-    bottom: 123px;
-    right: 38px;
-    padding: 5px 12px;
-    background-color: #A0C528;
-    color: #fff;
-    border: white;
-    cursor: pointer;
-    z-index: 999;
-  }
-  .hidden {
-    display: none;
-  }
+  position: fixed;
+  bottom: 123px;
+  right: 38px;
+  padding: 5px 12px;
+  background-color: #A0C528;
+  color: #fff;
+  border: white;
+  cursor: pointer;
+  z-index: 999;
+}
+.hidden {
+  display: none;
+}
 
-  .scroll-button:hover{
-    background-color: black;
+.scroll-button:hover{
+  background-color: black ;
 
-  }
+}
