@@ -36,6 +36,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 
 
 import { RiskManagementComponent } from './risk-management/risk-management.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { RiskManagementComponent } from './risk-management/risk-management.compo
     OurThemeComponent,
     PrivacyPolicyComponent,
     RiskManagementComponent,
+    ErrorPageComponent,
   
   ],
   imports: [
