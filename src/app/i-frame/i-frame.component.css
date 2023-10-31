@@ -62,10 +62,10 @@ padding: 12px;
 font-size: 27px !important;
 font-weight: 600 !important;
 }
-.sport_iframe_sec {
+/* .sport_iframe_sec {
     margin-top: 80px !important;
 
-}
+} */
 }
 .gaming_sec_iframe {
     padding-top: 63PX;
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .sports_header {
     color: #a0c51b;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 600;
     margin-bottom: 39px;
 }

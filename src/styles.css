@@ -10813,9 +10813,9 @@ textarea {
   }
 }
 
-.sport_iframe_sec {
+/* .sport_iframe_sec {
   margin-top: 60px;
-}
+} */
 
 .sports_ifram_row {
   display: flex;
@@ -10824,9 +10824,9 @@ textarea {
   gap: 4%;
 }
 
-.sport_iframe_sec {
+/* .sport_iframe_sec {
   margin-top: 154px;
-}
+} */
 
 .sports_if_col {
   width: 40%;
