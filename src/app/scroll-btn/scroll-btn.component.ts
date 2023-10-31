@@ -18,7 +18,7 @@ export class ScrollBtnComponent {
 onWindowScroll() {
   const scrollButton = document.querySelector('.scroll-button');
   if (scrollButton) {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 800) {
       scrollButton.classList.remove('hidden');
     } else {
       scrollButton.classList.add('hidden');
