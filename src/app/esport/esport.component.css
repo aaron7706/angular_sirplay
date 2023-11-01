@@ -1219,9 +1219,7 @@ Responsive Codes
   color: rgb(87, 87, 86);
 }
 
-/* .esports-betting-col2 img {
-  width: 100%;
-} */
+
 
 
 .esport_section{
@@ -1267,11 +1265,6 @@ Responsive Codes
   margin-right: -4%;
   height: 237px;
 }
-
-
-
-/* =============================================================== */
-
 .easy-setup-main {
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -1279,16 +1272,13 @@ Responsive Codes
   justify-content: center;
   gap: 2%;
 }
-
 .easy-setup-col1-photo img {
   width: 100%;
 }
-
 .easy-setup-col2 {
   width: 37%;
   margin-top: 2%;
 }
-
 .easy-setup-col2 h3 {
   font-style: normal;
   line-height: 1.3;
@@ -1298,12 +1288,10 @@ Responsive Codes
   margin-bottom: 30px;
   font-size: calc(185.7%);
  font-weight: 395;
-
-  font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
   color: #686868;
 
 }
-
 .easy-setup-col2 p {
   font-size: 16px;
   font-style: normal;
@@ -1311,18 +1299,13 @@ Responsive Codes
   letter-spacing: 0em;
   text-transform: none;
  font-weight: 395;
-
-  margin: 0 0 1.5em;
+margin: 0 0 1.5em;
   color: rgb(47,47,47);
   font-family: "Raleway", sans-serif;
-
 }
 strong{
   font-family: "Raleway", sans-serif;
 }
-
-/* =============================================================== */
-
 .esports-betting-middle-main {
   font-family: "Raleway", sans-serif;
   margin-top: 5%;
