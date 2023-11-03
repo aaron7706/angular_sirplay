@@ -75,25 +75,25 @@ export class MainSecComponent implements OnInit {
       threshold: 0.1
     };
 
-    const lazyLoadCallback = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const image = entry.target as HTMLImageElement;
-          image.src = image.getAttribute("data-src");
-          observer.unobserve(image);
-        }
-      });
-    };
+  //   const lazyLoadCallback = (entries, observer) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         const image = entry.target as HTMLImageElement;
+  //         image.src = image.getAttribute("data-src");
+  //         observer.unobserve(image);
+  //       }
+  //     });
+  //   };
 
-    const observer = new IntersectionObserver(lazyLoadCallback, lazyLoadOptions);
+  //   const observer = new IntersectionObserver(lazyLoadCallback, lazyLoadOptions);
 
-    lazyLoadImages.forEach((image) => {
-      observer.observe(image);
-    });
+  //   lazyLoadImages.forEach((image) => {
+  //     observer.observe(image);
+  //   });
+  // }
+
+
   }
-
-
-  
   }
 
 
