@@ -1,4 +1,4 @@
-import { Component , ElementRef, OnInit, ViewChild  } from '@angular/core';
+import { Component , ElementRef, OnInit, ViewChild,AfterViewInit   } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import * as $ from 'jquery'
 
@@ -65,6 +65,35 @@ export class MainSecComponent implements OnInit {
       contactElement.scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+  ngAfterViewInit() {
+    const lazyLoadImages = document.querySelectorAll(".lazy-load-image");
+
+    const lazyLoadOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1
+    };
+
+    const lazyLoadCallback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const image = entry.target as HTMLImageElement;
+          image.src = image.getAttribute("data-src");
+          observer.unobserve(image);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(lazyLoadCallback, lazyLoadOptions);
+
+    lazyLoadImages.forEach((image) => {
+      observer.observe(image);
+    });
+  }
+
+
+  
   }
 
 
