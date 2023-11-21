@@ -68,6 +68,19 @@
     animation: 1s step-end infinite blink
 }
 
+.platform_img{
+    width: 510px;
+    height: 566px;
+}
+
+.whites_sec_img2{
+    width: 510px;
+    height: 480px;
+}
+.integration_col_img{
+    width: 510px;
+    height: 566px;
+}
 @keyframes blink {
 
     0%,
@@ -371,6 +384,9 @@ a {
         width: 98%;
         font-size: 16px
     }
+
+
+
 
     .casino_col,
     .gaming_img,
@@ -946,8 +962,10 @@ textarea {
 }
 
 .virtual_img {
-    width: 487px;
-    height: 467px
+    /* width: 487px;
+    height: 467px */
+    width: 510px;
+    height: 566px;
 }
 
 @media only screen and (max-width:1024px) and (min-width:950px) {
@@ -973,4 +991,38 @@ textarea {
     color: #ff0200 !important;  font-family: 'Jacques Francois Shadow', serif;font-style: italic;text-transform: uppercase;font-size: 31px;
 } 
 
+.containt3{
+    width: 1233px;
+    justify-content: center;
+    margin: 0 auto;
+}
+ 
+@media (max-width:1200px) {
+    .containt3 {
+        width: 1170px
+    }
+} 
 
+
+@media only screen and (min-width:820px) and (min-height:1180px) {
+    .containt3 {
+        width: 818px !important
+    }
+    .virtual_img{
+        width: 359px;
+        height: 535px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .containt3 {
+        width: 360px !important;
+    }
+}
+
+@media (max-width:280px) {
+    .containt3 {
+        width: 280px !important;
+    }
+}
