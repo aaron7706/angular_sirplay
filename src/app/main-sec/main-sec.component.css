@@ -969,24 +969,8 @@ textarea {
 
 
 
-
-
 .gradient-text {
-  text-align: center;
-  font-family: 'Jacques Francois Shadow', serif !important;
-  background: linear-gradient(to right, #ff0200 20%, #04b7ff 40%, #ff0200 60%, #04b7ff 80%);
-  background-size: 200% auto;
-  
-  /* color: #000; */
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-  animation: shine 1s linear infinite;
-  @keyframes shine {
-    to {
-      background-position: 200% center;
-    }
-  }
-}
+    color: #ff0200 !important;  font-family: 'Jacques Francois Shadow', serif;font-style: italic;text-transform: uppercase;font-size: 31px;
+} 
+
+
