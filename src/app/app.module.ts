@@ -37,6 +37,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 
 import { RiskManagementComponent } from './risk-management/risk-management.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { PaymentProviderComponent } from './payment-provider/payment-provider.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { ErrorPageComponent } from './error-page/error-page.component';
     PrivacyPolicyComponent,
     RiskManagementComponent,
     ErrorPageComponent,
+    PaymentProviderComponent,
   
   ],
   imports: [

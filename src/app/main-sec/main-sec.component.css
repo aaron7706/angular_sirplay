@@ -1026,3 +1026,12 @@ textarea {
         width: 280px !important;
     }
 }
+
+.blink-soft {
+    animation: blinker 2s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
