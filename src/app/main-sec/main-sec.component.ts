@@ -1,4 +1,4 @@
-import { Component , ElementRef, OnInit, ViewChild,AfterViewInit   } from '@angular/core';
+import { Component , ElementRef, OnInit, ViewChild,AfterViewInit, Renderer2   } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import * as $ from 'jquery'
 
@@ -9,7 +9,7 @@ import * as $ from 'jquery'
 })
 export class MainSecComponent implements OnInit {
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title,private el: ElementRef, private renderer: Renderer2) {
   }
   typingElement: any;
   typeArray: string[] = ["Betting", "B2C", "Casino"];
@@ -18,6 +18,31 @@ export class MainSecComponent implements OnInit {
   typeIndex = 0;
   i: number = 0;
   private intervalId: any;
+
+  videoElement: HTMLVideoElement | undefined;
+  onVideoLoad(video: HTMLVideoElement): void {
+    this.videoElement = video;
+    this.setupIntersectionObserver();
+  }
+
+  setupIntersectionObserver(): void {
+    const options = {
+      root: null, // use the viewport as the root
+      rootMargin: '0px',
+      threshold: 0.5 // trigger when 50% of the video is visible
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          this.videoElement?.play();
+        } else {
+          this.videoElement?.pause();
+        }
+      });
+    }, options);
+    observer.observe(this.videoElement as Element);
+  }
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");

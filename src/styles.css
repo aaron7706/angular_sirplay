@@ -151,10 +151,10 @@ html {
   margin-top: 100px;
   transition: all 0.4s ease-in-out 0s;
 }
-.platform_you_tube :hover {
+/* .platform_you_tube :hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
-}
+} */
 .you_img {
   -webkit-transition: 0.6s ease;
   transition: 0.4s ease;

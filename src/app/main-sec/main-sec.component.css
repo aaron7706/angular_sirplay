@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 
 
 .main_sec,
@@ -68,19 +67,21 @@
     animation: 1s step-end infinite blink
 }
 
-.platform_img{
+.platform_img {
     width: 510px;
     height: 566px;
 }
 
-.whites_sec_img2{
+.whites_sec_img2 {
     width: 510px;
     height: 480px;
 }
-.integration_col_img{
+
+.integration_col_img {
     width: 510px;
     height: 566px;
 }
+
 @keyframes blink {
 
     0%,
@@ -158,10 +159,10 @@
     transition: .4s ease-in-out
 }
 
-.platform_you_tube :hover {
+/* .platform_you_tube :hover {
     -webkit-transform: scale(1.08);
     transform: scale(1.08)
-}
+} */
 
 .you_img {
     -webkit-transition: .6s;
@@ -988,27 +989,32 @@ textarea {
 
 
 .gradient-text {
-    color: #ff0200 !important;  font-family: 'Jacques Francois Shadow', serif;font-style: italic;text-transform: uppercase;font-size: 31px;
-} 
+    color: #ff0200 !important;
+    font-family: 'Jacques Francois Shadow', serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 31px;
+}
 
-.containt3{
+.containt3 {
     width: 1233px;
     justify-content: center;
     margin: 0 auto;
 }
- 
+
 @media (max-width:1200px) {
     .containt3 {
         width: 1170px
     }
-} 
+}
 
 
 @media only screen and (min-width:820px) and (min-height:1180px) {
     .containt3 {
         width: 818px !important
     }
-    .virtual_img{
+
+    .virtual_img {
         width: 359px;
         height: 535px;
     }
@@ -1029,9 +1035,27 @@ textarea {
 
 .blink-soft {
     animation: blinker 2s linear infinite;
-  }
-  @keyframes blinker {
+}
+
+@keyframes blinker {
     50% {
-      opacity: 0;
+        opacity: 0;
     }
-  }
+}
+
+.aside {
+    width: 560px;
+    height: 315px;
+    border: 10px solid #fafafa;
+    outline: 3px solid #333;
+    box-shadow: 15px 15px #f50057;
+}
+
+@media only screen and (max-width: 600px) {
+    .aside,
+    .video {
+        width: 306px;
+        height: 172px;
+        /* box-shadow: none; */
+    }
+}
