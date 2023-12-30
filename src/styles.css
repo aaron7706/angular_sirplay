@@ -2004,6 +2004,8 @@ cursor: pointer;
 .container5-row {
   display: flex;
   justify-content: center;
+  margin-left: 136px;
+    margin-right: 136px;
   /* font-family: 'Poppins', sans-serif; */
 }
 
