@@ -1,7 +1,7 @@
 import { Component , OnInit , AfterViewInit} from '@angular/core';
 import * as intlTelInput from 'intl-tel-input';
 import emailjs from '@emailjs/browser';
-// import emailjs from 'emailjs-com';
+
 
 import { FormBuilder, FormControl, FormGroup , Validators} from '@angular/forms';
 import { Title } from '@angular/platform-browser';
@@ -80,7 +80,6 @@ export class ContactComComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    // Use jQuery code here
     $("#country_selector").countrySelect({
       preferredCountries: ['in', 'gb', 'us']
     });

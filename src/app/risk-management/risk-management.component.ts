@@ -24,7 +24,7 @@ export class RiskManagementComponent {
     this.intervalId = setInterval(() => {
      
     }, 10);
-    //  this.updateBackgroundPosition();
+
    
       this.titleService.setTitle('Risk Management Strategies for Sportsbook Operators - White label sports betting software and casino ');
     
