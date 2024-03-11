@@ -9,9 +9,9 @@ import { Meta, Title } from '@angular/platform-browser';
 export class WhitelabelComponent {
   constructor(private titleService: Title,
     private meta: Meta) {
-      this.titleService.setTitle('White label sports betting software with an integrated online casino');
-      this.meta.addTag({name:'description',content:"Discover vrnl for Your Premier Destination for White Label Exchange Solutions, Customizations, and Exceptional Odds. "});
-      this.meta.addTag({name:'keyword',content:'white label exchange solution, white label betting platform , white label betting exchange'});
+      this.titleService.setTitle('Vrnl Your personalized white label sportsbook software provider');
+      this.meta.addTag({name:'description',content:"vrnl your dedicated white label sportsbook software provider, offering customized solutions to meet your specific needs and requirements."});
+      this.meta.addTag({name:'keyword',content:'sportbook software provider, white label exchange solution, white label betting platform , white label betting exchange'});
   }
 
 }

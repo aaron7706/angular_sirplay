@@ -44,7 +44,7 @@ export class ContactComComponent implements OnInit {
   }
   ngOnInit(): void {
 
-    this.titleService.setTitle('VRNL is the best sports online betting whitelabel provider in India and Bangladesh | Betfair Api provider |Casino provider');
+    this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in India and Bangladesh');
     this.contact = { 
       from_name:"",
       femail:"",

@@ -42,6 +42,6 @@ export class AppComponent {
   }
   ngOnDestroy() {
     // Reset the title when the component is destroyed
-    this.titleService.setTitle('VRNL is the best sports online betting whitelabel provider in India and Bangladesh | Betfair Api provider |Casino provider');
+    this.titleService.setTitle('VRNL is the best sports betting software&nbsp;whitelabel provider in India and Bangladesh')
   }
 }

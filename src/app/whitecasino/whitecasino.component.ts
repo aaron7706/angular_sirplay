@@ -8,9 +8,9 @@ import { Meta, Title } from '@angular/platform-browser';
 export class WhitecasinoComponent {
   constructor(private titleService: Title,
     private meta: Meta) {
-      this.titleService.setTitle('Starting your own white label online casino entails a series of essential steps to establish and operate your casino successfully');
-      this.meta.addTag({name:'description',content:"VRNL is Your trusted partner for Online Casino platform  and White Label casino services. Explore our premium solutions and boost your online gaming business today. "});
-      this.meta.addTag({name:'keyword',content:'Online Casino platform, white label betting platform , White label casino'});
+      this.titleService.setTitle('White label Casino - Easily start your online casino with our White Label Casino solution.');
+      this.meta.addTag({name:'description',content:" Start your online casino journey with VRNL, offering comprehensive solutions for starting and managing your casino platform effectively"});
+      this.meta.addTag({name:'keyword',content:'White label casino, white label betting platform , onlne casino'});
   }
   
 

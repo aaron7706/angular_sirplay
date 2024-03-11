@@ -1,5 +1,5 @@
 import { Component , ElementRef, OnInit, ViewChild,AfterViewInit, Renderer2   } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 import * as $ from 'jquery'
 
 @Component({
@@ -9,8 +9,16 @@ import * as $ from 'jquery'
 })
 export class MainSecComponent implements OnInit {
 
-  constructor(private titleService: Title,private el: ElementRef, private renderer: Renderer2) {
-  }
+  constructor(private titleService: Title,private el: ElementRef, private renderer: Renderer2,
+    private meta: Meta) 
+
+
+ {
+    this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in India and Bangladesh.');
+    // this.meta.addTag({name:'description',content:" your top choice with vrnl for white label sports betting and online casino solutions in India and Bangladesh"});
+    this.meta.addTag({name:'keyword',content:' white label sports betting, White label casino, white label betting platform , onlne casino'});
+}
+
   typingElement: any;
   typeArray: string[] = ["Betting", "B2C", "Casino"];
   index = 0;
@@ -52,7 +60,7 @@ export class MainSecComponent implements OnInit {
     }, 10);
     
  
-      this.titleService.setTitle('VRNL is the best sports online betting whitelabel provider in India and Bangladesh | Betfair Api provider |Casino provider');
+  
  
   }
   playAnim() {

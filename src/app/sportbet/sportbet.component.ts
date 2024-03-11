@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-sportbet',
@@ -7,6 +7,13 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./sportbet.component.css']
 })
 export class SportbetComponent {
+  constructor(private titleService: Title,
+    private meta: Meta) {
+      this.titleService.setTitle('Enhance Your Betting Experience with VRNL Sports Betting Software');
+      this.meta.addTag({name:'description',content:" sport betting software for bookmakers &amp lotteries Delivering excellence in regulated online"});
+      this.meta.addTag({name:'keyword',content:' Sports betting software,White label casino, white label betting platform , onlne casino'});
+  }
+  
   scrollToContact() {
     const contactElement = document.querySelector('#contact'); 
     if (contactElement) {
@@ -17,10 +24,8 @@ export class SportbetComponent {
 toggleAccordion() {
     this.accordian = !this.accordian; 
   }
-  constructor(private titleService: Title) {
-  }
+
   ngOnInit() {
-    this.titleService.setTitle('Enhance Your Betting Experience with VRNL Sports Betting Software');
   }
 
 }
