@@ -20,7 +20,8 @@ export class OurThemeComponent {
     { name: 'Diamond', img: 'assets/diamond.png', url: 'http://www.diamond.vrnlexch.com/' },
     { name: 'Lotus', img: 'assets/lotus.webp', url: 'https://lotus.vrnlexch.com/' },
     { name: 'World777', img: 'assets/world7777.webp', url: 'https://world777.vrnlexch.com/' },
-    { name: 'Gullybet', img: 'assets/gullybet.webp', url: 'https://gullybet.vrnlexch.com/' }
+    { name: 'Baji', img: 'assets/baji.webp', url: 'https://baji.vrnlexch.com/#/' },
+     { name: 'Winbd', img: 'assets/winbd.webp', url: 'https://winbd.vrnlexch.com/#/home' }
   ];
 
   isDemoVisible = false;
