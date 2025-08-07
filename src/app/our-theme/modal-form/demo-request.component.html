@@ -1,0 +1,167 @@
+<div class="modal" *ngIf="visible" (click)="onBackdropClick($event)">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+        <span class="close-btn" (click)="closeModal()">&times;</span>
+        <h2 class="form-title">Request a Demo ID</h2>
+        <form [formGroup]="demoForm" class="styled-form" (ngSubmit)="onSubmit()" novalidate>
+            <div class="form-grid">
+
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" formControlName="name" placeholder="Enter your name" />
+                    <div class="error-msg" *ngIf="demoForm.get('name')?.invalid && demoForm.get('name')?.touched">
+                        Please enter your name (at least 3 characters).
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" formControlName="email" placeholder="Enter your email" />
+                    <div class="error-msg" *ngIf="demoForm.get('email')?.invalid && demoForm.get('email')?.touched">
+                        Please enter a valid email.
+                    </div>
+                </div>
+                
+
+
+                <!-- Country select with flag preview -->
+                <div class="form-group">
+                    <label for="country">Country *</label>
+                    <div class="custom-select-wrapper">
+                        <select id="country" formControlName="country" (change)="updateFlag($event)">
+                            <option value="" disabled selected>Select your country</option>
+                            <option *ngFor="let country of countries" [value]="country.name"
+                                [attr.data-flag]="country.flag">
+                                <!-- <img [src]="`https://flagcdn.com/w80/${country.flag}.png`"
+                                    alt="{{country.name}} flag" style="vertical-align: middle; margin-right: 5px;"> -->
+                                {{ country.name }}
+                            </option>
+                        </select>
+                        <div class="error-msg"
+                            *ngIf="demoForm.get('country')?.invalid && demoForm.get('country')?.touched">
+                            Please select your country.
+                        </div>
+                        <div id="flag-preview" class="flag-preview" *ngIf="selectedFlag">
+                            <img [src]="'https://flagcdn.com/w40/' + selectedFlag + '.png'" alt="Flag" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">District *</label>
+                    <input type="text" id="district" formControlName="district" placeholder="Enter your district" />
+                    <div class="error-msg"
+                        *ngIf="demoForm.get('district')?.invalid && demoForm.get('district')?.touched">
+                        Please enter your district.
+                    </div>
+
+                </div>
+
+                <!-- WhatsApp Number with Dial Code -->
+                <div class="form-group ">
+                    <label for="whatsapp">WhatsApp Number *</label>
+                    <div style="display: flex; gap: 6px; align-items: center;">
+                        <input type="text" id="dialCode" [value]="selectedDialCode" readonly
+                            style="width: 60px; background: #333; border: 1px solid #555; color: #ccc; text-align: center; border-radius: 6px; padding: 10px;"
+                            aria-label="Country Dial Code" />
+                        <input type="tel" id="whatsapp" formControlName="whatsapp" placeholder="Enter WhatsApp number"
+                            style="flex: 1; width: auto;" />
+                    </div>
+                    <div class="error-msg"
+                        *ngIf="demoForm.get('whatsapp')?.invalid && demoForm.get('whatsapp')?.touched">
+                        Enter a valid WhatsApp number.
+                    </div>
+                </div>
+
+
+                <!-- Company Name -->
+                <div class="form-group">
+                    <label for="company">Month Turnover *</label>
+                    <input type="text" id="turnover" formControlName="turnover"
+                        placeholder="Enter your monthly turnover" />
+                    <div class="error-msg"
+                        *ngIf="demoForm.get('turnover')?.invalid && demoForm.get('turnover')?.touched">
+                        Please enter your monthly turnover.
+                    </div>
+
+                </div>
+
+                <div class="form-group ">
+                    <label for="message">How Many Users *</label>
+                    <input id="users" formControlName="users" placeholder="Enter the number of users">
+                    <div class="error-msg" *ngIf="demoForm.get('users')?.invalid && demoForm.get('users')?.touched">
+                        Please enter a valid number of users.
+                    </div>
+
+                </div>
+
+                <div class="form-group ">
+                    <label for="message">Current Platform Using *</label>
+                    <input id="issues" formControlName="issues" placeholder="Enter current platform">
+                    <div class="error-msg" *ngIf="demoForm.get('issues')?.invalid && demoForm.get('issues')?.touched">
+                        Please enter your current platform.
+                    </div>
+
+                </div>
+
+                <!-- Message -->
+                <div class="form-group full">
+                    <label for="message">Issues With Current Platform *</label>
+                    <textarea id="message" formControlName="message" rows="4"
+                        placeholder="Enter the issues with current platform"></textarea>
+                    <div class="error-msg" *ngIf="demoForm.get('message')?.invalid && demoForm.get('message')?.touched">
+                        Please describe the issues (at least 10 characters).
+                    </div>
+
+                </div>
+
+                <!-- Telegram status -->
+                <div class="form-group full">
+                    <label for="telegramStatus">Are you on Telegram? *</label>
+                    <select id="telegramStatus" formControlName="telegramStatus"
+                        (change)="toggleTelegramHandle($event)">
+                        <option value="" disabled selected>-- Select --</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                    <div class="error-msg"
+                        *ngIf="demoForm.get('telegramStatus')?.invalid && demoForm.get('telegramStatus')?.touched">
+                        Please select if you have a Telegram handle.
+                    </div>
+
+                </div>
+
+                <!-- Telegram Handle -->
+                <div class="form-group full" id="telegramHandleWrapper" *ngIf="showTelegramHandle">
+                    <label for="telegramHandle">Telegram Handle *</label>
+                    <input type="text" id="telegramHandle" formControlName="telegramHandle"
+                        placeholder="Enter your Telegram Handle" />
+                    <div class="error-msg" *ngIf="demoForm.get('telegramHandle')?.errors?.['required']">
+                        Telegram handle is required.
+                    </div>
+                    <div class="error-msg" *ngIf="demoForm.get('telegramHandle')?.errors?.['pattern']">
+                        Telegram handle must start with &#64; (e.g., &#64;username).
+                    </div>
+
+                </div>
+
+                <!-- Demo URL -->
+                <div class="form-group full">
+                    <label for="demo_url">Demo URL</label>
+                    <a id="demo_url" [href]="demoUrl" target="_blank">{{ demoUrl }}</a>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
+<!-- Toast Notification -->
+<div id="toast" [class.show]="toastVisible" [ngClass]="toastType">
+    <span id="toast-spinner" *ngIf="toastType === 'info'"></span>
+    <span id="toast-message">{{ toastMessage }}</span>
+    <button id="toast-close" (click)="hideToast()"></button>
+</div>
