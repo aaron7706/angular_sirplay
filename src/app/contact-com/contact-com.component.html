@@ -145,115 +145,118 @@
         </h2>
       </div>
      <div class="contact_card">
-  <form
-    [formGroup]="form"
-    action="javascript:void(0)"
-    (submit)="send()"
-    novalidate
-  >
-    <!-- Full name -->
-    <div class="name_label">
-      <label for="fname">Full name</label>
-    </div>
-    <div class="name_input">
-      <input
-        formControlName="from_name"
-        type="text"
-        id="fname"
-        name="fname"
-        required
-      />
-      <small
-        *ngIf="from_name && from_name.invalid && (from_name.touched)"
-        class="err"
-      >
-        The field is required (min 2 characters).
-      </small>
-    </div>
+<form
+  [formGroup]="form"
+  action="javascript:void(0)"
+  (submit)="send()"
+  novalidate
+>
+  <!-- Full name -->
+  <div class="name_label">
+    <label for="fname">Full name</label>
+  </div>
+  <div class="name_input">
+    <input
+      formControlName="from_name"
+      type="text"
+      id="fname"
+      name="fname"
+      required
+    />
+    <small
+      *ngIf="from_name && from_name.invalid && (from_name.touched)"
+      class="err"
+    >
+      The field is required (min 2 characters).
+    </small>
+  </div>
 
-    <!-- Your email -->
-    <div class="email_label">
-      <label for="email"><b>Your email</b></label>
-    </div>
-    <div class="email_input">
-      <input
-        formControlName="from_email"
-        type="email"
-        id="email"
-        autocomplete="off"
-        name="femail"
-        required
-      />
-      <small
-        *ngIf="from_email && from_email.invalid && (from_email.touched)"
-        class="err"
-      >
-        A valid email is required.
-      </small>
-    </div>
+  <!-- Your email -->
+  <div class="email_label">
+    <label for="email"><b>Your email</b></label>
+  </div>
+  <div class="email_input">
+    <input
+      formControlName="from_email"
+      type="email"
+      id="email"
+      autocomplete="off"
+      name="femail"
+      required
+    />
+    <small
+      *ngIf="from_email && from_email.invalid && (from_email.touched)"
+      class="err"
+    >
+      A valid email is required.
+    </small>
+  </div>
 
-    <!-- Country -->
-    <div class="email_label">
-      <label for="Country" id="country_selector-label"><b>Country</b></label>
-    </div>
-    <div class="email_input">
-      <input
-        formControlName="country"
-        autocomplete="country"
-        type="text"
-        aria-labelledby="country_selector-label"
-        id="Country"
-        name="countries"
-        required
-        class="cot"
-      />
-    </div>
+  <!-- Country -->
+  <div class="email_label">
+    <label for="Country" id="country_selector-label"><b>Country</b></label>
+  </div>
+  <div class="email_input">
+    <input
+      formControlName="country"
+      autocomplete="country"
+      type="text"
+      aria-labelledby="country_selector-label"
+      id="Country"
+      name="countries"
+      required
+      class="cot"
+    />
+  </div>
 
-    <!-- Phone -->
-    <div class="email_label">
-      <label for="phone"><b>Phone Number</b></label>
-    </div>
-    <div class="email_input emails_pad">
-      <input
-        formControlName="number"
-        id="phone"
-        type="tel"
-        name="phone"
-        maxlength="10"
-        placeholder="000-000-0000"
-        required
-      />
-      <small
-        *ngIf="form.get('number')?.invalid && (form.get('number')?.touched)"
-        class="err"
-      >
-        Phone must be 10 digits.
-      </small>
-    </div>
 
-    <!-- Message (optional) -->
-    <div class="email_label">
-      <label for="Message" id="message-label"><b>Message</b></label>
-    </div>
-    <div class="text_area">
-      <textarea
-        formControlName="message"
-        rows="8"
-        aria-labelledby="message-label"
-        cols="44"
-        name="message"
-        id="Message"
-      ></textarea>
-    </div>
 
-    <!-- Submit -->
-    <div class="btn" style="border: none">
-      <button class="con_btn" type="submit" [disabled]="form.invalid || loder">
-        {{ loder ? 'Sending…' : 'Submit' }}
-      </button>
-      <span class="wpcf7-spinner" *ngIf="loder"></span>
-    </div>
-  </form>
+  <!-- Phone -->
+  <div class="email_label">
+    <label for="phone"><b>Phone Number</b></label>
+  </div>
+  <div class="email_input emails_pad">
+    <input
+      formControlName="number"
+      id="phone"
+      type="tel"
+      name="phone"
+      maxlength="10"
+      placeholder="000-000-0000"
+      required
+    />
+    <small
+      *ngIf="form.get('number')?.invalid && (form.get('number')?.touched)"
+      class="err"
+    >
+      Phone must be 10 digits.
+    </small>
+  </div>
+
+  <!-- Message (optional) -->
+  <div class="email_label">
+    <label for="Message" id="message-label"><b>Message</b></label>
+  </div>
+  <div class="text_area">
+    <textarea
+      formControlName="message"
+      rows="8"
+      aria-labelledby="message-label"
+      cols="44"
+      name="message"
+      id="Message"
+    ></textarea>
+  </div>
+
+  <!-- Submit -->
+  <div class="btn" style="border: none">
+    <button class="con_btn" type="submit" [disabled]="form.invalid || loder">
+      {{ loder ? 'Sending…' : 'Submit' }}
+    </button>
+    <span class="wpcf7-spinner" *ngIf="loder"></span>
+  </div>
+</form>
+
 </div>
 
       <p class="con_param">

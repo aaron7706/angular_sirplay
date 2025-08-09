@@ -15,11 +15,12 @@ export class ContactComComponent implements OnInit, AfterViewInit {
   loder = false;
 
   form: FormGroup = this.fb.group({
-    from_name: ['', [Validators.required, Validators.minLength(2)]],
-    from_email: ['', [Validators.required, Validators.email]],
-    country: ['', Validators.required],
-    number: ['', [Validators.required, Validators.pattern(/^[0-9]{10}$/)]],
-    message: [''], // optional as you asked
+  from_name: ['', [Validators.required, Validators.minLength(2)]],
+  from_email: ['', [Validators.required, Validators.email]],
+  country: ['', Validators.required],
+
+  number: ['', [Validators.required, Validators.pattern(/^[0-9]{10}$/)]],
+  message: [''],
   });
 
   constructor(private fb: FormBuilder, private titleService: Title) {}
@@ -31,7 +32,7 @@ export class ContactComComponent implements OnInit, AfterViewInit {
     this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in India and Bangladesh');
 
     // Initialize EmailJS ONCE here with your PUBLIC KEY
-    emailjs.init('yTjh95_YYfJdwF_qj');
+    emailjs.init('ugrE8NMaO1eYSni-2');
 
     // Phone intl plugin
     const inputElement = document.querySelector('#phone') as HTMLInputElement | null;
@@ -61,7 +62,7 @@ export class ContactComComponent implements OnInit, AfterViewInit {
     try {
       // Params must match your EmailJS template variable names EXACTLY.
       const params = {
-        to_email: 'vrnl.tyh.info@gmail.com',        // {{to_email}}  <- or hardcode in template To field
+        to_email: 'vrnl.net.info@gmail.com',        // {{to_email}}  <- or hardcode in template To field
         from_name: this.form.value.from_name,       // {{from_name}}
         from_email: this.form.value.from_email,     // {{from_email}}
         reply_to: this.form.value.from_email,       // {{reply_to}}  <- use this in template Reply-To
@@ -71,8 +72,8 @@ export class ContactComComponent implements OnInit, AfterViewInit {
       };
 
       const response = await emailjs.send(
-        'service_rkh96ud',      // your EmailJS Service ID
-        'template_mnwvhvx',     // your EmailJS Template ID
+        'service_lb76cat',      // your EmailJS Service ID
+        'template_oz5bymn',     // your EmailJS Template ID
         params
       );
 
