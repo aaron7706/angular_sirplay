@@ -14,7 +14,7 @@ export class MainSecComponent implements OnInit {
 
 
  {
-    this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in India and Bangladesh.');
+    this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in Bangladesh.');
     // this.meta.addTag({name:'description',content:" your top choice with vrnl for white label sports betting and online casino solutions in India and Bangladesh"});
     this.meta.addTag({name:'keyword',content:' white label sports betting, White label casino, white label betting platform , onlne casino'});
 }
