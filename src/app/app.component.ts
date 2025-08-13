@@ -42,6 +42,6 @@ export class AppComponent {
   }
   ngOnDestroy() {
     // Reset the title when the component is destroyed
-    this.titleService.setTitle('VRNL is the best sports betting software&nbsp;whitelabel provider in India and Bangladesh')
+    this.titleService.setTitle('VRNL is the best sports betting software&nbsp;whitelabel provider in Bangladesh')
   }
 }
