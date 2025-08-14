@@ -11,7 +11,7 @@ export class RiskManagementComponent {
   }
   
   typingElement: any;
-  typeArray: string[] = ["Your Bets", "Data Security"];
+  typeArray: string[] = [ "Data Security"];
   index = 0;
   isAdding = true;
   typeIndex = 0;
