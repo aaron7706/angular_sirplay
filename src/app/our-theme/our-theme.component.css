@@ -409,3 +409,9 @@ p {
     margin-bottom: 5px;
   }
 }
+
+@media (max-width:767px) {
+      .main-container{
+        margin-top: 0;
+    }
+}
