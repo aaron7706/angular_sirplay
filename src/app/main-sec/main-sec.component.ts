@@ -1,5 +1,6 @@
-import { Component , ElementRef, OnInit, ViewChild,AfterViewInit, Renderer2   } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
+import { Component, ElementRef, OnInit, ViewChild, AfterViewInit, Renderer2 } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
+import { TranslateService } from '@ngx-translate/core';
 import * as $ from 'jquery'
 
 @Component({
@@ -9,23 +10,21 @@ import * as $ from 'jquery'
 })
 export class MainSecComponent implements OnInit {
 
-  constructor(private titleService: Title,private el: ElementRef, private renderer: Renderer2,
-    private meta: Meta) 
-
-
- {
-    this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in Bangladesh.');
+  constructor(private el: ElementRef, private renderer: Renderer2,
+    private meta: Meta, private translate: TranslateService) {
+    // this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in Bangladesh.');
     // this.meta.addTag({name:'description',content:" your top choice with vrnl for white label sports betting and online casino solutions in India and Bangladesh"});
-    this.meta.addTag({name:'keyword',content:' white label sports betting, White label casino, white label betting platform , onlne casino'});
-}
+    this.meta.addTag({ name: 'keyword', content: ' white label sports betting, White label casino, white label betting platform , onlne casino' });
+  }
 
   typingElement: any;
-  typeArray: string[] = ["Betting", "B2C", "Casino"];
+  typeArray: string[] = [];
   index = 0;
   isAdding = true;
   typeIndex = 0;
   i: number = 0;
   private intervalId: any;
+  private timeoutId: any;
 
   videoElement: HTMLVideoElement | undefined;
   onVideoLoad(video: HTMLVideoElement): void {
@@ -54,23 +53,45 @@ export class MainSecComponent implements OnInit {
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
-    this.playAnim();
-    this.intervalId = setInterval(() => {
-     
-    }, 10);
-    
- 
-  
- 
+    // Load translations initially
+    this.loadTypeArray();
+    // Reload translations whenever language changes
+    this.translate.onLangChange.subscribe(() => {
+      // this.setTranslatedTitle();
+      this.loadTypeArray();
+    });
+  }
+
+  loadTypeArray() {
+    this.translate.get(['Betting', 'B2C', 'Casino']).subscribe(translations => {
+      this.typeArray = [
+        translations['Betting'],
+        translations['B2C'],
+        translations['Casino']
+      ];
+      // Restart typing animation
+      this.index = 0;
+      this.typeIndex = 0;
+      this.isAdding = true;
+      // Stop old animation loop completely
+      if (this.intervalId) clearInterval(this.intervalId);
+      if (this.timeoutId) clearTimeout(this.timeoutId);
+      this.playAnim();
+    });
   }
   playAnim() {
-    setTimeout(() => {
+    this.intervalId = setInterval(() => {
+      if (!this.typeArray.length) return;
+
       this.typingElement.innerText = this.typeArray[this.typeIndex].slice(0, this.index);
 
       if (this.isAdding) {
         if (this.index >= this.typeArray[this.typeIndex].length) {
           this.isAdding = false;
-          setTimeout(() => {
+
+          // Pause before deleting
+          clearInterval(this.intervalId);
+          this.timeoutId = setTimeout(() => {
             this.playAnim();
           }, 2000);
           return;
@@ -88,7 +109,6 @@ export class MainSecComponent implements OnInit {
           this.index--;
         }
       }
-      this.playAnim();
     }, this.isAdding ? 120 : 60);
   }
 
@@ -110,6 +130,6 @@ export class MainSecComponent implements OnInit {
 
 
   }
-  }
+}
 
 

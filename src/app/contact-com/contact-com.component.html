@@ -1,9 +1,9 @@
 <section class="contact_sec">
   <div class="contact_row">
     <div class="contact_col">
-      <h1 class="contact_header">Contact US</h1>
+      <h1 class="contact_header">{{'contact_header'|translate}}</h1>
       <p class="contact_para">
-        Consult with a VRNL expert to discover how our solutions can elevate your betting business.
+        {{'contact_para'|translate}}
       </p>
       <div class="contact_social">
         <div class="contact_details">
@@ -14,7 +14,7 @@
             </a>
           </div>
           <div class="row_col_1">
-            <p class="contact_b">Telegram</p>
+            <p class="contact_b">{{'telegram'|translate}}</p>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
           class="x-text-content-text-primary"
           style="font-size: 18px; font-weight: bolder"
         >
-          JUST WRITE US A MESSAGE
+          {{'write_msg'|translate}}
         </h2>
       </div>
      <div class="contact_card">
@@ -114,7 +114,7 @@
 >
   <!-- Full name -->
   <div class="name_label">
-    <label for="fname">Full name</label>
+    <label for="fname">{{'fname'|translate}}</label>
   </div>
   <div class="name_input">
     <input
@@ -128,13 +128,13 @@
       *ngIf="from_name && from_name.invalid && (from_name.touched)"
       class="err"
     >
-      The field is required (min 2 characters).
+      {{'fname_err'|translate}}
     </small>
   </div>
 
   <!-- Your email -->
   <div class="email_label">
-    <label for="email"><b>Your email</b></label>
+    <label for="email"><b>{{'email'|translate}}</b></label>
   </div>
   <div class="email_input">
     <input
@@ -149,13 +149,13 @@
       *ngIf="from_email && from_email.invalid && (from_email.touched)"
       class="err"
     >
-      A valid email is required.
+      {{'email_err'|translate}}
     </small>
   </div>
 
   <!-- Country -->
   <div class="email_label">
-    <label for="Country" id="country_selector-label"><b>Country</b></label>
+    <label for="Country" id="country_selector-label"><b>{{'country'|translate}}</b></label>
   </div>
   <div class="email_input">
     <input
@@ -174,7 +174,7 @@
 
   <!-- Phone -->
   <div class="email_label">
-    <label for="phone"><b>Phone Number</b></label>
+    <label for="phone"><b>{{'pnumber'|translate}}</b></label>
   </div>
   <div class="email_input emails_pad">
     <input
@@ -190,13 +190,13 @@
       *ngIf="form.get('number')?.invalid && (form.get('number')?.touched)"
       class="err"
     >
-      Phone must be 10 digits.
+      {{'pnumber_err'|translate}}
     </small>
   </div>
 
   <!-- Message (optional) -->
   <div class="email_label">
-    <label for="Message" id="message-label"><b>Message</b></label>
+    <label for="Message" id="message-label"><b>{{'message'|translate}}</b></label>
   </div>
   <div class="text_area">
     <textarea
@@ -212,7 +212,7 @@
   <!-- Submit -->
   <div class="btn" style="border: none">
     <button class="con_btn" type="submit" [disabled]="form.invalid || loder">
-      {{ loder ? 'Sending…' : 'Submit' }}
+      {{ loder ? ('sending' | translate) : ('submit' | translate) }}
     </button>
     <span class="wpcf7-spinner" *ngIf="loder"></span>
   </div>
@@ -221,11 +221,11 @@
 </div>
 
       <p class="con_param">
-        We don’t share your personal information with anyone. Check out our
+        {{'con_param1'|translate}}
         <span class="white_change" routerLink="/privacy-policy"
-          >“privacy policy”</span
+          >{{'privacy_policy_form'|translate}}</span
         >
-        for more information
+        {{'con_param2'|translate}}
       </p>
     </div>
   </div>

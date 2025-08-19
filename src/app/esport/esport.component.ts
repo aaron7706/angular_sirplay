@@ -10,6 +10,6 @@ export class EsportComponent {
   constructor(private titleService: Title) {
   }
   ngOnInit() {
-    this.titleService.setTitle('eSports Betting Software enabling your users to wager on top eSports games');
+    // this.titleService.setTitle('eSports Betting Software enabling your users to wager on top eSports games');
   }
 }

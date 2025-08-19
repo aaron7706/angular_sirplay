@@ -10,7 +10,7 @@ export class LiveCasinoComponent {
 
   constructor(private titleService: Title,
     private meta: Meta) {
-      this.titleService.setTitle(' White label Casino - start your own online casino');
+      // this.titleService.setTitle(' White label Casino - start your own online casino');
       this.meta.addTag({name:'description',content:'Immerse yourself in a variety of omline casino games for an exciting gaming experience.'});
       this.meta.addTag({name:'keyword',content:'live casino,  online casino'});
   }

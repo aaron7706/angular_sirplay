@@ -29,7 +29,7 @@ export class ContactComComponent implements OnInit, AfterViewInit {
   get from_email() { return this.form.get('from_email'); }
 
   ngOnInit(): void {
-    this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in Bangladesh');
+    // this.titleService.setTitle('Vrnl is Top Sports Betting Software Provider in Bangladesh');
 
     // Initialize EmailJS ONCE here with your PUBLIC KEY
     emailjs.init('ugrE8NMaO1eYSni-2');

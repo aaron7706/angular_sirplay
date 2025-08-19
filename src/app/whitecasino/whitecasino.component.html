@@ -2,15 +2,11 @@
 <section class="white_casino_sec">
     <div class="white_casino_row whites_label">
         <div class="white_casino_col">
-            <h1 class="white_c_header"><span>Online </span> casino platform</h1>
+            <h1 class="white_c_header"><span>{{'online'|translate}} </span> {{'casino_platform'|translate}}</h1>
             <!-- "VRNL's Online Casino Platform takes online gaming to the next level. Offering a wide array of games, our platform ensures endless entertainment for players. With our White Label Casino solution, you can launch your own branded casino effortlessly, all backed by our unwavering commitment to safety and security. We provide 24/7 support and seamless integration, allowing you to boost your revenue and join the VRNL revolution in the world of online casino gaming. -->
-            <p class="white_c_param">VRNL's provide a the complete solution with our <strong>White Label Casino</strong>
-                offering. </p>
-            <p class="white_c_param_2">Our <strong> online casino platform </strong> is designed for simplicity,
-                ensuring easy management for both beginners and experienced professionals. With VRNL, you'll receive
-                comprehensive guidance to kickstart your <strong>online casino </strong>venture.</p>
-            <p></p> <em class="white_c_param">Before you take the plunge, we invite you to witness its seamless
-                operation in action.</em>
+            <p class="white_c_param" [innerHTML]="'onc_desp1'|translate"></p>
+            <p class="white_c_param_2" [innerHTML]="'onc_desp2'|translate"></p>
+            <p><em class="white_c_param">{{'onc_desp3'|translate}}</em></p> 
             <p class="whitw_a"><a href="https://cx.vrnlexch.com/#/" target="_blank"
                     class="fontcolor">https://cx.vrnlexch.com</a></p>
         </div>
@@ -25,41 +21,31 @@
         <div class="white_f_col"> <img class="tv_image" src="assets/vrnl crypto tv2 (1).webp" loading="lazy"
                 alt="White label casino"> </div>
         <div class="white_f_col_1">
-            <h1 class="white_c_header">White label casino <span style="font-weight:100">Main features </span></h1>
-            <p class="white_f_p">We offer an extensive array of tools designed to empower you in the management of our
-                online casino platform. Among these, we've distilled the selection to focus on the most influential and,
-                significantly, the indispensable ones required for thriving in the competitive global arena:</p>
-            <ul class="white_f_list">
-                <li> <strong class="black-color">The most extensive catalog of online casino games worldwide,</strong>
+            <h1 class="white_c_header">{{'wlc'|translate}} <span style="font-weight:100">{{'main_features'|translate}} </span></h1>
+            <p class="white_f_p">{{'wlc_mainFeatures_desp1'|translate}} </p>
+            <ul class="white_f_list" [innerHTML]="'wlc_mainFeatures_list'|translate">
+                <!-- <li> <strong class="black-color">The most extensive catalog of online casino games worldwide,</strong>
                     meticulously selected from the industry's top-rated providers </li>
                 <li> <strong class="black-color">Tools for Bonuses</strong> and  <strong class="black-color">Slot Profitability Optimization </strong>  </li>
                 <li> <strong class="black-color">Campaign Builder</strong> and <strong class="black-color"> Management of Game Tournaments </strong></li>
                 <li>Can be <strong class="black-color">seamlessly integrated through API or iFrame technology.</strong>
-                </li>
+                </li> -->
             </ul>
-            <p class="white_f_p2"><em>In addition, our package includes live casino software, enabling you to provide
-                    your users with the authentic experience of a real casino from the comfort of their own homes.</em>
-            </p> <button class="white_f_btn" routerLink="/contact">Book a demo</button>
+            <p class="white_f_p2"><em>{{'wlc_mainFeatures_desp2'|translate}}</em>
+            </p> <button class="white_f_btn" routerLink="/contact">{{'book_demo'|translate}}</button>
         </div>
     </div>
 </section>
 <section class="white_sec_b">
     <div class="white_b_row">
         <div class="whites_content">
-            <h1 class="whites_h1">Which will be the benefits?</h1>
-            <h2 class="whites_h3">Let us Explain</h2>
-            <p class="whites_param"> <span class="head_para">Thinking about stepping into the world of online betting?
-                    VRNL Company offers a <strong style="color: rgb(87 87 86);">casino white label solution that can be
-                        your perfect starting point.</strong></span> </p>
-            <p class="param_fea"> Utilize our professional services and expertise, along with our advanced
-                <strong>casino platforms</strong> and technology. Our regulated partners benefit from extensive support
-                as they enter the online casino industry, with the choice of branded or non-branded platform versions.
+            <h1 class="whites_h1">{{'wlc_benefits'|translate}}</h1>
+            <h2 class="whites_h3">{{'letus_explain'|translate}}</h2>
+            <p class="whites_param"> <span class="head_para">{{'letus_explain_desp1'|translate}}<strong style="color: rgb(87 87 86);">{{'letus_explain_desp2'|translate}}</strong></span> </p>
+            <p class="param_fea" [innerHTML]="'letus_explain_desp3'|translate"> 
             </p>
-            <p class="param_fea">Initiating an online casino venture can be a complex journey. That's why we've created
-                a complete casino environment, offering top gaming providers and over 1,000 games. Our gaming math is
-                secure and certified, ensuring your peace of mind.</p>
-            <p class="param_fea">Expand your business effortlessly with our platform's robust risk management tools for
-                swift and easy setup.</p>
+            <p class="param_fea">{{'letus_explain_desp4'|translate}}</p>
+            <p class="param_fea">{{'letus_explain_desp5'|translate}}</p>
             <div class="whites_label">
                 <div> <span> <img class="explain_img" src="assets/vrnl image 10_11zon.webp" width="900" height="355"
                             loading="lazy" alt="our Casino platforms"> </span> </div>
@@ -70,20 +56,18 @@
 <section class="white_sol_sec">
     <div class="white_sol_row">
         <div class="white_sol_col">
-            <h1 class="white_sol_h">Complete <span> Casino White Label</span> Solutions</h1>
-            <p class="white_sol_p">What do we offer for you?</p>
-            <ul class="white_sol_list">
-                <li>Verification Procedures, officially approved by regulatory authorities</li>
+            <h1 class="white_sol_h" [innerHTML]="'wlc_complete_solutions'|translate"></h1>
+            <p class="white_sol_p">{{'wlc_offer'|translate}}</p>
+            <ul class="white_sol_list" [innerHTML]="'wlc_complete_solutions_list'|translate">
+                <!-- <li>Verification Procedures, officially approved by regulatory authorities</li>
                 <li>Affiliate marketing tools, a referral system, and social media integration</li>
                 <li>Mobile Push Notifications, Web Push Notifications, and In-App Messaging</li>
                 <li>Player Account Controls, Registration and Verification, and a Fraudulent Account Detection System
                 </li>
-                <li>Geolocation tools for extracting IP address location information</li>
+                <li>Geolocation tools for extracting IP address location information</li> -->
             </ul>
-            <p><strong class="color-grey">But wait, there's more</strong></p>
-            <p class="whites_sol_p2"> <strong>Vrnl's platform is finely tuned for top performance</strong> and
-                stability. We use cutting-edge technology that operates twice as fast as regular casino platforms. Our
-                extensive experience has created the fastest and most potent application today.</p>
+            <p><strong class="color-grey">{{'wlc_complete_solutions_more'|translate}}</strong></p>
+            <p class="whites_sol_p2" [innerHTML]="'wlc_complete_solutions_desp'|translate"> </p>
         </div>
         <div class="white_csol_col_1"> <img class="casino_sec_img2" src="assets/vrnl online c_11zon (1).webp"
                 loading="lazy" alt=" Casino White Label" /> </div>
@@ -94,21 +78,18 @@
         <div class="white_labe_live_col"> <img class="white_images_sec_sol" src="assets/vrnl 26_data_11zon.webp"
                 alt="Live Casino providers"> </div>
         <div class="white_labe_live_col_1">
-            <h1 class="white_live_h"> <span>White Label</span> Casino in numbers</h1>
-            <p class="white_live_p">Discover the limitless possibilities of our VRNL company's White Label Casino
-                solutions. Elevate your casino business with our extensive range of casino offerings</p>
-            <p class="white_live_p1">The finest selection of leading Live Casino providers worldwide</p>
-            <p class="white_live_p">An unparalleled variety of live tables available online, featuring multi-channel
-                delivery.</p>
-            <ul class="white_live_list">
-                <li>Over 75 providers</li>
+            <h1 class="white_live_h" [innerHTML]="'wlc_numbers'|translate"> </h1>
+            <p class="white_live_p">{{'wlc_numbers_p1'|translate}}</p>
+            <p class="white_live_p1">{{'wlc_numbers_p2'|translate}}</p>
+            <p class="white_live_p">{{'wlc_numbers_p3'|translate}}</p>
+            <ul class="white_live_list" [innerHTML]="'wlc_numbers_list'|translate">
+                <!-- <li>Over 75 providers</li>
                 <li>Exceeding 15,000 slot machines</li>
                 <li>500+ table games</li>
                 <li>700+ video poker games</li>
-                <li>More than 200 other games</li>
+                <li>More than 200 other games</li> -->
             </ul>
-            <p class="white_live_p2">Our dedicated team will guide you through all phases, from initial training to
-                launching your production.</p>
+            <p class="white_live_p2">{{'wlc_numbers_p4'|translate}}</p>
         </div>
     </div>
 </section> <app-footers2></app-footers2>

@@ -1,33 +1,37 @@
 <div class="modal" *ngIf="visible" (click)="onBackdropClick($event)">
     <div class="modal-content" (click)="$event.stopPropagation()">
         <span class="close-btn" (click)="closeModal()">&times;</span>
-        <h2 class="form-title">Request a Demo ID</h2>
+        <h2 class="form-title">{{'request_demoID' | translate}}</h2>
         <form [formGroup]="demoForm" class="styled-form" (ngSubmit)="onSubmit()" novalidate>
             <div class="form-grid">
 
                 <!-- Name -->
                 <div class="form-group">
-                    <label for="name">Name *</label>
-                    <input type="text" id="name" formControlName="name" placeholder="Enter your name" />
+                    <label for="name">{{'form_name'| translate}}</label>
+                    <input type="text" id="name" formControlName="name" [placeholder]="'form_name_ph'|translate" />
                     <div class="error-msg" *ngIf="demoForm.get('name')?.invalid && demoForm.get('name')?.touched">
-                        Please enter your name (at least 3 characters).
+                        {{'form_name_err' | translate}}
                     </div>
                 </div>
+                <!-- <select (change)="changeLang($event)">
+                    <option value="en">English</option>
+                    <option value="es">Hindi</option>
+                </select> -->
 
                 <!-- Email -->
                 <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" id="email" formControlName="email" placeholder="Enter your email" />
+                    <label for="email">{{'form_email'| translate}}</label>
+                    <input type="email" id="email" formControlName="email" [placeholder]="'form_email_ph'|translate" />
                     <div class="error-msg" *ngIf="demoForm.get('email')?.invalid && demoForm.get('email')?.touched">
-                        Please enter a valid email.
+                        {{'form_email_err' | translate}}
                     </div>
                 </div>
-                
+
 
 
                 <!-- Country select with flag preview -->
                 <div class="form-group">
-                    <label for="country">Country *</label>
+                    <label for="country">{{'form_country'| translate}}</label>
                     <div class="custom-select-wrapper">
                         <select id="country" formControlName="country" (change)="updateFlag($event)">
                             <option value="" disabled selected>Select your country</option>
@@ -40,7 +44,7 @@
                         </select>
                         <div class="error-msg"
                             *ngIf="demoForm.get('country')?.invalid && demoForm.get('country')?.touched">
-                            Please select your country.
+                            {{'form_country_err' | translate}}
                         </div>
                         <div id="flag-preview" class="flag-preview" *ngIf="selectedFlag">
                             <img [src]="'https://flagcdn.com/w40/' + selectedFlag + '.png'" alt="Flag" />
@@ -49,112 +53,113 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="company">District *</label>
-                    <input type="text" id="district" formControlName="district" placeholder="Enter your district" />
+                    <label for="company">{{'form_district'| translate}}</label>
+                    <input type="text" id="district" formControlName="district"
+                        [placeholder]="'form_district_ph'|translate" />
                     <div class="error-msg"
                         *ngIf="demoForm.get('district')?.invalid && demoForm.get('district')?.touched">
-                        Please enter your district.
+                        {{'form_district_err' | translate}}
                     </div>
 
                 </div>
 
                 <!-- WhatsApp Number with Dial Code -->
                 <div class="form-group ">
-                    <label for="whatsapp">WhatsApp Number *</label>
+                    <label for="whatsapp">{{'form_whatsapp'| translate}}</label>
                     <div style="display: flex; gap: 6px; align-items: center;">
                         <input type="text" id="dialCode" [value]="selectedDialCode" readonly
                             style="width: 60px; background: #333; border: 1px solid #555; color: #ccc; text-align: center; border-radius: 6px; padding: 10px;"
                             aria-label="Country Dial Code" />
-                        <input type="tel" id="whatsapp" formControlName="whatsapp" placeholder="Enter WhatsApp number"
-                            style="flex: 1; width: auto;" />
+                        <input type="tel" id="whatsapp" formControlName="whatsapp"
+                            [placeholder]="'form_whatsapp_ph'|translate" style="flex: 1; width: auto;" />
                     </div>
                     <div class="error-msg"
                         *ngIf="demoForm.get('whatsapp')?.invalid && demoForm.get('whatsapp')?.touched">
-                        Enter a valid WhatsApp number.
+                        {{'form_whatsapp_err' | translate}}
                     </div>
                 </div>
 
 
                 <!-- Company Name -->
                 <div class="form-group">
-                    <label for="company">Month Turnover *</label>
+                    <label for="company">{{'form_turnover'| translate}}</label>
                     <input type="text" id="turnover" formControlName="turnover"
-                        placeholder="Enter your monthly turnover" />
+                        [placeholder]="'form_turnover_ph'|translate" />
                     <div class="error-msg"
                         *ngIf="demoForm.get('turnover')?.invalid && demoForm.get('turnover')?.touched">
-                        Please enter your monthly turnover.
+                        {{'form_turnover_err' | translate}}
                     </div>
 
                 </div>
 
                 <div class="form-group ">
-                    <label for="message">How Many Users *</label>
-                    <input id="users" formControlName="users" placeholder="Enter the number of users">
+                    <label for="message">{{'form_users'| translate}}</label>
+                    <input id="users" formControlName="users" [placeholder]="'form_users_ph'|translate">
                     <div class="error-msg" *ngIf="demoForm.get('users')?.invalid && demoForm.get('users')?.touched">
-                        Please enter a valid number of users.
+                        {{'form_users_err' | translate}}
                     </div>
 
                 </div>
 
                 <div class="form-group ">
-                    <label for="message">Current Platform Using *</label>
-                    <input id="issues" formControlName="issues" placeholder="Enter current platform">
+                    <label for="message">{{'form_current'| translate}}</label>
+                    <input id="issues" formControlName="issues" [placeholder]="'form_current_ph'|translate">
                     <div class="error-msg" *ngIf="demoForm.get('issues')?.invalid && demoForm.get('issues')?.touched">
-                        Please enter your current platform.
+                        {{'form_current_err' | translate}}
                     </div>
 
                 </div>
 
                 <!-- Message -->
                 <div class="form-group full">
-                    <label for="message">Issues With Current Platform *</label>
+                    <label for="message">{{'form_issues'| translate}}</label>
                     <textarea id="message" formControlName="message" rows="4"
-                        placeholder="Enter the issues with current platform"></textarea>
+                        [placeholder]="'form_issues_ph'|translate"></textarea>
                     <div class="error-msg" *ngIf="demoForm.get('message')?.invalid && demoForm.get('message')?.touched">
-                        Please describe the issues (at least 10 characters).
+                        {{'form_issues_err' | translate}}
                     </div>
 
                 </div>
 
                 <!-- Telegram status -->
                 <div class="form-group full">
-                    <label for="telegramStatus">Are you on Telegram? *</label>
+                    <label for="telegramStatus">{{'form_telegram'| translate}}</label>
                     <select id="telegramStatus" formControlName="telegramStatus"
                         (change)="toggleTelegramHandle($event)">
-                        <option value="" disabled selected>-- Select --</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
+                        <option value="" disabled selected>{{'form_select'| translate}}</option>
+                        <option value="Yes">{{'form_yes'| translate}}</option>
+                        <option value="No">{{'form_no'| translate}}</option>
                     </select>
                     <div class="error-msg"
                         *ngIf="demoForm.get('telegramStatus')?.invalid && demoForm.get('telegramStatus')?.touched">
-                        Please select if you have a Telegram handle.
+                        {{'form_telegram_err' | translate}}
                     </div>
 
                 </div>
 
                 <!-- Telegram Handle -->
                 <div class="form-group full" id="telegramHandleWrapper" *ngIf="showTelegramHandle">
-                    <label for="telegramHandle">Telegram Handle *</label>
+                    <label for="telegramHandle">{{'form_telhandle'| translate}}</label>
                     <input type="text" id="telegramHandle" formControlName="telegramHandle"
-                        placeholder="Enter your Telegram Handle" />
+                        [placeholder]="'form_telhandle_ph'|translate" />
                     <div class="error-msg" *ngIf="demoForm.get('telegramHandle')?.errors?.['required']">
-                        Telegram handle is required.
+                        {{'form_telhandle_err1' | translate}}
                     </div>
                     <div class="error-msg" *ngIf="demoForm.get('telegramHandle')?.errors?.['pattern']">
-                        Telegram handle must start with &#64; (e.g., &#64;username).
+                        {{'form_telhandle_err2' | translate}}
                     </div>
 
                 </div>
 
                 <!-- Demo URL -->
                 <div class="form-group full">
-                    <label for="demo_url">Demo URL</label>
+                    <label for="demo_url">{{'demo_url'| translate}}</label>
                     <a id="demo_url" [href]="demoUrl" target="_blank">{{ demoUrl }}</a>
                 </div>
             </div>
 
             <button type="submit" class="submit-btn">
-                Submit
+                {{'form_submit' | translate}}
             </button>
         </form>
     </div>

@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -262,7 +263,7 @@ export class DemoRequestComponent implements OnInit {
     toastType = 'info';
     toastMessage = '';
 
-    constructor(private fb: FormBuilder) { }
+    constructor(private fb: FormBuilder, private translate: TranslateService) { }
 
     ngOnInit(): void {
         this.demoForm = this.fb.group({
@@ -365,7 +366,7 @@ export class DemoRequestComponent implements OnInit {
     async onSubmit(): Promise<void> {
         if (this.demoForm.invalid) {
             this.demoForm.markAllAsTouched();
-            this.showToast('Please fill all required fields.', 'error');
+            this.showToast('TOAST.FILL_REQUIRED', 'error');
             return;
         }
 
@@ -394,7 +395,7 @@ export class DemoRequestComponent implements OnInit {
         formData.set("timestamp", new Date().toISOString());
         formData.set('requestedFrom', window.location.hostname);
 
-        this.showToast('Submitting request...', 'info');
+        this.showToast('TOAST.SUBMITTING', 'info');
 
         try {
             const submitRes = await fetch('https://script.google.com/macros/s/AKfycbyWyO_fHI5wKhUJujYgD_9q7h-mtQs18g-3RmdSfSQ4qvoqGKyP6UIgobCp8x8SRMA/exec', {
@@ -407,8 +408,8 @@ export class DemoRequestComponent implements OnInit {
             const result = await submitRes.json();
             console.log('Form submitted:', result);
 
-            this.showToast('Demo request submitted successfully!', 'success');
-            
+            this.showToast('TOAST.SUCCESS', 'success');
+
             setTimeout(() => {
                 this.closeModal();
             }, 3000); // delay in milliseconds
@@ -416,7 +417,7 @@ export class DemoRequestComponent implements OnInit {
 
         } catch (error) {
             console.error('Submission error:', error);
-            this.showToast('An error occurred. Please try again.', 'error');
+            this.showToast('TOAST.ERROR', 'error');
         }
         // const modalContent = document.querySelector('.modal-content');
         // if (modalContent) {
@@ -427,13 +428,16 @@ export class DemoRequestComponent implements OnInit {
     }
 
 
-    showToast(message: string, type: 'success' | 'error' | 'info'): void {
-        this.toastMessage = message;
-        this.toastType = type;
-        this.toastVisible = true;
+    showToast(key: string, type: 'success' | 'error' | 'info'): void {
+        this.translate.get(key).subscribe(translatedMessage => {
+            this.toastMessage = translatedMessage;
+            this.toastType = type;
+            this.toastVisible = true;
 
-        setTimeout(() => this.hideToast(), 5000);
+            setTimeout(() => this.hideToast(), 5000);
+        });
     }
+
 
     hideToast(): void {
         this.toastVisible = false;

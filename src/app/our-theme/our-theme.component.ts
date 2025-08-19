@@ -36,7 +36,7 @@ export class OurThemeComponent {
   constructor(private titleService: Title) {
   }
   ngOnInit() {
-    this.titleService.setTitle('Bet & Win: Our Work in the World of Online Betting and Casinos');
+    // this.titleService.setTitle('Bet & Win: Our Work in the World of Online Betting and Casinos');
   }
 
 }

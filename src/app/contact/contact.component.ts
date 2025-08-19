@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
@@ -11,18 +12,25 @@ export class ContactComponent {
 
 
   typingElement: any;
-  typeArray: string[] = ["who we are", "What we do"];
+  typeArray: string[] = [];
   index = 0;
   isAdding = true;
   typeIndex = 0;
   i: number = 0;
   private intervalId: any;
+  private timeoutId: any;
+
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");
-    
-    this.playAnim();
- 
+    // Load translations initially
+    this.loadTypeArray();
+    // Reload translations whenever language changes
+    this.translate.onLangChange.subscribe(() => {
+      this.loadTypeArray();
+    });
+
     const storedCounter = localStorage.getItem('counter');
     if (storedCounter) {
       this.counter = parseInt(storedCounter, 10);
@@ -32,14 +40,35 @@ export class ContactComponent {
 
     this.incrementCounter();
   }
+  loadTypeArray() {
+    this.translate.get(['who_we_are', 'what_we_do']).subscribe(translations => {
+      this.typeArray = [
+        translations['who_we_are'],
+        translations['what_we_do']
+      ];
+      // Restart typing animation
+      this.index = 0;
+      this.typeIndex = 0;
+      this.isAdding = true;
+      // Stop old animation loop completely
+      if (this.intervalId) clearInterval(this.intervalId);
+      if (this.timeoutId) clearTimeout(this.timeoutId);
+      this.playAnim();
+    });
+  }
   playAnim() {
-    setTimeout(() => {
+    this.intervalId = setInterval(() => {
+      if (!this.typeArray.length) return;
+
       this.typingElement.innerText = this.typeArray[this.typeIndex].slice(0, this.index);
 
       if (this.isAdding) {
         if (this.index >= this.typeArray[this.typeIndex].length) {
           this.isAdding = false;
-          setTimeout(() => {
+
+          // Pause before deleting
+          clearInterval(this.intervalId);
+          this.timeoutId = setTimeout(() => {
             this.playAnim();
           }, 2000);
           return;
@@ -57,11 +86,10 @@ export class ContactComponent {
           this.index--;
         }
       }
-      this.playAnim();
     }, this.isAdding ? 120 : 60);
   }
 
-  
+
   incrementCounter() {
     if (this.counter < 40) {
       this.counter++;

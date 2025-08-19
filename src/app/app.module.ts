@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IonicModule } from '@ionic/angular'; 
+import { IonicModule } from '@ionic/angular';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { MainSecComponent } from './main-sec/main-sec.component';
@@ -28,7 +28,7 @@ import { EsportComponent } from './esport/esport.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComComponent } from './contact-com/contact-com.component';
-import { FormsModule , ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FAQComponent } from './faq/faq.component';
 import { ScrollBtnComponent } from './scroll-btn/scroll-btn.component';
 import { OurThemeComponent } from './our-theme/our-theme.component';
@@ -39,6 +39,13 @@ import { RiskManagementComponent } from './risk-management/risk-management.compo
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { PaymentProviderComponent } from './payment-provider/payment-provider.component';
 import { DemoRequestComponent } from './our-theme/modal-form/demo-request.component';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -61,7 +68,7 @@ import { DemoRequestComponent } from './our-theme/modal-form/demo-request.compon
 
     Header3Component,
     SportbetComponent,
- 
+
     EsportComponent,
     MobileComponent,
     AboutComponent,
@@ -74,17 +81,25 @@ import { DemoRequestComponent } from './our-theme/modal-form/demo-request.compon
     ErrorPageComponent,
     PaymentProviderComponent,
     DemoRequestComponent,
-  
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     IonicModule,
-    FormsModule, 
-    ReactiveFormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
-  providers: [ ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

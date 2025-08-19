@@ -7,42 +7,42 @@
   <nav class="navbar">
 
     <ul class="navbar-list">
-      <li><a class="navbar-link" routerLink="/" >Vrnl</a></li>
-      <li><a  class="navbar-link" href="#">Sports betting software <i class="fa-solid fa-angle-down"></i></a>
+      <li><a class="navbar-link" routerLink="/" >{{'vrnl'|translate}}</a></li>
+      <li><a  class="navbar-link" href="#">{{'sports_betting_software'|translate}} <i class="fa-solid fa-angle-down"></i></a>
         <ul id="submenu" >
-           <li><a routerLink="/sports-betting-software/mobile-betting-software">Mobile betting</a></li>
-           <li><a routerLink="/exchangebook-iframe">Exchangebook iFrame   <i class="fa-solid fa-angle-down"></i></a>
+           <li><a routerLink="/sports-betting-software/mobile-betting-software">{{'mobile_bet'|translate}}</a></li>
+           <li><a routerLink="/exchangebook-iframe">{{'exch_iframe'|translate}}   <i class="fa-solid fa-angle-down"></i></a>
                 <ul id="menu_2">
-                    <li><a routerLink="/"> Sport betting widget</a></li>
+                    <li><a routerLink="/"> {{'sports_betting_wid'|translate}}</a></li>
                 </ul>
             
             </li>
-            <li><a routerLink="/sports-betting-software/esports-betting-software" >eSports betting</a></li>
+            <li><a routerLink="/sports-betting-software/esports-betting-software" >{{'esports_betting'|translate}}</a></li>
 
         </ul>
     
     
     </li>
-      <li><a class="navbar-link" href="#">White label casino <i class="fa-solid fa-angle-down"></i></a>
+      <li><a class="navbar-link" href="#">{{'wlc'|translate}} <i class="fa-solid fa-angle-down"></i></a>
     <ul id="submenu">
-        <li><a routerLink="/casino/casino-games">Casino games</a></li>
-        <li><a routerLink="/casino/live-casino" >Live Casino </a></li>
-        <li><a routerLink="/casino/lottery-games">Lottery games</a></li>
+        <li><a routerLink="/casino/casino-games">{{'casino_game'|translate}}</a></li>
+        <li><a routerLink="/casino/live-casino" >{{'live_casino'|translate}} </a></li>
+        <li><a routerLink="/casino/lottery-games">{{'lottery_games'|translate}}</a></li>
 
     </ul>
     
     </li>
      
       <li>
-        <li><a class="navbar-link" href="#">Company <i class="fa-solid fa-angle-down"></i></a>
+        <li><a class="navbar-link" href="#">{{'company'|translate}} <i class="fa-solid fa-angle-down"></i></a>
         
             <ul id="submenu">
-                <li><a routerLink="/about-us">About</a></li>
+                <li><a routerLink="/about-us">{{'about'|translate}}</a></li>
               </ul>
     
 
       </li>
-      <li><a class="navbar-link" routerLink="/contact">Contact Us</a></li>
+      <li><a class="navbar-link" routerLink="/contact">{{'contact_us'|translate}}</a></li>
 
     </ul>
 
@@ -50,12 +50,12 @@
     
         <ul  class="res_data">
             <div class="use_list" id="panel">
-            <li><a href="/index.html ">Vrnl</a></li>
-            <li (click)="animation()" >Sports betting software</li>
-            <li (click)="animation12()">White label casino</li>
+            <li><a href="/index.html ">{{'vrnl'|translate}}</a></li>
+            <li (click)="animation()" >{{'sports_betting_software'|translate}}</li>
+            <li (click)="animation12()">{{'wlc'|translate}}</li>
             
-            <li (click)="anime()">Company</li>
-            <li> <a href="/contact-us.html">Contact Us</a>  </li>
+            <li (click)="anime()">{{'company'|translate}}</li>
+            <li> <a href="/contact-us.html">{{'contact_us'|translate}}</a>  </li>
             </div>
         </ul>
 
@@ -64,10 +64,10 @@
         
         <ul  class="res_data_1">
             <div class="use_list_1" id="panel_1">
-            <li  (click)="animation1()"><a href=""> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-           <li><a routerLink="/sports-betting-software/mobile-betting-software">Mobile betting</a></li>
-        <li> <a routerLink="/exchangebook-iframe">Exchangebook IFrame </a></li>
-            <li><a routerLink="/sports-betting-software/esports-betting-software">eSports betting</a></li>
+            <li  (click)="animation1()"><a href=""> <i class="fa-solid fa-arrow-left fa-bounce"></i> {{'back'|translate}}</a></li>
+           <li><a routerLink="/sports-betting-software/mobile-betting-software">{{'mobile_bet'|translate}}</a></li>
+        <li> <a routerLink="/exchangebook-iframe">{{'exch_iframe'|translate}} </a></li>
+            <li><a routerLink="/sports-betting-software/esports-betting-software">{{'esports_betting'|translate}}</a></li>
             </div>
         </ul>
         </div>
@@ -77,10 +77,10 @@
         
           <ul  class="res_data_1">
               <div class="use_list_1" id="panel_2">
-              <li  (click)="animation_2()"><a href=""> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-              <li><a routerLink="/casino/casino-games">Casino games</a></li>
-              <li><a routerLink="/casino/live-casino">Live Casino</a></li>
-              <li><a routerLink="/casino/lottery-games">Lottery</a></li>
+              <li  (click)="animation_2()"><a href=""> <i class="fa-solid fa-arrow-left fa-bounce"></i> {{'back'|translate}}</a></li>
+              <li><a routerLink="/casino/casino-games">{{'casino_game'|translate}}</a></li>
+              <li><a routerLink="/casino/live-casino">{{'live_casino'|translate}}</a></li>
+              <li><a routerLink="/casino/lottery-games">{{'lottery'|translate}}</a></li>
               </div>
           </ul>
           </div>
@@ -91,8 +91,8 @@
         
             <ul  class="res_data_1">
                 <div class="use_list_1" id="panel_4">
-                <li (click)="anime_1()"><a href=""> <i class="fa-solid fa-arrow-left fa-bounce"></i> Back</a></li>
-                <li><a routerLink="/about-us">About</a></li>
+                <li (click)="anime_1()"><a href=""> <i class="fa-solid fa-arrow-left fa-bounce"></i> {{'back'|translate}}</a></li>
+                <li><a routerLink="/about-us">{{'about'|translate}}</a></li>
                
           
                 </div>

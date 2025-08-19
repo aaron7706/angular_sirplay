@@ -26,7 +26,7 @@ export class RiskManagementComponent {
     }, 10);
 
    
-      this.titleService.setTitle('Risk Management Strategies for Sportsbook Operators - White label sports betting software and casino ');
+      // this.titleService.setTitle('Risk Management Strategies for Sportsbook Operators - White label sports betting software and casino ');
     
   }
   playAnim() {

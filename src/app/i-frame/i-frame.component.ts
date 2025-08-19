@@ -10,7 +10,7 @@ export class IFrameComponent {
   constructor(private titleService: Title) {
   }
   ngOnInit() {
-    this.titleService.setTitle('Sportsbook iFrame White label sports betting and Casino');
+    // this.titleService.setTitle('Sportsbook iFrame White label sports betting and Casino');
   }
 
 

@@ -2,49 +2,28 @@
 <div class="main-container">
   <div class="container1">
     <div class="left-content">
-      <h1 class="theme_header">We are VRNL</h1>
-      <p><strong>The Largest Platform for Sports and Casino White Label Solutions</strong> <br> Experience the widest
-        selection of online entertainment with over <b>1,000 games.</b>  Our easy-to-manage white label casino software ensures
-        seamless operation and an engaging <b> user experience. </b> </p>
+      <h1 class="theme_header">{{'weare_vrnl'|translate}}</h1>
+      <p [innerHTML]="'weare_vrnl_desp'|translate"></p>
       <div class="theme_card">
         <div class="theme_card_container">
-          <h3 class="theme_h"> Responsive Design
+          <h3 class="theme_h"> {{'res_design'|translate}}
           </h3>
-          <p class="theme_p">Our website is fully responsive, providing an optimal experience across desktops, tablets,
-            and mobile devices.</p>
+          <p class="theme_p">{{'res_design_desp'|translate}}</p>
         </div>
       </div>
       <div class="theme_card">
         <div class="theme_card_container">
-          <h3 class="theme_h"> Customization Options
+          <h3 class="theme_h">{{'custmzd_options'|translate}}
 
           </h3>
-          <p class="theme_p">We offer extensive customization options, letting clients tailor colors, fonts, and layouts
-            to reflect their unique style.</p>
+          <p class="theme_p">{{'custmzd_options_desp'|translate}}</p>
         </div>
       </div>
       <div class="theme_card">
         <div class="theme_card_container">
-          <h3 class="theme_h"> Lightning-Fast Loading Speed
+          <h3 class="theme_h"> {{'loading_speed'|translate}}
           </h3>
-          <p class="theme_p">Enjoy a seamless user experience with instant page and game loading.
-          </p>
-        </div>
-      </div>
-
-      <div class="theme_card">
-        <div class="theme_card_container">
-          <h3 class="theme_h"> Secure Payment Gateways
-          </h3>
-          <p class="theme_p">Ensure safe, encrypted, and hassle-free transactions for your players.
-          </p>
-        </div>
-      </div>
-      <div class="theme_card">
-        <div class="theme_card_container">
-          <h3 class="theme_h"> 24/7 Customer Support
-          </h3>
-          <p class="theme_p">Get round-the-clock assistance to keep your platform running smoothly.
+          <p class="theme_p">{{'loading_speed_desp'|translate}}
           </p>
         </div>
       </div>
@@ -60,44 +39,33 @@
       <ul style="list-style: none;">
 
         <li class="theme_header">
-          <h2 class="theme_header">B2B (Business 2 Business)</h2>
+          <h2 class="theme_header">{{'b2b_theme'|translate}}</h2>
         </li>
         <li class="disc">
-          <P>our B2B theme is distinguished by its unique features. We've incorporated an additional Parley option for
-            an enriched betting experience.
+          <P>{{'b2b_theme_p1'|translate}}
         <li class="disc">
-          <p>our theme is characterized by the finest color combinations and design elements, ensuring an aesthetically
-            pleasing interface.users are granted permissions to place bets on a wide range of sports including cricket,
-            soccer, and tennis.</p>
+          <p>{{'b2b_theme_p2'|translate}}</p>
         </li>
         <li class="disc">
-          <p>We also have many different casino games for more entertainment options. Additionally, we feature various
-            types of casinos, such as the AWC Casino, which hosts an impressive collection of over 500 slot games and
-            more than 100 table games.</p>
+          <p>{{'b2b_theme_p3'|translate}}</p>
         </li>
         </P>
         </li>
 
         <li class="theme_header">
-          <h2 class="theme_header">B2C (Business 2 Customer)</h2>
+          <h2 class="theme_header">{{'b2c_theme'|translate}}</h2>
         </li>
         <li class="disc">
-          <p>Our B2C site offers a user-friendly experience for our customers. They can easily register using their
-            phone number, providing a convenient and secure way to create an account.</p>
+          <p>{{'b2c_theme_p1'|translate}}</p>
         </li>
         <li class="disc">
-          <p>Once registered, users have the option to deposit funds into their accounts, making it simple to get
-            started with betting and gaming. Additionally, we provide a seamless withdrawal process, ensuring that users
-            can access their winnings effortlessly.</p>
+          <p>{{'b2c_theme_p2'|translate}}</p>
         </li>
         <li class="disc">
-          <p>To enhance the experience, we offer bonus points that users can earn and use during their time on the
-            platform. This adds an extra layer of excitement and value for our clients, allowing them to make the most
-            of their deposits and withdrawals.</p>
+          <p>{{'b2c_theme_p3'|translate}}</p>
         </li>
         <li class="disc">
-          <p>Overall, our B2C site is designed to provide a hassle-free and enjoyable betting and gaming experience,
-            giving our customers the freedom to play, deposit, and withdraw with ease.</p>
+          <p>{{'b2c_theme_p4'|translate}}</p>
         </li>
 
       </ul>
@@ -216,7 +184,7 @@
           <h4 class="logoname">{{ item.name }}</h4>
         </div>
         <div class="card-content">
-          <button class="demo-btn" (click)="openDemoModal(item.url)">Request Demo ID</button>
+          <button class="demo-btn" (click)="openDemoModal(item.url)">{{'request_demoID'|translate}}</button>
         </div>
       </div>
     </div>
