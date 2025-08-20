@@ -171,7 +171,7 @@
   "wlc_platform": "White Label Betting Platform",
   "exch_iframe": "Exchangebook iframe",
   "footer_para_1": "Logo a grafický materiál Vrnl jsou duševním vlastnictvím společnosti a nesmí být kopírovány, reprodukovány, distribuovány ani zobrazovány bez písemného souhlasu Vrnl.",
-  "footer_para_2": "Copyright © 2020 Vrnl ltd. Všechna práva vyhrazena.",
+  "footer_para_2": "Copyright © 2025 Vrnl ltd. Všechna práva vyhrazena.",
   "home": "Domů",
   "betting": "Sázení",
   "esports_betting": "eSports sázení",
@@ -597,5 +597,6 @@
     "SUBMITTING": "Odesílám žádost...",
     "SUCCESS": "Žádost o demo byla úspěšně odeslána!",
     "ERROR": "Došlo k chybě. Zkuste to prosím znovu."
-  }
+  },
+  "data_security": "Zabezpečení dat"
 }

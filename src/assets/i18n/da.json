@@ -171,7 +171,7 @@
   "wlc_platform": "White Label Betting Platform",
   "exch_iframe": "Exchangebook iframe",
   "footer_para_1": "Vrnl's logo og grafisk materiale er virksomhedens intellektuelle ejendom og må ikke kopieres, gengives, distribueres eller vises uden skriftlig tilladelse.",
-  "footer_para_2": "Copyright © 2020 Vrnl ltd. Alle rettigheder forbeholdes.",
+  "footer_para_2": "Copyright © 2025 Vrnl ltd. Alle rettigheder forbeholdes.",
   "home": "Hjem",
   "betting": "Betting",
   "esports_betting": "eSports betting",
@@ -597,5 +597,6 @@
     "SUBMITTING": "Sender forespørgsel...",
     "SUCCESS": "Demo-forespørgslen blev sendt succesfuldt!",
     "ERROR": "Der opstod en fejl. Prøv igen."
-  }
+  },
+  "data_security": "Datasikkerhed"
 }
