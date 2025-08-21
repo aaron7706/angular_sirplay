@@ -22,7 +22,14 @@ export class AboutComponent implements OnInit {
   i: number = 0;
   private intervalId: any;
   private timeoutId: any;
+  whychoiceus = [
+    {"name":"custome-branding","text":"Custom Branding"},
+    {"name":"Technical-Support","text":"24/7 Technical Support"},
+    {"name":"Regulatory-Compliance","text":"Regulatory Compliance"},
+    {"name":"Scalable-Secure","text":"Scalable & Secure"},
 
+  ]
+  
 
   ngOnInit() {
     this.typingElement = document.querySelector(".typing-text");

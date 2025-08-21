@@ -61,14 +61,15 @@
             </div>
         </div> -->
         <div class="about-section1-para">
-            <p style="margin-bottom: 20px" style="color: #686868;" [innerHTML]="'about-section1-para1'|translate"> 
+            <p style="margin-bottom: 20px" style="color: #686868;" [innerHTML]="'about-section1-para1'|translate">
                 <!-- <strong style="color: #000;"> Vrnl is a
                     well-established Sportsbook and Gaming Provider with a remarkable 5-year track record in the
                     betting industry. </strong> Since 2020, we have been dedicated to supplying bookmakers, lotteries,
                 and betting organizations in regulated markets.  -->
             </p>
             <p>&nbsp;</p>
-            <p style="margin-bottom: 20px"> <i style="color: #686868;font-size: 17px;">"{{'about-section1-para2'|translate}}" </i> </p>
+            <p style="margin-bottom: 20px"> <i
+                    style="color: #686868;font-size: 17px;">"{{'about-section1-para2'|translate}}" </i> </p>
             <p>&nbsp;</p>
             <p style="margin-bottom: 20px"> <i style="color: #686868;font-size: 17px;">"{{'about-section1-para21'|translate}}" </i> </p>
             <p>&nbsp;</p>
@@ -92,8 +93,88 @@
                 </div>
             </div>
         </div>
+
+        <section class=whites_sec>
+            <div class=whites_row>
+                <div class=whites_col>
+                    <h2 class=white_header>Comprehensive  <span class="why-partner-title">iGaming & Betting</span>  Solutions for Every Business</h2>
+                    <p class=white_para>
+                        At <span class="white_change"> VRNL </span>
+                        we pride ourselves on delivering top-tier solutions for businesses and individuals in the online
+                        gaming and betting industry. Whether you are a startup looking to launch your platform or an
+                        established brand seeking expansion, we provide end-to-end services that empower your growth,
+                        ensure compliance, and deliver exceptional user experiences.
+                    </p>
+                    <p class="white_para">We understand that every business is unique, which is why we offer customized
+                        solutions tailored to your brand’s identity, target market, and long-term goals. From
+                        white-label platforms that allow you to enter the market quickly to fully customized betting
+                        exchanges, casino integrations, and API services, we provide the flexibility you need to stand
+                        out in a competitive industry.
+                    </p>
+                    <p class="white_para">Our platform is built with cutting-edge technology to guarantee speed,
+                        security, and scalability, ensuring that your business can handle high volumes of players and
+                        transactions with ease. We also prioritize compliance with regulatory requirements, offering
+                        secure payment gateways, reliable KYC processes, and responsible gaming tools to build trust and
+                        credibility with your audience.</p>
+                    <br><br>
+                    <div class=white_back></div>
+                </div>
+                <div class=whites_col_1><img class=whites_sec_img2 src="assets/whitelabelsolution.webp"
+                        loading=lazy alt="White Label Solutions"></div>
+            </div>
+        </section>
+        <section class=gaming_sec>
+            <div class=gaming_row>
+                <div class=gaming_col><img class="gaming_img e" src="assets/igaming-betting-solution.webp" loading=lazy
+                        width=520 height=325 alt="iGaming Platform"></div>
+                <div class=gaming_col_2>
+                    <h2 class=gaming_header>Our Services</h2>
+                    <p class=gaming_para>At VRNL, we bring together innovation, technology, and entertainment to
+                        deliver a complete suite of gaming and betting solutions. Whether it’s building a new platform
+                        or enhancing an existing one, our services are designed to give you reliability, flexibility,
+                        and unmatched player experiences. 
+                        </p>
+                     
+                        <ul>
+                            <li> White Label Solutions  – <span class="c-font-weight">Launch your own branded gaming or betting platform with complete backend support.</span></li>
+                            <li> Sports Exchange Platform  – <span class="c-font-weight">Real-time, high-performance peer-to-peer sports betting system</span></li>
+                            <li> Online Casino  – <span class="c-font-weight">Wide range of slots, live dealers, and classic casino games.</span></li>
+                            <li> iGaming Solutions  – <span class="c-font-weight">All-in-one platform combining sports, casino, fantasy, and virtual games.</span></li>
+                            <li> AWC Games Integration  – <span class="c-font-weight">Smooth integration of AWC’s diverse gaming portfolio.</span></li>
+                            <li> Table Casino Games  – <span class="c-font-weight">Popular titles like Poker, Roulette, Blackjack, Teen Patti, and more.</span></li>
+                            <li> API Services  – <span class="c-font-weight">Secure and scalable APIs for sports betting, casino, and data feeds.</span></li>
+                            <li> B2B Solutions  – <span class="c-font-weight">Tailored packages for agents, operators, and resellers.</span></li>
+                            <li> B2C Services  – <span class="c-font-weight">Engaging and user-friendly platform experiences for end-users.</span></li>
+                            <li> Deposit & Withdrawal Solutions  – <span class="c-font-weight">Instant, secure payments via UPI, Net Banking, wallets, and crypto.</span></li>
+                            <li> User Registration & Management  – <span class="c-font-weight">Easy onboarding, KYC verification, and multi-level user control.</span></li>
+                        </ul>
+                        <br>
+                    <div class=white_back></div>
+                </div>
+            </div>
+        </section>
+
+
         <div class="partner_section">
-            <div class="container" style="margin-top: 5rem;">
+            <div class="container">
+                <h3 class="partner-title aos-init aos-animate " style="font-family: Poppins;" data-aos="fade-up"
+                    data-aos-duration="1500" data-aos-delay="000">Why <span class="why-partner-title">Choice Us</span>  </h3>
+            </div>
+            <div class="why-c-container">
+                <div class="why-c-box " *ngFor="let data of whychoiceus">
+                    <div class="why-c-img">
+                        <img src="assets/{{data.name}}.webp" alt="">
+                    </div>
+                    <div class="why-c-text">
+                        {{data.text}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="partner_section">
+            <div class="container">
                 <h3 class="partner-title aos-init aos-animate" style="font-family: Poppins;" data-aos="fade-up"
                     data-aos-duration="1500" data-aos-delay="000">{{'our_client'|translate}} </h3>
                 <p style="color: #686868;text-align: initial;" data-aos="fade-up" data-aos-duration="1500"
@@ -155,7 +236,7 @@
                                 src="assets/partner-logo-new/wicket3.webp" alt="wicket3"
                                 class="img-fluid partner-image copy"> </a> </div>
                 </div>  -->
-                
+
                 <!-- for mobile view -->
                 <!-- <div class="partners_logo_sec partners_logo_sec_mob aos-init aos-animate" data-aos="fade-up"
                     data-aos-duration="1500" data-aos-delay="000">
